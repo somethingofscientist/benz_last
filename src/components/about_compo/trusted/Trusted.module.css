@@ -1,0 +1,38 @@
+.trusted_container {
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.trusted_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    /* or 135% */
+    padding: 40px 0;
+    color: #0081C9;
+}
+
+.trusted_para {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 193%;
+    /* or 35px */
+
+
+    color: #000000;
+}
+
+@media (max-width:600px){
+    .trusted_heading {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+}

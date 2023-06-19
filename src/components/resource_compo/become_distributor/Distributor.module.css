@@ -1,0 +1,175 @@
+.d_container {
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid grey; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* border: 1px dotted pink; */
+    margin: 200px auto;
+}
+
+.d_left {
+    width: 40%;
+}
+
+.d_mobile_right{
+    display: none;
+}
+.d_left_heading {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 45px;
+    /* line-height: 68px; */
+    /* text-align: center; */
+    letter-spacing: 0.04em;
+    color: #0081C9;
+}
+
+.d_left_content {
+    /* width: 501px; */
+    /* height: 136px; */
+    padding: 40px 0;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 34px; */
+    /* or 189% */
+
+
+    color: #000000;
+}
+
+.d_right {
+    width: 60%;
+    position: relative;
+}
+
+.top_img {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    /* bottom: 0; */
+}
+
+.bottom_img {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+}
+
+.join {
+    position: absolute;
+    color: white;
+    bottom: 30%;
+    font-family: 'Urbanist';
+    left: 20%;
+    font-size: 12px;
+    padding: 10px 100px;
+    background-color: #0081C9;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.17em;
+    text-align: center;
+}
+
+@media (max-width:930px) {
+
+    .d_container {
+        margin: auto;
+        width: 80%;
+        /* height: 80vh; */
+        /* border: 1px solid grey; */
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+    .d_left,
+    .d_right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .top_mobile_img img,
+    .bottom_mobile_img img{
+        width: 100%;
+    }
+    .d_mobile_right{
+        display: block;
+    }
+    .d_right{
+        display: none;
+    }
+    .d_mobile_right{
+        display: flex;
+        justify-content: center;
+    }
+    .join{
+        display: none;
+    }
+    .mobile_join{
+        background-color: #0081C9 !important;
+        position: absolute;
+        color: white;
+        font-family: 'Urbanist';
+        margin: auto;
+        font-size: 12px;
+        padding: 10px 20px;
+        background-color: #0081C9;
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.17em;
+        text-align: center;
+        width: max-content;
+
+    }
+}
+
+@media (max-width:768px) {
+    .d_container {
+        margin: auto;
+        width: 80%;
+        /* height: 80vh; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .d_left,
+    .d_right {
+        width: 100%;
+        position: relative;
+    }
+    .top_img, 
+    .bottom_img{
+        display: none;
+    }
+
+    .d_left_content {
+        /* line-height: 4px; */
+    }
+
+    .join {
+        /* position: relative; */
+        color: white;
+        /* left: 0%;/ */
+        font-size: 12px;
+        padding: 20px 40px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .faq_heading {
+        font-size: 35px;
+    }
+
+    .faq_subheading {
+        font-size: 16px;
+    }
+}

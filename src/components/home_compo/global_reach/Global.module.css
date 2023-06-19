@@ -1,0 +1,252 @@
+.map {
+  width: 80%;
+  /* padding: 20px 0; */
+  margin: auto;
+  margin-top: 57px;
+}
+
+.map_flexbox {
+  display: flex;
+  width: 85%;
+  padding: 40px 0 60px 0;
+  background-color: #FAFAFA;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+  margin-right: 0;
+  margin-top: 50px;
+}
+
+.map_heading {
+  /* width: 600px; */
+  /* height: 135px; */
+  width: 30%;
+  padding-left: 50px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 68px;
+  color: #000000;
+}
+
+.map_sub_heading {
+  /* width: 1500px; */
+  width: 55%;
+  /* background-color: red; */
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  /* background-color: red; */
+  font-size: 18px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.42);
+}
+
+.global_container {
+  width: 90%;
+  color: white;
+  background-color: #0081c9;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.global_image_container {
+  width: 50%;
+  /* background-color: pink; */
+}
+
+.global_image_container2 {
+  width: 27%;
+  position: absolute;
+  left: 37%;
+  top: 10%;
+  /* background-color: pink; */
+}
+
+.global_image_container2 img {
+  width: 100%;
+}
+
+.global_image_container img {
+  width: 100%;
+}
+
+.global_image_text_container {
+  width: 35%;
+  display: flex;
+  line-height: 44px;
+  /* background-color: pink; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  /* align-items: center; */
+  /* border: 10px solid grey; */
+}
+
+.pack_button {
+  background: #377c2b;
+  text-align: center;
+  border-radius: 2px;
+  /* padding: 5px 90px; */
+  font-weight: 700;
+  width: 263px;
+  font-size: 12px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  /* line-height: 14px; */
+  letter-spacing: 0.17em;
+}
+
+@media only screen and (max-width: 1189px) {
+  .global_image_text_container {
+    line-height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1058px) {
+  .global_image_text_container {
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 848px) {
+  .global_container {
+    width: 90%;
+    color: white;
+    background-color: #0081c9;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .map_flexbox {
+    flex-wrap: wrap;
+  }
+
+  .map_heading {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .map_sub_heading {
+    width: 95%;
+    font-size: 18px;
+  }
+
+  .global_image_text_container {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .pack_button {
+    background: #377c2b;
+    text-align: center;
+    border-radius: 2px;
+    /* padding: 5px 90px; */
+    font-weight: 700;
+    width: 200px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:768px) {
+  .map_heading {
+    font-size: 40px;
+  }
+
+  .map_sub_heading {
+    font-size: 16px;
+  }
+  .global_container {
+    width: 100%;
+    /* background-color: red; */
+  }
+}
+
+
+
+@media only screen and (max-width: 676px) {
+  .global_container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .map_flexbox {
+    display: flex;
+    width: 90%;
+  }
+
+  .global_image_container2 {
+    width: 27%;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    display: none;
+  }
+
+  .global_image_container,
+  .global_image_text_container {
+    width: 100%;
+  }
+
+  .global_image_text_container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .pack_button {
+    background: #377c2b;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: 700;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 12px;
+  }
+
+  .map_heading {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .map_sub_heading {
+    font-size: 16px;
+    width: 100%;
+  }
+  .map_flexbox{
+    padding: 0 30px ;
+  }
+}
+
+
+@media (max-width:400px) {
+  .map_heading {
+    font-size: 35px;
+
+  }
+
+  .map_sub_heading {
+    font-size: 14px;
+    /* background-color: red; */
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .global_container {
+    width: 80%;
+    color: white;
+    background-color: #0081c9;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+}

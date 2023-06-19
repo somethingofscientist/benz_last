@@ -1,0 +1,127 @@
+.map {
+    width: 80%;
+    /* padding: 20px 0; */
+    margin: auto;
+    /* background-color: red; */
+}
+
+.map_flexbox {
+    display: flex;
+    width: 80%;
+    padding: 20px 0;
+
+    /* margin: auto; */
+    /* background-color: rgb(120, 165, 157); */
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid pink; */
+}
+
+.map_heading {
+    width: 50%;
+    /* height: 135px; */
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    /* or 135% */
+
+
+    color: #000000;
+}
+
+.map_sub_heading {
+    /* width: 800px; */
+    width: 70%;
+    /* height: 102px; */
+
+    /* padding: 0 40px ; */
+    /* background-color: pink; */
+    /* text-align: right; */
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    /* or 189% */
+
+
+    color: rgba(0, 0, 0, 0.42);
+
+}
+
+.map_pic {
+    /* background-color: red; */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.map_pic img {
+    width: 100%;
+}
+
+.tooltip_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.image_container {
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.content_head {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.content_content {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+
+
+    color: #79787C;
+}
+
+
+@media (max-width:997px) {
+    .map_flexbox {
+        display: flex;
+        width: 100%;
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+    .map_heading,
+    .map_sub_heading  {
+        width: 100%;
+        font-size: 40px;
+    }
+    .map_sub_heading{
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    .map_heading {
+        font-size: 35px;
+    }
+
+    .map_sub_heading {
+        font-size: 16px;
+        /* background-color: red; */
+        padding: 0;
+        margin-bottom: 0;
+    }
+}

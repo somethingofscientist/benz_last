@@ -1,0 +1,247 @@
+.map_whole_container {
+    /* background: #AFAFAF !important; */
+    /* background-color: whitesmoke; */
+    /* margin-bottom: 200px; */
+    padding-bottom: 20px;
+}
+
+.map {
+    width: 80%;
+    /* padding: 20px 0; */
+    margin: 100px auto 0 auto;
+}
+
+.map_flexbox {
+    display: flex;
+    width: 80%;
+    padding: 20px 0 70px 0;
+    /* margin: auto; */
+    /* background-color: rgb(120, 165, 157);     */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map_heading {
+    /* width: 382px; */
+    /* height: 135px; */
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    /* or 135% */
+    color: #000000;
+    width: 40%;
+    /* background-color: pink; */
+}
+
+.map_sub_heading {
+    /* width: 600px; */
+    width: 50%;
+    /* background-color: red; */
+    /* padding: 0 0 0 50px; */
+    /* font-family: 'Urbanist'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 3%;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.42);
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.hover_container {
+    width: 90%;
+    right: 0;
+    display: flex;
+    /* background-color: rgb(218, 143, 143); */
+    justify-content: space-between;
+    margin: auto;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-right: 0;
+}
+
+.car_container {
+    /* width: 25%; */
+    /* width: 350px; */
+    /* background-color: pink; */
+    /* height: 400px; */
+    width: 26%;
+    /* height: 200px; */
+    /* margin-right: 10px; */
+    position: relative;
+    /* padding: 20px; */
+}
+
+.car_container img {
+    width: 100%;
+    /* height: 100vh; */
+    /* display: block; */
+}
+
+.car_container_text {
+    position: absolute;
+    color: white;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    bottom: 20%;
+    /* padding: 20px; */
+    font-size: 16px;
+    width: 60%;
+    font-weight: 400;
+    left: 5%;
+}
+
+.learn_more_button {
+    /* position: absolute; */
+    padding: 15px 20px;
+    bottom: 2%;
+    /* font-size: 12px; */
+    left: 5%;
+    border-radius: 2px;
+    width: max-content;
+    background-color: #377C2B;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+
+    color: #F5FAFF;
+}
+
+.car_container2 {
+    width: 23%;
+    position: relative;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.car_container2 img {
+    width: 100%;
+}
+
+.car_inner_container {
+    padding: 10px 20px 20px 20px;
+    /* background-color: red; */
+}
+
+.car_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    color: #0081C9;
+    font-size: 24px;
+}
+
+.car_container_text2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    padding-top: 5px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    line-height: 25px;
+    /* background-color: pink; */
+    margin-bottom: 50px;
+}
+
+/* hover  */
+.view_all {
+    font-family: 'Urbanist';
+    font-weight: 500;
+    font-size: 18px;
+    color: #0081C9;
+    margin: auto;
+    text-transform: uppercase;
+    /* background-color: red; */
+    margin: auto;
+    padding: 40px 100px 40px 0;
+    text-align: right;
+    /* border: 1px solid grey;    */
+    width: max-content;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.view_all:hover {
+    /* text-decoration: underline; */
+    /* padding: 20px 0 ; */
+    cursor: pointer;
+}
+
+.view_all_container {
+    width: 100%;
+    /* background-color: red; */
+}
+
+@media (max-width:900px) {
+    .map_flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        /* padding: 20px 0 70px 0; */
+        /* margin: auto; */
+        /* background-color: rgb(120, 165, 157);   */
+    }
+
+    .map_heading {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .map_sub_heading {
+        font-size: 16px;
+        width: 100%;
+        padding: 0;
+        margin-left: 0%;
+    }
+    .hover_container {
+        width: 90%;
+        right: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .car_container{
+        width: 90%;
+    }
+    .car_container2{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .map_heading {
+        font-size: 35px;
+    }
+
+    .map_sub_heading {
+        font-size: 14px;
+        /* background-color: red; */
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .global_container {
+        width: 80%;
+        color: white;
+        background-color: #0081c9;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+}

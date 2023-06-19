@@ -1,0 +1,55 @@
+.test_container {
+    width: 80%;
+    padding: 100px 0;
+    margin: auto;
+    /* border: 1px solid lime; */
+}
+
+.test_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.04em;
+    color: #0081C9;
+    padding: 0 0 60px 0;
+}
+
+.test_video_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/*  */
+
+
+.test_video {
+    background-color: rgb(239, 239, 239);
+    height: 300px;
+    width: 32.00%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.test_video:hover {
+    background-color: rgba(185, 185, 185, 0.541);
+}
+
+
+@media (max-width:900px) {
+    .test_video {
+        background-color: rgb(239, 239, 239);
+        height: 300px;
+        width: 100.00%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,29 @@
+.working_container {
+    /* background-color: red; */
+    padding: 50px 0 0 0;
+}
+
+.about_compo_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    padding: 0 0 40px 0;
+    text-align: center;
+
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 104px;
+    color: #0081C9;
+}
+
+@media (max-width:600px){
+    .about_compo_heading {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,48 @@
+.award_container {
+    margin: auto;
+    width: 80%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.about_compo_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.award_para {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 0;
+    /* or 35px */
+    line-height: 34px;
+    text-align: center;
+    color: #333333;
+}
+
+.award_img {
+    height: 400px;
+    overflow-x: hidden;
+}
+
+.award_img img {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/*  */
+.award_img::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.award_img {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

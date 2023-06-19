@@ -1,0 +1,74 @@
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center !important;
+}
+.swiper-wrapper .swiper-slide img {
+    width: 100%;
+    margin: auto;
+    height: 442px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .swiper-wrapper .swiper-slide img {
+        height: 200px;
+   }
+}
+.swiper {
+    overflow: hidden;
+    position: relative;
+    --v-offset: 60px;
+    --curve-height: 120px;
+}
+.swiper:before, .swiper:after {
+    content: "";
+    z-index: 99;
+    display: block;
+    background: white;
+    width: calc(100vw + 2 * var(--v-offset));
+    height: var(--curve-height);
+    position: absolute;
+    border-radius: 45%;
+    left: calc(-1 * var(--v-offset));
+    right: calc(-1 * var(--v-offset));
+}
+.swiper:before {
+    top: calc(-0.7 * var(--curve-height));
+}
+.swiper:after {
+    bottom: calc(-0.7 * var(--curve-height));
+}
+.wrapper {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.wrapper img {
+    scroll-snap-align: center;
+}
+
+.carousel-image-container{
+    position: relative;
+}
+
+.carousel-image-data{
+position: absolute;
+    top: 60%;
+    left: 10px;
+    color: white;
+
+}
+.carousel-image-head{
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+.carousel-image-text{
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+}

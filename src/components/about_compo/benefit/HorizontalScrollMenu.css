@@ -1,0 +1,49 @@
+.react-horizontal-scrolling-menu--inner-wrapper ::-webkit-scrollbar {
+  display: none;
+  overflow-y: hidden;  
+}
+
+.image-container {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  transition: filter 0.3s ease;
+}
+
+/* .image-container.hovered {
+  filter: brightness(0%);
+} */
+.image-container:hover img {
+  filter: brightness(0%);
+  transition: filter 0.5s ease;
+}
+
+.image-text {
+  font-family: "Urbanist";
+  position: absolute;
+  bottom: 15%;
+  left: 0 !important;
+  right: 0;
+  color: #fff;
+  opacity: 1;
+  padding: 10px;
+  font-size: 15px;
+  /* background-color: red; */
+}
+
+.image-textHeading {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  opacity: 1;
+  padding: 10px;
+  font-size: 26px;
+  text-align: center;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  /* line-height: 38px; */
+}

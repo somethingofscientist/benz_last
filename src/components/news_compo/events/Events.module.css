@@ -1,0 +1,99 @@
+.award_container {
+    width: 80%;
+    margin: auto;
+}
+
+.award_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    color: #0081C9;
+}
+
+.award_subheading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #191919;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.award_para {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 193%;
+    color: #333333;
+}
+
+.award_flexbox {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    /* background-color: red; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.award_img {
+    width: 15%;
+}
+
+.award_img img {
+    width: 100%;
+}
+
+.award_text {
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rgb(184, 144, 144); */
+}
+
+.award_text_heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #191919;
+}
+
+.award_text_subheading {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #333333;
+}
+
+.award_date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 193%;
+    color: #333333;
+}
+
+@media (max-width:1010px){
+    .award_flexbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .award_img ,
+    .award_img img ,
+    .award_text {
+        width: 100%;
+    }
+}
