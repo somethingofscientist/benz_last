@@ -1,0 +1,98 @@
+.contact_container {
+    width: 100%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.box {
+    width: 30.00%;
+    /* border: 1px solid pink; */
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.image {
+    padding: 50px 0;
+}
+
+.image img {
+    width: 100%;
+}
+
+.line {
+    padding: 20px 0;
+    text-align: center;
+    color: grey;
+}
+
+.q_link a {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(62, 62, 62) !important;
+}
+
+.input_container {
+    width: 30%;
+    margin: 100px auto;
+    /* background-color: pink; */
+}
+
+.requirements {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+    /* text-align: center; */
+}
+
+.sub_require {
+    font-size: 17px;
+    margin: 20px 0 40px 0;
+    /* text-align: center; */
+    color: grey;
+}
+
+
+.form_fields input {
+    color: black !important;
+}
+
+input,
+textarea {
+    color: black !important;
+    width: 100%;
+    border: 0.1px solid grey;
+    padding: 20px;
+    outline: none;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
+}
+
+.form_label {
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 4px !important;
+    background-color: #0081C9;
+}

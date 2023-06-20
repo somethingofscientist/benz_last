@@ -2,10 +2,11 @@ import React from 'react'
 import styles from './FAQ.module.css'
 import AccordianItem from './AccordianItem';
 import avatar from '../../images/Avatar group.svg'
+import { Link } from 'react-router-dom';
+
+
 
 const FAQ = () => {
-
-
     return (
         <>
             <div className={styles.faq}>
@@ -70,7 +71,9 @@ const FAQ = () => {
                         Can’t find the answer you’re looking for? Please chat to our friendly team.
                     </div>
                 </div>
-                <div className={styles.faq_getintouch}>Get In Touch</div>
+                <Link to="/contact_page">
+                    <div className={styles.faq_getintouch}>Get In Touch</div>
+                </Link>
             </div>
         </>
     )

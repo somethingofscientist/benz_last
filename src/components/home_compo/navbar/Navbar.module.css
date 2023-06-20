@@ -10,7 +10,10 @@
   justify-content: space-between;
   padding: 57px 124px 0px 140px;
 }
-
+.otherMenu{
+  text-decoration: none;
+  color: black !important;
+}
 
 .rightMenu {
   display: grid;
@@ -36,8 +39,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: black;
 }
+a{
 
+  color: black;
+}
 /* .dropDown {
   font-weight: 400;
   font-size: 24px;
