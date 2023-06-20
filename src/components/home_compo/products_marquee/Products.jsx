@@ -28,7 +28,7 @@ const Products = () => {
               <div className={styles.card_subtext}>Anti - Humidity</div>
               <img src={pic1} alt="pic1_humidity" />
               <div className={styles.card_icon}>
-                {/* <HiArrowNarrowRight size={20} color="white" /> */}
+                <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>
           </Link>
@@ -38,7 +38,7 @@ const Products = () => {
               <div className={styles.card_subtext}>Anti - Corrosion</div>
               <img src={pic2} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
-                {/* <HiArrowNarrowRight size={20} color="white" /> */}
+                <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>
           </Link>
@@ -48,7 +48,7 @@ const Products = () => {
               <div className={styles.card_subtext}>Handling</div>
               <img src={pic3} alt="pic1_humidity" />
               <div className={styles.card_icon}>
-                {/* <HiArrowNarrowRight size={20} color="white" /> */}
+                <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>
           </Link>
@@ -58,7 +58,7 @@ const Products = () => {
               <div className={styles.card_subtext}>Traditional Packaging</div>
               <img src={pic4} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
-                {/* <HiArrowNarrowRight size={20} color="white" /> */}
+                <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>
           </Link>

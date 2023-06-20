@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
-import engine from '../../images/engine.svg'
+import engine from '../../../images/engine.svg'
 
 const Descicannt = () => {
     const arr = [

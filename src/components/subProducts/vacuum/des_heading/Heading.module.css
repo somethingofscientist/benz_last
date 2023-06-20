@@ -5,19 +5,17 @@
 .header_bg img {
     width: 100%;
 }
-.header_bg video{
-    width: 100%;
-}
-
-.header_heading {}
 .imageContainer {
     height: 10vh;
-    background-image: url("../../images/header_heading.svg");
+    background-image: url("../../../images/des_heading.svg");
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(30%);
     z-index: -1;
   }
+
+
+.header_heading {}
 
 .header {
     width: 80%;
@@ -43,6 +41,17 @@
 
 }
 
+
+@media (max-width:1242px){
+    .sub_header{
+        /* display: none; */
+        font-size: 12px;
+        width: 80%;
+    }
+    .header{
+        font-size: 60px;
+    }
+}
 
 /* ------------------------------> */
 @media (max-width:800px){

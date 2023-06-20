@@ -73,7 +73,7 @@ const Footer = () => {
                   <input
                     className={styles.first_name}
                     type="email"
-                    pattern="^([\w]*[\w\.]*(?!\.)@gmail.com)"
+                    // pattern="^([\w]*[\w\.]*(?!\.)@gmail.com)"
                     required
                     placeholder="Email Address"
                     value={email}

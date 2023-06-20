@@ -11,6 +11,7 @@ const Aerospace = () => {
     const arr = [
         {
             number: "1",
+            page_link:"/descicants",
             heading: "Desiccants",
             image: engine,
             isSlider: true,
@@ -51,6 +52,7 @@ const Aerospace = () => {
         },
         {
             number: "2",
+            page_link:"/indicators",
             heading: "Indicators",
             image: engine,
             isSlider: true,
@@ -78,6 +80,7 @@ const Aerospace = () => {
         },
         {
             number: "3",
+            page_link:"/vacuum",
             heading: "Vacuum Barrier",
             image: engine,
             isSlider: true,
@@ -112,7 +115,7 @@ const Aerospace = () => {
                             <div className={styles.auto_img}>
                                 <img src={item.image} alt="engine" />
 
-                                <Link to="/descicants">
+                                <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>
                                         Pack With Us
                                     </div>

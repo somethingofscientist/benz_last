@@ -7,7 +7,7 @@
 }
 .imageContainer {
     height: 10vh;
-    background-image: url("../../images/des_heading.svg");
+    background-image: url("../../../images/des_heading.svg");
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(30%);

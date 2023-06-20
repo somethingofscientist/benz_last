@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Heading.module.css';
-import header_heading from '../../images/des_heading.svg'
+import header_heading from '../../../images/des_heading.svg'
 
 const heading_header_industry = () => {
     return (

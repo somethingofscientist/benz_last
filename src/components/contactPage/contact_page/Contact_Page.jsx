@@ -32,7 +32,11 @@ const Contact_Page = () => {
       });
       if (res.status === 200) {
         toast.dismiss();
-        toast.success("Thank you for subscribing!");
+        toast.success("Thank you for subscribing!", {
+          position: "top-center",
+          autoClose: 3000,
+          theme: "dark",
+        });
       } else {
         toast.dismiss();
         toast.error("Some Error Occured");

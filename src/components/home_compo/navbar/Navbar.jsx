@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <div className={styles.rightMenu}>
             {/* globe icon */}
-            <BsGlobe color="white" size={28} />
+            {/* <BsGlobe color="white" size={28} /> */}
 
             {/* hamburger menu */}
 
@@ -53,7 +53,7 @@ const Navbar = () => {
         <Menu show={burgerOpen}>
           <FlexNavItems>
             <li className={styles.iconSpace}>
-              <BsGlobe size={28} />
+              {/* <BsGlobe size={28} /> */}
             </li>
             <li>
               <AiOutlineClose
