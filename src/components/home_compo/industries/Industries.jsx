@@ -7,8 +7,8 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 // import { FaArrowRightLong } from "react-icons/fa";
 import { object } from "prop-types";
 import { Link, NavLink } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
-import { NavHashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
 
 const Industries = () => {
   const [hovered, setHovered] = useState([false, false, false]);
@@ -43,7 +43,14 @@ const Industries = () => {
               Our packaging solutions for the automobile industry provide
               optimal protection and efficiency for transportation and storage
               of vehicle parts and components.
-              <div className={styles.learn_more_button}>LEARN MORE</div>
+              <div className={styles.learn_more_button}>
+                <Link
+                  to="/services"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  LEARN MORE
+                </Link>
+              </div>
             </div>
           </div>
           {hovered.map((value, index) =>
@@ -65,7 +72,7 @@ const Industries = () => {
               <div
                 className={styles.car_container2}
                 onMouseEnter={() => handleHover(index)}
-              // onMouseLeave={handleHover}
+                // onMouseLeave={handleHover}
               >
                 <img src={bmw2} alt="Image" />
                 <div className={styles.car_inner_container}>
@@ -184,9 +191,7 @@ const Industries = () => {
         {/* view all industreis */}
         <div className={styles.view_all_container}>
           <Link to="/industry">
-            <div className={styles.view_all}>
-              View All Industries 
-            </div>
+            <div className={styles.view_all}>View All Industries</div>
           </Link>
         </div>
       </div>
