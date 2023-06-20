@@ -16,6 +16,7 @@ import Resource from "./screens/resource/Resource";
 import News from "./screens/news/News";
 import { useState } from "react";
 import { useEffect } from "react";
+import Contact_Page from "./screens/contact__page/ContactPage";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/resources" element={<Resource />} />
         <Route path="/news" element={<News />} />
+        <Route path="/contact_page" element={<Contact_Page />} />
       </Routes>
       <Footer />
       <Contact />
