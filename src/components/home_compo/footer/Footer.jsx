@@ -26,6 +26,7 @@ const Footer = () => {
       toast.success("Thank you for subscribing!");
       setFirstName("");
       setEmail("");
+      console.log(res);
 
     } catch (error) {
       toast.dismiss();
