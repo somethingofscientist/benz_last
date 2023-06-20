@@ -1,21 +1,26 @@
 import React from 'react'
 import styles from './Contact.module.css';
 import drop from '../../images/Avatar group.svg'
+import { ToastContainer } from 'react-toastify';
 
 const Contact_Page = () => {
+  // e.prevent.default()
 
 
-  const arr = [
-    {
-      image: drop,
-      heading: "Drop Us A Line",
-      line: " Get in touch with customer support for assistance with our products.",
-      link: " CARE@BENZ-PACKAGING.COM"
-    },
-
-  ]
   return (
     <>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <div className={styles.contact_container}>
         <div className={styles.flex_box}>
 
@@ -102,7 +107,8 @@ const Contact_Page = () => {
                 type="email"
                 id="email"
                 name="email"
-                pattern='^([\w]*[\w\.]*(?!\.)@gmail.com)'
+                // pattern='^([\w]*[\w\.]*(?!\.)@gmail.com)'
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                 required
               />
 
@@ -113,7 +119,8 @@ const Contact_Page = () => {
                 type="tel"
                 minlength="10"
                 maxlength="10"
-                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                pattern="[789][0-9]{9}"
                 required
               />
 

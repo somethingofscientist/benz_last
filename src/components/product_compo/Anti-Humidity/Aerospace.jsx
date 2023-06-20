@@ -19,31 +19,31 @@ const Aerospace = () => {
                 {
                     image: tape,
                     items: "BE-DRY",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing BE-Dry by Benz Packaging: Superior Moisture Control for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "C-DRY",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's C-Dry: Advanced Moisture Control for Sensitive Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Propasec",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Propasec: Effective Protection for Your Valuable Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Propadry",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Propadry: Advanced Moisture Absorption for Optimal Product Preservation",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Silica Gel",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Silica Gel: Reliable Moisture Absorption for Product Protection",
                     date: "8 June 2023"
                 },
 
@@ -59,19 +59,19 @@ const Aerospace = () => {
                 {
                     image: tape,
                     items: "Temperature & Humidity",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Benz Packaging - Temperature & Humidity Monitoring for Product Preservation",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Shockwatch",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Shockwatch: Protecting Your Goods from Impact and Mishandling",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Tiltwatch",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Tiltwatch: Ensuring Proper Handling of Your Valuable Goods",
                     date: "8 June 2023"
                 },
             ]
@@ -86,13 +86,13 @@ const Aerospace = () => {
                 {
                     image: tape,
                     items: "Propamatic",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Propamatic: Advanced Propellant Technology for Aerosol Packaging",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Benzmatic",
-                    item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+                    item_text: "Introducing Benz Packaging's Benzmatic: Cutting-Edge Automation for Packaging Efficiency",
                     date: "8 June 2023"
                 }
             ]

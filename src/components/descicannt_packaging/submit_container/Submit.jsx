@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './Submit.module.css';
 import { HiOutlineDownload } from 'react-icons/hi';
-
+import pdf from './benz.pdf';
 
 const Submit = () => {
+
     return (
         <>
             <div className={styles.submit_container}>
@@ -17,10 +18,13 @@ const Submit = () => {
                             placeholder='Phone number or email*'
                         />
                     </div>
-                    <div className={styles.download}>
-                        <HiOutlineDownload size={20} />
-                        <div className={styles.d_para}>Download Broucher</div>
-                    </div>
+
+                    <a href={pdf} target="_blank" download={'BENZ_Broucher'}>
+                        <div className={styles.download}>
+                            <HiOutlineDownload size={20} />
+                            <div className={styles.d_para}>Download Broucher</div>
+                        </div>
+                    </a>
                 </div>
                 <div className={styles.submit_btn}>
                     Submit

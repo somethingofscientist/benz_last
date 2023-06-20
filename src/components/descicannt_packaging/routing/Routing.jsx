@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
 import styles from './Routing.module.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Descicannt from '../third_container/ThirdContainer_Des_Pack'
 import FirstContainer from '../first_containers/FirstContainer_Des_Pack'
-import SecondContainer from '../sec_container/SecondContainer_Des_Pack'
-import ThirdContainer from '../third_container/ThirdContainer_Des_Pack'
-import FourthContainer from '../fourth_container/FourthContainer_Des_Pack'
-import {TbDownload} from 'react-icons/tb';
+import { TbDownload } from 'react-icons/tb';
 
 
 const Routing = () => {
@@ -37,23 +33,18 @@ const Routing = () => {
                 page === "product" ?
                     <>
                         <FirstContainer />
-                        <SecondContainer />
-                        <ThirdContainer />
-                        <FourthContainer />
                     </>
                     : page === "certification" ?
                         <>
-                            <FirstContainer />
-                            <SecondContainer />
-                            <ThirdContainer />
-                            <FourthContainer />
+                            <h1 style={{ textAlign: "center", margin: "6% 0" }}>
+                                Currently Certificate is Not  Available
+                            </h1>
                         </>
                         : page === "application" ?
                             <>
-                                <FirstContainer />
-                                <SecondContainer />
-                                <ThirdContainer />
-                                <FourthContainer />
+                                <h1 style={{ textAlign: "center", margin: "6% 0" }}>
+                                    Currently  Application is Not Available
+                                </h1>
                             </>
 
                             :
