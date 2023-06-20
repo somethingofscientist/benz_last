@@ -25,7 +25,7 @@ const MarqueeHistory = () => {
 
     return (
         <>
-            <div  >
+            <div id="section1" >
                 <div className={styles.products_tag}>
                     <Marquee
                         speed={200}
@@ -50,6 +50,7 @@ const MarqueeHistory = () => {
                         >1984
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 600 && scrollPosition <= 1200) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="1989"
@@ -60,6 +61,7 @@ const MarqueeHistory = () => {
                         >1989
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 1200 && scrollPosition <= 1800) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="1998"
@@ -70,6 +72,7 @@ const MarqueeHistory = () => {
                         >1998
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 1800 && scrollPosition <= 2400) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2005"
@@ -80,6 +83,7 @@ const MarqueeHistory = () => {
                         >2005
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 2400 && scrollPosition <= 3000) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2009"
@@ -90,6 +94,7 @@ const MarqueeHistory = () => {
                         >2009
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 3000 && scrollPosition <= 3600) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2013"
@@ -100,6 +105,7 @@ const MarqueeHistory = () => {
                         >2013
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 3600 && scrollPosition <= 4200) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2017"
@@ -110,6 +116,7 @@ const MarqueeHistory = () => {
                         >2017
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 4200 && scrollPosition <= 4800) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2018"
@@ -120,6 +127,7 @@ const MarqueeHistory = () => {
                         >2018
                         </Link>
                     </div>
+                    <div className={styles.line_year}></div>
                     <div className={(scrollPosition >= 4800 && scrollPosition <= 5400) ? styles.year_active : styles.year_deactivate}>
                         <Link
                             to="2023"
@@ -130,6 +138,8 @@ const MarqueeHistory = () => {
                         >2023
                         </Link>
                     </div>
+                    <div className={styles.line_year_green}></div>
+                    <div className={styles.line_year_green_dot}></div>
 
                 </div>
                 <div className={styles.award_img} onScroll={handleScroll}>

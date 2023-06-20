@@ -120,7 +120,7 @@ const Contact_Page = () => {
 
 
               <label htmlFor="message" className={styles.form_label}>
-                Message:</label>
+                Message </label>
               <textarea
                 id="message"
                 name="message"

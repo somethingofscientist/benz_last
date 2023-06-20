@@ -83,7 +83,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/about#section0"
+                  to="/about#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   history
@@ -92,7 +92,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/about#section1"
+                  to="/about#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   benefits
@@ -101,7 +101,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/about#section2"
+                  to="/about#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   awards
@@ -110,7 +110,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/about#section3"
+                  to="/about#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   environmental responsibilities
@@ -119,7 +119,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/about#section4"
+                  to="/about#section5"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   our team
@@ -364,7 +364,11 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
-            <li className={styles.otherMenu}>contact</li>
+            <li className={styles.otherMenu}>
+              <HashLink to="/contact_page">
+                contact
+              </HashLink>
+            </li>
           </OtherDetails>
         </Menu>
       </div>

@@ -64,17 +64,42 @@
     font-family: 'DM Serif Display';
     flex-direction: column;
     align-items: center;
+    color: grey !important;
 }
 
 .year {
     text-align: center;
     /* background-color: red; */
 }
-.year_active{
-    color: rgb(0, 0, 0);
+
+.year_active {
+    color: rgb(0, 0, 0) !important;
+    font-size: 35px;
+    background-color: white;
 }
-.year_deactivate{
-    color: grey !important;
+
+.year_deactivate {
+    font-size: 20px;
+    /* margin: 1px 0; */
+    background-color: white;
+    /* background-color: pink; */
+    /* color: green !important; */
+}
+.line_year{
+    background-color: rgb(211, 211, 211);
+    width: 1px;
+    height: 20px;
+}
+.line_year_green{
+    background-color: rgb(47, 255, 0);
+    width: 1px;
+    height: 20px;
+}
+.line_year_green_dot{
+    background-color: rgb(47, 255, 0);
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
 }
 
 @media (max-width:937px) {
