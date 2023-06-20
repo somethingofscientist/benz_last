@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./Footer.module.css";
 import logo from "../../images/logo.svg";
@@ -8,26 +8,38 @@ import footer_logo from "../../images/footer_logo_new.svg";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
-import axios from 'axios'
+import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 
 
 const Footer = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-
-
   const handleSubscribe = async (e) => {
     e.preventDefault();
-
     try {
-      const res = await axios.post(`http://localhost:9000/subscribe`, { firstName, email });
-      toast.dismiss();
-      toast.success("Thank you for subscribing!");
-      setFirstName("");
-      setEmail("");
-      console.log(res);
-
+      const res = await axios.post(`http://localhost:9000/subscribe`, {
+        name: firstName,
+        email,
+      });
+      if (res.status === 200) {
+        toast.dismiss();
+        toast.success("Thank you for subscribing!", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+        setFirstName("");
+        setEmail("");
+      } else {
+        toast.dismiss();
+        toast.error("Some Error Occured");
+      }
     } catch (error) {
       toast.dismiss();
       toast.error("Email is not in the correct format", {
@@ -38,23 +50,8 @@ const Footer = () => {
       console.log(error.message);
     }
   };
-
-
   return (
     <>
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
-
       <div className={styles.footer_vol} id="footer">
         <div className={styles.footer}>
           <div className={styles.newsletter}>
@@ -62,36 +59,33 @@ const Footer = () => {
               <div className={styles.blue_container_heading}>
                 Subscribe to our newsletter
               </div>
-
               <div className={styles.blue_container_flexbox}>
-
-                <input
-                  className={styles.first_name}
-                  type="text"
-                  required
-                  placeholder="First name"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  pattern='^[^-\s][a-zA-Z0-9_\s-]+$'
-                />
-                <input
-                  className={styles.first_name}
-                  type="email"
-                  pattern='^([\w]*[\w\.]*(?!\.)@gmail.com)'
-                  required
-                  placeholder="Email Address"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-
-                <button
-                  className={styles.input_subscribe_button}
-                  type="submit"
-                  onClick={handleSubscribe}
-                >
-                  Subscribe Now
-                </button>
-
+                <form onSubmit={handleSubscribe}>
+                  <input
+                    className={styles.first_name}
+                    type="text"
+                    required
+                    placeholder="First name"
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
+                    pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
+                  />
+                  <input
+                    className={styles.first_name}
+                    type="email"
+                    pattern="^([\w]*[\w\.]*(?!\.)@gmail.com)"
+                    required
+                    placeholder="Email Address"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  <button
+                    className={styles.input_subscribe_button}
+                    type="submit"
+                  >
+                    Subscribe Now
+                  </button>
+                </form>
               </div>
             </div>
           </div>
@@ -132,7 +126,6 @@ const Footer = () => {
                 BENZ Packaging Solutions Pvt. Ltd.83, Sector - 5, IMT Manesar,
                 Gurgaon - 122050 INDIA
               </div>
-
               <div className={styles.footer_lines}>
                 <strong>Email:</strong> care@benz-packaging.com
               </div>
@@ -144,9 +137,7 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.footer_main_three}>
-              <div className={styles.footer_heading}>
-                INDUSTRIES
-              </div>
+              <div className={styles.footer_heading}>INDUSTRIES</div>
               <div className={styles.footer_lines}>
                 <HashLink
                   smooth
@@ -232,5 +223,6 @@ const Footer = () => {
     </>
   );
 };
+
 
 export default Footer;

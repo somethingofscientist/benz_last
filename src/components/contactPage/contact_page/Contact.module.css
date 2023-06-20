@@ -96,3 +96,31 @@ button {
     border-radius: 4px !important;
     background-color: #0081C9;
 }
+
+
+@media (max-width:968px) {
+    .flex_box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 90.00%;
+    }
+    .input_container {
+        width: 60%;
+        margin: 100px auto;
+        /* background-color: pink; */
+    }
+
+}
+
+@media (max-width:486px) {
+    
+    .input_container {
+        width: 90%;
+        margin: 100px auto;
+        /* background-color: pink; */
+    }
+
+}

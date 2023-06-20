@@ -17,6 +17,8 @@ import News from "./screens/news/News";
 import { useState } from "react";
 import { useEffect } from "react";
 import Contact_Page from "./screens/contact__page/ContactPage";
+import { ToastContainer, toast } from "react-toastify";
+
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
       </Routes>
       <Footer />
       <Contact />
+
+      <ToastContainer />
     </>
   );
 }
