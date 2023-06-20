@@ -6,6 +6,7 @@ import footer_logo from "../../images/footer_logo_new.svg";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -61,7 +62,7 @@ const Footer = () => {
                   </a>
                 </div>
                 {/* <div className={styles.footer_icons_container}> */}
-                  {/* <AiFillGithub /> */}
+                {/* <AiFillGithub /> */}
                 {/* </div> */}
               </div>
             </div>
@@ -83,11 +84,50 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.footer_main_three}>
-              <div className={styles.footer_heading}>INDUSTRIES</div>
-              <div className={styles.footer_lines}>Military Applications</div>
-              <div className={styles.footer_lines}>Aerospace</div>
-              <div className={styles.footer_lines}>Contract Packaging</div>
-              <div className={styles.footer_lines}>Automobile</div>
+              <div className={styles.footer_heading}>
+                <Link
+                  to="/industry"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  INDUSTRIES
+                </Link>
+              </div>
+              <div className={styles.footer_lines}>
+                <HashLink
+                  smooth
+                  to="/industry#section1"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Military Applications
+                </HashLink>
+              </div>
+              <div className={styles.footer_lines}>
+                <HashLink
+                  smooth
+                  to="/industry#section2"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Aerospace
+                </HashLink>
+              </div>
+              <div className={styles.footer_lines}>
+                <HashLink
+                  smooth
+                  to="/industry#section3"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Contract Packaging
+                </HashLink>
+              </div>
+              <div className={styles.footer_lines}>
+                <HashLink
+                  smooth
+                  to="/industry#section4"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Automobile
+                </HashLink>
+              </div>
             </div>
             <div className={styles.footer_main_four}>
               <div className={styles.footer_heading}>Home</div>
