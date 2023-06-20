@@ -10,8 +10,6 @@ import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { useTranslation } from 'react-i18next';
-
 
 const Navbar = () => {
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -26,15 +24,6 @@ const Navbar = () => {
     let arr = replaceAt(dropdown, index, !dropdown[index]);
     setDropdown(arr);
   };
-
-
-  //  for the languages 
-  const { t, i18n } = useTranslation();
-  function handleClick(lang) {
-    i18n.changeLanguage(lang);
-  }
-
-
   return (
     <>
       <div className={styles.navContainer}>
@@ -48,28 +37,16 @@ const Navbar = () => {
 
           <div className={styles.rightMenu}>
             {/* globe icon */}
-              <BsGlobe color="white" size={28} />
-            {/* <div className={styles.l_dropdown}>
-              <button onClick={() => handleClick('en')}>
-                English
-              </button>
-              <button onClick={() => handleClick('chi')}>
-                Chinese
-              </button>
-              <button onClick={() => handleClick('ko')}>
-                Korean
-              </button>
-            </div> */}
+            <BsGlobe color="white" size={28} />
 
             {/* hamburger menu */}
 
-            <div className={styles.n_menu}>
-              <GiHamburgerMenu
-                onClick={() => setBurgerOpen(true)}
-                color="white"
-                size={28}
-              />
-            </div>
+            <GiHamburgerMenu
+              onClick={() => setBurgerOpen(true)}
+              color="white"
+              size={28}
+              style={{ cursor: "pointer" }}
+            />
           </div>
         </div>
 
@@ -79,7 +56,11 @@ const Navbar = () => {
               <BsGlobe size={28} />
             </li>
             <li>
-              <AiOutlineClose size={28} onClick={() => setBurgerOpen(false)} />
+              <AiOutlineClose
+                size={28}
+                onClick={() => setBurgerOpen(false)}
+                style={{ cursor: "pointer" }}
+              />
             </li>
           </FlexNavItems>
           <OtherDetails>
@@ -161,10 +142,42 @@ const Navbar = () => {
               )}
             </li>
             <DropDown visible={dropdown[1]}>
-              <li>anti - corrosion</li>
-              <li>anti - humidity</li>
-              <li>industrial packaging</li>
-              <li>handling</li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/products?anti-corosion"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  anti - corrosion
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/products?anti-humidity"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  anti - humidity
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/products?industrial"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  industrial packaging
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/products?handling"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  handling
+                </HashLink>
+              </li>
             </DropDown>
             <li className={styles.otherMenu}>
               <Link
@@ -181,11 +194,51 @@ const Navbar = () => {
               )}
             </li>
             <DropDown visible={dropdown[2]}>
-              <li>automobile industry</li>
-              <li>military applications</li>
-              <li>aerospace</li>
-              <li>contract packaging</li>
-              <li>electronics</li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section1"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  automobile industry
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section2"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  military applications
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section3"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  aerospace
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section4"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  contract packaging
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section5"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  electronics
+                </HashLink>
+              </li>
             </DropDown>
 
             <li className={styles.otherMenu}>
@@ -212,11 +265,51 @@ const Navbar = () => {
               )}
             </li>
             <DropDown visible={dropdown[3]}>
-              <li>packaging facts</li>
-              <li>packaging tips</li>
-              <li>become a distributor</li>
-              <li>work with us</li>
-              <li>FAQ</li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/resources#section1"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  packaging facts
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/resources#section2"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  packaging tips
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/resources#section3"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  become a distributor
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/resources#section4"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  work with us
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/resources#section5"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  FAQ
+                </HashLink>
+              </li>
             </DropDown>
 
             <li className={styles.otherMenu}>
@@ -234,10 +327,42 @@ const Navbar = () => {
               )}
             </li>
             <DropDown visible={dropdown[4]}>
-              <li>events</li>
-              <li>awards</li>
-              <li>newsletter</li>
-              <li>testimonials</li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/news#section1"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  events
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/news#section2"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  awards
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/news#section3"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  newsletter
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/news#section4"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  testimonials
+                </HashLink>
+              </li>
             </DropDown>
             <li className={styles.otherMenu}>contact</li>
           </OtherDetails>

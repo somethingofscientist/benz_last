@@ -17,9 +17,7 @@ const Homepage = () => {
     <>
       <div className={styles.homepage}>
         <div className={styles.imageContainer}>
-          <video autoPlay loop muted src={homepageVideo}>
-            
-          </video>
+          <video autoPlay loop muted src={homepageVideo}></video>
         </div>
         <Global />
         <Why />
