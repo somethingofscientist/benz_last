@@ -5,6 +5,14 @@
 .header_bg img {
     width: 100%;
 }
+.header_bg video{
+    width: 100%;
+    display: block;
+    filter: brightness(30%);
+    height: 60vh;
+    object-fit: cover;
+}
+
 .imageContainer {
     height: 10vh;
     background-image: url("../../images/service_heading.svg");

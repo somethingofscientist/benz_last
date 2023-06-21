@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Distributor.module.css';
 import top1 from '../../images/top1.svg';
 import bottom1 from '../../images/bottom1.svg';
+import { Link } from 'react-router-dom';
+
 
 const Work_with_us = () => {
     return (
@@ -24,18 +26,22 @@ const Work_with_us = () => {
                     <div className={styles.bottom_img}>
                         <img src={bottom1} alt="" />
                     </div>
-                    <div className={styles.join}>
-                        Join Our Team
-                    </div>
+                    <Link to="/contact_page">
+                        <div className={styles.join}>
+                            Join Our Team
+                        </div>
+                    </Link>
                 </div>
 
                 <div className={styles.d_mobile_right}>
                     <div className={styles.top_mobile_img}>
                         <img src={top1} alt="" />
                     </div>
-                    <div className={styles.mobile_join}>
-                        Join Our Team
-                    </div>
+                    <Link to="/contact_page">
+                        <div className={styles.join}>
+                            Join Our Team
+                        </div>
+                    </Link>
                     <div className={styles.bottom_mobile_img}>
                         <img src={bottom1} alt="" />
                     </div>

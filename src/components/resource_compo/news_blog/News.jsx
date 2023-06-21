@@ -9,11 +9,11 @@ const News = () => {
         <div className={styles.news} id='section2'>
             <div className={styles.news_flexbox}>
                 <div className={styles.news_mobile_heading}>
-                    News & Blogs
+                Packaging Tips
                 </div>
                 <div className={styles.news_heading}>
                     <p className={styles.news_heading_two}>
-                        News & Blogs
+                        Packaging Tips
                     </p>
                 </div>
                 <div className={styles.news_blue_container}>

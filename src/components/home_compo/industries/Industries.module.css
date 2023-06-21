@@ -61,7 +61,6 @@
     /* background-color: rgb(218, 143, 143); */
     justify-content: space-between;
     margin: auto;
-
     overflow-y: hidden;
     overflow-x: hidden;
     margin-right: 0;
@@ -121,12 +120,12 @@
 }
 
 .car_container2 {
-    width: 23%;
+    width: 21%;
     position: relative;
-
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: white;
+    /* background-color: lime; */
 }
 
 .car_container2 img {

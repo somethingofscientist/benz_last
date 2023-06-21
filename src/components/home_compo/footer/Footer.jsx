@@ -18,7 +18,7 @@ const Footer = () => {
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`http://localhost:9000/subscribe`, {
+      const res = await axios.post(`/subscribe`, {
         name: firstName,
         email,
       });

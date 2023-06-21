@@ -2,6 +2,8 @@
     width: 80%;
     /* text-align: center; */
     margin: auto;
+    padding: 70px 0 0 0;
+    /* border: 1px solid red */
 }
 
 .trusted_heading {
@@ -27,12 +29,12 @@
     color: #000000;
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .trusted_heading {
         font-family: 'DM Serif Display';
         font-style: normal;
         font-weight: 400;
         font-size: 35px;
     }
-    
+
 }

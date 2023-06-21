@@ -6,6 +6,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./utils/scrollToTop";
 import { Suspense } from "react";
+import axios from "axios";
+
+axios.defaults.baseURL = "https://backend-benz.vercel.app";
+// axios.defaults.withCredentials = true;
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

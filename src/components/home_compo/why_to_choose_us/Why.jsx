@@ -3,6 +3,7 @@ import styles from "./Why.module.css";
 import team from "../../images/team.svg";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import { Link } from "react-router-dom";
 
 const Why = () => {
   const [counter1, setCounter1] = useState(false);
@@ -23,10 +24,17 @@ const Why = () => {
           <div className={styles.global_container}>
             <div className={styles.global_image_text_container}>
               <p>
-              At BENZ Packaging, we believe in fostering a culture of growth and development. We provide ample opportunities for professional advancement, encouraging our team members to expand their knowledge, skills, and expertise. As we continue to explore new avenues in the packaging industry, your contributions will play a vital role in shaping the future of our organization.
+                At BENZ Packaging, we believe in fostering a culture of growth and development. We provide ample opportunities for professional advancement, encouraging our team members to expand their knowledge, skills, and expertise. As we continue to explore new avenues in the packaging industry, your contributions will play a vital role in shaping the future of our organization.
               </p>
 
-              <div className={styles.pack_button}>JOIN OUR TEAM</div>
+              
+              <Link
+                to="/contact_page"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                {/* PACK WITH US */}
+                <div className={styles.pack_button}>JOIN OUR TEAM</div>
+              </Link>
             </div>
             <div className={styles.global_image_container}>
               <img src={team} alt="man" />

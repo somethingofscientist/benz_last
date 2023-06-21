@@ -2,6 +2,7 @@
 import member from '../../images/imember.svg';
 import styles from './Team.module.css';
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Team = () => {
     return (
@@ -66,9 +67,11 @@ const Team = () => {
             </div>
 
 
-            <div className={styles.join_our_team}>
-                Join Our Team
-            </div>
+            <Link to="/contact_page">
+                <div className={styles.join_our_team}>
+                    Join Our Team
+                </div>
+            </Link>
         </div>
     );
 };

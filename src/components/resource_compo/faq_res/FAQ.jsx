@@ -25,28 +25,37 @@ const FAQ = () => {
                     />
                     <AccordianItem
                         title="What is the shelf life of VCI Products?"
-                        content="Answer 2"
+                        content="Most VCI products have a shelf life of up to two years when the product is stored in an external bag or box, out of direct sunlight and under shelter."
                     />
                     <AccordianItem
                         title="What is the in-service or useful life of VCI Products?"
-                        content="Answer 2"
+                        content="Most VCI products have an in-service life of up to five years when protecting clean metal surfaces and when used as recommended by our representatives."
                     />
                     <AccordianItem
-                        title="What is VCI and VCI Film?"
-                        content="Answer 2"
+                        title="Can Your VCI Bags Be Reused?"
+                        content="Yes, if the bags are still in good condition without holes or tears. Bags that have an excessive number of holes or tears, have large holes or tears, or have begun to crack or lose strength due to excessive exposure to direct sunlight will not provide adequate corrosion protection and should not be reused."
                     />
                     <AccordianItem
-                        title="What can be anticipated when wet parts are packaged in VCI Products?"
-                        content="Answer 2"
+                        title="What if I have a rip in my VCI bag? What should I do?"
+                        content="If the rip is small, you can cover the rip or hole with a high quality piece of tape that is designed to adhere to “low energy” surfaces like polyethylene. Or, you can fold over and staple the area shut and then seal over the holes made by the staples with the recommended tape. If you have a large rip that you cannot close easily with tape or staples, you should replace the bag with a new one. The best seal is always a “heat seal”."
                     />
                     <AccordianItem
-                        title="What is the shelf life of VCI Products?"
-                        content="Answer 2"
+                        title="Can I use my VCI bag in conjunction with oil coatings?"
+                        content="A light oil coating on the metal part is fine to use with a VCI bag. A heavy oil coating may affect the performance of the BENZ VCI bag by keeping the corrosion inhibiting vapor molecules from reaching the metal surface. Please contact us to determine the suitability of the oil and application."
                     />
                     <AccordianItem
-                        title="Does VCI have any effect on Electrical or Electronic components?"
-                        content="Answer 2"
+                        title="How do I know which of your products to use for my type of metal?"
+                        content="Ferrous, Non Ferrous & Multimetal: Iron, steel, cast iron, Aluminum (and aluminum alloys containing copper and/or manganese), copper, brass, bronze and fully galvanized steel are protected using blue or clear VCI Protective Packaging. Although VCI products are usually sold in Blue / Clear standard colors but we are also able to custom produce VCI films in any color of your choice."
                     />
+                    <AccordianItem
+                        title="Can used VCI films be recycled?"
+                        content="Yes. VCI films made of polyethylene and polypropylene have been recycled for years. VCI products, themselves, are produced using only virgin materials to assure a high level of quality and consistency for our customers."
+                    />
+                    <AccordianItem
+                        title="How do I know that I am measuring length, width and height correctly?"
+                        content="For Flat Bag, Sheet, Sleeve, and Round Bottom Bags Width is measured from edge to edge. If it is a slit seal bag, measure inside seal to inside seal or inside seal to fold. Bag length is measured from top of bag to top of bottom seal or fold. Sleeve or sheet length is measured from cut edge to cut edge."
+                    />
+
                 </div>
                 {/* faq ends */}
 

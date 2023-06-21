@@ -14,6 +14,7 @@
     font-weight: 400;
     font-size: 50px;
     line-height: 104px;
+
     /* color: #0081C9; */
 }
 
@@ -24,6 +25,7 @@
     /* border: 1px solid grey; */
     /* background-color: lime; */
     /* height: 100vh; */
+    padding: 70px 0;
 }
 
 /* CustomScroller.module.css */

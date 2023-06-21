@@ -4,8 +4,14 @@
 }
 
 .header_bg img {
-    /* height: 100vh; */
     width: 100%;
+}
+.header_bg video{
+    width: 100%;
+    display: block;
+    filter: brightness(30%);
+    height: 60vh;
+    object-fit: cover;
 }
 
 .imageContainer {

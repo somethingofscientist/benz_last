@@ -36,7 +36,7 @@ const Global = () => {
 
           <div className={styles.pack_button}>
             <Link
-              to="/products"
+              to="/contact_page"
               style={{ textDecoration: "none", color: "white" }}
             >
               PACK WITH US

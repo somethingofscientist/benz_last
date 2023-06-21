@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import drop from "../../images/Avatar group.svg";
+import d1 from "../../images/contact1.svg";
+import d2 from "../../images/contact2.svg";
+import d3 from "../../images/contact3.svg";
+
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
 import axios from "axios";
@@ -20,11 +23,12 @@ const Contact_Page = () => {
     value = e.target.value;
     setData({ ...data, [name]: value });
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, phone, message } = data;
     try {
-      const res = await axios.post(`http://localhost:9000/message`, {
+      const res = await axios.post(`/message`, {
         name,
         email,
         phone,
@@ -51,13 +55,15 @@ const Contact_Page = () => {
       console.log(error.message);
     }
   };
+
+
   return (
     <>
       <div className={styles.contact_container}>
         <div className={styles.flex_box}>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={drop} alt="" />
+              <img src={d1} alt="" />
             </div>
             <div className={styles.heading}>Drop Us A Line</div>
             <div className={styles.line}>
@@ -65,12 +71,12 @@ const Contact_Page = () => {
               products.
             </div>
             <div className={styles.q_link}>
-              <a href="">CARE@BENZ-PACKAGING.COM</a>
+              <a href="mailto:care@benz-packaging.com">CARE@BENZ-PACKAGING.COM</a>
             </div>
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={drop} alt="" />
+              <img src={d2} alt="" />
             </div>
             <div className={styles.heading}>COMMERCIAL</div>
             <div className={styles.line}>
@@ -78,12 +84,12 @@ const Contact_Page = () => {
               packaging advice, or answer to any of your questions!
             </div>
             <div className={styles.q_link}>
-              <a href="">SCHEDULE A MEETING</a>
+              <a href="https://calendly.com/benzpack/15min?month=2023-06">SCHEDULE A MEETING</a>
             </div>
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={drop} alt="" />
+              <img src={d3} alt="" />
             </div>
             <div className={styles.heading}>VISIT OUR OFFICE</div>
             <div className={styles.line}>
@@ -91,7 +97,7 @@ const Contact_Page = () => {
               Gurgaon - 122050 INDIA
             </div>
             <div className={styles.q_link}>
-              <a href="">GET DIRECTIONS</a>
+              <a href="https://www.google.co.in/maps/dir/''/BENZ+Packaging+Solutions+Pvt.+Ltd.84,+Sector+-+6,+IMT+Manesar,+Gurgaon+-+122050INDIA/@28.3689787,76.8544095,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d3dd03b68dd91:0x13e9a162be88ce77!2m2!1d76.9244498!2d28.3689966?entry=ttu">GET DIRECTIONS</a>
             </div>
           </div>
         </div>

@@ -19,10 +19,10 @@ const Submit = () => {
                         />
                     </div>
 
-                    <a href={pdf} target="_blank" download={'BENZ_Broucher'}>
+                    <a href={pdf} target="_blank" download={'BENZ_Brochure'}>
                         <div className={styles.download}>
                             <HiOutlineDownload size={20} />
-                            <div className={styles.d_para}>Download Broucher</div>
+                            <div className={styles.d_para}>Download Brochure</div>
                         </div>
                     </a>
                 </div>

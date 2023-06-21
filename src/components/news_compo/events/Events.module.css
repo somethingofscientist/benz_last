@@ -1,6 +1,7 @@
 .award_container {
     width: 80%;
     margin: auto;
+    padding: 90px 0 0 0;
 }
 
 .award_heading {
@@ -11,6 +12,7 @@
     line-height: 68px;
     letter-spacing: 0.04em;
     color: #0081C9;
+    padding: 20px 0 ;
 }
 
 .award_subheading {
