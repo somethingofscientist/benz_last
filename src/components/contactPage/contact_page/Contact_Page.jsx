@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import d1 from "../../images/contact1.svg";
-import d2 from "../../images/contact2.svg";
-import d3 from "../../images/contact3.svg";
+// import d2 from "../../images/contact2.svg";
+// import d3 from "../../images/contact3.svg";
 
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
@@ -76,7 +76,7 @@ const Contact_Page = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={d2} alt="" />
+              <img src={d1} alt="" />
             </div>
             <div className={styles.heading}>COMMERCIAL</div>
             <div className={styles.line}>
@@ -89,7 +89,7 @@ const Contact_Page = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={d3} alt="" />
+              <img src={d1} alt="" />
             </div>
             <div className={styles.heading}>VISIT OUR OFFICE</div>
             <div className={styles.line}>

@@ -9,7 +9,6 @@ import { Suspense } from "react";
 import axios from "axios";
 
 axios.defaults.baseURL = "https://backend-benz.vercel.app";
-// axios.defaults.withCredentials = true;
 
 
 
