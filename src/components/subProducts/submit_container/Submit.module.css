@@ -46,6 +46,9 @@
 .download {
     color: #0081C9;
 }
+.download:hover{
+    transform: scale(1.2);
+}
 
 .d_para {
     font-size: 12px;
@@ -59,6 +62,10 @@
     margin: auto;
     padding: 10px 40px;
     text-transform: uppercase;
+}
+.submit_btn:hover {
+    background-color: #0a9ff0;
+    cursor: pointer;
 }
 
 @media (max-width:944px) {

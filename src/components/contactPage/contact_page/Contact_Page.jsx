@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import d1 from "../../images/contact1.svg";
-// import d2 from "../../images/contact2.svg";
+import d2 from "../../images/contact2.svg";
 // import d3 from "../../images/contact3.svg";
-
 import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
 import axios from "axios";
+
+import {SlEnvolopeLetter} from 'react-icons/sl'
+import {IoIosPeople} from 'react-icons/io';
+import {HiOutlineOfficeBuilding} from 'react-icons/hi';
 
 
 const Contact_Page = () => {
@@ -63,7 +66,8 @@ const Contact_Page = () => {
         <div className={styles.flex_box}>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={d1} alt="" />
+              {/* <img src={d1} alt="" /> */}
+              <SlEnvolopeLetter/>
             </div>
             <div className={styles.heading}>Drop Us A Line</div>
             <div className={styles.line}>
@@ -76,7 +80,8 @@ const Contact_Page = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={d1} alt="" />
+              {/* <img src={d1} alt="" /> */}
+              <IoIosPeople/>
             </div>
             <div className={styles.heading}>COMMERCIAL</div>
             <div className={styles.line}>
@@ -89,7 +94,8 @@ const Contact_Page = () => {
           </div>
           <div className={styles.box}>
             <div className={styles.image}>
-              <img src={d1} alt="" />
+              {/* <img src={d1} alt="" /> */}
+              <HiOutlineOfficeBuilding />
             </div>
             <div className={styles.heading}>VISIT OUR OFFICE</div>
             <div className={styles.line}>
@@ -130,7 +136,7 @@ const Contact_Page = () => {
                 id="email"
                 name="email"
                 // pattern='^([\w]*[\w\.]*(?!\.)@gmail.com)'
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                // pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                 required
                 value={data.email}
                 onChange={handleInputs}
@@ -150,7 +156,7 @@ const Contact_Page = () => {
                 onChange={handleInputs}
               />
               <label htmlFor="message" className={styles.form_label}>
-                Message{" "}
+                Message{" "} <span style={{ color: "red" }}>*</span>
               </label>
               <textarea
                 id="message"
@@ -159,9 +165,11 @@ const Contact_Page = () => {
                 required
                 onChange={handleInputs}
               />
-              <button type="submit">
-                Submit
-              </button>
+              <div className={styles.submit}>
+                <button type="submit">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>

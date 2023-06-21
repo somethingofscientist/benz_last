@@ -25,13 +25,25 @@ a {
 }
 
 .heading {
-    font-weight: 600;
+    font-weight:bold;
+    font-size: 18px;
+    /* background-color: palegoldenrod; */
+    color: rgb(56, 56, 56);
     text-transform: uppercase;
 }
 
 .image {
     /* padding: 0px 0; */
+    font-size: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 20px 40px;
+    margin-bottom: 20px;
 }
+/* .image:hover{
+    color: blue;
+    background-color: black;
+} */
 
 .image img {
     text-align: center;
@@ -42,13 +54,21 @@ a {
 .line {
     padding: 20px 0;
     text-align: center;
-    color: grey;
+    color: rgb(170, 170, 170);
+}
+.q_link{
+    padding-top: 50px;
 }
 
 .q_link a {
     font-weight: 600;
     font-size: 15px;
-    color: rgb(62, 62, 62) !important;
+    text-decoration: underline !important; 
+    color: #0081C9 !important;
+}
+.q_link a:hover {
+    text-decoration: underline !important;
+    color: #44a1d3 !important;
 }
 
 .input_container {
@@ -98,7 +118,13 @@ button {
     border-radius: 4px !important;
     background-color: #0081C9;
 }
-
+.submit button:hover{
+    width: max-content;
+    color: white;
+    border-radius: 4px !important;
+    background-color: #009ef3;
+    cursor: pointer;
+}
 
 @media (max-width:968px) {
     .flex_box {

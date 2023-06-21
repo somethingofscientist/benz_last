@@ -40,6 +40,7 @@
 
 .input_subscribe_button:hover {
     background-color: whitesmoke;
+    border: 1px solid whitesmoke;
 }
 
 ::placeholder {
@@ -158,6 +159,7 @@ input {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
+        text-align: center;
     }
 
     .first_name {
