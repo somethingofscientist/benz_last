@@ -59,23 +59,18 @@
     right: 0;
     display: flex;
     /* background-color: rgb(218, 143, 143); */
-    justify-content: space-between;
     margin: auto;
+    gap:19px;
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: scroll;
     margin-right: 0;
 }
 
 .car_container {
-    /* width: 25%; */
-    /* width: 350px; */
-    /* background-color: pink; */
-    /* height: 400px; */
-    width: 26%;
-    /* height: 200px; */
-    /* margin-right: 10px; */
+    width: 401px;
+    height: 421px;
     position: relative;
-    /* padding: 20px; */
+    left: 0;
 }
 
 .car_container img {
@@ -92,7 +87,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    bottom: 20%;
+    bottom: 5px;
     /* padding: 20px; */
     font-size: 16px;
     width: 60%;
@@ -102,8 +97,9 @@
 
 .learn_more_button {
     /* position: absolute; */
+    margin-top: 50px;
     padding: 15px 20px;
-    bottom: 2%;
+    bottom: 0;
     /* font-size: 12px; */
     left: 5%;
     border-radius: 2px;
@@ -120,7 +116,8 @@
 }
 
 .car_container2 {
-    width: 21%;
+    width: 285px;
+    height: 421px;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;

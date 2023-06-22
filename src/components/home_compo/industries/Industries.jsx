@@ -11,30 +11,48 @@ import { HashLink } from "react-router-hash-link";
 import { NavHashLink } from "react-router-hash-link";
 
 const Industries = () => {
-  const arr = [
+  const [arr, setArr] = useState([
     {
-      image:bmw2,
-      heading:"Aerospace",  
+      choti_image: bmw2,
+      image: bmw,
+      heading: "Aerospace",
+      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+      hovered: false,
     },
     {
-      image:bmw2,
-      heading:"Aerospace",  
+      choti_image: bmw2,
+      image: bmw,
+      heading: "Aerospace",
+      hovered: false,
+      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
     },
     {
-      image:bmw2,
-      heading:"Aerospace",  
+      choti_image: bmw2,
+      image: bmw,
+      heading: "Aerospace",
+      hovered: false,
+      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
     },
-  ]
+    {
+      choti_image: bmw2,
+      image: bmw,
+      heading: "Aerospace",
+      hovered: false,
+      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+    },
+  ]);
 
-
-  const [hovered, setHovered] = useState([false, false, false]);
   function replaceAt(array, index, value) {
     const ret = array.slice(0);
-    ret[index] = value;
+    ret[index].hovered = value;
     return ret;
   }
   const handleHover = (index) => {
-    setHovered(replaceAt(hovered, index, !hovered[index]));
+    setArr(replaceAt(arr, index, true));
+  };
+
+  const handleLeave = (index) => {
+    setArr(replaceAt(arr, index, false));
   };
 
   return (
@@ -53,7 +71,7 @@ const Industries = () => {
         </div>
         {/* scale div */}
         <div className={styles.hover_container}>
-          <div className={styles.car_container}>
+          {/* <div className={styles.car_container}>
             <img src={bmw} alt="" />
             <div className={styles.car_container_text}>
               Our packaging solutions for the automobile industry provide
@@ -68,22 +86,21 @@ const Industries = () => {
                 </Link>
               </div>
             </div>
-          </div>
-          {hovered.map((value, index) =>
-            value ? (
+          </div> */}
+          {arr.map((value, index) =>
+            value.hovered ? (
               <div
                 className={styles.car_container}
                 //   onMouseEnter={() => handleHover(0)}
-                onMouseLeave={() => handleHover(index)}
+                onMouseLeave={() => handleLeave(index)}
+                onBlur={() => handleLeave(index)}
               >
-                <img src={bmw} alt="" />
+                <img src={value.image} alt="" />
                 <div className={styles.car_container_text}>
-                  Our packaging solutions for the automobile industry provide
-                  optimal protection and efficiency for transportation and
-                  storage of vehicle parts and components.
+                  {value.text}
                   <div className={styles.learn_more_button}>
                     <Link
-                       to="/industry"
+                      to="/industry"
                       style={{ textDecoration: "none", color: "white" }}
                     >
                       LEARN MORE
@@ -95,11 +112,12 @@ const Industries = () => {
               <div
                 className={styles.car_container2}
                 onMouseEnter={() => handleHover(index)}
-              // onMouseLeave={handleHover}
+                onFocus={() => handleHover(index)}
+                // onMouseLeave={handleHover}
               >
-                <img src={bmw2} alt="Image" />
+                <img src={value.choti_image} alt="Image" />
                 <div className={styles.car_inner_container}>
-                  <div className={styles.car_heading}>Aerospace</div>
+                  <div className={styles.car_heading}>{value.heading}</div>
                   <div className={styles.car_container_text2}>
                     Our packaging solutions for the automobile industry provide
                     optimal protection and efficiency for transportation and
@@ -214,8 +232,11 @@ const Industries = () => {
         {/* view all industreis */}
         <div className={styles.view_all_container}>
           <Link to="/industry">
-            <div className={styles.view_all}>View All Industries
-              <span><HiOutlineArrowNarrowRight/></span>
+            <div className={styles.view_all}>
+              View All Industries
+              <span>
+                <HiOutlineArrowNarrowRight />
+              </span>
             </div>
           </Link>
         </div>
