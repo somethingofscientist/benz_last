@@ -34,8 +34,9 @@
     width: 250px;
     cursor: pointer;
     padding: 17px 16px 17px 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: pink;
+    font-family: "Urbanist";
 }
 
 .input_subscribe_button:hover {

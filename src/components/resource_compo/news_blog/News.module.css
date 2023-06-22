@@ -19,6 +19,7 @@
 
 .news_mobile_heading {
     display: none;
+    font-family: 'DM Serif Display' !important;
 }
 
 .news_flexbox {
@@ -42,6 +43,9 @@
     font-weight: 400;
     /* background-color: lime; */
 }
+.news_heading_two>p {
+    font-family: 'DM Serif Display';
+}
 
 .news_heading_two {
     /* width: 100%; */
@@ -62,8 +66,10 @@
     overflow-y: scroll;
     overflow-x: hidden;
     margin-left: 60px;
-    border-left: 50px solid #0081C9;
-    border-bottom: 50px solid #0081C9;
+    /* border-left: 50px solid #0081C9; */
+    /* border-bottom: 50px solid #0081C9; */
+    border-left: 50px solid #ffffff;
+    border-bottom: 50px solid #ffffff;
     background-color: rgb(255, 255, 255);
 
     /* background-color: #F8FAFC; */
@@ -150,6 +156,7 @@
 
 .card_icon2 {
     color: #377C2B;
+    color: #0081C9;
     font-size: 40px;
     margin-top: 50px;
 }
@@ -183,8 +190,8 @@
         overflow-y: scroll;
         overflow-x: hidden;
         margin-left: 0px;
-        border-left: 50px solid #0081C9;
-        border-bottom: 50px solid #0081C9;
+        border-left: 50px solid #ffffff;
+        border-bottom: 50px solid #ffffff;
     }
     .news_flexbox{
         flex-wrap: wrap;
@@ -216,8 +223,8 @@
         overflow-y: scroll;
         overflow-x: hidden;
         margin-left: 0px;
-        border-left: 30px solid #0081C9;
-        border-bottom: 30px solid #0081C9;
+        border-left: 30px solid #ffffff;
+        border-bottom: 30px solid #ffffff;
     }
     .blue_img{
         width: 90%;

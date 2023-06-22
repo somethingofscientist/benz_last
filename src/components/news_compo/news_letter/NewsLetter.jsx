@@ -4,6 +4,9 @@ import news_first from '../../images/news_first.svg';
 import news_sec from '../../images/news_sec.svg';
 import news_third from '../../images/news_third.svg';
 import news_fourth from '../../images/news_fourth.svg';
+import { HiOutlineBuildingOffice2 } from 'react-icons/hi2'
+import { AiOutlinePrinter } from 'react-icons/ai'
+import { BsPeople } from 'react-icons/bs'
 
 const NewsLetter = () => {
     return (
@@ -12,13 +15,16 @@ const NewsLetter = () => {
                 <div className={styles.news_heading}>Newsletter</div>
                 <div className={styles.news_subheading}>
                     <div className={styles.news_compo}>
-                        100+ Advertisers
+                        <HiOutlineBuildingOffice2 size={30} />   
+                        <p>100+ Advertisers</p>
                     </div>
                     <div className={styles.news_compo}>
-                        600+ Newsletters
+                        <AiOutlinePrinter size={30} />  
+                        <p>600+ Newsletters</p>
                     </div>
                     <div className={styles.news_compo}>
-                        100+ Million Subscribers
+                       <BsPeople size={30}/> 
+                       <p>100+ Million Subscribers</p>
                     </div>
                 </div>
                 <div className={styles.news_images_container}>

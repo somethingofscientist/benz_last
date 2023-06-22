@@ -15,7 +15,7 @@ const Submit = () => {
                     <div className={styles.input_email}>
                         <input
                             type="text"
-                            placeholder='Phone number or email*'
+                            placeholder='Phone Number Or Email*'
                         />
                     </div>
 

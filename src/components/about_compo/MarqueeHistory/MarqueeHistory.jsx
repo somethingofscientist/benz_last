@@ -47,6 +47,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >1984
                         </Link>
                     </div>
@@ -58,6 +59,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >1989
                         </Link>
                     </div>
@@ -69,6 +71,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >1998
                         </Link>
                     </div>
@@ -80,6 +83,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2005
                         </Link>
                     </div>
@@ -91,6 +95,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2009
                         </Link>
                     </div>
@@ -102,6 +107,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2013
                         </Link>
                     </div>
@@ -113,6 +119,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2017
                         </Link>
                     </div>
@@ -124,6 +131,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2018
                         </Link>
                     </div>
@@ -135,6 +143,7 @@ const MarqueeHistory = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
+                            className={styles.link}
                         >2023
                         </Link>
                     </div>
