@@ -1,0 +1,163 @@
+.routing {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-family: 'Urbanist';
+    font-style: normal;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 33px; */
+    /* identical to box height */
+    color: #191919;
+}
+
+.route {
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 5px solid rgb(228, 228, 228);
+}
+
+.active_route {
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+.para {
+    width: 80%;
+    margin: auto;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    /* line-height: 193%; */
+}
+
+.download_b {
+    margin: auto;
+    padding: 100px 0;
+    width: 80%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.download {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: rgba(0, 129, 201, 0.85);
+    padding: 0 0 40px 0;
+}
+
+.flexx_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.flexx_box ::placeholder,
+.flexx_box input[type="text"] {
+    color: rgba(0, 0, 0, 0.427) !important;
+}
+
+
+.flexx_box input {
+    background-color: rgba(217, 217, 217, 0.47);
+    width: 45%;
+    padding: 24px 42px;
+    border-radius: 12px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.413);
+}
+
+.broucher {
+    color: #0081C9;
+    /* background-color: red; */
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.download_broucher_icon {
+    font-size: 20px;
+
+}
+
+.download_broucher_text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.submit_button {
+    margin-top: 20px;
+    align-items: center;
+    width: max-content;
+    color: white;
+    background: #0081C9;
+    padding: 15px 50px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin:20px  auto;
+    cursor: pointer;
+}
+
+
+@media (max-width:769px){
+    .route,
+    .active_route {
+       font-size: 20px; 
+       /* background-color: red; */
+    }
+}
+@media (max-width:640px){
+    .route,
+    .active_route {
+       font-size: 18px; 
+       /* background-color: red; */
+    }
+}
+@media (max-width:575px){
+    .route,
+    .active_route {
+       font-size: 15px; 
+       /* background-color: red; */
+    }
+}
+@media (max-width:469px){
+    .route,
+    .active_route {
+       font-size: 14px; 
+       /* background-color: red; */
+    }
+}
+@media (max-width:455px){
+    .route,
+    .active_route {
+       font-size: 12px; 
+       /* background-color: red; */
+    }
+}

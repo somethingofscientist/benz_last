@@ -6,9 +6,11 @@ import pic2 from "../../images/corrosion.svg";
 import pic3 from "../../images/handling.svg";
 import pic4 from "../../images/traditional.svg";
 import { HiArrowNarrowRight } from "react-icons/hi";
-// import RustRemovers from "../Rust_Removers/Aerospace";
+
 import Rust from "../Anti-Humidity/Aerospace";
 import Accessories from "../Anti-Corrosion/Aerospace";
+import Handle from "../Handling/Aerospace";
+import Traditional from "../Traditional/Aerospace";
 
 const Products = () => {
   const [page, setPage] = useState("");
@@ -24,7 +26,7 @@ const Products = () => {
         </div>
         <div className={styles.card_container}>
           <div className={styles.card_up}
-            onClick={(e) => { setPage('protective') }}
+            onClick={(e) => { setPage('humidity') }}
           >
             <div className={styles.card_text}>INDUSTRIAL</div>
             <div className={styles.card_subtext}>Anti - Humidity </div>
@@ -34,7 +36,7 @@ const Products = () => {
             </div>
           </div>
           <div className={styles.card_down}
-            onClick={(e) => { setPage('industrial') }}>
+            onClick={(e) => { setPage('corrosion') }}>
             <div className={styles.card_text}>INDUSTRIAL</div>
             <div className={styles.card_subtext}>Anti - Corrosion </div>
             <img src={pic2} alt="pic1_humidity" />
@@ -42,18 +44,21 @@ const Products = () => {
               <HiArrowNarrowRight size={20} color="white" />
             </div>
           </div>
-          <div className={styles.card_up}>
+          <div className={styles.card_up}
+            onClick={(e) => { setPage('handling') }}
+          >
             <div className={styles.card_text}>INDUSTRIAL</div>
             <div className={styles.card_subtext}>Handling</div>
-            <img src={pic3} alt="pic1_humidity" />
+            <img src={pic3} alt="pic1_handling" />
             <div className={styles.card_icon}>
               <HiArrowNarrowRight size={20} color="white" />
             </div>
           </div>
-          <div className={styles.card_down}>
+          <div className={styles.card_down}
+            onClick={(e) => { setPage('traditional') }}>
             <div className={styles.card_text}>INDUSTRIAL</div>
             <div className={styles.card_subtext}>Traditional Packaging</div>
-            <img src={pic4} alt="pic1_humidity" />
+            <img src={pic4} alt="pic1_traditional" />
             <div className={styles.card_icon2}>
               <HiArrowNarrowRight size={20} color="white" />
             </div>
@@ -63,18 +68,26 @@ const Products = () => {
 
 
       {
-        page === "protective" ?
+        page === "humidity" ?
           <>
             <Rust />
           </>
-          : page === "industrial" ?
+          : page === "corrosion" ?
             <>
               <Accessories />
             </>
-            :
-            <div className={styles.para}>
-                <p>For more Content click on our Products &nbsp; </p>
-            </div>
+            : page === "handling" ?
+              <>
+                <Handle />
+              </>
+              : page === "traditional" ?
+                <>
+                  <Traditional />
+                </>
+                :
+                <div className={styles.para}>
+                  <p>For more Content click on our Products &nbsp; </p>
+                </div>
       }
     </>
   );
