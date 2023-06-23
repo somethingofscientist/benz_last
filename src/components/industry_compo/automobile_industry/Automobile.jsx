@@ -21,9 +21,11 @@ const Automobile = () => {
                         </div>
                     </div>
                     <div className={styles.auto_img_text}>
-                        
-
                         The automobile industry relies on specialized packaging solutions to ensure the safe transportation, storage, and display of vehicles and their components. Customized packaging materials provide protection against damage, preserve aesthetics, optimize logistics, and contribute to sustainability efforts. By investing in tailored packaging solutions, the automobile industry continues to enhance efficiency, safety, and environmental responsibility throughout the supply chain.
+
+                        <div className={styles.auto_pack2}>
+                            Pack With Us
+                        </div>
                     </div>
                 </div>
 
