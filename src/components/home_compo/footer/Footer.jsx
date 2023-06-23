@@ -15,6 +15,8 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
+
+
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
@@ -68,13 +70,11 @@ const Footer = () => {
                     placeholder="First name"
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
-                    // pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
                     pattern= "^[a-zA-Z]+$"
                   />
                   <input
                     className={styles.first_name}
                     type="email"
-                    // pattern="^([\w]*[\w\.]*(?!\.)@gmail.com)"
                     required
                     placeholder="Email Address"
                     value={email}

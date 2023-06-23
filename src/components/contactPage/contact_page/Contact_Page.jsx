@@ -124,7 +124,8 @@ const Contact_Page = () => {
                 id="name"
                 name="name"
                 required
-                pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
+                // pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
+                pattern= "^[a-zA-Z]+$"
                 value={data.name}
                 onChange={handleInputs}
               />
