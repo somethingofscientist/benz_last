@@ -100,6 +100,7 @@ const NewsLetter = () => {
                             Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.
                         </div>
                         <form onSubmit={handleSubmit}>
+                        
                             {/* <input
                                 className={styles.notwant}
                                 type="text"
