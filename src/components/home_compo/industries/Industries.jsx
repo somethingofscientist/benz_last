@@ -71,22 +71,7 @@ const Industries = () => {
         </div>
         {/* scale div */}
         <div className={styles.hover_container}>
-          {/* <div className={styles.car_container}>
-            <img src={bmw} alt="" />
-            <div className={styles.car_container_text}>
-              Our packaging solutions for the automobile industry provide
-              optimal protection and efficiency for transportation and storage
-              of vehicle parts and components.
-              <div className={styles.learn_more_button}>
-                <Link
-                  to="/industry"
-                  style={{ textDecoration: "none", color: "white" }}
-                >
-                  LEARN MORE
-                </Link>
-              </div>
-            </div>
-          </div> */}
+          
           {arr.map((value, index) =>
             value.hovered ? (
               <div
@@ -128,104 +113,7 @@ const Industries = () => {
               </div>
             )
           )}
-          {/* {!isHovered ? (
-            <div
-              className={styles.car_container}
-              //   onMouseEnter={() => handleHover(index)}
-              onMouseLeave={() => handleHover(0)}
-            >
-              <img src={bmw} alt="" />
-              <div className={styles.car_container_text}>
-                Our packaging solutions for the automobile industry provide
-                optimal protection and efficiency for transportation and storage
-                of vehicle parts and components.
-              </div>
-              <div className={styles.learn_more_button}>LEARN MORE</div>
-            </div>
-          ) : (
-            <div
-              className={styles.car_container2}
-              onMouseEnter={() => handleHover(0)}
-              // onMouseLeave={handleHover}
-            >
-              <img src={nasa} alt="Image" />
-              <div className={styles.car_inner_container}>
-                <div className={styles.car_heading}>Aerospace</div>
-                <div className={styles.car_container_text2}>
-                  Our packaging solutions for the automobile industry provide
-                  optimal protection and efficiency for transportation and
-                  storage of vehicle parts and components.
-                </div>
-                <div className={styles.learn_more_button}>LEARN MORE</div>
-              </div>
-            </div>
-          )}
-
-          {!isHovered ? (
-            <div
-              className={styles.car_container}
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHover}
-            >
-              <img src={bmw} alt="" />
-              <div className={styles.car_container_text}>
-                Our packaging solutions for the automobile industry provide
-                optimal protection and efficiency for transportation and storage
-                of vehicle parts and components.
-              </div>
-              <div className={styles.learn_more_button}>LEARN MORE</div>
-            </div>
-          ) : (
-            <div
-              className={styles.car_container2}
-              onMouseEnter={handleHover}
-              // onMouseLeave={handleHover}
-            >
-              <img src={nasa} alt="Image" />
-              <div className={styles.car_inner_container}>
-                <div className={styles.car_heading}>Aerospace</div>
-                <div className={styles.car_container_text2}>
-                  Our packaging solutions for the automobile industry provide
-                  optimal protection and efficiency for transportation and
-                  storage of vehicle parts and components.
-                </div>
-                <div className={styles.learn_more_button}>LEARN MORE</div>
-              </div>
-            </div>
-          )}
-
-          {!isHovered ? (
-            <div
-              className={styles.car_container}
-              onMouseEnter={handleHover}
-              onMouseLeave={handleHover}
-            >
-              <img src={bmw} alt="" />
-              <div className={styles.car_container_text}>
-                Our packaging solutions for the automobile industry provide
-                optimal protection and efficiency for transportation and storage
-                of vehicle parts and components.
-              </div>
-              <div className={styles.learn_more_button}>LEARN MORE</div>
-            </div>
-          ) : (
-            <div
-              className={styles.car_container2}
-              onMouseEnter={handleHover}
-              // onMouseLeave={handleHover}
-            >
-              <img src={nasa} alt="Image" />
-              <div className={styles.car_inner_container}>
-                <div className={styles.car_heading}>Aerospace</div>
-                <div className={styles.car_container_text2}>
-                  Our packaging solutions for the automobile industry provide
-                  optimal protection and efficiency for transportation and
-                  storage of vehicle parts and components.
-                </div>
-                <div className={styles.learn_more_button}>LEARN MORE</div>
-              </div>
-            </div>
-          )} */}
+         
         </div>
         {/* scale div */}
 

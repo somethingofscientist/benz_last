@@ -68,7 +68,7 @@
     margin-left: 60px;
     /* border-left: 50px solid #0081C9; */
     /* border-bottom: 50px solid #0081C9; */
-    border-left: 50px solid #ffffff;
+    border-left: 0px solid #ffffff;
     border-bottom: 50px solid #ffffff;
     background-color: rgb(255, 255, 255);
 
@@ -97,7 +97,7 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
     background-color: rgb(255, 255, 255);
     /* background-color: #F8FAFC; */
 
@@ -114,6 +114,7 @@
     font-weight: bold;
     /* background-color: pink; */
     border-radius: 4px;
+    margin-top: 10%;
     /* margin-top: 20px; */
     font-family: 'Urbanist';
     font-style: normal;
@@ -159,6 +160,28 @@
     color: #0081C9;
     font-size: 40px;
     margin-top: 50px;
+}
+
+.pack_new{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+}
+.view_all{
+    margin-left: 60px;
+    color: #0081C9 !important;
+    font-size: 18px;
+    font-family: "Urbanist";
+    font-weight: 600;
+    letter-spacing:3px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.view_all Link{
+    color: #0081C9 !important;
 }
 
 @media (max-width:920px) {

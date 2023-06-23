@@ -16,7 +16,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -33,7 +33,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -50,7 +50,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -67,7 +67,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -84,7 +84,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -101,7 +101,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -118,7 +118,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
@@ -135,7 +135,7 @@ const Slider = () => {
                     <img src={tape} alt="tape" />
                     {showTape &&
                         <div className={styles.item_tape}>
-                            TAPE
+                            TAPES
                         </div>}
                     <div className={styles.item_text}
                         onMouseEnter={() => setShowTape(false)}
