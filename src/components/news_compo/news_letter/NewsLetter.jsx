@@ -13,14 +13,14 @@ import { toast } from "react-toastify";
 
 const NewsLetter = () => {
 
-    const [firstName, setFirstName] = useState("");
+    // const [firstName, setFirstName] = useState("");
     const [email, setEmail] = useState("");
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const res = await axios.post(`/subscribe-email`, {
-                name: firstName,
+                // name: firstName,
                 email,
             });
             if (res.status === 200) {
@@ -100,7 +100,7 @@ const NewsLetter = () => {
                             Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.
                         </div>
                         <form onSubmit={handleSubmit}>
-                            <input
+                            {/* <input
                                 className={styles.notwant}
                                 type="text"
                                 required
@@ -108,7 +108,7 @@ const NewsLetter = () => {
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
                                 pattern="^[a-zA-Z]+$"
-                            />
+                            /> */}
                             <div className={styles.letter_email_input}>
                                 <input
                                     className={styles.letter_email_input}
