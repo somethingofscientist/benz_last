@@ -68,7 +68,8 @@ const Footer = () => {
                     placeholder="First name"
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
-                    pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
+                    // pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
+                    pattern= "^[a-zA-Z]+$"
                   />
                   <input
                     className={styles.first_name}
