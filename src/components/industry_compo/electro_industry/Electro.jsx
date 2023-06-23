@@ -21,8 +21,13 @@ const Electro = () => {
                         </div>
                     </div>
                     <div className={styles.auto_img_text}>
-                    Benz Packaging specializes in providing reliable and efficient packaging solutions for the electronics industry. With expertise in primary and secondary packaging, as well as a commitment to quality control and customization, they ensure the safe transportation, storage, and presentation of electronic devices and components. Benz Packaging is a trusted partner for electronics companies seeking professional packaging services.
+                        Benz Packaging specializes in providing reliable and efficient packaging solutions for the electronics industry. With expertise in primary and secondary packaging, as well as a commitment to quality control and customization, they ensure the safe transportation, storage, and presentation of electronic devices and components. Benz Packaging is a trusted partner for electronics companies seeking professional packaging services.
+
+                        <div className={styles.auto_pack2}>
+                            Pack With Us
+                        </div>
                     </div>
+
                 </div>
                 <Slider />
             </div>

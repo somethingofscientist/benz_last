@@ -21,10 +21,14 @@ const Aerospace = () => {
                         </div>
                     </div>
                     <div className={styles.auto_img_text}>
-                    Benz packaging plays a crucial role in safeguarding sensitive aerospace components, equipment, and systems. These solutions are designed to withstand extreme conditions, protect against environmental factors, and comply with industry regulations. By combining durability, protection, efficiency, compliance, and sustainability, Benz packaging ensures the safe and efficient handling of aerospace assets throughout their lifecycle.
+                        Benz packaging plays a crucial role in safeguarding sensitive aerospace components, equipment, and systems. These solutions are designed to withstand extreme conditions, protect against environmental factors, and comply with industry regulations. By combining durability, protection, efficiency, compliance, and sustainability, Benz packaging ensures the safe and efficient handling of aerospace assets throughout their lifecycle.
+
+                        <div className={styles.auto_pack2}>
+                            Pack With Us
+                        </div>
                     </div>
                 </div>
-            <Slider />
+                <Slider />
             </div>
         </>
     )

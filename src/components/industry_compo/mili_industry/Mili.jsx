@@ -21,7 +21,10 @@ const Mili = () => {
                         </div>
                     </div>
                     <div className={styles.auto_img_text}>
-                    Benz Packaging plays a vital role in protecting and securing sensitive military equipment, weaponry, and supplies. These solutions are engineered to withstand extreme conditions, ensure confidentiality, and provide tailored protection. By combining durability, security, logistical efficiency, and sustainability, Benz Packaging contributes to the effective and safe deployment of military assets.
+                        Benz Packaging plays a vital role in protecting and securing sensitive military equipment, weaponry, and supplies. These solutions are engineered to withstand extreme conditions, ensure confidentiality, and provide tailored protection. By combining durability, security, logistical efficiency, and sustainability, Benz Packaging contributes to the effective and safe deployment of military assets.
+                        <div className={styles.auto_pack2}>
+                            Pack With Us
+                        </div>
                     </div>
                 </div>
                 <Slider />
