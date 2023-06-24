@@ -11,7 +11,6 @@ import axios from "axios";
 axios.defaults.baseURL = "https://backend-benz.vercel.app";
 
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Suspense fallback={(<div>Loading</div>)} >

@@ -9,6 +9,7 @@
     /* border: 1px dotted pink; */
     /* margin: 200px auto; */
     padding-top: 100px;
+    /* border: 1px solid lime; */
 }
 
 .d_left {
@@ -26,6 +27,7 @@
     /* text-align: center; */
     letter-spacing: 0.04em;
     color: #0081C9;
+    /* background-color: red; */
 }
 
 .d_left_content {
@@ -36,7 +38,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 34px; */
+    line-height: 34px;
+    /* background-color: red !important; */
     /* or 189% */
 
 
@@ -64,11 +67,11 @@
 .join {
     position: absolute;
     color: white;
-    bottom: 30%;
     font-family: 'Urbanist';
     left: 20%;
     font-size: 12px;
-    padding: 10px 100px;
+    bottom: 10%;
+    padding: 13px 80px;
     background-color: #0081C9;
     border-radius: 2px;
     text-transform: uppercase;

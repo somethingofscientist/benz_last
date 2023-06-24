@@ -102,6 +102,7 @@
   font-size: 12px;
   /* line-height: 14px; */
   letter-spacing: 0.17em;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 1189px) {

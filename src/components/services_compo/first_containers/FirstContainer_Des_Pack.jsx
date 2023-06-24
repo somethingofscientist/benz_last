@@ -14,7 +14,7 @@ const Descicannt = () => {
             <div className={styles.automobile_container} id='section1'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>1</div>
-                    <div className={styles.auto_letter}>Desiccants for packaging </div>
+                    <div className={styles.auto_letter}>Service</div>
                 </div>
 
                 <div className={styles.auto_img_container}>

@@ -1,24 +1,79 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './NewsLetter.module.css';
 import news_first from '../../images/news_first.svg';
 import news_sec from '../../images/news_sec.svg';
 import news_third from '../../images/news_third.svg';
 import news_fourth from '../../images/news_fourth.svg';
+import { HiOutlineBuildingOffice2 } from 'react-icons/hi2'
+import { AiOutlinePrinter } from 'react-icons/ai'
+import { BsPeople } from 'react-icons/bs'
+import axios from 'axios';
+import { toast } from "react-toastify";
+
 
 const NewsLetter = () => {
+
+    // const [firstName, setFirstName] = useState("");
+    const [email, setEmail] = useState("");
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const res = await axios.post(`/subscribe-email`, {
+                // name: firstName,
+                email,
+            });
+            if (res.status === 200) {
+                toast.dismiss();
+                toast.success("Thank you for subscribing!", {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "light",
+                });
+                setEmail("");
+            } else {
+                // console.log(error.message);
+                toast.dismiss();
+                toast.error("Error occured in the newsletter else block", {
+                    position: "top-center",
+                    theme: "dark",
+                    autoClose: 3000,
+                });
+            }
+
+        } catch (error) {
+            toast.dismiss();
+            toast.error("Error Occured", {
+                position: "top-center",
+                autoClose: 3000,
+                theme: "dark",
+            });
+            // console.log(error.message);
+        }
+    }
+
+
     return (
         <>
             <div className={styles.news_container} id='section3'>
                 <div className={styles.news_heading}>Newsletter</div>
                 <div className={styles.news_subheading}>
                     <div className={styles.news_compo}>
-                        100+ Advertisers
+                        <HiOutlineBuildingOffice2 size={30} />
+                        <p>100+ Advertisers</p>
                     </div>
                     <div className={styles.news_compo}>
-                        600+ Newsletters
+                        <AiOutlinePrinter size={30} />
+                        <p>600+ Newsletters</p>
                     </div>
                     <div className={styles.news_compo}>
-                        100+ Million Subscribers
+                        <BsPeople size={30} />
+                        <p>100+ Million Subscribers</p>
                     </div>
                 </div>
                 <div className={styles.news_images_container}>
@@ -44,15 +99,34 @@ const NewsLetter = () => {
                         <div className={styles.letter_subheading}>
                             Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.
                         </div>
-                        <div className={styles.letter_email_input}>
-                            <input
+                        <form onSubmit={handleSubmit}>
+                        
+                            {/* <input
+                                className={styles.notwant}
                                 type="text"
-                                placeholder="Enter email address"
-                            />
-                        </div>
-                        <div className={styles.letter_subs}>
-                            SUBSCRIBE
-                        </div>
+                                required
+                                placeholder="First name"
+                                value={firstName}
+                                onChange={(e) => setFirstName(e.target.value)}
+                                pattern="^[a-zA-Z]+$"
+                            /> */}
+                            <div className={styles.letter_email_input}>
+                                <input
+                                    className={styles.letter_email_input}
+                                    type="email"
+                                    placeholder="Enter email address"
+                                    required
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+                            <button
+                                className={styles.letter_subs}
+                                type='submit'
+                            >
+                                SUBSCRIBE
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

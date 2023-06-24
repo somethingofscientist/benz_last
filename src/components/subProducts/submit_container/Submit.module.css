@@ -17,30 +17,33 @@
 
 .submit_flex_box {
     display: flex;
-    width: 60%;
+    width: 50%;
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     /* border: 1px solid lime; */
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    /* background-color: lime; */
 }
 
 .input_email input {
     padding: 24px 100px;
     width: 581px;
     background: rgba(217, 217, 217, 0.47);
-    border-radius: 12px;
-    outline: none;
     border: none;
+    border-radius: 50px;
+    outline: none;
     text-align: center;
-    color: rgb(68, 68, 68) !important;
+    color: rgb(111, 111, 111) !important;
     font-size: 18px;
 }
 
 .input_email input::placeholder {
-    color: rgb(94, 94, 94);
+    color: rgb(116, 116, 116);
+    color: rgb(160, 160, 160);
     font-size: 18px;
+    font-family: "Urbanist";
 }
 
 .download {
@@ -60,8 +63,11 @@
     color: white;
     font-size: 12px;
     margin: auto;
-    padding: 10px 40px;
+    padding: 15px 50px;
     text-transform: uppercase;
+    font-family: "Urbanist";
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 .submit_btn:hover {
     background-color: #0a9ff0;

@@ -5,6 +5,7 @@
   transition: 200ms;
   text-decoration: none;
   scroll-behavior: smooth;
+  /* font-family: "Urbanist"; */
 }
 a{
   text-decoration: none !important;

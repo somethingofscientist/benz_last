@@ -71,27 +71,31 @@
 .year_active {
     color: rgb(0, 0, 0) !important;
     font-size: 35px;
+    color: pink;
     background-color: white;
 }
 
-.year_deactivate {
+.year_deactivate>.link {
     font-size: 20px;
     /* margin: 1px 0; */
-    background-color: white;
+    /* background-color: rgb(242, 10, 10); */
     /* background-color: pink; */
-    /* color: green !important; */
+    color: rgb(191, 191, 191) !important;
 }
-.line_year{
+
+.line_year {
     background-color: rgb(211, 211, 211);
     width: 1px;
     height: 20px;
 }
-.line_year_green{
+
+.line_year_green {
     background-color: rgb(47, 255, 0);
     width: 1px;
     height: 20px;
 }
-.line_year_green_dot{
+
+.line_year_green_dot {
     background-color: rgb(47, 255, 0);
     width: 6px;
     height: 6px;

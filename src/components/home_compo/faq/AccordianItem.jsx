@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import styles from './FAQ.module.css'
-
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from 'react-icons/ai';
 
 const AccordianItem = ({ title, content }) => {

@@ -6,11 +6,11 @@ const Sticky_header = () => {
     return (
         <div className={styles.sticky_container}>
             <div className={styles.sticky_header}>
-                <a href="#section0">
+                {/* <a href="#section0">
                     <div className={styles.sticky_link}>
                         Trusted
                     </div>
-                </a>
+                </a> */}
                 <a href="#section1">
                     <div className={styles.sticky_link}>
                         History
