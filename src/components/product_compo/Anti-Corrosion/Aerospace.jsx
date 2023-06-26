@@ -4,6 +4,8 @@ import engine from '../../images/engine.svg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
+import rp_oils from '../../images/rp_oils.jpeg'
+import vci_film from '../../images/film_sheet1.jpeg'
 
 const Aerospace = () => {
     const arr = [
@@ -11,7 +13,7 @@ const Aerospace = () => {
             number: "1",
             page_link:"/vci-film",
             heading: "VCI Film",
-            image: engine,
+            image: vci_film,
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -149,7 +151,7 @@ const Aerospace = () => {
             number: "4",
             page_link:"/rp-oils",
             heading: "RP Oils",
-            image: engine,
+            image: rp_oils,
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [

@@ -14,6 +14,7 @@ import homepageVideo from '../../components/videos/home.mp4';
 
 
 const Homepage = () => {
+  
   return (
     <>
       <div className={styles.homepage}>

@@ -15,8 +15,10 @@
     filter: brightness(30%);
     z-index: -99;
     object-fit: contain;
-}
+}   
 
 .imageContainer video {
     width: 100%;
+    display: block;
+    /* object-fit: cover; */
 }

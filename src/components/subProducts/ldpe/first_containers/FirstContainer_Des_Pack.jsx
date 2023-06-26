@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import stretchfilms from '../../../images/stretchfilms.jpeg'
+import garbage_bags from '../../../images/garbage_bags.jpeg'
+import bags_roll_sheets from '../../../images/bags_roll_sheets.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -9,7 +12,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "Bags, Rolls & Sheets",
-            image: engine,
+            image: bags_roll_sheets,
             image_text: "Benz Packaging is pleased to offer a wide range of LDPE bags, rolls, and sheets to meet your diverse packaging needs. Our LDPE (Low-Density Polyethylene) solutions provide flexibility, durability, and reliability for various applications.",
             image_text2: "LDPE Bags: Our LDPE bags are available in different sizes, styles, and thicknesses to accommodate a wide range of products. Whether you need resealable zip-lock bags, gusseted bags for bulky items, or flat bags for general packaging, our LDPE options provide excellent protection and convenience. With their flexibility and tear resistance, our LDPE bags are perfect for packaging items of different shapes and sizes."
          },
@@ -43,7 +46,7 @@ const Descicannt = () => {
             id: "section5",
             number: "5",
             heading: "Stretch Films",
-            image: engine,
+            image: stretchfilms,
             image_text: "Benz Packaging is proud to offer LDPE Stretch Films, a versatile and efficient packaging solution designed to provide reliable protection and secure bundling of your products. Our LDPE (Low-Density Polyethylene) Stretch Films are known for their exceptional strength, durability, and stretchability, making them an ideal choice for various industries and applications.",
             image_text2:"Superior Protection: Our LDPE Stretch Films provide excellent protection for your goods during transportation, storage, and handling. The stretchable nature of the film allows it to conform tightly to the shape of your products, creating a secure and protective barrier against dust, moisture, and other external factors. This helps to prevent damage, contamination, and tampering, ensuring that your goods arrive in optimal condition."
         },
@@ -67,7 +70,7 @@ const Descicannt = () => {
             id: "section8",
             number: "8",
             heading: "Garbage Bags",
-            image: engine,
+            image: garbage_bags,
             image_text: "Benz Packaging offers a wide selection of LDPE (Low-Density Polyethylene) garbage bags designed to simplify your waste disposal needs. Our LDPE garbage bags are crafted with quality materials and practical features to ensure durability, reliability, and convenience.",
             image_text2:"Exceptional Strength and Durability: Our LDPE garbage bags are constructed with high-quality LDPE materials, which provide excellent strength and durability. This ensures that the bags can withstand heavy loads, resist tearing and punctures, and effectively contain waste without leakage or spills."
         },

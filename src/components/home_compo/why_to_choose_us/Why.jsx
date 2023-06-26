@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Why.module.css";
-import team from "../../images/team.svg";
+import team from "../../images/worker.jpeg";
+
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import { Link } from "react-router-dom";

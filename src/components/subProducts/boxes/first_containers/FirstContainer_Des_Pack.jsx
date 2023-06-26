@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import woodenBox from '../../../images/woodenBox.jpeg'
+import paper_main from '../../../images/paper_main.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -9,7 +11,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "Wooden",
-            image: engine,
+            image: woodenBox,
             image_text: "Benz Packaging proudly presents our range of wooden packaging solutions, designed to offer reliability and sustainability for a variety of packaging needs.",
             image_text2: "Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At Benz Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries."
          },
@@ -18,7 +20,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "Paper ",
-            image: engine,
+            image: paper_main,
             image_text:"Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At Benz Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries.",
             image_text2: "Our wooden packaging is crafted using high-quality, sustainable wood materials that are sourced responsibly. We prioritize environmentally-friendly practices and ensure that our wood is compliant with global forestry standards. By choosing wooden packaging from Benz Packaging, you can contribute to sustainable packaging solutions."
         },

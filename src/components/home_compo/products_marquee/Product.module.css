@@ -111,14 +111,15 @@ img {
 .card_up:hover {
     filter: brightness(0.7)
 }
-.para{
+
+.para {
     font-size: 20px;
     /* height: 50vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
-    font-family:  'Urbanist';
+    font-family: 'Urbanist';
     margin: 130px auto;
     /* word-spacing: 50px; */
     /* color: blue; */
@@ -129,9 +130,40 @@ img {
     /* padding: 20px 30px; */
     text-align: center;
 }
-.para:hover{
+
+.para:hover {
     /* letter-spacing: 2px; */
     cursor: pointer;
+}
+
+/* hover  */
+.view_all {
+    font-family: 'Urbanist';
+    font-weight: 500;
+    font-size: 18px;
+    color: #0081C9;
+    margin: auto;
+    text-transform: uppercase;
+    /* background-color: red; */
+    margin: auto;
+    padding: 100px 100px 0px 0;
+    text-align: right;
+    /* border: 1px solid grey;    */
+    width: max-content;
+    margin-right: 3%;   
+    display: flex;
+    align-items: center;
+}
+
+.view_all:hover {
+    /* text-decoration: underline; */
+    /* padding: 20px 0 ; */
+    cursor: pointer;
+}
+
+.view_all_container {
+    width: 100%;
+    /* background-color: red; */
 }
 
 @media only screen and (max-width: 1460px) {
@@ -268,8 +300,8 @@ img {
         margin: auto;
     }
 
-    .card_up ,
-    .card_down{
+    .card_up,
+    .card_down {
         margin: auto;
         position: relative;
         justify-content: center;
@@ -280,7 +312,7 @@ img {
         justify-content: center;
     }
 
-   
+
     .card_down img {
         /* width: 100%; */
     }

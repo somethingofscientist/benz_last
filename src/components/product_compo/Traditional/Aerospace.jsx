@@ -4,6 +4,8 @@ import engine from '../../images/engine.svg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
+import rolls_pouches from '../../images/rolls_pouches.jpeg'
+import woodenBox from '../../images/woodenBox.jpeg'
 
 const Aerospace = () => {
 
@@ -18,7 +20,7 @@ const Aerospace = () => {
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
                 {
-                    image: tape,
+                    image: woodenBox,
                     items: "Wooden                    ",
                     item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"
@@ -41,7 +43,7 @@ const Aerospace = () => {
             number: "2",
             page_link:"/rolls-pouches",
             heading: "Rolls & Pouches",
-            image: engine,
+            image: rolls_pouches,
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [

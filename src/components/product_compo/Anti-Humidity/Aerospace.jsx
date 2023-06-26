@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styles from './Aerospace.module.css';
+import dessicants from '../../images/des.jpeg';
 import engine from '../../images/engine.svg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
@@ -13,7 +14,7 @@ const Aerospace = () => {
             number: "1",
             page_link:"/descicants",
             heading: "Desiccants",
-            image: engine,
+            image: dessicants,
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [

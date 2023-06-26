@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import neutralacid from '../../../images/neutralacid.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -18,7 +19,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "Neutral",
-            image: engine,
+            image: neutralacid,
             image_text:"Benz Packaging is pleased to introduce our line of Neutral Rust Removers, designed to safely and effectively remove rust from a variety of surfaces. With our expertise in packaging technology, we offer reliable and innovative solutions to tackle rust-related challenges.",
             image_text2: "Our Neutral Rust Removers are formulated with a pH-neutral composition, making them safe to use on a wide range of materials, including metal, tools, equipment, and more. They effectively penetrate rust layers, dissolve rust particles, and facilitate easy removal without causing harm or damage to the underlying surface."
         },

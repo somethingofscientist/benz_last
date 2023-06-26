@@ -4,6 +4,8 @@
 
 .header_bg img {
     width: 100%;
+    object-fit: cover;
+    height: 60vh;
 }
 .header_bg video{
     width: 100%;

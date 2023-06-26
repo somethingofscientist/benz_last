@@ -152,7 +152,12 @@
     cursor: pointer;
     background-color: #0895e1;
 }
-
+@media (max-width:2000px) {
+    .news_images_container{
+        /* background-color: red; */
+        width: 100%;
+    }
+}
 @media (max-width:900px) {
     .news_subheading {
         width: 100%;

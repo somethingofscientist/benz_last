@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import temp_humi from '../../../images/temp_humi.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -9,7 +10,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "Temperature & Humidity",
-            image: engine,
+            image: temp_humi,
             image_text: "Benz Packaging is pleased to introduce our advanced temperature and humidity monitoring solutions, designed to ensure optimal environmental conditions for the preservation of your products. With our reliable monitoring systems, you can have peace of mind knowing that your goods are stored and transported in the ideal temperature and humidity ranges.",
             image_text2: "Maintaining proper temperature and humidity levels is crucial in industries such as pharmaceuticals, food, and cosmetics. Fluctuations in these parameters can lead to product degradation, reduced shelf life, and compromised quality. At Benz Packaging, we offer innovative solutions to help you monitor and control these critical factors."
          },

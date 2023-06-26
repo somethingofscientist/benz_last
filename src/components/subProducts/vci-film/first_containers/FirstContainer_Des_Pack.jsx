@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import bubble_film from '../../../images/bubble_film.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -36,7 +37,7 @@ const Descicannt = () => {
             id: "section4",
             number: "4",
             heading: "VCI Bubble Film",
-            image: engine,
+            image: bubble_film,
             image_text: "Benz Packaging is delighted to introduce our VCI Bubble Film, a comprehensive solution that combines advanced corrosion protection with the cushioning properties of bubble wrap. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2:"Our VCI Bubble Film incorporates Volatile Corrosion Inhibitor (VCI) technology into the protective bubble cushioning material. This unique combination provides a dual-function solution, offering both corrosion protection and impact resistance. The VCI molecules released by the film create a protective shield around your products, preventing corrosion, while the bubble wrap cushions and protects the items from shocks, vibrations, and scratches during storage and transportation."
         },

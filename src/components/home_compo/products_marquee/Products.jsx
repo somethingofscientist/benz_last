@@ -6,6 +6,7 @@ import pic2 from "../../images/corrosion.svg";
 import pic3 from "../../images/handling.svg";
 import pic4 from "../../images/traditional.svg";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
 
 
@@ -63,6 +64,19 @@ const Products = () => {
             </div>
           </Link>
         </div>
+      </div>
+
+
+      {/* view all industreis */}
+      <div className={styles.view_all_container}>
+        <Link to="/secondary-products">
+          <div className={styles.view_all}>
+            View All Secondary Products
+            <span>
+              <HiOutlineArrowNarrowRight />
+            </span>
+          </div>
+        </Link>
       </div>
     </>
   );

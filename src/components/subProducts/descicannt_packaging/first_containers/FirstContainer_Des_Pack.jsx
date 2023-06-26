@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import silica from '../../../images/silica.jpeg'
+
 
 const Descicannt = () => {
     const arr = [
@@ -45,7 +47,7 @@ const Descicannt = () => {
             id: "section5",
             number: "5",
             heading: "Silica Gel",
-            image: engine,
+            image: silica ,
             image_text: "Benz Packaging is pleased to present our high-quality Silica Gel desiccants, designed to provide effective moisture control and protection for a wide range of products. With our Silica Gel desiccants, you can trust that your goods will remain dry, fresh, and well-preserved throughout their storage and transportation.",
             image_text2:"Moisture can be a significant threat to various industries, including electronics, pharmaceuticals, leather goods, and food products. Excess humidity can lead to corrosion, mold growth, and compromised quality. Recognizing the importance of moisture control, Benz Packaging offers Silica Gel desiccants to effectively combat these issues."
         },

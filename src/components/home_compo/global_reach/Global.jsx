@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Global.module.css";
-import oldman from "../../images/olman.svg";
-import worker from "../../images/worker.svg";
+import worker from "../../images/box_fact.jpeg";
+import oldman from "../../images/oldman.jpeg";
 import { Link } from "react-router-dom";
 
 const Global = () => {

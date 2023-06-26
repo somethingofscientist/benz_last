@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Aerospace.module.css';
 import engine from '../../images/engine.svg';
+import aero from '../../images/aero.jpeg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +16,7 @@ const Aerospace = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={aero} alt="engine" />
 
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>

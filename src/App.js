@@ -37,6 +37,10 @@ import Rolls_pouches from "./screens/subProducts/rolls-pouches/Vci_film";
 import Ldpe from "./screens/subProducts/ldpe/Vci_film";
 import More_more from "./screens/subProducts/more-more/Vci_film";
 
+import Secondary_products from "./components/secondary-products/Secondary_prod";
+import Boxes_Secondary from "./components/secondary-products/boxes/first_containers/FirstContainer_Des_Pack";
+import Paper_box from "./components/secondary-products/boxes/paper-box/Paper_box";
+import Wooden_box from "./components/secondary-products/boxes/wooden-box/Wooden_box";
 
 
 function App() {
@@ -79,6 +83,14 @@ function App() {
         <Route path="/rolls-pouches" element={<Rolls_pouches />} />
         <Route path="/ldpe" element={<Ldpe />} />
         <Route path="/more-more" element={<More_more />} />
+
+        {/* secondary products */} 
+        {/* ---> BOXES */}
+        <Route path="/secondary-products" element={<Secondary_products />} />
+        <Route path="/secondary-boxes" element={<Boxes_Secondary />} />
+        <Route path="/secondary-boxes-wooden" element={<Wooden_box />} />
+        <Route path="/secondary-boxes-paper" element={<Paper_box />} />
+        <Route path="/secondary-boxes-plastic" element={<Boxes_Secondary />} />
 
 
       </Routes>

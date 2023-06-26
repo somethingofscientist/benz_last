@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import scotchtape from '../../../images/scotchtape.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -43,7 +44,7 @@ const Descicannt = () => {
             id: "section5",
             number: "5",
             heading: " Tapes",
-            image: engine,
+            image: scotchtape,
             image_text: "Introducing Benz Packaging's wide range of tapes, designed to provide secure and reliable packaging solutions for various industries. Our high-quality tapes offer excellent adhesion, durability, and versatility, ensuring that your packages are sealed and protected during transit and storage.",
             image_text2:"Secure Sealing: Our tapes are specifically engineered to provide strong and secure sealing for different types of packaging materials, including cardboard, plastic, and more. Whether you need to seal boxes, cartons, or envelopes, our tapes offer reliable adhesion to keep your packages intact and protected."
         },

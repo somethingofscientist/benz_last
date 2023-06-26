@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Automobile.module.css';
-import engine from '../../images/engine.svg';
+import automobile from '../../images/automobile.jpeg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const Automobile = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={automobile} alt="engine" />
 
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>
