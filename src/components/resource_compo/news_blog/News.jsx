@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './News.module.css';
 import player from '../../images/gloves_packing.png';
+// import player from '../../images/player.svg';
 import { BsArrowRight, BsArrowRightCircleFill } from 'react-icons/bs';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-router-dom';

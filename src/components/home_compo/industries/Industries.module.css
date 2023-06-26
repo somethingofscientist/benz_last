@@ -59,6 +59,7 @@
     width: 90%;
     right: 0;
     display: flex;
+    justify-content: space-between;
     /* background-color: rgb(218, 143, 143); */
     margin: auto;
     gap:19px;

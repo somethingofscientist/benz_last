@@ -153,6 +153,28 @@
     margin-top: 50px;
 }
 
+@media (max-width:1440px) {
+    .blue_img {
+        width: 50%;
+        /* background-color: red; */
+        /* object-fit: cover; */
+    }
+
+    .blue_img img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .blue_text {
+        width: 50%;
+    }
+
+    .news_box_subheading {
+        padding-top: 20px;
+    }
+}
+
 @media (max-width:920px) {
     .news_flexbox {
         width: 100%;
@@ -176,6 +198,7 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
+
     .news_blue_container {
         width: 100%;
         height: 550px;
@@ -185,45 +208,96 @@
         border-left: 50px solid #0081C9;
         border-bottom: 50px solid #0081C9;
     }
-    .news_flexbox{
+
+    .news_flexbox {
         flex-wrap: wrap;
 
     }
-    .blue_img{
+
+    .blue_img {
         width: 60%;
     }
-    .blue_img img{
+
+    .blue_img img {
+        display: block;
+        object-fit: contain;
         width: 100%;
     }
+
     .news_box_subheading {
         padding-top: 0px;
     }
+
     .blue_img img {
         display: block;
         height: 390px;
     }
+
     .blue_text {
         height: 400px;
-    }   
+    }
+
+    .blue_text,
+    .blue_img,
+    .news_box_heading,
+    .news_box_subheading {
+        width: 100%;
+    }
+
+    .blue_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card_icon2 {
+        display: none;
+    }
+}
+
+@media (max-width:684px) {
+    .news_box_subheading {
+        font-size: 18px;
+        line-height: 20px;
+        /* background-color: red; */
+    }
 }
 
 
 @media (max-width:576px) {
     .news_blue_container {
         width: 100%;
-        height: 550px;
+        /* height: 550px; */
         overflow-y: scroll;
         overflow-x: hidden;
         margin-left: 0px;
         border-left: 30px solid #0081C9;
         border-bottom: 30px solid #0081C9;
     }
-    .blue_img{
+
+    .blue_img {
         width: 90%;
     }
+
     .blue_img img {
         display: block;
-        height: 450px;
+        /* height: 450px; */
         width: 100%;
     }
+
+    .blue_text,
+    .blue_img,
+    .news_box_heading,
+    .news_box_subheading {
+        width: 100%;
+    }
+
+    .news_box_heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .news_box_subheading {
+        font-size: 15px;
+    }
+
 }
