@@ -57,7 +57,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter1 && (
-                      <CountUp start={0} end={1} duration={0} delay={0} />
+                      <CountUp start={0} end={5} duration={0} delay={0} />
                     )}{" "}
                     +
                   </h1>
@@ -79,7 +79,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter2 && (
-                      <CountUp start={0} end={1} duration={1} delay={0} />
+                      <CountUp start={0} end={23} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>
@@ -99,7 +99,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter3 && (
-                      <CountUp start={0} end={500} duration={1} delay={0} />
+                      <CountUp start={0} end={250} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>
@@ -118,7 +118,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter4 && (
-                      <CountUp start={0} end={50} duration={1} delay={0} />
+                      <CountUp start={0} end={100} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>

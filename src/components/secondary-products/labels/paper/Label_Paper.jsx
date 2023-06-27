@@ -7,32 +7,26 @@ import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
 
 
-const Paper_box = () => {
+const Label_paper = () => {
   const arr = [
-    {
-      number: "1",
-      heading: "5 Ply Corrugated Boxes",
-      image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-    },
-    {
-      number: "2",
-      heading: "Duplex Mono-Carton",
-      image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-    },
-    {
-      number: "3",
-      heading: "3 Ply Corrugated Box",
-      image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-    },
-    {
-      number: "4",
-      heading: "Honeycomb Boxes",
-      image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-    },
+      {
+        number: "1",
+        heading: "Chromo Printed",
+        image: vci_film,
+        content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      },
+      {
+        number: "2",
+        heading: "DT Labels",
+        image: vci_film,
+        content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      },
+      {
+        number: "3",
+        heading: "Barcode Labels",
+        image: vci_film,
+        content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      },
   ]
   return (
     <>
@@ -40,7 +34,7 @@ const Paper_box = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Paper Box
+          Label Paper
         </div>
       </div>
       {
@@ -75,4 +69,4 @@ const Paper_box = () => {
   )
 }
 
-export default Paper_box;
+export default Label_paper;

@@ -41,7 +41,7 @@ const Boxex_s = () => {
     },
     {
       number: "2 ",
-      page_link: "/vci-paper",
+      page_link: "/secondary-tapes",
       heading: "Tapes",
       image: engine,
       isSlider: true,
@@ -49,31 +49,43 @@ const Boxex_s = () => {
       subProducts: [
         {
           image: tape,
-          items: "Laminated Paper",
+          items: "VCI HDPE Tapes",
           item_text: "Benz Packaging - Laminated Paper: Enhanced Protection and Versatility for Your Packaging Needs",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "VCI Plain Paper",
+          items: "BOPP Tapes",
           item_text: "Benz Packaging - VCI Plain Paper: Reliable Corrosion Protection in a Simple and Versatile Form",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "VCI Crepe Paper",
+          items: "Paper Tapes",
           item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Enhanced Conformability",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "VCI Chips",
+          items: "Printed Tapes",
           item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Creped Texture",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "VCI HD Paper ",
+          items: "Low-VOC tapes",
+          item_text: "Benz Packaging - VCI HD Paper: Heavy-Duty Corrosion Protection for Demanding Applications",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Double Sided Tape",
+          item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Creped Texture",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Floor Marking Tapes",
           item_text: "Benz Packaging - VCI HD Paper: Heavy-Duty Corrosion Protection for Demanding Applications",
           date: "8 June 2023"
         },
@@ -81,7 +93,7 @@ const Boxex_s = () => {
     },
     {
       number: "3",
-      page_link: "/vci-emitters",
+      page_link: "/secondary-labels",
       heading: "Labels",
       image: engine,
       isSlider: true,
@@ -89,39 +101,21 @@ const Boxex_s = () => {
       subProducts: [
         {
           image: tape,
-          items: "VCI 25",
+          items: "Plastic",
           item_text: "Benz Packaging - VCI 25: Long-Lasting Corrosion Protection for Metals",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "Propatech VCI emitter",
+          items: "Paper",
           item_text: "Benz Packaging - Propatech VCI Emitter: Advanced Corrosion Protection with Controlled Emission",
-          date: "8 June 2023"
-        },
-        {
-          image: tape,
-          items: "VCI Tablets",
-          item_text: "Benz Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
-          date: "8 June 2023"
-        },
-        {
-          image: tape,
-          items: "VCI Foam",
-          item_text: "Benz Packaging - VCI Foam: Versatile Corrosion Protection with Cushioning Properties",
-          date: "8 June 2023"
-        },
-        {
-          image: tape,
-          items: "VCI Noxy",
-          item_text: "Benz Packaging - VCI Noxy: Advanced Corrosion Protection for Ferrous and Non-Ferrous Metals",
           date: "8 June 2023"
         },
       ]
     },
     {
       number: "4",
-      page_link: "/rp-oils",
+      page_link: "/secondary-rolls",
       heading: "Pouches & Rolls",
       image: rp_oils,
       isSlider: true,
@@ -129,27 +123,21 @@ const Boxex_s = () => {
       subProducts: [
         {
           image: tape,
-          items: "Short Term",
+          items: "Mono Layer Pouches",
           item_text: "Benz Packaging - RP Oils Short Term: Temporary Lubrication for Various Applications",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "Medium Term",
+          items: "Multi Layer Laminate Pouches",
           item_text: "Benz Packaging - RP Oils Medium Term: Reliable Lubrication for Intermediate Durations",
           date: "8 June 2023"
         },
-        {
-          image: tape,
-          items: "Long Term",
-          item_text: "Benz Packaging - RP Oils Long Term: Extended Protection for Long-Term Lubrication",
-          date: "8 June 2023"
-        }
       ]
     },
     {
       number: "5",
-      page_link: "/rust-removers",
+      page_link: "/secondary-ldpe",
       heading: "LDPE Bags",
       image: engine,
       isSlider: true,
@@ -157,14 +145,196 @@ const Boxex_s = () => {
       subProducts: [
         {
           image: tape,
-          items: "Acidic",
+          items: "Printed LD Bags",
           item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
           date: "8 June 2023"
         },
         {
           image: tape,
-          items: "Neutral",
+          items: "Plain LD Bags",
           item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Bags on Roll",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Perforated Bags",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Perforated Bags on Roll",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Pre Open bags on Roll",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Pallet Covers",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Stretch Films",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Engine Covers",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Garbage Bags",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Zip Lock Bags",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Bio Degradable Bags",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Compostable Bags",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Mailer Bags",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Anti Static ESD Bags",
+          item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+          date: "8 June 2023"
+        },
+      ]
+    },
+    {
+      number: "6",
+      page_link: "/secondary-others",
+      heading: "Others",
+      image: engine,
+      isSlider: true,
+      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      subProducts: [
+        {
+          image: tape,
+          items: "Ice Pack gels",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+      ]
+    },
+    {
+      number: "7",
+      page_link: "/secondary-blister",
+      heading: "Blister Tray",
+      image: engine,
+      isSlider: true,
+      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      subProducts: [
+        {
+          image: tape,
+          items: "APET Tray",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Food Grade PET Tray",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Injection Moulding Tray",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Thermoformed Tray",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+      ]
+    },
+    {
+      number: "8",
+      page_link: "/secondary-benze",
+      heading: "BENZpolene",
+      image: engine,
+      isSlider: true,
+      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      subProducts: [
+        {
+          image: tape,
+          items: "Woven Tarpaulins",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Cross Laminated Tarpaulin",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+      ]
+    },
+    {
+      number: "9",
+      page_link: "/secondary-stretch-film",
+      heading: "Stretch Film",
+      image: engine,
+      isSlider: true,
+      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      subProducts: [
+        {
+          image: tape,
+          items: "Hand Grade Stretch Film",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+          date: "8 June 2023"
+        },
+      ]
+    },
+    {
+      number: "10", 
+      page_link: "/secondary-contract-packaging",
+      heading: "Contract Packaging",
+      image: engine,
+      isSlider: true,
+      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      subProducts: [
+        {
+          image: tape,
+          items: "Sea Worthy Packaging",
+          item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
           date: "8 June 2023"
         },
       ]

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../first_containers/Descicannt.module.css'
+import styles from './Descicannt.module.css'
 import Slider from '../../../product_compo/horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
@@ -7,25 +7,41 @@ import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
 
 
-const Plastic_box = () => {
+const Contract_packaging_sec = () => {
     const arr = [
         {
             number: "1",
-            heading: "PP Bins",
+            page_link: "/secondary-contract-packaging-items",
+            heading: "Sea Worthy Packaging ",
             image: vci_film,
+            isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-        },
-        {
-            number: "2",
-            heading: "Plastic Crates",
-            image: vci_film,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-        },
-        {
-            number: "3",
-            heading: "Foldable Bins",
-            image: vci_film,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            subProducts: [
+                {
+                    image: tape,
+                    items: "Export Packaging",
+                    item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
+                    date: "8 June 2023"
+                },
+                {
+                    image: tape,
+                    items: "Machine Packaging",
+                    item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
+                    date: "8 June 2023"
+                },
+                {
+                    image: tape,
+                    items: "On Site Packaging",
+                    item_text: "Benz Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
+                    date: "8 June 2023"
+                },
+                {
+                    image: tape,
+                    items: "Long Term Packaging",
+                    item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
+                    date: "8 June 2023"
+                },
+            ]
         },
     ]
     return (
@@ -34,7 +50,7 @@ const Plastic_box = () => {
           <img src={header_heading} alt="" />
           <div className={styles.imageContainer}></div>
           <div className={styles.header}>
-            Plastic Box
+          Contract Packaging
           </div>
         </div>
         {
@@ -49,18 +65,18 @@ const Plastic_box = () => {
                 <div className={styles.auto_img}>
                   <img src={item.image} alt="engine" />
   
-                  {/* <Link to={item.page_link}>
+                  <Link to={item.page_link}>
                     <div className={styles.auto_pack}>
                       Pack With Us
                     </div>
-                  </Link> */}
+                  </Link>
                 </div>
                 <div className={styles.auto_img_text}>{item.content}</div>
               </div>
-{/*   
+  
               {
                 item.isSlider && <Slider subProducts={item.subProducts} />
-              } */}
+              }
             </div>
           ))
         }
@@ -68,4 +84,4 @@ const Plastic_box = () => {
     )
 }
 
-export default Plastic_box;
+export default Contract_packaging_sec;

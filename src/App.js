@@ -41,6 +41,25 @@ import Secondary_products from "./components/secondary-products/Secondary_prod";
 import Boxes_Secondary from "./components/secondary-products/boxes/first_containers/FirstContainer_Des_Pack";
 import Paper_box from "./components/secondary-products/boxes/paper-box/Paper_box";
 import Wooden_box from "./components/secondary-products/boxes/wooden-box/Wooden_box";
+import Plastic_box from "./components/secondary-products/boxes/plastic-box/Plastic_box";
+import Secondary_Tapes from "./components/secondary-products/tapes/Secondary_Tapes";
+import Secondary_ldpe from "./components/secondary-products/ldpe/Secondary_ldpe";
+import Secondary_Lables from "./components/secondary-products/labels/plastic/Label_Plastic";
+import Secondary_pouches_Rolls from "./components/secondary-products/pouches_rolls/mono-layer/Mono_Layer";
+import Labels_Secondary from "./components/secondary-products/labels/first_containers/FirstContainer_Des_Pack";
+import Label_Plastic from "./components/secondary-products/labels/plastic/Label_Plastic";
+import Label_paper from "./components/secondary-products/labels/paper/Label_Paper";
+import Pouches_Rolls_Secondary from "./components/secondary-products/pouches_rolls/first_containers/FirstContainer_Des_Pack";
+import Mono_Layer from "./components/secondary-products/pouches_rolls/mono-layer/Mono_Layer";
+import Multi_Layer from "./components/secondary-products/pouches_rolls/multi-layer/Multi_Layer";
+import Secondary_others from "./components/secondary-products/others/Secondary_others";
+import Secondary_blister from "./components/secondary-products/blister-tray/Secondary_blister";
+import Secondary_benzepolene from "./components/secondary-products/benzepolene/Secondary_benze";
+import Contract_packaging from "./components/industry_compo/contract_packaging_industry/Contract_packaging";
+import Contract_packaging_sec from "./components/secondary-products/contract-packaging/first_containers/FirstContainer_Des_Pack";
+import Secondary_export from "./components/secondary-products/contract-packaging/export-pack/Export";
+import Stretch_Films_Secondary from "./components/secondary-products/stretch-film/first_containers/FirstContainer_Des_Pack";
+import MachineGrade from "./components/secondary-products/stretch-film/machine-grade/MachineGrade";
 
 
 function App() {
@@ -84,13 +103,48 @@ function App() {
         <Route path="/ldpe" element={<Ldpe />} />
         <Route path="/more-more" element={<More_more />} />
 
-        {/* secondary products */} 
-        {/* ---> BOXES */}
+
+
+        {/* Secondary Products */}
+        {/* ---> boxes */}
         <Route path="/secondary-products" element={<Secondary_products />} />
         <Route path="/secondary-boxes" element={<Boxes_Secondary />} />
         <Route path="/secondary-boxes-wooden" element={<Wooden_box />} />
         <Route path="/secondary-boxes-paper" element={<Paper_box />} />
-        <Route path="/secondary-boxes-plastic" element={<Boxes_Secondary />} />
+        <Route path="/secondary-boxes-plastic" element={<Plastic_box />} />
+
+        {/* ---> tapes */}
+        <Route path="/secondary-tapes" element={<Secondary_Tapes />} />
+
+        {/* ---> labels */}
+        <Route path="/secondary-labels" element={<Labels_Secondary />} />
+        <Route path="/secondary-label-plastic" element={<Label_Plastic />} />
+        <Route path="/secondary-label-paper" element={<Label_paper />} />
+
+        {/* ---> Pouches & Rolls */}
+        <Route path="/secondary-rolls" element={<Pouches_Rolls_Secondary />} />
+        <Route path="/secondary-rolls-mono" element={<Mono_Layer />} />
+        <Route path="/secondary-rolls-multi" element={<Multi_Layer />} />
+
+        {/* ---> ldpe */}
+        <Route path="/secondary-ldpe" element={<Secondary_ldpe />} />
+
+        {/* ---> others */}
+        <Route path="/secondary-others" element={<Secondary_others />} />
+
+        {/* ---> blister tray */}
+        <Route path="/secondary-blister" element={<Secondary_blister />} />
+
+        {/* ---> benzepolene */}
+        <Route path="/secondary-benze" element={<Secondary_benzepolene/>} />
+
+        {/* ---> stretch-film */}
+        <Route path="/secondary-stretch-film" element={<Stretch_Films_Secondary />} />
+        <Route path="/secondary-stretch-film-main" element={<MachineGrade />} />
+
+        {/* ---> contract-packaging */}
+        <Route path="/secondary-contract-packaging" element={<Contract_packaging_sec/>} />
+        <Route path="/secondary-contract-packaging-items" element={<Secondary_export/>} />
 
 
       </Routes>
