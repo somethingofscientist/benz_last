@@ -5,6 +5,8 @@ import engine from '../../../images/engine.svg'
 import stretchfilms from '../../../images/stretchfilms.jpeg'
 import garbage_bags from '../../../images/garbage_bags.jpeg'
 import bags_roll_sheets from '../../../images/bags_roll_sheets.jpeg'
+import esd_bags from '../../../images/esd_bags.jpg'
+import zip_lock1 from '../../../images/zip_lock1.jpg'
 
 const Descicannt = () => {
     const arr = [
@@ -38,7 +40,7 @@ const Descicannt = () => {
             id: "section4",
             number: "4",
             heading: "Zip Lock Bags",
-            image: engine,
+            image: zip_lock1,
             image_text: "Benz Packaging is delighted to offer LDPE Zip Lock Bags, a reliable and versatile packaging solution designed to provide secure storage and easy access to your products. Our LDPE (Low-Density Polyethylene) Zip Lock Bags offer exceptional functionality and convenience for a wide range of applications.",
             image_text2:"Secure Zip Lock Closure: Our LDPE Zip Lock Bags feature a sturdy and reliable zip lock closure mechanism. This enables you to securely seal the bags, providing protection against moisture, dust, and other contaminants. The zip lock closure ensures that your items remain safely stored and readily accessible whenever needed. Whether you are storing small components, food items, or personal belongings, our LDPE Zip Lock Bags keep your items secure and organized."
         },
@@ -62,7 +64,7 @@ const Descicannt = () => {
             id: "section7",
             number: "7",
             heading: "Anti Static ESD Bags",
-            image: engine,
+            image: esd_bags,
             image_text: "At Benz Packaging, we understand the critical importance of safeguarding sensitive electronic components from electrostatic discharge (ESD). Our LDPE (Low-Density Polyethylene) Anti-Static ESD Bags are specifically designed to provide reliable protection against static electricity, ensuring the integrity and functionality of your valuable electronic devices.",
             image_text2:"ESD Protection: Our LDPE Anti-Static ESD Bags are constructed from specialized materials that effectively dissipate static charges, preventing electrostatic damage to your sensitive electronics. These bags create a protective barrier that shields your components from external static electricity and potential hazards during handling, transportation, and storage."
         },

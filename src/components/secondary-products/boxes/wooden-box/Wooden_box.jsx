@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
+import wooden_pallets from '../../../images/wooden_pallets.jpeg';
+import pine_wood from '../../../images/pine_wood.jpeg';
 
 
 const Wooden_box = () => {
@@ -24,13 +26,13 @@ const Wooden_box = () => {
         {
             number: "3",
             heading: "wooden pallets",
-            image: vci_film,
+            image: wooden_pallets,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
         },
         {
             number: "4",
             heading: "Pine Wood boxes",
-            image: vci_film,
+            image: pine_wood,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
         },
         {

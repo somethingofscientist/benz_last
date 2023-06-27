@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
+import paper_comb from '../../../images/paper_comb.jpeg';
 
 
 const Paper_box = () => {
@@ -30,7 +31,7 @@ const Paper_box = () => {
     {
       number: "4",
       heading: "Honeycomb Boxes",
-      image: vci_film,
+      image:  paper_comb,
       content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
     },
   ]

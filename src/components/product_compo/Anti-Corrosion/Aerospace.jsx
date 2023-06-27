@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
 import rp_oils from '../../images/rp_oils.jpeg'
 import vci_film from '../../images/film_sheet1.jpeg'
+import vci_Paper from '../../images/VCI_Paper.jpg'
 
 const Aerospace = () => {
     const arr = [
@@ -71,7 +72,7 @@ const Aerospace = () => {
             number: "2 ",
             page_link:"/vci-paper",
             heading: "VCI Paper",
-            image: engine,
+            image: vci_Paper,
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [

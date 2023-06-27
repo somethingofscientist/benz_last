@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
+import bar_code_labels from '../../../images/bar_code_labels.jpeg';
 
 
 const Label_paper = () => {
@@ -24,7 +25,7 @@ const Label_paper = () => {
       {
         number: "3",
         heading: "Barcode Labels",
-        image: vci_film,
+        image: bar_code_labels,
         content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
       },
   ]

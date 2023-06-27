@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
+import foldable from '../../../images/foldable.jpg';
 
 
 const Plastic_box = () => {
@@ -24,7 +25,7 @@ const Plastic_box = () => {
         {
             number: "3",
             heading: "Foldable Bins",
-            image: vci_film,
+            image: foldable,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
         },
     ]

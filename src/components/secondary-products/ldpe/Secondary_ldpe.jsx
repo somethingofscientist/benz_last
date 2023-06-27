@@ -3,6 +3,8 @@ import styles from '../boxes/first_containers/Descicannt.module.css'
 // import tape from '../../../images/tape.svg'
 import vci_film from '../../images/engine.svg'
 import header_heading from '../../images/des_heading.svg';
+import eco_bio from '../../images/eco-bio.jpeg';
+import zip_lock2 from '../../images/zip_lock2.jpeg';
 
 
 const Secondary_ldpe = () => {
@@ -70,13 +72,13 @@ const Secondary_ldpe = () => {
       {
         number: "11",
         heading: "Zip Lock Bags",
-        image: vci_film,
+        image: zip_lock2,
         content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
       },
       {
         number: "12",
         heading: "Bio Degradable Bags",
-        image: vci_film,
+        image: eco_bio,
         content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
       },
       {

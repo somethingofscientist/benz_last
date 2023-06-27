@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import wrap_air from '../../../images/wrap_air.jpeg'
+import air_void_fill from '../../../images/air_void_fill.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -18,7 +20,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "Air Cushion Void Fill",
-            image: engine,
+            image: air_void_fill,
             image_text:"Benz Packaging is pleased to introduce our Air Cushion Void Fill, a versatile packaging solution designed to fill empty spaces within your packages, providing efficient and reliable protection for your products during shipping and handling.",
             image_text2: "Our Air Cushion Void Fill features specially designed air cushions that are lightweight, yet durable. These cushions are inflated to create a protective layer that fills voids and gaps within your packaging, preventing movement and minimizing the risk of damage caused by impact or shifting during transit."
         },
@@ -27,7 +29,7 @@ const Descicannt = () => {
             id: "section3",
             number: "3",
             heading: "Air Cushion Wrap",
-            image: engine,
+            image: wrap_air,
             image_text: "Benz Packaging is proud to present our Air Cushion Wrap, a versatile packaging solution designed to provide excellent protection for your products during shipping, storage, and handling.",
             image_text2:"Our Air Cushion Wrap features a unique design that combines a layer of air cushions with a protective film. The air cushions provide superior cushioning and shock absorption, while the film offers surface protection against scratches, dust, and minor impacts. This combination ensures that your products are well-protected throughout the entire packaging process."
         }

@@ -3,6 +3,9 @@ import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
 import silica from '../../../images/silica.jpeg'
+import Cdry from '../../../images/CDry.jpg'
+import BEDry from '../../../images/BEDry.jpg'
+import propadry from '../../../images/propadry.jpg'
 
 
 const Descicannt = () => {
@@ -11,7 +14,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "BE-Dry",
-            image: engine,
+            image: BEDry,
             image_text: "Humidity poses a significant threat to a wide range of industries, including electronics, pharmaceuticals, textiles, and more. Excess moisture can lead to product degradation, mold growth, and compromised quality, resulting in financial losses. At Benz Packaging, we understand these challenges, and that's why we've developed BE-Dry.",
             image_text2: "BE-Dry utilizes state-of-the-art technology and advanced materials to create a highly effective moisture control system. Our solution features a range of desiccant products, each tailored to meet specific moisture control requirements. Whether you need moisture absorption, moisture adsorption, or both, BE-Dry has the ideal solution for your packaging needs."
          },
@@ -20,7 +23,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "C-Dry",
-            image: engine,
+            image: Cdry,
             image_text:"Benz Packaging is excited to unveil our latest innovation in moisture control solutions: C-Dry. Designed specifically for sensitive products, C-Dry offers advanced protection against moisture, ensuring that your goods remain in pristine condition throughout their storage and transportation.",
             image_text2: "For industries dealing with delicate electronics, pharmaceuticals, precision instruments, and other moisture-sensitive goods, maintaining an optimal moisture environment is crucial. Excess humidity can lead to malfunctions, deterioration, and irreversible damage. That's why Benz Packaging has developed C-Dry, a cutting-edge solution to combat moisture-related issues."
         },
@@ -38,7 +41,7 @@ const Descicannt = () => {
             id: "section4",
             number: "4",
             heading: "Propadry",
-            image: engine,
+            image: propadry,
             image_text: "Benz Packaging is delighted to unveil our latest breakthrough in moisture control solutions: Propadry. Developed to address the challenges posed by moisture, Propadry offers cutting-edge moisture absorption capabilities to ensure your products remain dry, fresh, and well-preserved.",
             image_text2:"Moisture can have detrimental effects on a wide range of industries, including electronics, textiles, leather goods, and more. Excess humidity can lead to product deterioration, mold growth, and compromised quality. At Benz Packaging, we understand the importance of combating moisture-related issues, and that's why we have introduced Propadry."
         },
