@@ -14,8 +14,8 @@ import Automobile from "../../images/automobile.jpeg";
 const Industries = () => {
   const [arr, setArr] = useState([
     {
-      choti_image: Automobile,
-      image: Automobile,
+      choti_image: bmw2,
+      image: bmw,
       heading: "Automobile",
       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
       hovered: false,
