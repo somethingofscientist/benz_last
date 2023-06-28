@@ -18,7 +18,7 @@
 .header_bg video {
     width: 100%;
     display: block;
-    filter: brightness(40%);
+    filter: brightness(40%);    
     height: 60vh;
     object-fit: cover;
 }

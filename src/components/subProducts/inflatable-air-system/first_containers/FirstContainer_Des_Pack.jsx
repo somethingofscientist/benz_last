@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
 import wrap_air from '../../../images/wrap_air.jpeg'
 import air_void_fill from '../../../images/air_void_fill.jpeg'
+import air_cushion_bubble from '../../../images/air_cushion_bubble.jpeg'
 
 const Descicannt = () => {
     const arr = [
@@ -11,7 +12,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "Air Cushion Bubble",
-            image: engine,
+            image: air_cushion_bubble,
             image_text: "Benz Packaging is proud to introduce our Air Cushion Bubble, a versatile packaging solution designed to provide optimal protection for your valuable items. With its unique combination of air cushions and bubble wrap, our Air Cushion Bubble offers reliable cushioning and impact resistance, ensuring your products arrive safely and intact.",
             image_text2: "The Air Cushion Bubble features a dual-layer design. The outer layer consists of durable bubble wrap that provides excellent shock absorption and surface protection. The inner layer is filled with air cushions, which act as a cushioning barrier to absorb and distribute impact energy, minimizing the risk of damage during transit."
          },
