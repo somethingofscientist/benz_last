@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Heading.module.css';
 import header_heading from '../../images/product_header.svg'
-import video from '../../videos/product_video.mp4'
+import video from '../../videos/product_video1.mp4'
 
 const heading_header_industry = () => {
     return (

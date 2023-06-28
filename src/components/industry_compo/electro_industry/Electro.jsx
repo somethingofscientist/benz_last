@@ -37,7 +37,7 @@ const Electro = () => {
                     </div>
 
                 </div>
-                <Slider />
+                {/* <Slider /> */}
             </div>
         </>
     )

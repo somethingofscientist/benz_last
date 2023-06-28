@@ -9,12 +9,13 @@ import { object } from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { NavHashLink } from "react-router-hash-link";
+import Automobile from "../../images/automobile.jpeg";
 
 const Industries = () => {
   const [arr, setArr] = useState([
     {
-      choti_image: bmw2,
-      image: bmw,
+      choti_image: Automobile,
+      image: Automobile,
       heading: "Automobile",
       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
       hovered: false,

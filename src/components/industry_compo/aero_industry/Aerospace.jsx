@@ -36,7 +36,7 @@ const Aerospace = () => {
                         </Link>
                     </div>
                 </div>
-                <Slider />
+                {/* <Slider /> */}
             </div>
         </>
     )

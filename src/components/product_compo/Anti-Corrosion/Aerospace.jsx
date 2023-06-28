@@ -6,15 +6,25 @@ import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
 import rp_oils from '../../images/rp_oils.jpeg'
 import vci_film from '../../images/film_sheet1.jpeg'
+import vci_film2 from '../../images/vci_film2.JPG'
 import vci_Paper from '../../images/VCI_Paper.jpg'
+
+import oil from '../../images/motor_oil.jpeg'
+
+import vci_emitter1 from '../../images/vci_emitter1.jpeg'
+import vci_emitter2 from '../../images/vci_emitter2.jpeg'
+import vci_emitter3 from '../../images/vci_emitter3.jpeg'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 const Aerospace = () => {
     const arr = [
         {
             number: "1",
-            page_link:"/vci-film",
+            page_link: "/vci-film",
             heading: "VCI Film",
-            image: vci_film,
+            image: [vci_film, vci_film2],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -70,7 +80,7 @@ const Aerospace = () => {
         },
         {
             number: "2 ",
-            page_link:"/vci-paper",
+            page_link: "/vci-paper",
             heading: "VCI Paper",
             image: vci_Paper,
             isSlider: true,
@@ -90,7 +100,7 @@ const Aerospace = () => {
                 },
                 {
                     image: tape,
-                    items:"VCI Crepe Paper",
+                    items: "VCI Crepe Paper",
                     item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Enhanced Conformability",
                     date: "8 June 2023"
                 },
@@ -110,9 +120,9 @@ const Aerospace = () => {
         },
         {
             number: "3",
-            page_link:"/vci-emitters",
+            page_link: "/vci-emitters",
             heading: "VCI Emitters",
-            image: engine,
+            image: [vci_emitter1, vci_emitter2, vci_emitter3],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -130,7 +140,7 @@ const Aerospace = () => {
                 },
                 {
                     image: tape,
-                    items:"VCI Tablets",
+                    items: "VCI Tablets",
                     item_text: "Benz Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
                     date: "8 June 2023"
                 },
@@ -150,9 +160,9 @@ const Aerospace = () => {
         },
         {
             number: "4",
-            page_link:"/rp-oils",
+            page_link: "/rp-oils",
             heading: "RP Oils",
-            image: rp_oils,
+            image: [oil, rp_oils],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -178,7 +188,7 @@ const Aerospace = () => {
         },
         {
             number: "5",
-            page_link:"/rust-removers",
+            page_link: "/rust-removers",
             heading: "Rust Removers",
             image: engine,
             isSlider: true,
@@ -211,7 +221,27 @@ const Aerospace = () => {
 
                         <div className={styles.auto_img_container}>
                             <div className={styles.auto_img}>
-                                <img src={item.image} alt="engine" />
+                                <Carousel
+                                    autoPlay={true}
+                                    interval={2000}
+                                    infiniteLoop
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    showArrows={false}
+                                >
+                                    {Array.isArray(item.image) ? (
+                                        item.image.map((imageUrl, idx) => (
+                                            <div className={styles.images} key={idx}>
+                                                <img src={imageUrl} alt={imageUrl} />
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <div className={styles.images}>
+                                            <img src={item.image} alt={item.image} />
+                                        </div>
+                                    )}
+                                </Carousel>
+                                {/* <img src={item.image} alt="engine" /> */}
 
                                 <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>
@@ -223,7 +253,7 @@ const Aerospace = () => {
                         </div>
 
                         {
-                            item.isSlider && <Slider subProducts={item.subProducts}/>
+                            item.isSlider && <Slider subProducts={item.subProducts} />
                         }
                     </div>
                 ))

@@ -35,7 +35,7 @@ const Contract_packaging = () => {
                         </Link>
                     </div>
                 </div>
-                <Slider />
+                {/* <Slider /> */}
             </div>
         </>
     )

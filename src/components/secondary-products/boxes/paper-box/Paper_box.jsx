@@ -6,7 +6,12 @@ import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
 import paper_comb from '../../../images/paper_comb.jpeg';
+import honey_comb1 from '../../../images/honey_comb1.jpg';
+import honey_comb2 from '../../../images/honey_comb2.jpg';
+import honey_comb3 from '../../../images/honey_comb3.JPG';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 const Paper_box = () => {
   const arr = [
@@ -31,7 +36,7 @@ const Paper_box = () => {
     {
       number: "4",
       heading: "Honeycomb Boxes",
-      image:  paper_comb,
+      image: [honey_comb1,honey_comb2,honey_comb3],
       content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
     },
   ]
@@ -54,7 +59,27 @@ const Paper_box = () => {
 
             <div className={styles.auto_img_container}>
               <div className={styles.auto_img}>
-                <img src={item.image} alt="engine" />
+                <Carousel
+                  autoPlay={true}
+                  interval={2000}
+                  infiniteLoop
+                  showStatus={false}
+                  showThumbs={false}
+                  showArrows={false}
+                >
+                  {Array.isArray(item.image) ? (
+                    item.image.map((imagePath, idx) => (
+                      <div className={styles.images} key={idx}>
+                        <img src={imagePath} alt={item.heading} />
+                      </div>
+                    ))
+                  ) : (
+                    <div className={styles.images}>
+                      <img src={item.image} alt={item.heading} />
+                    </div>
+                  )}
+                </Carousel>
+                {/* <img src={item.image} alt="engine" /> */}
 
                 {/* <Link to={item.page_link}>
                     <div className={styles.auto_pack}>

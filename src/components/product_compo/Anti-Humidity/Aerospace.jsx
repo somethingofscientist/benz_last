@@ -4,8 +4,10 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 
 import dessicants from '../../images/des.jpeg';
+import silica_gel1 from '../../images/silica_gel1.jpeg';
 import tape from '../../images/tape.svg';
 import engine from '../../images/engine.svg';
+import img from '../../images/BEDry.jpg'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -19,7 +21,7 @@ const Aerospace = () => {
             number: "1",
             page_link: "/descicants",
             heading: "Desiccants",
-            image: [dessicants, tape],
+            image: [dessicants, silica_gel1],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -60,7 +62,7 @@ const Aerospace = () => {
             number: "2",
             page_link: "/indicators",
             heading: "Indicators",
-            image: [engine],
+            image: [img, tape, dessicants],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -88,7 +90,7 @@ const Aerospace = () => {
             number: "3",
             page_link: "/vacuum",
             heading: "Vacuum Barrier",
-            image: engine,
+            image: [img, tape],
             isSlider: true,
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
@@ -122,25 +124,17 @@ const Aerospace = () => {
 
                                 <Carousel
                                     autoPlay={true}
-                                    interval={500}
+                                    interval={3000}
                                     infiniteLoop
                                     showStatus={false}
                                     showThumbs={false}
                                     showArrows={false}
                                 >
-                                    {arr?.[1]?.image?.map((item, idx) => {
-                                        return (
-                                            <>
-                                                <div className={styles.images}>
-                                                    {console.log("item", item)}
-                                                    <img src={item} alt={item.alt} />
-                                                </div>
-                                            </>
-                                        )
-                                    })
-                                    }
-
-
+                                    {item.image.map((image, idx) => (
+                                        <div className={styles.images} key={idx}>
+                                            <img src={image} alt={image} />
+                                        </div>
+                                    ))}
                                 </Carousel>
                                 {/* <img src={item.image} alt="engine" /> */}
 
