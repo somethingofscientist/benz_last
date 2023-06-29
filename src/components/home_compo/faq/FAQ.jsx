@@ -3,10 +3,13 @@ import styles from './FAQ.module.css'
 import AccordianItem from './AccordianItem';
 import avatar from '../../images/Avatar group.svg'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 
 const FAQ = () => {
+    const { t, i18n } = useTranslation();
+
     return (
         <>
             <div className={styles.faq}>

@@ -58,4 +58,23 @@
     transform: scale(1.5);
 }
 
-/* @media (max-width:7) */
+@media (max-width:780px) {
+    .dropdown_items button {
+        margin-bottom: -20px;
+        font-size: 10px;
+        /* color: black; */
+    }
+    .dropdown_content {
+       /* border: 1px solid white; */
+    }
+}
+@media (max-width:444px) {
+    .dropdown_items button {
+        margin-bottom: -30px;
+        font-size: 10px;
+        /* color: black; */
+    }
+    .dropdown_content {
+       /* border: 1px solid white; */
+    }
+}

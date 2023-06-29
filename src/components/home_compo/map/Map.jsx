@@ -11,6 +11,7 @@ import {
 } from "react-simple-maps";
 import man from "../../images/man.png";
 import { geoPatterson } from "d3-geo-projection";
+import { useTranslation } from "react-i18next";
 const geoUrl = "/features.json";
 const width = 1000;
 const height = 700;
@@ -20,6 +21,9 @@ const projection = geoPatterson()
   .scale(150);
 
 const Map = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <div className={styles.map}>
       <div className={styles.map_flexbox}>

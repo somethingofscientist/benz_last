@@ -35,7 +35,7 @@ const Global = () => {
               to="/contact_page"
               style={{ textDecoration: "none", color: "white" }}
             >
-              PACK WITH US
+              {t("PACK WITH US")}
             </Link>
           </div>
         </div>

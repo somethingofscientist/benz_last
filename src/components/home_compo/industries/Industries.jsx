@@ -10,6 +10,7 @@ import { Link, NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { NavHashLink } from "react-router-hash-link";
 import Automobile from "../../images/automobile.jpeg";
+import { useTranslation } from "react-i18next";
 
 const Industries = () => {
   const [arr, setArr] = useState([
@@ -56,23 +57,26 @@ const Industries = () => {
     setArr(replaceAt(arr, index, false));
   };
 
+  const { t, i18n } = useTranslation();
+
+
   return (
+
     <>
       <div className={styles.map_whole_container}>
         <div className={styles.map}>
           <div className={styles.map_flexbox}>
             <div className={styles.map_heading}>
-              Industries to meet your needs.
+              {t("Industries to meet your needs.")}
             </div>
             <div className={styles.map_sub_heading}>
-              Our packaging products are environmentally conscious, innovative,
-              and cater to a variety of industries.
+              {t("Our packaging products are environmentally conscious, innovative, and cater to a variety of industries.")}
             </div>
           </div>
         </div>
         {/* scale div */}
         <div className={styles.hover_container}>
-          
+
           {arr.map((value, index) =>
             value.hovered ? (
               <div
@@ -83,13 +87,13 @@ const Industries = () => {
               >
                 <img src={value.image} alt="" />
                 <div className={styles.car_container_text}>
-                  {value.text}
+                  {t(`${value.text}`)}
                   <div className={styles.learn_more_button}>
                     <Link
                       to="/industry"
                       style={{ textDecoration: "none", color: "white" }}
                     >
-                      LEARN MORE
+                      {t("LEARN MORE")}
                     </Link>
                   </div>
                 </div>
@@ -99,22 +103,22 @@ const Industries = () => {
                 className={styles.car_container2}
                 onMouseEnter={() => handleHover(index)}
                 onFocus={() => handleHover(index)}
-                // onMouseLeave={handleHover}
+              // onMouseLeave={handleHover}
               >
                 <img src={value.choti_image} alt="Image" />
                 <div className={styles.car_inner_container}>
-                  <div className={styles.car_heading}>{value.heading}</div>
-                  <div className={styles.car_container_text2}>
-                    Our packaging solutions for the automobile industry provide
-                    optimal protection and efficiency for transportation and
-                    storage of vehicle parts and components.
+                  <div className={styles.car_heading}>
+                    {t(`${value.heading}`)}
                   </div>
-                  <div className={styles.learn_more_button}>LEARN MORE</div>
+                  <div className={styles.car_container_text2}>
+                    {t("Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.")}
+                  </div>
+                  <div className={styles.learn_more_button}>{t("LEARN MORE")} </div>
                 </div>
               </div>
             )
           )}
-         
+
         </div>
         {/* scale div */}
 
@@ -122,7 +126,7 @@ const Industries = () => {
         <div className={styles.view_all_container}>
           <Link to="/industry">
             <div className={styles.view_all}>
-              View All Industries
+              {t("View All Industries")}
               <span>
                 <HiOutlineArrowNarrowRight />
               </span>

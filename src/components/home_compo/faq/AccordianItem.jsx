@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import styles from './FAQ.module.css'
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from 'react-icons/ai';
+import { useTranslation } from 'react-i18next';
 
 const AccordianItem = ({ title, content }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,8 @@ const AccordianItem = ({ title, content }) => {
     const toggleAccordion = () => {
         setIsOpen(!isOpen);
     };
+    const { t, i18n } = useTranslation();
+
 
     return (
         <>

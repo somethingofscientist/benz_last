@@ -10,6 +10,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
+import { useTranslation } from "react-i18next";
 
 
 const Footer = () => {
@@ -52,6 +53,9 @@ const Footer = () => {
       console.log(error.message);
     }
   };
+
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <div className={styles.footer_vol} id="footer">
