@@ -10,8 +10,10 @@ import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Dropdown from "./dropdown/Dropdown";
 
 const Navbar = () => {
+  const [selected, setSelected] = useState("Lang");
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [dropdown, setDropdown] = useState([false, false, false, false, false]);
   function replaceAt(array, index, value) {
@@ -38,6 +40,7 @@ const Navbar = () => {
           <div className={styles.rightMenu}>
             {/* globe icon */}
             {/* <BsGlobe color="white" size={28} /> */}
+            <Dropdown selected={selected} setSelected={setSelected} />
 
             {/* hamburger menu */}
 

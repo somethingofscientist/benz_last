@@ -2,11 +2,12 @@
   position: absolute;
   width: 98vw;
   z-index: 10;
+  /* background-color: red; */
 }
 
 .navbar {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   padding: 57px 124px 0px 140px;
 }
@@ -19,6 +20,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 66px;
+  /* background-color: red; */
+  /* width: 20%; */
 }
 
 .imageContainer {
