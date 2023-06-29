@@ -7,7 +7,7 @@ const heading_header_industry = () => {
         <>
             <div className={styles.header_bg}>
                 <img src={header_heading} alt="" />
-                <div className={styles.imageContainer}></div>
+                {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
                 Protective Paper Rolls & Sheets
                 </div>

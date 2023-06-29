@@ -7,7 +7,7 @@
     /* height: 50vh; */
 }
 .imageContainer {
-    height: 10vh;
+    height: 20vh;
     background-image: url("../../../images/des_heading.svg");
     background-repeat: no-repeat;
     background-size: cover;
