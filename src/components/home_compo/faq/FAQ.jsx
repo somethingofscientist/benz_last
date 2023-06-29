@@ -14,10 +14,10 @@ const FAQ = () => {
         <>
             <div className={styles.faq}>
                 <div className={styles.faq_heading}>
-                    Frequently asked questions
+                    {t("Frequently asked questions")}
                 </div>
                 <div className={styles.faq_subheading}>
-                    Everything you need to know about the product and billing.
+                    {t("Everything you need to know about the product and billing.")}
                 </div>
 
                 {/* faq */}
@@ -114,13 +114,13 @@ const FAQ = () => {
                     <div className={styles.faq_image_section}>
                         <img src={avatar} alt="" />
                     </div>
-                    <div className={styles.faq_stillhavequestion}>Still have questions?</div>
+                    <div className={styles.faq_stillhavequestion}>{t("Still have questions?")} </div>
                     <div className={styles.faq_lastline}>
-                        Can’t find the answer you’re looking for? Please chat to our friendly team.
+                        {t("Can’t find the answer you’re looking for? Please chat to our friendly team.")}
                     </div>
                 </div>
                 <Link to="/contact_page">
-                    <div className={styles.faq_getintouch}>Get In Touch</div>
+                    <div className={styles.faq_getintouch}>{t("Get In Touch")} </div>
                 </Link>
             </div>
         </>

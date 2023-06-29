@@ -18,14 +18,18 @@ const AccordianItem = ({ title, content }) => {
             <div className={styles.accordion_item}>
                 <div className={styles.accordion_header} onClick={toggleAccordion}>
 
-                    <h3 className={styles.accordion_title}>{title}</h3>
+                    <h3 className={styles.accordion_title}>
+                        {t(`${title}`)}
+                    </h3>
 
                     <span className={`${styles.accordion_icon} ${isOpen ? 'minus' : 'plus'}`}>
                         {isOpen ? <AiOutlineMinusCircle /> : <AiOutlinePlusCircle />}
                     </span>
 
                 </div>
-                {isOpen && <div className={styles.accordion_content}>{content}</div>}
+                {isOpen && <div className={styles.accordion_content}>
+                    {t(`${content}`)}
+                </div>}
             </div>
         </>
     )

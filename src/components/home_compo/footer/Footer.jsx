@@ -102,7 +102,7 @@ const Footer = () => {
                 </div>
               </Link>
               <div className={styles.footer_lines}>
-                Your packaging partner for your all packaging needs.
+                {t("Your packaging partner for your all packaging needs.")}
               </div>
               <div className={styles.icon_container_t}>
                 <div className={styles.footer_icons_container}>
@@ -126,30 +126,29 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.footer_main_two}>
-              <div className={styles.footer_heading}>CONTACT</div>
+              <div className={styles.footer_heading}>{t("CONTACT")} </div>
               <div className={styles.footer_lines}>
-                BENZ Packaging Solutions Pvt. Ltd.83, Sector - 5, IMT Manesar,
-                Gurgaon - 122050 INDIA
+                {t("BENZ Packaging Solutions Pvt. Ltd.83, Sector - 5, IMT Manesar, Gurgaon - 122050 INDIA")}
               </div>
               <div className={styles.footer_lines}>
-                <strong>Email:</strong> care@benz-packaging.com
+                <strong>{t("Email:")} </strong> care@benz-packaging.com
               </div>
               <div className={styles.footer_lines}>
-                <strong>Web:</strong> www.benz-packaging.com
+                <strong>{t("Web:")} </strong> www.benz-packaging.com
               </div>
               <div className={styles.footer_lines}>
-                <strong>Phone:</strong> +91-9899144488
+                <strong>{t("Phone:")}</strong> +91-9899144488
               </div>
             </div>
             <div className={styles.footer_main_three}>
-              <div className={styles.footer_heading}>INDUSTRIES</div>
+              <div className={styles.footer_heading}>{t("INDUSTRIES")}</div>
               <div className={styles.footer_lines}>
                 <HashLink
                   smooth
                   to="/industry#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Military Applications
+                  {t("Military Applications")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -158,7 +157,7 @@ const Footer = () => {
                   to="/industry#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Aerospace
+                  {t("Aerospace")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -167,7 +166,7 @@ const Footer = () => {
                   to="/industry#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Contract Packaging
+                  {t("Contract Packaging")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -176,19 +175,19 @@ const Footer = () => {
                   to="/industry#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Automobile
+                  {t("Automobile")}
                 </HashLink>
               </div>
             </div>
             <div className={styles.footer_main_four}>
-              <div className={styles.footer_heading}>Quick Links</div>
+              <div className={styles.footer_heading}>{t("Quick Links")}</div>
               <div className={styles.footer_lines}>
                 <HashLink
                   smooth
                   to="/industry#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Home
+                  {t("Home")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -197,7 +196,7 @@ const Footer = () => {
                   to="/services"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Services
+                  {t("Services")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -206,7 +205,7 @@ const Footer = () => {
                   to="/news"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  News
+                  {t("News")}
                 </HashLink>
               </div>
               <div className={styles.footer_lines}>
@@ -215,13 +214,13 @@ const Footer = () => {
                   to="/resources"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Resources
+                  {t("Resources")}
                 </HashLink>
               </div>
             </div>
           </div>
           <div className={styles.last_line}>
-            © 2022 BENZ PACKAGING All Rights Reserved
+            © {t("2022 BENZ PACKAGING All Rights Reserved")}
           </div>
         </div>
       </div>
