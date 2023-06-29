@@ -20,7 +20,7 @@ const Aerospace = () => {
             content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
             subProducts: [
                 {
-                    image: woodenBox,
+                    image: tape,
                     items: "Wooden                    ",
                     item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"

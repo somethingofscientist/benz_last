@@ -63,7 +63,7 @@ const Footer = () => {
           <div className={styles.newsletter}>
             <div className={styles.blue_container}>
               <div className={styles.blue_container_heading}>
-                Subscribe to our newsletter
+                {t("Subscribe to our newsletter")}
               </div>
               <div className={styles.blue_container_flexbox}>
                 <form onSubmit={handleSubscribe}>
@@ -88,7 +88,7 @@ const Footer = () => {
                     className={styles.input_subscribe_button}
                     type="submit"
                   >
-                    Subscribe Now
+                    {t("Subscribe Now")}
                   </button>
                 </form>
               </div>
