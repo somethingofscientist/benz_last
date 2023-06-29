@@ -10,7 +10,7 @@ const Heading = () => {
             <div className={styles.header_bg}>
                 {/* <video autoPlay loop muted src={video}></video> */}
                 <img src={compnay} alt="" />
-                <div className={styles.imageContainer}></div>
+                {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
                     Contact Us
                 </div>

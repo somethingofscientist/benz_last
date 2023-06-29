@@ -49,17 +49,12 @@
     margin-top: 1px;
     background-color: transparent;
     cursor: pointer;
-    /* letter-spacing: 20px; */
-    transition: 200ms;
-    /* border: 1px solid white; */
-    border-radius: 0;
-    /* color: black; */
+    width: 100%;
 }
 
 .dropdown_items button:hover {
     background-color: #ffffff;
     color: #0081C9;
-    width: 100%;
     
 }
 

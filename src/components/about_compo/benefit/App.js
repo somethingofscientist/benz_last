@@ -2,6 +2,7 @@ import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 import 'react-horizontal-scrolling-menu/dist/styles.css';
 import './HorizontalScrollMenu.css';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     setHoveredIndex(index);
   };
 
+  const { t, i18n } = useTranslation();
   return (
     <ScrollMenu >
       {data.map((imageUrl, index) => (

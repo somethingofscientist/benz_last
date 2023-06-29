@@ -5,24 +5,19 @@ import styles from './Marquee.module.css';
 import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 
 const MarqueeHistory = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
+    
+  const { t, i18n } = useTranslation();
 
     const handleScroll = (event) => {
         const { scrollTop } = event.target;
         setScrollPosition(scrollTop);
     };
-
-
-
     console.log("scrollPosition", scrollPosition)
-
-
-
-
-
     return (
         <>
             <div id="section1" >
@@ -31,8 +26,8 @@ const MarqueeHistory = () => {
                         speed={200}
                         loop={0}
                     >
-                        <p>History &nbsp;	 </p>
-                        <p>History &nbsp;	 </p>
+                        <p>{t("History")} &nbsp;	 </p>
+                        <p>{t("History")} &nbsp;	 </p>
                     </Marquee>
                 </div>
             </div>
