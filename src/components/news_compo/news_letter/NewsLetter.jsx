@@ -9,6 +9,7 @@ import { AiOutlinePrinter } from 'react-icons/ai'
 import { BsPeople } from 'react-icons/bs'
 import axios from 'axios';
 import { toast } from "react-toastify";
+import { useTranslation } from 'react-i18next';
 
 
 const NewsLetter = () => {
@@ -57,23 +58,23 @@ const NewsLetter = () => {
         }
     }
 
-
+    const { t, i18n } = useTranslation();
     return (
         <>
             <div className={styles.news_container} id='section3'>
-                <div className={styles.news_heading}>Newsletter</div>
+                <div className={styles.news_heading}>{t("Newsletter")}</div>
                 <div className={styles.news_subheading}>
                     <div className={styles.news_compo}>
                         <HiOutlineBuildingOffice2 size={30} />
-                        <p>100+ Advertisers</p>
+                        <p>{t("100+ Advertisers")}</p>
                     </div>
                     <div className={styles.news_compo}>
                         <AiOutlinePrinter size={30} />
-                        <p>600+ Newsletters</p>
+                        <p>{t("600+ Newsletters")}</p>
                     </div>
                     <div className={styles.news_compo}>
                         <BsPeople size={30} />
-                        <p>100+ Million Subscribers</p>
+                        <p>{t("100+ Million Subscribers")}</p>
                     </div>
                 </div>
                 <div className={styles.news_images_container}>
@@ -94,10 +95,10 @@ const NewsLetter = () => {
                     </div>
                     <div className={styles.right_letter_container}>
                         <div className={styles.letter_heading}>
-                            Subscribe to Newsletter
+                            {t("Subscribe to Newsletter")}
                         </div>
                         <div className={styles.letter_subheading}>
-                            Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.
+                            {t("Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.")}
                         </div>
                         <form onSubmit={handleSubmit}>
                         
@@ -124,7 +125,7 @@ const NewsLetter = () => {
                                 className={styles.letter_subs}
                                 type='submit'
                             >
-                                SUBSCRIBE
+                                {t("SUBSCRIBE")}
                             </button>
                         </form>
                     </div>
