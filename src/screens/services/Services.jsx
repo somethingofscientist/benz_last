@@ -6,16 +6,20 @@ import Third from '../../components/services_compo/third_container/ThirdContaine
 import Fourth from '../../components/services_compo/fourth_container/FourthContainer_Des_Pack'
 import Heading from '../../components/services_compo/des_heading/Heading'
 import Submit from '../../components/subProducts/submit_container/Submit'
+import Fifth from '../../components/services_compo/fifth_container/FifthContainer_Des_Pack'
+import Sixth from '../../components/services_compo/sixth_container/SixthContainer_Des_Pack'
 
 const Services = () => {
   return (
     <>
-        <Heading />
-        <First />
-        <Second />
-        <Third />
-        <Fourth />
-        <Submit />
+      <Heading />
+      <First />
+      <Second />
+      <Third />
+      <Fourth />
+      <Fifth />
+      <Sixth />
+      <Submit />
     </>
   )
 }
