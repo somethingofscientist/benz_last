@@ -150,7 +150,7 @@
   "5. Keep metal parts away from industrial air contaminants such as exhaust from Forklift trucks. Keep metal parts away from heat treatment areas, as by-products from heat treating are corrosive to metal.": "5. รักษาชิ้นส่วนโลหะห่างจากสารปนเปื้อนในอากาศจากรถโฟล์คลิฟท์และห้องปฏิบัติการผลิต รักษาชิ้นส่วนโลหะห่างจากพื้นที่การรักษาความร้อนเนื่องจากผลิตภัณฑ์เสียจากการรักษาความร้อนเป็นสารที่กัดกร่อนโลหะ",
 
   "Cover all metal parts with BENZ Packaging VCI paper or BENZ Packaging VCI poly bags to protect them from oxygen and contaminants that are in the plant atmosphere.": "คลุมชิ้นส่วนโลหะทั้งหมดด้วยกระดาษ VCI จาก BENZ Packaging หรือถุงพลี VCI จาก BENZ Packaging เพื่อป้องกันออกซิเจนและสารปนเปื้อนที่อยู่ในบรรยากาศของโรงงาน",
-  
+
   "6. Keep temperature and relative humidity in manufacturing and shipping areas constant. Fluctuations in Temperature & Humidity (by 10ºC) can cause condensation and accelerate corrosion.": "6. รักษาอุณหภูมิและความชื้นสัมพัทธ์ในพื้นที่การผลิตและการส่งสินค้าให้คงที่ ความผันผวนในอุณหภูมิและความชื้น (10ºC) อาจทำให้เกิดการเกาะน้ำและส่งผลให้เกิดการกัดกร่อนได้เร็วขึ้น",
 
   "7. Maintain lower temperatures and lower humidity levels by installing climate controls, air conditioning, and/or dehumidifiers. Also, be sure to place metal parts into VCI bags or VCI paper as quickly as possible.": "7. รักษาอุณหภูมิต่ำและระดับความชื้นต่ำโดยการติดตั้งระบบควบคุมอากาศ, เครื่องปรับอากาศและ/หรือเครื่องลดความชื้น นอกจากนี้ให้แน่ใจว่านำชิ้นส่วนโลหะเข้าไปในถุงหรือกระดาษ VCI โดยเร็วที่สุด",
@@ -161,5 +161,42 @@
 
   "10. And Finally, package metal parts in BENZ Packaging VCI Paper or VCI Poly bag to keep parts corrosion-free for years.": "10. และในที่สุด, บรรจุชิ้นส่วนโลหะด้วยกระดาษ VCI จาก BENZ Packaging หรือถุงพลี VCI เพื่อรักษาชิ้นส่วนโลหะปลอดจากการกัดกร่อนเป็นเวลาหลายปี",
 
-  "RESOURCE PAGE": "ENDS HERE -------------------------------------------------------->"
+  "RESOURCE PAGE": "ENDS HERE -------------------------------------------------------->",
+
+  "Pack Summit": "แกรนด์สัมมนา",
+  "PackPalooza": "แกรนด์ปาร์ตี้",
+  "Pack Quest": "เควสต์แพ็ค",
+  "Packcon": "แพ็คคอน",
+  "About Events": "เกี่ยวกับงาน",
+  "Recent's": "เหตุการณ์ล่าสุด",
+  "24 May 2022": "24 พฤษภาคม 2565",
+  "Event Name": "ชื่องาน",
+  "24 April 2023": "24 เมษายน 2566",
+  "WTT Sector 16": "WTT เซ็กเตอร์ 16",
+  "Events": "งาน",
+  "SUBSCRIBE": "สมัครสมาชิก",
+  "100+ Million Subscribers": "ผู้ติดตาม 100 ล้านคนขึ้นไป",
+  "600+ Newsletters": "จดหมายข่าว 600 ฉบับขึ้นไป",
+  "100+ Advertisers": "ผู้โฆษณา 100 รายขึ้นไป",
+  "Newsletter": "จดหมายข่าว",
+  "Testimonials": "คำรับรอง",
+
+  "Toyota excels in packaging their vehicles to meet the needs of their customers. Their cars showcase clever storage solutions and a user-friendly interior layout. Toyota's attention to detail ensures that the packaging materials are of high quality, providing a sense of durability. Additionally, Toyota's reputation for reliability and their commitment to safety contribute to a positive packaging testimonial.": "ทโยต้ามีความเชี่ยวชาญในการบรรจุสินค้าในรถยนต์ของพวกเขาเพื่อตอบสนองความต้องการของลูกค้าได้อย่างเหมาะสม รถยนต์ของพวกเขาสาดด้วยวิธีการจัดเก็บสินค้าที่ฉลาดและเค้าโครงภายในที่ใช้ง่าย ความสนใจของทโยต้าต่อรายละเอียดทำให้วัสดุบรรจุภัณฑ์มีคุณภาพสูงและให้ความรู้สึกถึงความคงทน นอกจากนี้ ความเชื่อมั่นของทโยต้าในเรื่องความน่าเชื่อถือและการมุ่งมั่นต่อความปลอดภัยเป็นปัจจัยที่มีส่วนช่วยให้การบรรจุภัณฑ์เป็นไปในทางที่ดี」.",
+
+  "Yamaha's packaging for their motorcycles is noteworthy. They prioritize the protection of their products during transportation, ensuring they arrive in excellent condition. The packaging materials used are robust and durable, safeguarding the motorcycles from potential damage. Yamaha's attention to packaging reflects their commitment to quality and customer satisfaction.": "การบรรจุภัณฑ์ของยามาฮ่าสำหรับมอเตอร์ไซค์ของพวกเขานั้นน่าสนใจ พวกเขาให้ความสำคัญกับการปกป้องสินค้าของพวกเขาในระหว่างการขนส่งเพื่อให้มาถึงในสภาพดี วัสดุบรรจุภัณฑ์ที่ใช้มีความแข็งแรงและทนทานทำให้สามารถปกป้องมอเตอร์ไซค์ได้อย่างมีประสิทธิภาพ การให้ความสนใจของยามาฮ่าในการบรรจุภัณฑ์เป็นการสะท้อนความมุ่งมั่นของพวกเขาที่มุ่งหวังคุณภาพและความพึงพอใจของลูกค้า",
+
+  "Tata's packaging approach is commendable, particularly in their range of affordable and practical vehicles. They focus on maximizing interior space and offering functional features that cater to the needs of customers. While the packaging may not be as extravagant as some high-end brands, Tata prioritizes reliability and affordability, making them an attractive choice for many buyers.": "วิธีการบรรจุภัณฑ์ของทาต้าน่าชื่นชมมากโดยเฉพาะอย่างยิ่งในสายรถที่ราคาไม่แพงและมีประสิทธิภาพ พวกเขาเน้นในการสูบเติมพื้นที่ภายในและมีคุณสมบัติที่สอดคล้องกับความต้องการของลูกค้า แม้ว่าการบรรจุภัณฑ์จะไม่สง่างามเหมือนยี่ห้อระดับสูงบางราย ทาต้าให้ความสำคัญกับความน่าเชื่อถือและความคุ้มค่าซึ่งทำให้เป็นตัวเลือกที่น่าสนใจสำหรับผู้ซื้อหลายคน",
+
+  "Suzuki demonstrates a practical and efficient packaging strategy. Their vehicles are designed to make the most of available space, with smart storage solutions and a user-friendly interior layout. While the packaging may not be as luxurious as some other brands, Suzuki excels in providing value for money, reliability, and a hassle-free ownership experience.": "ซูซูกิสาธิตแผนกลยุทธ์การบรรจุภัณฑ์ที่ใช้ได้และมีประสิทธิภาพ รถยนต์ของพวกเขาถูกออกแบบให้ใช้พื้นที่ที่มีอยู่อย่างคุ้มค่า ด้วยการแก้ไขที่ฉลาดและเค้าโครงภายในที่ใช้งานง่าย แม้ว่าการบรรจุภัณฑ์อาจจะไม่หรูหราเหมือนยี่ห้ออื่น ๆ แต่ซูซูกิเด่นในการให้ความคุ้มค่าสูง ความน่าเชื่อถือและประสบการณ์ในการเป็นเจ้าของที่ไม่น่ายุ่งยาก",
+
+  "Renault has impressed me with their thoughtful and practical packaging. The interior of their vehicles is well-designed, maximizing space utilization and offering ample storage compartments. The attention to detail and use of high-quality materials give the cars a premium feel. Renault's commitment to safety, sustainability, and excellent customer service further enhances the overall packaging experience.": "รีโน่ได้ประทับใจฉันด้วยการบรรจุภัณฑ์ที่ใส่ใจและมีความเป็นปฏิสัมพันธ์ ภายในของรถยนต์ของพวกเขาออกแบบได้ดี โดยการใช้ประโยชน์สูงสุดจากพื้นที่และมีช่องเก็บของที่เพียงพอ ความใส่ใจในรายละเอียดและการใช้วัสดุคุณภาพสูงทำให้รถยนต์มีความเป็นพรีเมียม การมุ่งมั่นของรีโน่ในเรื่องความปลอดภัย ความยั่งยืน และบริการลูกค้าที่ยอดเยี่ยมยิ่งนั่งเพิ่มความสุขในประสบการณ์การบรรจุภัณฑ์โดยรวม",
+
+  "Volvo is known for its exceptional packaging, emphasizing both style and functionality. Their vehicles boast well-thought-out interiors with innovative storage options and a focus on safety. The packaging materials used by Volvo are of premium quality, reflecting their commitment to luxury and durability. Overall, Volvo's packaging approach delivers a satisfying and luxurious experience.": "โวลโว่เป็นที่รู้จักกันดีในการบรรจุภัณฑ์ที่ยอดเยี่ยม โดยเน้นทั้งสไตล์และความสามารถใช้งาน รถยนต์ของพวกเขามีภายในที่ออกแบบอย่างคิดถึงด้วยตัวเลือกการจัดเก็บอย่างสร้างสรรค์และให้ความสำคัญกับความปลอดภัวัสดุบรรจุภัณฑ์ที่ใช้โดยโวลโว่มีคุณภาพพรีเมียมซึ่งสะท้อนถึงความมุ่งมั่นในด้านความหรูหราและความทนทาน โดยรวมแล้ว การบรรจุภัณฑ์ของโวลโว่นำส่งประสบการณ์ที่น่าพอใจและหรูหรา",
+
+  "A networking event that brings together packaging industry leaders, innovators, and experts to discuss key topics and trends.": "งานเครือข่ายที่รวมนักบรรจุภัณฑ์ผู้นำในวงการ นักประดิษฐ์และผู้เชี่ยวชาญเพื่อพูดคุยเรื่องหัวข้อและแนวโน้มที่สำคัญ",
+
+  "Stay up to date with our new collections, the latest deals, and special offers! We announce a new update every week.": "อัปเดตคอลเลคชันใหม่ของเรา ดีลล่าสุดและข้อเสนอพิเศษ! เราประกาศอัปเดตใหม่ทุกสัปดาห์",
+
+  "Subscribe to Newsletter": "สมัครรับจดหมายข่าว",
+  "NEWS PAGE --------------------------> ": "ENDS -------------------------->"
 }
