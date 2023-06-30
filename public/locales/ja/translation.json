@@ -124,5 +124,33 @@
   "Feel free to get in touch and discover how we can assist you.": "お気軽にお問い合わせいただき、私たちがどのようにサポートできるかをご確認ください。",
   "We strive to offer eco-friendly packaging solutions, minimize waste generation, and educate our customers on responsible packaging practices.": "私たちは、環境に優しい包装ソリューションを提供し、廃棄物の発生を最小限に抑え、お客様に責任ある包装の実践を教育することを目指しています。",
   "Our packaging website is committed to promoting sustainable practices and reducing the environmental impact of packaging materials.": "私たちの包装ウェブサイトは、持続可能な実践の推進と包装材料の環境への影響の軽減に取り組んでいます。",
-  "ABOUT PAGE": "ENDS HERE -------------------------------------------------------->"
+  "ABOUT PAGE": "ENDS HERE -------------------------------------------------------->",
+
+  "Become a Distributor": "ディストリビューターになる",
+  "PACKAGING TIP": "パッケージングのヒント",
+  "Packaging Tips": "パッケージングのヒント",
+  "Packaging personnel should always wear gloves while handling metal parts.": "金属部品を取り扱う際には、常にパッケージングのスタッフは手袋を着用する必要があります。",
+  "view all": "すべて表示",
+  "Work With Us": "私たちと一緒に働く",
+  "Packaging Facts": "パッケージングの事実",
+  "FAQ": "よくある質問",
+
+  "1. Keep your cleaning solutions and metalworking fluids clean to reduce or eliminate small metal particles which are sometimes referred to as “dirt” or “dwarf.” Dwarf deposited on the part and not properly washed away can form a galvanic corrosion cell and rust will occur underneath the dwarf.": "1. 清掃液と金属加工液を清潔に保ち、時に「汚れ」とか「小人」と呼ばれることがある小さな金属粒子を減らすか除去するようにしてください。部品に付着した小人が適切に洗い流されないと、電気化学的な腐食セルが形成され、小人の下に錆が発生します。",
+  "2. Be sure to maintain cleaning solutions with a pH of at least 9.0 to protect ferrous metals from Corrosion. For non-ferrous metal parts such as brass and bronze, a pH of 7 – 7.5 should be maintained. Part and not properly washed away can create a galvanic corrosion cell and rust will occur underneath the dwarf.": "2. 腐食から鉄製品を保護するために、清掃液のpH値を9.0以上に保つようにしてください。真鍮や青銅などの非鉄金属部品の場合は、pH値を7〜7.5に保つ必要があります。適切に洗い流されない部分は、電気化学的な腐食セルを作り出し、小人の下に錆が発生します。",
+  "3. If you are using water in your cutting or cleaning fluids switch to deionized or distilled water.": "3. 切削や清掃用の液体に水を使用している場合は、脱イオン化水または蒸留水に切り替えてください。",
+  "4. Place parts in a wire basket to dry from Vibratory action or forced air can dry parts more quickly. Do not stack parts on top of each other until completely dry. Parts can corrode when stacked one on top of the other or when contacting each other. This is caused by the fluid acting as an electrolyte and forming a galvanic cell between two parts.": "4. 振動や強制風による作用で部品を乾燥させるためにワイヤーバスケットに配置してください。これにより、部品はより速く乾燥します。完全に乾燥するまでは部品を重ねないでください。部品が重ねられたり、互いに接触したりすると腐食する可能性があります。これは液体が電解質として作用し、2つの部品間に電気化学的な反応を引き起こすためです。",
+
+  "5. Keep metal parts away from industrial air contaminants such as exhaust from Forklift trucks. Keep metal parts away from heat treatment areas, as by-products from heat treating are corrosive to metal.": "5. 金属部品をフォークリフトトラックの排気などの産業用大気汚染物から離して保管してください。また、金属部品を熱処理エリアからも離して保管してください。熱処理による副産物は金属に対して腐食性があります。",
+
+  "Cover all metal parts with BENZ Packaging VCI paper or BENZ Packaging VCI poly bags to protect them from oxygen and contaminants that are in the plant atmosphere.": "すべての金属部品をBENZ Packaging VCIペーパーまたはBENZ Packaging VCIポリ袋で覆って、酸素や工場の大気中の汚染物から保護してください。",
+
+  "6. Keep temperature and relative humidity in manufacturing and shipping areas constant. Fluctuations in Temperature & Humidity (by 10ºC) can cause condensation and accelerate corrosion.": "6. 製造および出荷エリアの温度と相対湿度を一定に保つようにしてください。温度と湿度の変動（10℃）は結露を引き起こし、腐食を加速させる可能性があります。",
+
+  "7. Maintain lower temperatures and lower humidity levels by installing climate controls, air conditioning, and/or dehumidifiers. Also, be sure to place metal parts into VCI bags or VCI paper as quickly as possible.": "7. クライメートコントロール、エアコン、および/または除湿機を設置して、より低い温度と低い湿度レベルを維持してください。また、金属部品をできるだけ早くVCIバッグまたはVCI紙に入れるようにしてください。",
+
+  "8. Be sure that metal parts do not come in direct contact with wooden pallets, corrugated boxes, or untreated paper. Create a barrier between your metal parts and any wood or corrugated boxes and/or line boxes, crates, etc. with a VCI poly bag, or VCI paper.": "8. 金属部品が木製パレット、段ボール箱、または無処理の紙と直接接触しないようにしてください。金属部品と木製箱や段ボール箱などの間に隔たりを作り、VCIポリ袋やVCI紙で箱やクレートなどを裏打ちすることで、金属部品とのバリアを作成してください。",
+
+  "9. Always follow the manufacturer’s instructions when using VCI products. Consult with a VCI expert like BENZ Packaging, to design a VCI system for your specific application, and help you implement the usage of VCI products properly.": "9. VCI製品を使用する際には、常に製造元の指示に従ってください。BENZ PackagingのようなVCIの専門家に相談し、特定の用途に合わせたVCIシステムを設計し、VCI製品の適切な使用方法を実施するためのサポートを受けるようにしてください。",
+  "10. And Finally, package metal parts in BENZ Packaging VCI Paper or VCI Poly bag to keep parts corrosion-free for years.": "10. 最後に、金属部品をBENZ PackagingのVCI紙やVCIポリバッグに包装して、部品を数年間腐食から保護してください。",
+  "Resource PAGE --------------------------> ": "ENDS -------------------------->"
 }

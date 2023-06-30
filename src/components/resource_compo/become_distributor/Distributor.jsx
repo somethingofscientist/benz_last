@@ -3,21 +3,23 @@ import styles from './Distributor.module.css';
 import top1 from '../../images/top1.svg';
 import bottom1 from '../../images/bottom1.svg';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 const Distributor = () => {
+    const { t, i18n } = useTranslation();
 
     return (
         <>
             <div className={styles.d_container} id='section4'>
                 <div className={styles.d_left}>
-                    <div className={styles.d_left_heading}>Become a Distributor</div>
+                    <div className={styles.d_left_heading}>{t("Become a Distributor")} </div>
                     <div className={styles.d_left_content}>
-                        BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.
+                        {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
                         <br /><br />
-                        BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.
+                        {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
                         <br /><br />
-                        BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.
+                        {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
                     </div>
                 </div>
                 <div className={styles.d_right}>
@@ -29,7 +31,7 @@ const Distributor = () => {
                     </div>
                     <Link to="/contact_page">
                         <div className={styles.join}>
-                            Join Our Team
+                            {t("Join Our Team")}
                         </div>
                     </Link>
                 </div>
@@ -44,7 +46,7 @@ const Distributor = () => {
                     </div>
                     <Link to="/contact_page">
                         <div className={styles.join}>
-                            Join Our Team
+                            {t("Join Our Team")}
                         </div>
                     </Link>
                 </div>

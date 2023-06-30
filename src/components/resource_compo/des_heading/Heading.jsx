@@ -2,8 +2,12 @@ import React from 'react'
 import styles from './Heading.module.css';
 import header_heading from '../../images/res_heading.svg'
 import video from '../../videos/r_video.mp4'
+import { useTranslation } from 'react-i18next';
 
-const heading_header_industry = () => {
+
+const Heading_header_industry = () => {
+    const { t, i18n } = useTranslation();
+
     return (
         <>
             <div className={styles.header_bg}>
@@ -11,11 +15,11 @@ const heading_header_industry = () => {
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
-                   Resources
+                    {t("Resources")}
                 </div>
             </div>
         </>
     )
 }
 
-export default heading_header_industry
+export default Heading_header_industry;
