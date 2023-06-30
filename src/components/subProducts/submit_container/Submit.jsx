@@ -5,8 +5,10 @@ import pdf from './benz.pdf';
 
 import axios from 'axios';
 import { toast } from "react-toastify";
+import { useTranslation } from 'react-i18next';
 
 const Submit = () => {
+    const { t, i18n } = useTranslation();
 
     const [email, setEmail] = useState("");
 
@@ -51,11 +53,12 @@ const Submit = () => {
         }
     }
 
+
     return (
         <>
             <div className={styles.submit_container}>
                 <div className={styles.submit_heading}>
-                    Order a free consultation - our experts will select the most effective solution
+                    {t("Order a free consultation - our experts will select the most effective solution")}
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.submit_flex_box}>
@@ -73,7 +76,9 @@ const Submit = () => {
                         <a href={pdf} target="_blank" download={'BENZ_Brochure'}>
                             <div className={styles.download}>
                                 <HiOutlineDownload size={20} />
-                                <div className={styles.d_para}>Download Brochure</div>
+                                <div className={styles.d_para}>
+                                    {t("Download Brochure")}
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -81,7 +86,7 @@ const Submit = () => {
                         className={styles.submit_btn}
                         type='submit'
                     >
-                        Submit
+                        {t("Submit")}
                     </button>
                 </form>
             </div>

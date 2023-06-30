@@ -2,7 +2,11 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../images/engine.svg'
+import { useTranslation } from 'react-i18next';
+
+
 const Descicannt = () => {
+    const { t, i18n } = useTranslation();
     return (
         <>
             {/* <Routes>
@@ -13,7 +17,7 @@ const Descicannt = () => {
             <div className={styles.automobile_container} id='section4'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>2</div>
-                    <div className={styles.auto_letter}>Service </div>
+                    <div className={styles.auto_letter}>{t("Service")} </div>
                 </div>
 
                 <div className={styles.auto_img_container}>
@@ -23,7 +27,7 @@ const Descicannt = () => {
                         
                     </div>
                     <div className={styles.auto_img_text}>
-                        Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.
+                    {t("Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.")}
                     </div>
                 </div>
             </div>

@@ -141,7 +141,7 @@
   "3. If you are using water in your cutting or cleaning fluids switch to deionized or distilled water.": "3. Nếu bạn đang sử dụng nước trong dung dịch cắt hoặc làm sạch, hãy chuyển sang sử dụng nước đã được tinh chế hoặc nước cất.",
 
   "4. Place parts in a wire basket to dry from Vibratory action or forced air can dry parts more quickly. Do not stack parts on top of each other until completely dry. Parts can corrode when stacked one on top of the other or when contacting each other. This is caused by the fluid acting as an electrolyte and forming a galvanic cell between two parts.": "4. Đặt các bộ phận vào giỏ dây để làm khô từ hiệu ứng rung hoặc không khí cưỡng bức có thể làm khô các bộ phận nhanh hơn. Không xếp chồng các bộ phận lên nhau cho đến khi hoàn toàn khô. Các bộ phận có thể bị ăn mòn khi chồng chất lên nhau hoặc khi tiếp xúc với nhau. Điều này do chất lỏng hoạt động như một điện giải và tạo thành một tế bào ăn mòn điện ly giữa hai bộ phận.",
-  
+
   "5. Keep metal parts away from industrial air contaminants such as exhaust from Forklift trucks. Keep metal parts away from heat treatment areas, as by-products from heat treating are corrosive to metal.": "5. Giữ các bộ phận kim loại cách xa các chất gây ô nhiễm trong không khí công nghiệp như khí thải từ xe nâng. Giữ các bộ phận kim loại cách xa khu vực xử lý nhiệt, vì các sản phẩm phụ từ quá trình xử lý nhiệt có tính ăn mòn đối với kim loại.",
 
   "Cover all metal parts with BENZ Packaging VCI paper or BENZ Packaging VCI poly bags to protect them from oxygen and contaminants that are in the plant atmosphere.": "Bọc toàn bộ các bộ phận kim loại bằng giấy VCI hoặc túi poly VCI của BENZ Packaging để bảo vệ chúng khỏi oxy và các chất gây ô nhiễm có trong không khí nhà máy.",
@@ -153,12 +153,11 @@
   "8. Be sure that metal parts do not come in direct contact with wooden pallets, corrugated boxes, or untreated paper. Create a barrier between your metal parts and any wood or corrugated boxes and/or line boxes, crates, etc. with a VCI poly bag, or VCI paper.": "8. Đảm bảo rằng các bộ phận kim loại không tiếp xúc trực tiếp với các pallet gỗ, hộp bìa sóng hoặc giấy chưa được xử lý. Tạo một rào cản giữa các bộ phận kim loại của bạn và bất kỳ hộp gỗ hoặc hộp bìa sóng nào và/hoặc lót hộp, thùng, v.v. bằng túi poly VCI hoặc giấy VCI.",
 
   "9. Always follow the manufacturer’s instructions when using VCI products. Consult with a VCI expert like BENZ Packaging, to design a VCI system for your specific application, and help you implement the usage of VCI products properly.": "9. Luôn tuân theo hướng dẫn của nhà sản xuất khi sử dụng sản phẩm VCI. Tham khảo ý kiến chuyên gia VCI như BENZ Packaging, để thiết kế hệ thống VCI cho ứng dụng cụ thể của bạn và giúp bạn triển khai việc sử dụng sản phẩm VCI một cách chính xác.",
-  
+
   "10. And Finally, package metal parts in BENZ Packaging VCI Paper or VCI Poly bag to keep parts corrosion-free for years.": "10. Và cuối cùng, đóng gói các bộ phận kim loại bằng giấy VCI hoặc túi poly VCI từ BENZ Packaging để giữ cho các bộ phận không bị ăn mòn trong nhiều năm.",
 
   "RESOURCE PAGE": "ENDS HERE -------------------------------------------------------->",
 
-  
   "Pack Summit": "Hội nghị Pack",
   "PackPalooza": "PackPalooza",
   "Pack Quest": "Hành trình Pack",
@@ -189,9 +188,35 @@
 
   "Volvo is known for its exceptional packaging, emphasizing both style and functionality. Their vehicles boast well-thought-out interiors with innovative storage options and a focus on safety. The packaging materials used by Volvo are of premium quality, reflecting their commitment to luxury and durability. Overall, Volvo's packaging approach delivers a satisfying and luxurious experience.": "Volvo được biết đến với cách đóng gói xuất sắc, nhấn mạnh cả phong cách và tính năng. Các phương tiện của họ có nội thất được thiết kế tỉ mỉ với các tùy chọn lưu trữ sáng tạo và tập trung vào an toàn. Vật liệu đóng gói được sử dụng bởi Volvo có chất lượng cao, phản ánh cam kết của họ đối với sự sang trọng và bền vững. Nhìn chung, phương pháp đóng gói của Volvo mang đến trải nghiệm thoả mãn và sang trọng.",
 
-  "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.":"Cuộc sự kiện mạng lưới kết nối các nhà lãnh đạo, nhà đổi mới và chuyên gia trong ngành đóng gói để thảo luận về các chủ đề và xu hướng chính.",
-  "Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.":"Luôn cập nhật với các bộ sưu tập mới nhất, các giao dịch hàng đầu và các ưu đãi đặc biệt của chúng tôi! Chúng tôi thông báo về các cập nhật mới hàng tuần.",
+  "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.": "Cuộc sự kiện mạng lưới kết nối các nhà lãnh đạo, nhà đổi mới và chuyên gia trong ngành đóng gói để thảo luận về các chủ đề và xu hướng chính.",
+  "Stay up to date with our new collections, the latest deals and special offers! We announce a new update every week.": "Luôn cập nhật với các bộ sưu tập mới nhất, các giao dịch hàng đầu và các ưu đãi đặc biệt của chúng tôi! Chúng tôi thông báo về các cập nhật mới hàng tuần.",
   "Subscribe to Newsletter": "Đăng ký nhận bản tin",
+  "NEWS PAGE --------------------------> ": "ENDS -------------------------->",
 
-  "NEWS PAGE --------------------------> ": "ENDS -------------------------->"
+  "Service": "Dịch vụ",
+  "Order a free consultation - our experts will select the most effective solution": "Đặt một phiên tư vấn miễn phí - chuyên gia của chúng tôi sẽ lựa chọn giải pháp hiệu quả nhất",
+  "Download Brochure": "Tải xuống Catalogue",
+  "Submit": "Gửi",
+  "SERVICE PAGE --------------------------> ": "ENDS -------------------------->",
+
+  
+  "Industries": "",
+  "Contract packaging": "",
+  "Automobile Industry": "",
+
+  "Benz Packaging specializes in providing reliable and efficient packaging solutions for the electronics industry. With expertise in primary and secondary packaging, as well as a commitment to quality control and customization, they ensure the safe transportation, storage, and presentation of electronic devices and components. Benz Packaging is a trusted partner for electronics companies seeking professional packaging services.": "",
+
+  "Benz packaging plays a crucial role in safeguarding sensitive aerospace components, equipment, and systems. These solutions are designed to withstand extreme conditions, protect against environmental factors, and comply with industry regulations. By combining durability, protection, efficiency, compliance, and sustainability, Benz packaging ensures the safe and efficient handling of aerospace assets throughout their lifecycle.": "",
+
+  "The automobile industry relies on specialized packaging solutions to ensure the safe transportation, storage, and display of vehicles and their components. Customized packaging materials provide protection against damage, preserve aesthetics, optimize logistics, and contribute to sustainability efforts. By investing in tailored packaging solutions, the automobile industry continues to enhance efficiency, safety, and environmental responsibility throughout the supply chain.": "",
+
+  "Benz Packaging offers reliable and professional contract packaging services. With expertise in primary packaging, secondary packaging, and co-packing, they provide customized solutions to meet the diverse packaging needs of businesses. Through their commitment to quality, precision, and customer satisfaction, Benz Packaging is a trusted partner for companies seeking efficient and effective packaging services.": "",
+
+  "Benz Packaging plays a vital role in protecting and securing sensitive military equipment, weaponry, and supplies. These solutions are engineered to withstand extreme conditions, ensure confidentiality, and provide tailored protection. By combining durability, security, logistical efficiency, and sustainability, Benz Packaging contributes to the effective and safe deployment of military assets.": "",
+
+  "BENZ Packaging backed by its parent company – New Sales Corporation has been in the field of packaging for over 38 years. BENZ Packaging has delivered safe and effective corrosion solutions across the globe. Our Technical Partners- Propagroup (Italy) are the leading manufactures of Protective Packaging Products and have onsite representation in over 90-plus countries, to provide seamless support wherever you need it. We can help you get over any challenging corrosion prevention need such as overseas shipping in corrosive environments to storage in high humidity conditions.":"",
+
+  "Packaging solutions for every industry, protecting your products and your brand.":"",
+
+  "INDSUTRIES PAGE --------------------------> ": "ENDS -------------------------->"
 }

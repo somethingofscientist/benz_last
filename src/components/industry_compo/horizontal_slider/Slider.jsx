@@ -4,6 +4,7 @@ import tape from '../../images/tape.svg';
 import { useState } from 'react';
 
 const Slider = () => {
+    // const { t, i18n } = useTranslation();
     const [showTape, setShowTape] = useState(true);
     return (
         <>
