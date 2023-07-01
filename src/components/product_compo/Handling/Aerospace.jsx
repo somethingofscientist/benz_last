@@ -4,9 +4,11 @@ import engine from '../../images/engine.svg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
+import { useTranslation } from 'react-i18next';
 
 const Aerospace = () => {
 
+    const { t, i18n } = useTranslation();
 
     const arr = [
         {
@@ -15,7 +17,7 @@ const Aerospace = () => {
             heading: "Paper Systems",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging takes pride in offering innovative paper systems that provide sustainable packaging solutions for various industries. With our commitment to environmental responsibility, we provide high-quality paper-based packaging solutions that are both eco-friendly and efficient.",
             subProducts: [
                 {
                     image: tape,
@@ -43,7 +45,7 @@ const Aerospace = () => {
             heading: "Inflatable Air Systems",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging understands the importance of efficient and reliable packaging solutions, which is why we offer Inflatable Air Systems. Our Inflatable Air Systems provide an innovative and effective way to protect your products during transit and storage.",
             subProducts: [
                 {
                     image: tape,
@@ -71,29 +73,29 @@ const Aerospace = () => {
             heading: "Foam Systems",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is pleased to introduce our Foam Systems, a state-of-the-art packaging solution designed to provide advanced protection for your valuable and delicate products. Our Foam Systems combine innovative foam materials with customizable packaging designs to ensure that your items are safeguarded during shipping, storage, and handling.",
             subProducts: [
                 {
                     image: tape,
-                    items: "Inst-Expa Foam Bag ",
+                    items: "Inst-Expa Foam Bag",
                     item_text: "Benz Packaging - Inst-Expa Foam Bag: Convenient and Reliable Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "EPE Foam ",
+                    items: "EPE Foam",
                     item_text: "Benz Packaging - EPE Foam: Versatile Protection for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "EVA Foam ",
+                    items: "EVA Foam",
                     item_text: "Benz Packaging - EVA Foam: Superior Protection for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Foam Bag & Sheet                    ",
+                    items: "Foam Bag & Sheet",
                     item_text: "Benz Packaging - Foam Bag & Sheet: Flexible and Reliable Packaging Solutions",
                     date: "8 June 2023"
                 },
@@ -102,26 +104,26 @@ const Aerospace = () => {
         {
             number: "4",
             page_link: "/mailer-systems",
-            heading: "Mailer Systems ",
+            heading: "Mailer Systems",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is pleased to introduce our Mailer Systems, a range of packaging solutions designed to provide secure and convenient shipping for your products.",
             subProducts: [
                 {
                     image: tape,
-                    items: "Plastic Mailers ",
+                    items: "Plastic Mailers",
                     item_text: "Benz Packaging - Plastic Mailers: Reliable Shipping Solutions for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Paper Mailer ",
+                    items: "Paper Mailer",
                     item_text: "Benz Packaging - Paper Mailer: Sustainable Shipping Solutions for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Custom Printed Mailers ",
+                    items: "Custom Printed Mailers",
                     item_text: "Benz Packaging - Custom Printed Mailers: Enhance Your Branding and Secure Shipping Solutions",
                     date: "8 June 2023"
                 },
@@ -145,7 +147,7 @@ const Aerospace = () => {
             heading: "Protective Paper Rolls & Sheets",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is pleased to offer Protective Paper Rolls & Sheets, a trusted solution for providing reliable cushioning and protection to your valuable products during storage and transportation.",
             subProducts: [
                 {
                     image: tape,
@@ -155,43 +157,43 @@ const Aerospace = () => {
                 },
                 {
                     image: tape,
-                    items: "Surface Protection Paper                    ",
+                    items: "Surface Protection Paper",
                     item_text: "Benz Packaging - Surface Protection Paper: Reliable Shield for Delicate Surfaces",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Grocery & Food Service Paper                    ",
+                    items: "Grocery & Food Service Paper",
                     item_text: "Benz Packaging - Grocery & Food Service Paper: Reliable Packaging for Freshness and Convenience",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Water Barier PLA Coated Paper                    ",
+                    items: "Water Barier PLA Coated Paper",
                     item_text: "Benz Packaging - Water Barrier PLA Coated Paper: Sustainable Solution for Moisture Resistance",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "PE Coated Paper                    ",
+                    items: "PE Coated Paper",
                     item_text: "Benz Packaging - PE Coated Paper: Reliable Protection for Various Applications",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Machine Glazed Paper                    ",
+                    items: "Machine Glazed Paper",
                     item_text: "Benz Packaging - Machine Glazed Paper: Smooth and Reliable Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "SBS Boards                    ",
+                    items: "SBS Boards",
                     item_text: "Benz Packaging - SBS Boards: Sturdy and Versatile Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
-                    items: "Propaflex                    ",
+                    items: "Propaflex",
                     item_text: "Benz Packaging - Propaflex: Flexible and Protective Packaging Solution",
                     date: "8 June 2023"
                 },
@@ -204,8 +206,12 @@ const Aerospace = () => {
                 arr.map((item) => (
                     <div className={styles.automobile_container} id='section3'>
                         <div className={styles.auto_heading}>
-                            <div className={styles.auto_number}>{item.number}</div>
-                            <div className={styles.auto_letter}>{item.heading} </div>
+                            <div className={styles.auto_number}>
+                                {t(`${item.number}`)}
+                            </div>
+                            <div className={styles.auto_letter}>
+                                {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -214,15 +220,17 @@ const Aerospace = () => {
 
                                 <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>
-                                        Pack With Us
+                                        {t("PACK WITH US")}
                                     </div>
                                 </Link>
                             </div>
-                            <div className={styles.auto_img_text}>{item.content}</div>
+                            <div className={styles.auto_img_text}>
+                                {t(`${item.content}`)}
+                            </div>
                         </div>
 
                         {
-                            item.isSlider && <Slider subProducts={item.subProducts} />
+                            item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
                         }
                     </div>
                 ))

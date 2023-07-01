@@ -5,8 +5,12 @@ import engine from '../../../images/engine.svg'
 import wrap_air from '../../../images/wrap_air.jpeg'
 import air_void_fill from '../../../images/air_void_fill.jpeg'
 import air_cushion_bubble from '../../../images/air_cushion_bubble.jpeg'
+import { useTranslation } from 'react-i18next';
 
 const Descicannt = () => {
+    
+    const { t, i18n } = useTranslation();
+
     const arr = [
         {
             id: "section1",
@@ -45,7 +49,9 @@ const Descicannt = () => {
                             <div className={styles.auto_number}>
                                 {item.number}
                             </div>
-                            <div className={styles.auto_letter}>{item.heading}</div>
+                            <div className={styles.auto_letter}>
+                            {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -54,9 +60,9 @@ const Descicannt = () => {
 
                             </div>
                             <div className={styles.auto_img_text}>
-                                {item.image_text}
-                                <br/>
-                                {item.image_text2}
+                            {t(`${item.image_text}`)}
+                                <br />
+                                {t(`${item.image_text2}`)}
                             </div>
                         </div>
                     </div>

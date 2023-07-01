@@ -9,10 +9,14 @@ import temp_humi4 from '../../../images/temp_humi4.jpg'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 
 
 const Descicannt = () => {
+    
+    const { t, i18n } = useTranslation();
+
     const arr = [
         {
             id: "section1",
@@ -51,7 +55,9 @@ const Descicannt = () => {
                             <div className={styles.auto_number}>
                                 {item.number}
                             </div>
-                            <div className={styles.auto_letter}>{item.heading}</div>
+                            <div className={styles.auto_letter}>
+                            {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -80,9 +86,9 @@ const Descicannt = () => {
 
                             </div>
                             <div className={styles.auto_img_text}>
-                                {item.image_text}
+                            {t(`${item.image_text}`)}
                                 <br />
-                                {item.image_text2}
+                                {t(`${item.image_text2}`)}
                             </div>
                         </div>
                     </div>
