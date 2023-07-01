@@ -9,8 +9,11 @@ import header_heading from '../../images/des_heading.svg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 const Secondary_Tapes = () => {
+  
+  const { t, i18n } = useTranslation();
   const arr = [
     {
       number: "1",

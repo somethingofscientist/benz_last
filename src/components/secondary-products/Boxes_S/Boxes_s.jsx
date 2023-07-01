@@ -8,9 +8,13 @@ import rp_oils from '../../images/rp_oils.jpeg'
 import vci_film from '../../images/film_sheet1.jpeg'
 import header_heading from '../../images/des_heading.svg';
 import main_tapes from '../../images/main_tapes.jpg';
+import { useTranslation } from 'react-i18next';
 
 
 const Boxex_s = () => {
+  
+  const { t, i18n } = useTranslation();
+
   const arr = [
     {
       number: "1",
@@ -18,24 +22,24 @@ const Boxex_s = () => {
       heading: "Boxes",
       image: vci_film,
       isSlider: true,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "At Benz Packaging, we offer customization options to meet your specific needs. Our boxes can be tailored in terms of size, shape, and design. Whether you require plain boxes for shipping or custom-printed boxes to promote your brand, we have the capabilities to fulfill your requirements.",
       subProducts: [
         {
           image: tape,
           items: "Wooden",
-          item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
+          item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Paper",
-          item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
+          item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Plastic",
-          item_text: "Benz Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
+          item_text: "Benz Packaging - Plastic: Durable and Flexible Packaging Solutions",
           date: "8 June 2023"
         },
       ]
@@ -120,12 +124,12 @@ const Boxex_s = () => {
       heading: "Pouches & Rolls",
       image: rp_oils,
       isSlider: true,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Choose Benz Packaging's rolls and pouches for convenient, efficient, and reliable packaging solutions. Contact us today to explore our range of options and find the perfect fit for your packaging needs. Trust Benz Packaging for innovative and dependable packaging solutions.",
       subProducts: [
         {
           image: tape,
           items: "Mono Layer Pouches",
-          item_text: "Benz Packaging - RP Oils Short Term: Temporary Lubrication for Various Applications",
+          item_text: "Benz Packaging - Multilayer Laminated Pouches: Superior Protection and Versatile Packaging Solutions",
           date: "8 June 2023"
         },
         {

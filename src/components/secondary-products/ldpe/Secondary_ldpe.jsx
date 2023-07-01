@@ -18,8 +18,12 @@ import bag_roll4 from '../../images/bag_on_roll4.jpg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 const Secondary_ldpe = () => {
+  
+  const { t, i18n } = useTranslation();
+
   const arr = [
     {
       number: "1",

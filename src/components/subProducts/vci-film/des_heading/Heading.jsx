@@ -15,7 +15,7 @@ const Heading_header_industry = () => {
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
-                    VCI Films
+                    {t("VCI Films")}
                 </div>
             </div>
         </>

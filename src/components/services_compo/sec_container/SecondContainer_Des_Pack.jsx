@@ -17,7 +17,7 @@ const Descicannt = () => {
             <div className={styles.automobile_container} id='section4'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>2</div>
-                    <div className={styles.auto_letter}>{t("Service")} </div>
+                    <div className={styles.auto_letter}>{t("Sea Worthy Packaging")} </div>
                 </div>
 
                 <div className={styles.auto_img_container}>
@@ -27,7 +27,10 @@ const Descicannt = () => {
                         
                     </div>
                     <div className={styles.auto_img_text}>
-                    {t("Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.")}
+                    {t("When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. Benz Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.")}
+                    <br /><br />
+                    {t("Durable Packaging Materials: We utilize high-quality materials that are known for their strength and durability to create sea-worthy packaging solutions. Our packaging materials are designed to withstand the challenges of sea transportation, including moisture, humidity, temperature fluctuations, and physical impacts. This ensures that your products remain protected throughout the entire shipping journey.")}  
+
                     </div>
                 </div>
             </div>

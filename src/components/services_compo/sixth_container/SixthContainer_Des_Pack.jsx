@@ -16,7 +16,7 @@ const Descicannt = () => {
             <div className={styles.automobile_container} id='section4'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>6</div>
-                    <div className={styles.auto_letter}>{t("Service")}</div>
+                    <div className={styles.auto_letter}>{t("Long Term Packaging")}</div>
                 </div>
 
                 <div className={styles.auto_img_container}>
@@ -24,7 +24,9 @@ const Descicannt = () => {
                         <img src={engine} alt="engine" />
                     </div>
                     <div className={styles.auto_img_text}>
-                    {t("Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.")}
+                    {t("At Benz Packaging, we understand that some products require long-term packaging solutions to ensure their protection and integrity over extended periods. That's why we offer specialized long-term packaging services designed to meet the unique requirements of products that will be stored or transported for extended durations. With our expertise, quality materials, and attention to detail, we provide reliable and durable packaging solutions for your long-term needs.")}
+                    <br /><br />
+                    {t("Comprehensive Protection: Our long-term packaging solutions are designed to provide comprehensive protection for your products during storage and transportation. We carefully assess the specific characteristics of your goods, such as fragility, sensitivity to environmental factors, and susceptibility to corrosion or damage. Based on this assessment, we select suitable packaging materials and techniques to safeguard your products throughout their extended lifecycle.")}
                     </div>
                 </div>
             </div>

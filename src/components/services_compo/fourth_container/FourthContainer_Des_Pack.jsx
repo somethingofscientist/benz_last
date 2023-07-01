@@ -16,7 +16,7 @@ const Descicannt = () => {
             <div className={styles.automobile_container} id='section4'>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>4</div>
-                    <div className={styles.auto_letter}>{t("Service")}</div>
+                    <div className={styles.auto_letter}>{t("Machine Packaging")}</div>
                 </div>
 
                 <div className={styles.auto_img_container}>
@@ -24,7 +24,9 @@ const Descicannt = () => {
                         <img src={engine} alt="engine" />
                     </div>
                     <div className={styles.auto_img_text}>
-                    {t("Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.")}
+                    {t("In today's fast-paced industrial environment, optimizing packaging processes is essential to meet high production demands and ensure product quality. Benz Packaging specializes in machine packaging solutions that streamline and automate the packaging process, offering efficiency, speed, and consistency. With our expertise in packaging machinery and innovative technologies, we provide reliable and tailored solutions to meet your specific packaging requirements.")}
+                    <br /><br />  
+                    {t("Customized Machine Packaging Solutions: We understand that every product and packaging operation is unique. Our team works closely with you to analyze your packaging needs and develop customized machine packaging solutions. We consider factors such as product dimensions, packaging materials, throughput requirements, and automation level to design a system that integrates seamlessly into your production line.")}
                     </div>
                 </div>
             </div>

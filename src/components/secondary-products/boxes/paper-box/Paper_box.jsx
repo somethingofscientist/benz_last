@@ -12,8 +12,12 @@ import honey_comb3 from '../../../images/honey_comb3.JPG';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 const Paper_box = () => {
+  
+  const { t, i18n } = useTranslation();
+
   const arr = [
     {
       number: "1",

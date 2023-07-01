@@ -3,9 +3,13 @@ import styles from '../boxes/first_containers/Descicannt.module.css'
 // import tape from '../../../images/tape.svg'
 import vci_film from '../../images/engine.svg'
 import header_heading from '../../images/des_heading.svg';
+import { useTranslation } from 'react-i18next';
 
 
 const Secondary_blister = () => {
+    
+    const { t, i18n } = useTranslation();
+
     const arr = [
         {
             number: "1",

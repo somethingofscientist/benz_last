@@ -5,9 +5,13 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
+import { useTranslation } from 'react-i18next';
 
 
 const Contract_packaging_sec = () => {
+  
+  const { t, i18n } = useTranslation();
+
     const arr = [
         {
             number: "1",

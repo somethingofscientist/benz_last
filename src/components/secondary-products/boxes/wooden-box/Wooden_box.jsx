@@ -13,8 +13,12 @@ import pine_wood from '../../../images/pine_wood.jpeg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 const Wooden_box = () => {
+  
+  const { t, i18n } = useTranslation();
+
   const arr = [
     {
       number: "1",

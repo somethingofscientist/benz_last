@@ -29,7 +29,7 @@ const Descicannt = () => {
             heading: "VCI Plain Paper",
             image: [vci_plain1, vci_plain2],
             image_text: "Benz Packaging is proud to present our VCI Plain Paper, a reliable solution designed to provide effective corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a trusted and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
-            image_text2: "Our VCI Plain Paper is infused with Volatile Corrosion Inhibitor (VCI) technology, making it an excellent choice for corrosion protection during storage and transportation. The VCI molecules released by the paper create a protective shield around your products, preventing corrosion and ensuring their long-term preservation. "
+            image_text2: "Our VCI Plain Paper is infused with Volatile Corrosion Inhibitor (VCI) technology, making it an excellent choice for corrosion protection during storage and transportation. The VCI molecules released by the paper create a protective shield around your products, preventing corrosion and ensuring their long-term preservation."
         },
 
         {
