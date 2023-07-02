@@ -18,7 +18,8 @@ const Industries = () => {
       choti_image: bmw2,
       image: bmw,
       heading: "Automobile",
-      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+      text:
+        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
       hovered: false,
     },
     {
@@ -26,21 +27,24 @@ const Industries = () => {
       image: bmw,
       heading: "Military",
       hovered: false,
-      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+      text:
+        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
     },
     {
       choti_image: bmw2,
       image: bmw,
       heading: "Aerospace",
       hovered: false,
-      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+      text:
+        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
     },
     {
       choti_image: bmw2,
       image: bmw,
       heading: "Electronics",
       hovered: false,
-      text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+      text:
+        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
     },
   ]);
 
@@ -59,9 +63,7 @@ const Industries = () => {
 
   const { t, i18n } = useTranslation();
 
-
   return (
-
     <>
       <div className={styles.map_whole_container}>
         <div className={styles.map}>
@@ -70,13 +72,14 @@ const Industries = () => {
               {t("Industries to meet your needs.")}
             </div>
             <div className={styles.map_sub_heading}>
-              {t("Our packaging products are environmentally conscious, innovative, and cater to a variety of industries.")}
+              {t(
+                "Our packaging products are environmentally conscious, innovative, and cater to a variety of industries."
+              )}
             </div>
           </div>
         </div>
         {/* scale div */}
         <div className={styles.hover_container}>
-
           {arr.map((value, index) =>
             value.hovered ? (
               <div
@@ -103,7 +106,7 @@ const Industries = () => {
                 className={styles.car_container2}
                 onMouseEnter={() => handleHover(index)}
                 onFocus={() => handleHover(index)}
-              // onMouseLeave={handleHover}
+                // onMouseLeave={handleHover}
               >
                 <img src={value.choti_image} alt="Image" />
                 <div className={styles.car_inner_container}>
@@ -111,14 +114,17 @@ const Industries = () => {
                     {t(`${value.heading}`)}
                   </div>
                   <div className={styles.car_container_text2}>
-                    {t("Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.")}
+                    {t(
+                      "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components."
+                    )}
                   </div>
-                  <div className={styles.learn_more_button}>{t("LEARN MORE")} </div>
+                  <div className={styles.learn_more_button}>
+                    {t("LEARN MORE")}{" "}
+                  </div>
                 </div>
               </div>
             )
           )}
-
         </div>
         {/* scale div */}
 

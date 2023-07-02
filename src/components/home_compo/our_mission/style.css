@@ -7,12 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    transition: all ease-in;
 }
 
 .our-missions-wrapper {
     overflow: hidden;
-    transition: 0.1s all ease-in;
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
@@ -51,7 +49,6 @@
     background-size: cover;
     text-align: center;
     line-height: 72px;
-    transition: all ease-in;
 }
 
 .our-missions-wrapper .headers {
@@ -66,7 +63,6 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
-    transition: all ease-in;
     
 }
 
