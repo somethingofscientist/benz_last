@@ -6,15 +6,14 @@ import Industries from "../../components/home_compo/industries/Industries";
 import Why from "../../components/home_compo/why_to_choose_us/Why";
 import Global from "../../components/home_compo/global_reach/Global";
 import News from "../../components/home_compo/news_blog/News";
+import OurMission from "../../components/home_compo/our_mission/OurMission";
 import Products from "../../components/home_compo/products_marquee/Products";
 import Navbar from "../../components/home_compo/navbar/Navbar";
 import Contact from "../../components/home_compo/contact_us_button/Contact";
 import styles from "./Homepage.module.css";
-import homepageVideo from '../../components/videos/home1.mp4';
-
+import homepageVideo from "../../components/videos/home.mp4";
 
 const Homepage = () => {
-  
   return (
     <>
       <div className={styles.homepage}>
@@ -24,6 +23,7 @@ const Homepage = () => {
         <Global />
         <Why />
         <Products />
+        <OurMission />
         <Industries />
         <News />
         <Map />
