@@ -10,6 +10,7 @@ import axios from "axios";
 import {SlEnvolopeLetter} from 'react-icons/sl'
 import {IoIosPeople} from 'react-icons/io';
 import {HiOutlineOfficeBuilding} from 'react-icons/hi';
+import { useTranslation } from "react-i18next";
 
 
 const Contact_Page = () => {
@@ -58,7 +59,7 @@ const Contact_Page = () => {
       console.log(error.message);
     }
   };
-
+  const { t, i18n } = useTranslation();
 
   return (
     <>

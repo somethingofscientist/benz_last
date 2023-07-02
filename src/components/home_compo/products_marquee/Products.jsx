@@ -8,9 +8,11 @@ import pic4 from "../../images/traditional.svg";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 
 const Products = () => {
+  const { t, i18n } = useTranslation();
 
 
   return (
@@ -18,15 +20,15 @@ const Products = () => {
       <div className={styles.product_container} >
         <div className={styles.products_tag}>
           <Marquee speed={200} loop={0}>
-            <p>Products &nbsp; </p>
-            <p>Products &nbsp; </p>
+            <p>{t("Products")} &nbsp; </p>
+            <p>{t("Products")} &nbsp; </p>
           </Marquee>
         </div>
         <div className={styles.card_container}>
           <Link to="/products">
             <div className={styles.card_up}>
-              <div className={styles.card_text}>INDUSTRIAL</div>
-              <div className={styles.card_subtext}>Anti - Humidity</div>
+              <div className={styles.card_text}>{t("INDUSTRIAL")} </div>
+              <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
               <img src={pic1} alt="pic1_humidity" />
               <div className={styles.card_icon}>
                 <HiArrowNarrowRight size={20} color="white" />
@@ -35,8 +37,8 @@ const Products = () => {
           </Link>
           <Link to="/products">
             <div className={styles.card_down}>
-              <div className={styles.card_text}>INDUSTRIAL</div>
-              <div className={styles.card_subtext}>Anti - Corrosion</div>
+              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              <div className={styles.card_subtext}>{t("Anti - Corrosion")}</div>
               <img src={pic2} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
                 <HiArrowNarrowRight size={20} color="white" />
@@ -45,8 +47,8 @@ const Products = () => {
           </Link>
           <Link to="/products">
             <div className={styles.card_up}>
-              <div className={styles.card_text}>INDUSTRIAL</div>
-              <div className={styles.card_subtext}>Handling</div>
+              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              <div className={styles.card_subtext}>{t("Handling")} </div>
               <img src={pic3} alt="pic1_humidity" />
               <div className={styles.card_icon}>
                 <HiArrowNarrowRight size={20} color="white" />
@@ -55,8 +57,8 @@ const Products = () => {
           </Link>
           <Link to="/products">
             <div className={styles.card_down}>
-              <div className={styles.card_text}>INDUSTRIAL</div>
-              <div className={styles.card_subtext}>Traditional Packaging</div>
+              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              <div className={styles.card_subtext}>{t("Traditional Packaging")} </div>
               <img src={pic4} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
                 <HiArrowNarrowRight size={20} color="white" />
@@ -71,7 +73,7 @@ const Products = () => {
       <div className={styles.view_all_container}>
         <Link to="/secondary-products">
           <div className={styles.view_all}>
-            View All Secondary Products
+            {t("View All Secondary Products")}
             <span>
               <HiOutlineArrowNarrowRight />
             </span>

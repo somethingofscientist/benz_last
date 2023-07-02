@@ -2,13 +2,17 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
+import { useTranslation } from 'react-i18next';
 
 const Descicannt = () => {
+    
+    const { t, i18n } = useTranslation();
+
     const arr = [
         {
             id: "section1",
             number: "1",
-            heading: "Short Term ",
+            heading: "Short Term",
             image: engine,
             image_text: "Benz Packaging is pleased to offer RP Oils Short Term, a range of temporary lubricants designed for various applications. Whether you need short-term lubrication during storage, assembly, or other temporary operations, our RP Oils Short Term provide effective lubrication and protection.",
             image_text2: "Our RP Oils Short Term are specially formulated to offer temporary lubrication for components and equipment. These oils provide a thin protective film that reduces friction, prevents corrosion, and ensures smooth operation during temporary periods. They are ideal for situations where long-term lubrication is not required or feasible."
@@ -28,7 +32,7 @@ const Descicannt = () => {
             number: "3",
             heading: "Long Term",
             image: engine,
-            image_text: "Benz Packaging is proud to introduce RP Oils Long Term, a premium line of lubricants specifically formulated to provide extended protection and optimal performance for long-term lubrication needs. With our expertise in packaging technology, we offer reliable and innovative solutions to ensure your equipment operates smoothly and efficiently over extended periods.  ",
+            image_text: "Benz Packaging is proud to introduce RP Oils Long Term, a premium line of lubricants specifically formulated to provide extended protection and optimal performance for long-term lubrication needs. With our expertise in packaging technology, we offer reliable and innovative solutions to ensure your equipment operates smoothly and efficiently over extended periods.",
             image_text2:"RP Oils Long Term are meticulously engineered using high-quality base oils and advanced additives, delivering exceptional lubricating properties and superior protection against friction, wear, and corrosion. These oils are designed to withstand the demanding conditions of long-term operations, providing reliable lubrication and extending the lifespan of your equipment."
         }
         
@@ -42,7 +46,9 @@ const Descicannt = () => {
                             <div className={styles.auto_number}>
                                 {item.number}
                             </div>
-                            <div className={styles.auto_letter}>{item.heading}</div>
+                            <div className={styles.auto_letter}>
+                            {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -51,9 +57,9 @@ const Descicannt = () => {
 
                             </div>
                             <div className={styles.auto_img_text}>
-                                {item.image_text}
-                                <br/>
-                                {item.image_text2}
+                            {t(`${item.image_text}`)}
+                                <br />
+                                {t(`${item.image_text2}`)}
                             </div>
                         </div>
                     </div>

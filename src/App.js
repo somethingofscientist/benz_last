@@ -61,8 +61,13 @@ import Secondary_export from "./components/secondary-products/contract-packaging
 import Stretch_Films_Secondary from "./components/secondary-products/stretch-film/first_containers/FirstContainer_Des_Pack";
 import MachineGrade from "./components/secondary-products/stretch-film/machine-grade/MachineGrade";
 
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const { t, i18n } = useTranslation();
+  const handleClick = (lang) => {
+    i18n.changeLanguage(lang);
+  }
 
   return (
     <>
@@ -136,15 +141,15 @@ function App() {
         <Route path="/secondary-blister" element={<Secondary_blister />} />
 
         {/* ---> benzepolene */}
-        <Route path="/secondary-benze" element={<Secondary_benzepolene/>} />
+        <Route path="/secondary-benze" element={<Secondary_benzepolene />} />
 
         {/* ---> stretch-film */}
         <Route path="/secondary-stretch-film" element={<Stretch_Films_Secondary />} />
         <Route path="/secondary-stretch-film-main" element={<MachineGrade />} />
 
         {/* ---> contract-packaging */}
-        <Route path="/secondary-contract-packaging" element={<Contract_packaging_sec/>} />
-        <Route path="/secondary-contract-packaging-items" element={<Secondary_export/>} />
+        <Route path="/secondary-contract-packaging" element={<Contract_packaging_sec />} />
+        <Route path="/secondary-contract-packaging-items" element={<Secondary_export />} />
 
 
       </Routes>

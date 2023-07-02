@@ -7,6 +7,7 @@ import toyo from '../../images/toyo.png';
 import suzu from '../../images/suzu.png';
 import volvo from '../../images/volvo.png';
 import renault from '../../images/renault.png';
+import { useTranslation } from 'react-i18next';
 
 
 const Testimonials = () => {
@@ -18,6 +19,7 @@ const Testimonials = () => {
       [index]: !prevState[index]
     }));
   };
+  const { t, i18n } = useTranslation();
 
   const arr = [
     {
@@ -65,7 +67,7 @@ const Testimonials = () => {
   return (
     <>
       <div className={styles.test_container} id='section4'>
-        <div className={styles.test_heading}>Testimonials</div>
+        <div className={styles.test_heading}>{t("Testimonials")} </div>
 
         {/* video section */}
         <div className={styles.test_video_container}>
@@ -81,7 +83,7 @@ const Testimonials = () => {
               </div>
               <div className={styles.back}>
                 {/* <h1>{item.heading2}</h1> */}
-                <p>{item.para}</p>
+                <p> {t(`${item.para}`)} </p>
               </div>
             </div>
           ))}

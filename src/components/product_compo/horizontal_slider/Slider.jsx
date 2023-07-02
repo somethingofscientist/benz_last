@@ -2,15 +2,18 @@ import React from 'react'
 import styles from './Slider.module.css';
 import tape from '../../images/tape.svg';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Slider = (props) => {
+
+    const { t, i18n } = useTranslation();
     const [showTape, setShowTape] = useState(true);
-    
+
     const arr = props.subProducts || [
         {
             image: tape,
             items: "TAPE",
-            item_text: "hhuhuihihihihn BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
+            item_text: "BENZ Packaging manufacturers Printed tape which not only ensures a safe closure of your packaging, but it also ensures recognizability.",
             date: "8 June 2023"
         },
         {

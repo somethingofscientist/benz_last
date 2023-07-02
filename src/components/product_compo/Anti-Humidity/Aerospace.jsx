@@ -4,24 +4,28 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 
 import dessicants from '../../images/des.jpeg';
+import silica_gel1 from '../../images/silica_gel1.jpeg';
 import tape from '../../images/tape.svg';
 import engine from '../../images/engine.svg';
+import img from '../../images/BEDry.jpg'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
 
 
 const Aerospace = () => {
 
+    const { t, i18n } = useTranslation();
 
     const arr = [
         {
             number: "1",
             page_link: "/descicants",
             heading: "Desiccants",
-            image: [dessicants, tape],
+            image: [dessicants, silica_gel1],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Welcome to Benz Packaging, your trusted source for high-quality desiccants for packaging. We understand the critical role that moisture control plays in preserving the integrity and extending the shelf life of your products. With our comprehensive range of desiccant solutions, we provide effective moisture absorption to safeguard your goods from humidity-related damage. Trust Benz Packaging for reliable desiccant products that ensure optimal product quality and customer satisfaction.",
             subProducts: [
                 {
                     image: tape,
@@ -60,9 +64,9 @@ const Aerospace = () => {
             number: "2",
             page_link: "/indicators",
             heading: "Indicators",
-            image: [engine],
+            image: [img, tape, dessicants],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is proud to offer a comprehensive range of indicators designed to monitor and safeguard the quality and integrity of your products. Our indicators provide visual cues and reliable data to help you assess environmental conditions, ensuring that your goods are stored and transported under optimal conditions.",
             subProducts: [
                 {
                     image: tape,
@@ -88,9 +92,9 @@ const Aerospace = () => {
             number: "3",
             page_link: "/vacuum",
             heading: "Vacuum Barrier",
-            image: engine,
+            image: [img, tape],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is delighted to present our state-of-the-art Vacuum Barrier technology, designed to create a protective barrier against oxygen and moisture, ensuring the preservation of freshness and extending the shelf life of your products.",
             subProducts: [
                 {
                     image: tape,
@@ -114,7 +118,9 @@ const Aerospace = () => {
                     <div className={styles.automobile_container} id='section3'>
                         <div className={styles.auto_heading}>
                             <div className={styles.auto_number}>{item.number}</div>
-                            <div className={styles.auto_letter}>{item.heading} </div>
+                            <div className={styles.auto_letter}>
+                                {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -122,39 +128,33 @@ const Aerospace = () => {
 
                                 <Carousel
                                     autoPlay={true}
-                                    interval={500}
+                                    interval={3000}
                                     infiniteLoop
                                     showStatus={false}
                                     showThumbs={false}
                                     showArrows={false}
                                 >
-                                    {arr?.[1]?.image?.map((item, idx) => {
-                                        return (
-                                            <>
-                                                <div className={styles.images}>
-                                                    {console.log("item", item)}
-                                                    <img src={item} alt={item.alt} />
-                                                </div>
-                                            </>
-                                        )
-                                    })
-                                    }
-
-
+                                    {item.image.map((image, idx) => (
+                                        <div className={styles.images} key={idx}>
+                                            <img src={image} alt={image} />
+                                        </div>
+                                    ))}
                                 </Carousel>
                                 {/* <img src={item.image} alt="engine" /> */}
 
                                 <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>
-                                        Pack With Us
+                                        {t("PACK WITH US")}
                                     </div>
                                 </Link>
                             </div>
-                            <div className={styles.auto_img_text}>{item.content}</div>
+                            <div className={styles.auto_img_text}>
+                                {t(`${item.content}`)}
+                            </div>
                         </div>
 
                         {
-                            item.isSlider && <Slider subProducts={item.subProducts} />
+                            item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
                         }
                     </div>
                 ))

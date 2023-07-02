@@ -5,8 +5,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./utils/scrollToTop";
-import { Suspense } from "react";
 import axios from "axios";
+// import i18n (needs to be bundled ;)) 
+import './i18n';
+import { Suspense } from 'react';
 
 axios.defaults.baseURL = "https://backend-benz.vercel.app";
 

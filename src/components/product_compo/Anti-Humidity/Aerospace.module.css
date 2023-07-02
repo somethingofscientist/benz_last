@@ -52,7 +52,11 @@
 
 .auto_img img {
     width: 100%;
+    /* background-color: red; */
+    height: 400px;
+    object-fit: cover;
 }
+
 
 .auto_img_text {
     width: 50%;

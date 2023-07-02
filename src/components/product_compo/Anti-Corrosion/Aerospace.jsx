@@ -6,17 +6,30 @@ import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
 import rp_oils from '../../images/rp_oils.jpeg'
 import vci_film from '../../images/film_sheet1.jpeg'
+import vci_film2 from '../../images/vci_film2.JPG'
 import vci_Paper from '../../images/VCI_Paper.jpg'
 
+import oil from '../../images/motor_oil.jpeg'
+
+import vci_emitter1 from '../../images/vci_emitter1.jpeg'
+import vci_emitter2 from '../../images/vci_emitter2.jpeg'
+import vci_emitter3 from '../../images/vci_emitter3.jpeg'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import { useTranslation } from 'react-i18next';
+
 const Aerospace = () => {
+
+    const { t, i18n } = useTranslation();
     const arr = [
         {
             number: "1",
-            page_link:"/vci-film",
+            page_link: "/vci-film",
             heading: "VCI Film",
-            image: vci_film,
+            image: [vci_film, vci_film2],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is delighted to introduce our VCI Film, an advanced solution designed to provide exceptional protection against corrosion for your valuable products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your goods from the damaging effects of corrosion.",
             subProducts: [
                 {
                     image: tape,
@@ -70,11 +83,11 @@ const Aerospace = () => {
         },
         {
             number: "2 ",
-            page_link:"/vci-paper",
+            page_link: "/vci-paper",
             heading: "VCI Paper",
             image: vci_Paper,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is proud to present our VCI Paper, a reliable solution designed to provide effective corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a trusted and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             subProducts: [
                 {
                     image: tape,
@@ -90,7 +103,7 @@ const Aerospace = () => {
                 },
                 {
                     image: tape,
-                    items:"VCI Crepe Paper",
+                    items: "VCI Crepe Paper",
                     item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Enhanced Conformability",
                     date: "8 June 2023"
                 },
@@ -110,11 +123,11 @@ const Aerospace = () => {
         },
         {
             number: "3",
-            page_link:"/vci-emitters",
+            page_link: "/vci-emitters",
             heading: "VCI Emitters",
-            image: engine,
+            image: [vci_emitter1, vci_emitter2, vci_emitter3],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is proud to introduce our VCI Emitters, an advanced solution designed to provide superior corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             subProducts: [
                 {
                     image: tape,
@@ -130,7 +143,7 @@ const Aerospace = () => {
                 },
                 {
                     image: tape,
-                    items:"VCI Tablets",
+                    items: "VCI Tablets",
                     item_text: "Benz Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
                     date: "8 June 2023"
                 },
@@ -150,39 +163,39 @@ const Aerospace = () => {
         },
         {
             number: "4",
-            page_link:"/rp-oils",
+            page_link: "/rp-oils",
             heading: "RP Oils",
-            image: rp_oils,
+            image: [oil, rp_oils],
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is pleased to introduce our range of RP Oils, high-quality lubricants designed to enhance the performance and lifespan of your machinery and equipment. With our expertise in packaging technology, we offer reliable and innovative solutions to meet your lubrication needs.",
             subProducts: [
                 {
                     image: tape,
                     items: "Short Term",
-                    item_text: "Benz Packaging - RP Oils Short Term: Temporary Lubrication for Various Applications",
+                    item_text: "Benz Packaging - RP Oils Short Term- Temporary Lubrication for Various Applications",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Medium Term",
-                    item_text: "Benz Packaging - RP Oils Medium Term: Reliable Lubrication for Intermediate Durations",
+                    item_text: "Benz Packaging - RP Oils Medium Term- Reliable Lubrication for Intermediate Durations",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Long Term",
-                    item_text: "Benz Packaging - RP Oils Long Term: Extended Protection for Long-Term Lubrication",
+                    item_text: "Benz Packaging - RP Oils Long Term- Extended Protection for Long-Term Lubrication",
                     date: "8 June 2023"
                 }
             ]
         },
         {
             number: "5",
-            page_link:"/rust-removers",
+            page_link: "/rust-removers",
             heading: "Rust Removers",
             image: engine,
             isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Benz Packaging is pleased to introduce our range of Rust Removers, specially formulated to effectively remove rust and restore surfaces to their original condition. With our expertise in packaging technology, we offer reliable and innovative solutions to tackle rust-related challenges.",
             subProducts: [
                 {
                     image: tape,
@@ -205,25 +218,51 @@ const Aerospace = () => {
                 arr.map((item) => (
                     <div className={styles.automobile_container} id='section3'>
                         <div className={styles.auto_heading}>
-                            <div className={styles.auto_number}>{item.number}</div>
-                            <div className={styles.auto_letter}>{item.heading} </div>
+                            <div className={styles.auto_number}>
+                                {t(`${item.number}`)}
+                            </div>
+                            <div className={styles.auto_letter}>
+                                {t(`${item.heading}`)}
+                            </div>
                         </div>
 
                         <div className={styles.auto_img_container}>
                             <div className={styles.auto_img}>
-                                <img src={item.image} alt="engine" />
+                                <Carousel
+                                    autoPlay={true}
+                                    interval={2000}
+                                    infiniteLoop
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    showArrows={false}
+                                >
+                                    {Array.isArray(item.image) ? (
+                                        item.image.map((imageUrl, idx) => (
+                                            <div className={styles.images} key={idx}>
+                                                <img src={imageUrl} alt={imageUrl} />
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <div className={styles.images}>
+                                            <img src={item.image} alt={item.image} />
+                                        </div>
+                                    )}
+                                </Carousel>
+                                {/* <img src={item.image} alt="engine" /> */}
 
                                 <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>
-                                        Pack With Us
+                                        {t("PACK WITH US")}
                                     </div>
                                 </Link>
                             </div>
-                            <div className={styles.auto_img_text}>{item.content}</div>
+                            <div className={styles.auto_img_text}>
+                                {t(`${item.content}`)}
+                            </div>
                         </div>
 
                         {
-                            item.isSlider && <Slider subProducts={item.subProducts}/>
+                            item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
                         }
                     </div>
                 ))

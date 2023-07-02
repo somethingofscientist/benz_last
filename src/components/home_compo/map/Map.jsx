@@ -11,6 +11,7 @@ import {
 } from "react-simple-maps";
 import man from "../../images/man.png";
 import { geoPatterson } from "d3-geo-projection";
+import { useTranslation } from "react-i18next";
 const geoUrl = "/features.json";
 const width = 1000;
 const height = 700;
@@ -20,14 +21,15 @@ const projection = geoPatterson()
   .scale(150);
 
 const Map = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <div className={styles.map}>
       <div className={styles.map_flexbox}>
-        <div className={styles.map_heading}>What people love about us.</div>
+        <div className={styles.map_heading}>{t("What people love about us.")} </div>
         <div className={styles.map_sub_heading}>
-          Our customers appreciate our dedication to sustainability and value
-          our eco-conscious approach. By choosing BENZ Packaging, you join us in
-          making a positive impact on the environment.
+          {t("Our customers appreciate our dedication to sustainability and value our eco-conscious approach. By choosing BENZ Packaging, you join us in making a positive impact on the environment.")}
         </div>
       </div>
 
@@ -154,10 +156,9 @@ const Map = () => {
               <img src={man} alt="man" className={styles.image} />
             </div>
             <div>
-              <p className={styles.content_head}>John Doe</p>
+              <p className={styles.content_head}>{t("John Doe")}</p>
               <p className={styles.content_content}>
-                You can type a testimony here and can add a customer name andd
-                image.
+                {t("You can type a testimony here and can add a customer name and image.")}
               </p>
             </div>
           </div>

@@ -1,34 +1,38 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import styles from './Stikcy.module.css'
+import { useTranslation } from 'react-i18next';
 
 const Sticky_header_industry = () => {
+    
+    const { t, i18n } = useTranslation();
+
     return (
         <div className={styles.sticky_container}>
             <div className={styles.sticky_header}>
                 <a href="#section1">
                     <div className={styles.sticky_link}>
-                        Automobile Industry
+                        {t("Automobile Industry")}
                     </div>
                 </a>
                 <a href="#section2">
                     <div className={styles.sticky_link}>
-                        Military Applications
+                        {t("Military Applications")}
                     </div>
                 </a>
                 <a href="#section3">
                     <div className={styles.sticky_link}>
-                        Aerospace
+                        {t("Aerospace")}
                     </div>
                 </a>
                 <a href="#section4">
                     <div className={styles.sticky_link}>
-                        Contract Packaging
+                        {t("Contract Packaging")}
                     </div>
                 </a>
                 <a href="#section5">
                     <div className={styles.sticky_link}>
-                        Electronics
+                        {t("Electronics")}
                     </div>
                 </a>
                 {/* <a href="#section5">
