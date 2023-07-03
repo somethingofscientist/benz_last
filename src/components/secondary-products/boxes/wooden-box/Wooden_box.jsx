@@ -24,31 +24,31 @@ const Wooden_box = () => {
       number: "1",
       heading: "Ply wood Boxes",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "When it comes to packaging, durability and versatility are key factors to consider. Benz Packaging offers a range of plywood boxes that combine strength, reliability, and adaptability. In this blog post, we will explore the benefits and applications of Benz Packaging's plywood boxes, showcasing why they are an excellent choice for various industries.",
     },
     {
       number: "2",
       heading: "Nailess Boxes",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Nailess boxes from Benz Packaging eliminate the need for nails or fasteners during assembly. Discuss how these boxes are ingeniously designed to interlock and secure without the use of additional tools or hardware. This feature simplifies the packaging process, saving time and effort for businesses.",
     },
     {
       number: "3",
       heading: "wooden pallets",
       image: [wooden_pallets, wooden_pallets2, wooden_pallets3, wooden_pallets4],
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "When it comes to material handling and transportation, wooden pallets play a vital role in ensuring efficiency and safety. Benz Packaging offers a range of wooden pallets designed to meet the diverse needs of industries. In this blog post, we will explore the benefits and features of Benz Packaging's wooden pallets, highlighting how they contribute to streamlined operations and secure product handling.",
     },
     {
       number: "4",
       heading: "Pine Wood boxes",
       image: pine_wood,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "When it comes to packaging, the choice of material can significantly impact the overall aesthetics and functionality. Benz Packaging offers pine wood boxes that combine timeless elegance with reliable packaging solutions. In this blog post, we will explore the features and benefits of Benz Packaging's pine wood boxes, highlighting their natural beauty, versatility, and durability.",
     },
     {
       number: "5",
       heading: "Jungle wood boxes",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "In the world of packaging, choosing unique and sustainable materials can make a significant impact. Benz Packaging offers jungle wood boxes that bring a touch of exotic beauty and eco-consciousness to your packaging solutions. In this blog post, we will explore the features and benefits of Benz Packaging's jungle wood boxes, highlighting their distinctiveness, sustainability, and reliability.",
     },
 
   ]
@@ -58,7 +58,7 @@ const Wooden_box = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Wooden Box
+          {t("Wooden Box")}
         </div>
       </div>
       {
@@ -66,7 +66,9 @@ const Wooden_box = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>
+                {t(`${item.heading}`)}
+               </div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -99,7 +101,9 @@ const Wooden_box = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>
+                {t(`${item.content}`)}
+              </div>
             </div>
             {/*   
               {

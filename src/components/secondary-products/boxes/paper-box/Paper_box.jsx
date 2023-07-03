@@ -15,7 +15,7 @@ import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
 const Paper_box = () => {
-  
+
   const { t, i18n } = useTranslation();
 
   const arr = [
@@ -23,25 +23,25 @@ const Paper_box = () => {
       number: "1",
       heading: "5 Ply Corrugated Boxes",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "When it comes to packaging, strength, durability, and versatility are essential factors to consider. Benz Packaging offers 5 ply corrugated boxes that provide reliable protection and adaptability for a wide range of products. In this blog post, we will explore the features and benefits of Benz Packaging's 5 ply corrugated boxes, highlighting their robust construction, versatility, and ability to meet diverse packaging needs.",
     },
     {
       number: "2",
       heading: "Duplex Mono-Carton",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "When it comes to packaging, strength, and visual appeal play a crucial role in attracting customers and protecting your products. Benz Packaging offers Duplex Mono-Carton solutions that combine superior strength with eye-catching aesthetics. In this blog post, we will explore the features and benefits of Benz Packaging's Duplex Mono-Carton, highlighting its durability, customization options, and ability to enhance the presentation of your products.",
     },
     {
       number: "3",
       heading: "3 Ply Corrugated Box",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "At Benz Packaging, we understand that every business has unique requirements when it comes to packaging. That's why we offer customization options for our 3 Ply Corrugated Box. You can choose from a range of sizes, dimensions, and print designs to suit your specific needs. Whether you require boxes for small items, delicate electronics, or bulky goods, we can tailor our 3 Ply Corrugated Box to meet your exact specifications.",
     },
     {
       number: "4",
       heading: "Honeycomb Boxes",
-      image: [honey_comb1,honey_comb2,honey_comb3],
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      image: [honey_comb1, honey_comb2, honey_comb3],
+      content: "At Benz Packaging, we understand that each business has specific packaging requirements. That's why our Honeycomb Boxes can be customized to meet your individual needs. You can choose from various sizes, shapes, and configurations to ensure a perfect fit for your products. Whether you need boxes for electronics, glassware, or other delicate items, our Honeycomb Boxes can be tailored to your exact specifications.",
     },
   ]
   return (
@@ -50,7 +50,7 @@ const Paper_box = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Paper Box
+          {t("Paper Box")}
         </div>
       </div>
       {
@@ -58,7 +58,9 @@ const Paper_box = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>
+                {t(`${item.heading}`)}
+              </div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -91,7 +93,9 @@ const Paper_box = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>
+                {t(`${item.content}`)}
+              </div>
             </div>
 
             {/*   

@@ -18,19 +18,19 @@ const Plastic_box = () => {
             number: "1",
             heading: "PP Bins",
             image: vci_film,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "Welcome to Benz Packaging, your premier source for high-quality PP (Polypropylene) bins. Our PP bins are designed to provide efficient storage and organization solutions for various industries and applications. With their durability, versatility, and practicality, our PP bins are the perfect choice for optimizing your storage space.",
         },
         {
             number: "2",
             heading: "Plastic Crates",
             image: vci_film,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "At Benz Packaging, we understand the importance of reliable and durable storage solutions. That's why we offer a comprehensive range of plastic crates that are specifically designed to meet your unique storage needs. Made from robust and resilient plastic materials, our crates provide exceptional strength and protection for your goods, ensuring they remain intact during storage and transit.",
         },
         {
             number: "3",
             heading: "Foldable Bins",
             image: foldable,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+            content: "At Benz Packaging, we understand the importance of efficient storage and transportation in businesses. That's why we offer a comprehensive range of foldable bins that are specifically designed to meet your unique needs. Made from high-quality materials, our foldable bins offer exceptional strength and stability when in use, and they can be conveniently folded down when not in use, saving valuable space.",
         },
     ]
     return (
@@ -39,7 +39,7 @@ const Plastic_box = () => {
           <img src={header_heading} alt="" />
           <div className={styles.imageContainer}></div>
           <div className={styles.header}>
-            Plastic Box
+            {t("Plastic Box")}
           </div>
         </div>
         {
@@ -47,7 +47,9 @@ const Plastic_box = () => {
             <div className={styles.automobile_container} id='section3'>
               <div className={styles.auto_heading}>
                 <div className={styles.auto_number}>{item.number}</div>
-                <div className={styles.auto_letter}>{item.heading} </div>
+                <div className={styles.auto_letter}>
+                {t(`${item.heading}`)}
+                 </div>
               </div>
   
               <div className={styles.auto_img_container}>
@@ -60,7 +62,9 @@ const Plastic_box = () => {
                     </div>
                   </Link> */}
                 </div>
-                <div className={styles.auto_img_text}>{item.content}</div>
+                <div className={styles.auto_img_text}>
+                {t(`${item.content}`)}
+                </div>
               </div>
 {/*   
               {
