@@ -15,7 +15,7 @@ const Secondary_others = () => {
       number: "1",
       heading: "Ice Pack Gels",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of ice pack gels for reliable temperature control solutions. Our ice pack gels are designed to help maintain the desired temperature during the transportation and storage of temperature-sensitive products, ensuring their freshness and integrity.Temperature control is critical for various industries, including food and beverage, pharmaceuticals, and healthcare. At Benz Packaging, we understand the importance of preserving the quality and efficacy of your temperature-sensitive products, and our ice pack gels offer an effective solution to keep them within the required temperature range.",
     },
   ]
   return (
@@ -24,7 +24,7 @@ const Secondary_others = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Others 
+          {t("Others")} 
         </div>
       </div>
       {
@@ -32,7 +32,7 @@ const Secondary_others = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -45,7 +45,7 @@ const Secondary_others = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
             </div>
 
             {/*   

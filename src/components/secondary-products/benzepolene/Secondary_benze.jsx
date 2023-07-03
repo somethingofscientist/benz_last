@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 
 const Secondary_benzepolene = () => {
-  
+
   const { t, i18n } = useTranslation();
 
   const arr = [
@@ -15,14 +15,14 @@ const Secondary_benzepolene = () => {
       number: "1",
       heading: "Woven Tarpaulins",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of high-quality woven tarpaulins. Our woven tarpaulins are designed to offer durable and versatile protection for a wide range of outdoor applications. With Benz Packaging, you can trust that your valuable assets and goods will be shielded from the elements and kept secure.",
     },
     {
-        number: "2",
-        heading: "Cross Laminated Tarpaulin",
-        image: vci_film,
-        content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-      },
+      number: "2",
+      heading: "Cross Laminated Tarpaulin",
+      image: vci_film,
+      content: "Welcome to Benz Packaging, your reliable source for high-quality cross laminated tarpaulins. Our cross laminated tarpaulins are engineered to provide superior strength, durability, and protection for heavy-duty applications. Whether you need to cover construction sites, transport goods, or secure outdoor spaces, our tarpaulins offer reliable and long-lasting performance.",
+    },
   ]
   return (
     <>
@@ -30,7 +30,7 @@ const Secondary_benzepolene = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-        BENZpolene
+          {t("BENZpolene")}
         </div>
       </div>
       {
@@ -38,7 +38,7 @@ const Secondary_benzepolene = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -51,7 +51,7 @@ const Secondary_benzepolene = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
             </div>
 
             {/*   
