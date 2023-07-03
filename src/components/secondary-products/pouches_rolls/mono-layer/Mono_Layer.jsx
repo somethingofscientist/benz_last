@@ -15,19 +15,19 @@ const Mono_Layer = () => {
       number: "1",
       heading: "LDPE Pouches",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of LDPE pouches for flexible and durable packaging solutions. Our LDPE (Low-Density Polyethylene) pouches offer a versatile packaging option that combines flexibility, durability, and excellent product protection. With their wide range of applications and reliability, our LDPE pouches are an ideal choice for various industries.",
     },
     {
       number: "2",
       heading: "PP Pouches",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of PP pouches for reliable and secure packaging solutions. Our PP (Polypropylene) pouches offer a versatile and robust packaging option known for their durability, strength, and excellent product protection. With their wide range of applications and reliability, our PP pouches are an ideal choice for various industries.",
     },
     {
       number: "3",
       heading: "HDPE Pouches",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of HDPE pouches for secure and sustainable packaging solutions. Our HDPE (High-Density Polyethylene) pouches offer a versatile and eco-friendly packaging option known for their strength, durability, and excellent product protection. With their wide range of applications and sustainability benefits, our HDPE pouches are an ideal choice for various industries.",
     },
   ]
   return (
@@ -36,7 +36,7 @@ const Mono_Layer = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Pouches And Rolls
+          {t("Pouches And Rolls")}
         </div>
       </div>
       {
@@ -44,7 +44,7 @@ const Mono_Layer = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -57,7 +57,7 @@ const Mono_Layer = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
             </div>
 
             {/*   

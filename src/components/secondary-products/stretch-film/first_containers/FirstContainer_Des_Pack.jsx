@@ -16,21 +16,21 @@ const Stretch_Films_Secondary = () => {
     {
       number: "1",
       page_link: "/secondary-stretch-film-main",
-      heading: "Hand Grade Stretch Film ",
+      heading: "Hand Grade Stretch Film",
       image: vci_film,
       isSlider: true,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted supplier of high-quality hand grade stretch film. Our hand grade stretch film is designed specifically for manual applications, providing an easy-to-use packaging solution for various industries and needs. With Benz Packaging, you can rely on our hand grade stretch film to securely wrap and protect your products with convenience and efficiency.",
       subProducts: [
         {
           image: tape,
           items: "PreStretch Film",
-          item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
+          item_text: "PreStretch Film: Advanced Packaging Solution for Optimal Load Stability",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Machine Grade Stretch Film",
-          item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
+          item_text: "Machine Grade Stretch Film Optimal Packaging Solution for Automated Applications",
           date: "8 June 2023"
         },
       ]
@@ -42,7 +42,7 @@ const Stretch_Films_Secondary = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Stretch Films
+          {t("Stretch Films")}
         </div>
       </div>
       {
@@ -50,7 +50,7 @@ const Stretch_Films_Secondary = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -59,15 +59,15 @@ const Stretch_Films_Secondary = () => {
 
                 <Link to={item.page_link}>
                   <div className={styles.auto_pack}>
-                    Pack With Us
+                    {t("PACK WITH US")}
                   </div>
                 </Link>
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
             </div>
 
             {
-              item.isSlider && <Slider subProducts={item.subProducts} />
+              item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
             }
           </div>
         ))

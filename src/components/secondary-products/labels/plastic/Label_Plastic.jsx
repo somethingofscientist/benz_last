@@ -15,25 +15,25 @@ const Label_Plastic = () => {
       number: "1",
       heading: "PP Clear Labels",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of high-quality PP clear labels. Our PP clear labels are specifically designed to offer transparent and professional branding solutions for your products and packaging. With their exceptional clarity, durability, and customization options, our PP clear labels provide a superior labeling solution to showcase your brand identity.",
     },
     {
       number: "2",
       heading: "Pearls PET Labels",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of high-quality pearlescent PET labels. Our pearlescent PET labels are specifically designed to offer elegant and eye-catching branding solutions for your products and packaging. With their unique pearlescent finish, durability, and customization options, our PET labels provide a superior labeling solution that adds a touch of sophistication to your brand.",
     },
     {
       number: "3",
       heading: "PVC Labels",
       image: vci_film,
-      content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+      content: "Welcome to Benz Packaging, your trusted provider of high-quality PVC labels. Our PVC labels are specifically designed to offer durable and vibrant branding solutions for your products and packaging. With their exceptional durability, flexibility, and customization options, our PVC labels provide a superior labeling solution that enhances the visual impact of your brand.",
     },
     {
         number: "4",
         heading: "Foil Labels",
         image: vci_film,
-        content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
+        content: "Welcome to Benz Packaging, your trusted provider of premium foil labels. Our foil labels are specifically designed to offer luxurious and eye-catching branding solutions for your products and packaging. With their exquisite metallic finish, durability, and customization options, our foil labels provide a superior labeling solution that adds a touch of elegance to your brand.",
       },
 
   ]
@@ -43,7 +43,7 @@ const Label_Plastic = () => {
         <img src={header_heading} alt="" />
         <div className={styles.imageContainer}></div>
         <div className={styles.header}>
-          Label Plastic
+          {t("Label Plastic")}
         </div>
       </div>
       {
@@ -51,7 +51,7 @@ const Label_Plastic = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{item.heading} </div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
 
             <div className={styles.auto_img_container}>
@@ -64,7 +64,7 @@ const Label_Plastic = () => {
                     </div>
                   </Link> */}
               </div>
-              <div className={styles.auto_img_text}>{item.content}</div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
             </div>
 
             {/*   

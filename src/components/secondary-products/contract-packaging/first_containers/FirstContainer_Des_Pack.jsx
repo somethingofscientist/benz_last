@@ -9,83 +9,83 @@ import { useTranslation } from 'react-i18next';
 
 
 const Contract_packaging_sec = () => {
-  
+
   const { t, i18n } = useTranslation();
 
-    const arr = [
+  const arr = [
+    {
+      number: "1",
+      page_link: "/secondary-contract-packaging-items",
+      heading: "Sea Worthy Packaging",
+      image: vci_film,
+      isSlider: true,
+      content: "When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. Benz Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.",
+      subProducts: [
         {
-            number: "1",
-            page_link: "/secondary-contract-packaging-items",
-            heading: "Sea Worthy Packaging ",
-            image: vci_film,
-            isSlider: true,
-            content: "Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.",
-            subProducts: [
-                {
-                    image: tape,
-                    items: "Export Packaging",
-                    item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
-                    date: "8 June 2023"
-                },
-                {
-                    image: tape,
-                    items: "Machine Packaging",
-                    item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
-                    date: "8 June 2023"
-                },
-                {
-                    image: tape,
-                    items: "On Site Packaging",
-                    item_text: "Benz Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
-                    date: "8 June 2023"
-                },
-                {
-                    image: tape,
-                    items: "Long Term Packaging",
-                    item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
-                    date: "8 June 2023"
-                },
-            ]
+          image: tape,
+          items: "Export Packaging",
+          item_text: "Benz Packaging - Export Packaging Secure Your Products for International Shipment",
+          date: "8 June 2023"
         },
-    ]
-    return (
-        <>
-        <div className={styles.header_bg}>
-          <img src={header_heading} alt="" />
-          <div className={styles.imageContainer}></div>
-          <div className={styles.header}>
-          Contract Packaging
-          </div>
-        </div>
         {
-          arr.map((item) => (
-            <div className={styles.automobile_container} id='section3'>
-              <div className={styles.auto_heading}>
-                <div className={styles.auto_number}>{item.number}</div>
-                <div className={styles.auto_letter}>{item.heading} </div>
-              </div>
-  
-              <div className={styles.auto_img_container}>
-                <div className={styles.auto_img}>
-                  <img src={item.image} alt="engine" />
-  
-                  <Link to={item.page_link}>
-                    <div className={styles.auto_pack}>
-                      Pack With Us
-                    </div>
-                  </Link>
-                </div>
-                <div className={styles.auto_img_text}>{item.content}</div>
-              </div>
-  
-              {
-                item.isSlider && <Slider subProducts={item.subProducts} />
-              }
+          image: tape,
+          items: "Machine Packaging",
+          item_text: "Benz Packaging - Machine Packaging Efficient and Automated Packaging Solutions",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "On Site Packaging",
+          item_text: "Benz Packaging - On-Site Packaging Convenient and Efficient Packaging Services at Your Location",
+          date: "8 June 2023"
+        },
+        {
+          image: tape,
+          items: "Long Term Packaging",
+          item_text: "Benz Packaging - Long-Term Packaging Reliable Solutions for Extended Storage and Transportation",
+          date: "8 June 2023"
+        },
+      ]
+    },
+  ]
+  return (
+    <>
+      <div className={styles.header_bg}>
+        <img src={header_heading} alt="" />
+        <div className={styles.imageContainer}></div>
+        <div className={styles.header}>
+          {t("Contract Packaging")}
+        </div>
+      </div>
+      {
+        arr.map((item) => (
+          <div className={styles.automobile_container} id='section3'>
+            <div className={styles.auto_heading}>
+              <div className={styles.auto_number}>{item.number}</div>
+              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
             </div>
-          ))
-        }
-      </>
-    )
+
+            <div className={styles.auto_img_container}>
+              <div className={styles.auto_img}>
+                <img src={item.image} alt="engine" />
+
+                <Link to={item.page_link}>
+                  <div className={styles.auto_pack}>
+                  {t("PACK WITH US")}
+                  </div>
+                </Link>
+              </div>
+              <div className={styles.auto_img_text}>{t(`${item.content}`)}</div>
+            </div>
+
+            {
+              item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
+            }
+          </div>
+        ))
+      }
+    </>
+  )
 }
 
 export default Contract_packaging_sec;
