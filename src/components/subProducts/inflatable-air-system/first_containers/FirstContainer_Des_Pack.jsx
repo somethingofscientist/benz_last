@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import wrap_air from '../../../images/wrap_air.jpeg'
-import air_void_fill from '../../../images/air_void_fill.jpeg'
-import air_cushion_bubble from '../../../images/air_cushion_bubble.jpeg'
+import wrap_air from '../../../images/wrap_air.jpg'
+import air_void_fill from '../../../images/air_void_fill.jpg'
+import air_cushion_bubble from '../../../images/air_cushion_bubble.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Descicannt = () => {

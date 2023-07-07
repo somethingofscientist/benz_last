@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Aerospace.module.css';
 import engine from '../../images/engine.svg';
-import aero from '../../images/aero.jpeg';
+import aero from '../../images/aero.jpg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

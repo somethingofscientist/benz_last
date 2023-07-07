@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
-import wooden_pallets from '../../../images/wooden_pallets.jpeg';
-import wooden_pallets2 from '../../../images/wooden_pallets2.jpeg';
-import wooden_pallets3 from '../../../images/wooden_pallets3.jpeg';
-import wooden_pallets4 from '../../../images/wooden_pallets4.jpeg';
+import wooden_pallets from '../../../images/wooden_pallets.jpg';
+import wooden_pallets2 from '../../../images/wooden_pallets2.jpg';
+import wooden_pallets3 from '../../../images/wooden_pallets3.jpg';
+import wooden_pallets4 from '../../../images/wooden_pallets4.jpg';
 import pine_wood from '../../../images/pine_wood.jpeg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import woodenBox from '../../../images/woodenBox.jpeg'
+import woodenBox from '../../../images/woodenBox.jpg'
 import paper_main from '../../../images/paper_main.jpeg'
 import { useTranslation } from 'react-i18next';
 

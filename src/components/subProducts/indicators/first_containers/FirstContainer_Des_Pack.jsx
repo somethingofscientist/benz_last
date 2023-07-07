@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import temp_humi from '../../../images/temp_humi.jpeg'
+import temp_humi from '../../../images/temp_humi.jpg'
 import temp_humi2 from '../../../images/temp_humi2.jpg'
 import temp_humi3 from '../../../images/temp_humi3.JPG'
 import temp_humi4 from '../../../images/temp_humi4.jpg'

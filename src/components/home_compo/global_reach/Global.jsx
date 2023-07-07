@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Global.module.css";
 import worker from "../../images/box_fact.jpeg";
-import oldman from "../../images/oldman.jpeg";
+import oldman from "../../images/oldman.jpg";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 

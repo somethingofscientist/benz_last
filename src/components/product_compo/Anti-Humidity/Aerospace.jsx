@@ -3,8 +3,8 @@ import styles from './Aerospace.module.css';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 
-import dessicants from '../../images/des.jpeg';
-import silica_gel1 from '../../images/silica_gel1.jpeg';
+import dessicants from '../../images/des.jpg';
+import silica_gel1 from '../../images/silica_gel1.jpg';
 import tape from '../../images/tape.svg';
 import engine from '../../images/engine.svg';
 import img from '../../images/BEDry.jpg'

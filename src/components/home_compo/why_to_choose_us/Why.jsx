@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Why.module.css";
-import team from "../../images/worker.jpeg";
+import team from "../../images/worker.jpg";
 
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";

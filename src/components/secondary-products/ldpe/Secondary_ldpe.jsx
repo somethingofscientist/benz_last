@@ -3,7 +3,7 @@ import styles from '../boxes/first_containers/Descicannt.module.css'
 // import tape from '../../../images/tape.svg'
 import vci_film from '../../images/engine.svg'
 import header_heading from '../../images/des_heading.svg';
-import eco_bio from '../../images/eco-bio.jpeg';
+import eco_bio from '../../images/eco-bio.jpg';
 import eco_bio2 from '../../images/eco_bio2.jpg';
 import eco_bio3 from '../../images/eco_bio3.jpg';
 import zip_lock1 from '../../images/zip_lock1.jpg';

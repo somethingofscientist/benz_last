@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
-import bar_code_labels from '../../../images/bar_code_labels.jpeg';
+import bar_code_labels from '../../../images/bar_code_labels.jpg';
 import { useTranslation } from 'react-i18next';
 
 

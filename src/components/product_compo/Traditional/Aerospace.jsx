@@ -5,7 +5,7 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
 import rolls_pouches from '../../images/rolls_pouches.jpeg'
-import woodenBox from '../../images/woodenBox.jpeg'
+import woodenBox from '../../images/woodenBox.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Aerospace = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Heading.module.css';
 import header_heading from '../../images/header_heading.svg'
-import compnay from '../../images/compnay.jpeg'
+import compnay from '../../images/compnay.jpg'
 import video from '../../videos/contact_video.mp4'
 import { useTranslation } from 'react-i18next';
 

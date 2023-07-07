@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import scotchtape from '../../../images/scotchtape.jpeg'
+import scotchtape from '../../../images/scotchtape.jpg'
 import tape1 from '../../../images/main_tapes.jpg'
 import tape2 from '../../../images/main_tapes2.jpg'
 import tape3 from '../../../images/main_tapes3.jpg'

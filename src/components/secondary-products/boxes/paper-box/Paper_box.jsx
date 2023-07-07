@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import tape from '../../../images/tape.svg'
 import vci_film from '../../../images/film_sheet1.jpeg'
 import header_heading from '../../../images/des_heading.svg';
-import paper_comb from '../../../images/paper_comb.jpeg';
+import paper_comb from '../../../images/paper_comb.jpg';
 import honey_comb1 from '../../../images/honey_comb1.jpg';
 import honey_comb2 from '../../../images/honey_comb2.jpg';
 import honey_comb3 from '../../../images/honey_comb3.JPG';

@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
 import paper_cushion from '../../../images/paper_cushion.jpeg'
 import paper_wrapping from '../../../images/paper_wrapping.jpeg'
-import paper_void from '../../../images/paper_void.jpeg'
+import paper_void from '../../../images/paper_void.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Descicannt = () => {

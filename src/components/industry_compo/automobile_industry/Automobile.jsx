@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Automobile.module.css';
-import automobile from '../../images/automobile.jpeg';
+import automobile from '../../images/automobile.jpg';
 import automobile1 from '../../images/automobile1.jpeg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';

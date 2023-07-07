@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import silica from '../../../images/silica.jpeg'
+import silica from '../../../images/silica.jpg'
 import Cdry from '../../../images/CDry.jpg'
 import BEDry from '../../../images/BEDry.jpg'
 import BEDry2 from '../../../images/BEDry2.jpg'

@@ -9,7 +9,7 @@ import { object } from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { NavHashLink } from "react-router-hash-link";
-import Automobile from "../../images/automobile.jpeg";
+import Automobile from "../../images/automobile.jpg";
 import { useTranslation } from "react-i18next";
 
 const Industries = () => {

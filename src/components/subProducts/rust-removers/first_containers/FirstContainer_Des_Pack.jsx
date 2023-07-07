@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import neutralacid from '../../../images/neutralacid.jpeg'
+import neutralacid from '../../../images/neutralacid.jpg'
 import { useTranslation } from 'react-i18next';
 
 const Descicannt = () => {
