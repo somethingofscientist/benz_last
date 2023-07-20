@@ -133,13 +133,14 @@ const OurMission = () => {
     });
     return () => document.removeEventListener("scroll", () => {});
   }, []);
+  
   return (
     <div className="our-missions" id="our-missions">
       <div className="our-missions-wrapper" id="our-missions-wrapper">
         <p
           id="zoom-paragraph"
           style={{
-            background: `url("/images/leaves.png")`,
+            background: `url("/images/3leaves.png")`,
             WebkitBackgroundClip: "text",
           }}
         >

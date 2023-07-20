@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+    /* background-color: red; */
 }
 
 .our-missions.top {
@@ -54,7 +55,7 @@
 .our-missions-wrapper .headers {
     padding: 112px 165px;
     box-sizing: border-box;
-    background-image: url("../../images/leaves.png");
+    background-image: url("../../images/2leaves.png");
     background-size: cover;
     width: 100vw;
     height: 100vh;

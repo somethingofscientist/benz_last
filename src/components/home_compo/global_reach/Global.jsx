@@ -27,7 +27,7 @@ const Global = () => {
         </div>
         <div className={styles.global_image_text_container}>
           <p>
-            {t("Welcome to our packaging company, where we specialize in providing innovative and high-quality packaging solutions for businesses of all sizes. We believe in the importance of sustainability and strive to make our packaging as eco-friendly as possible. We use recyclable materials and employ sustainable manufacturing processes to minimize our impact on the environment.")}
+            {t("As a packaging company, we take pride in offering cutting-edge and top-notch packaging solutions tailored to businesses of all scales. Our unwavering commitment to sustainability is evident in our eco-conscious practices. By utilizing the highest quality materials and employing sustainable manufacturing processes, we prioritize minimizing our environmental footprint.")}
           </p>
 
           <div className={styles.pack_button}>

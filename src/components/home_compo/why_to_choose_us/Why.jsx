@@ -20,15 +20,15 @@ const Why = () => {
       <div className={styles.right}>
         <div className={styles.map}>
           <div className={styles.map_flexbox}>
-            <div className={styles.map_heading}>{t("Why to choose us.")}</div>
+            <div className={styles.map_heading}>{t("Why choose us.")}</div>
             <div className={styles.map_sub_heading}>
-              {t("Choosing our packaging means making a positive contribution to the planet. We believe in the power of collective action, and by opting for our eco-friendly materials, you join us in reducing waste and preserving natural resources. Together, we can create a more sustainable future.")}
+              {t("By selecting our packaging solutions, you not only gain access to the finest quality materials, cutting-edge technology, and a globally available network, but you also become an active participant in shaping a more sustainable future. We believe in the strength of collective efforts, and through our eco-friendly materials and practices, we can collectively reduce waste and preserve our precious natural resources. With our expert team by your side, we are dedicated to providing unparalleled support and expertise as we work together towards a more sustainable and responsible world.")}
             </div>
           </div>
           <div className={styles.global_container}>
             <div className={styles.global_image_text_container}>
               <p>
-                {t("At BENZ Packaging, we believe in fostering a culture of growth and development. We provide ample opportunities for professional advancement, encouraging our team members to expand their knowledge, skills, and expertise. As we continue to explore new avenues in the packaging industry, your contributions will play a vital role in shaping the future of our organization.")}
+                {t("At BENZ Packaging, we foster a dynamic environment that prioritizes growth and development. Joining our team means embracing a culture where individuals are encouraged to expand their knowledge, skills, and expertise. We provide abundant opportunities for professional advancement, allowing you to shape your career trajectory. As we explore new frontiers in the packaging industry, your contributions will be pivotal in driving the future of our organization. Together, we can chart a path of innovation and success.")}
               </p>
 
 
@@ -47,7 +47,7 @@ const Why = () => {
             </div>
           </div>
           <div className={styles.why_para}>
-            {t("Our team members work tirelessly alongside our clients, partners, and subcontractors to push the boundaries of the packaging industry. We appreciate every opportunity we're given to take on a new project and bring it to life.")}
+            {t("By collaborating tirelessly with our clients, partners, and subcontractors, our team members continually challenge the limits of the packaging industry. We wholeheartedly value each opportunity presented to us, as it allows us to embark on new projects and transform them into vibrant realities.")}
           </div>
 
           <div className={styles.counter_section}>
@@ -59,13 +59,13 @@ const Why = () => {
                 >
                   <h1>
                     {counter1 && (
-                      <CountUp start={0} end={5} duration={0} delay={0} />
+                      <CountUp start={0} end={6} duration={0} delay={0} />
                     )}{" "}
                     +
                   </h1>
                 </ScrollTrigger>
                 <div className={styles.counter_heading}>
-                  {t("Manufacturing Units")}
+                  {t("Manufacturing Units in Indo-Pacific Region")}
                 </div>
                 <p>
                   {t("Manufacturing units play a vital role in creating products that cater to the needs of consumers")}
@@ -80,7 +80,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter2 && (
-                      <CountUp start={0} end={23} duration={1} delay={0} />
+                      <CountUp start={0} end={38} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>
@@ -99,12 +99,12 @@ const Why = () => {
                 >
                   <h1>
                     {counter3 && (
-                      <CountUp start={0} end={250} duration={1} delay={0} />
+                      <CountUp start={0} end={2500} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>
                 </ScrollTrigger>
-                <div className={styles.counter_heading}>{t("Happy Customers")}</div>
+                <div className={styles.counter_heading}>{t("Customers")}</div>
                 <p>
                  {t("Happy customers are the lifeblood of any successful business.")}
                 </p>
@@ -118,7 +118,7 @@ const Why = () => {
                 >
                   <h1>
                     {counter4 && (
-                      <CountUp start={0} end={100} duration={1} delay={0} />
+                      <CountUp start={0} end={225} duration={1} delay={0} />
                     )}{" "}
                     +
                   </h1>
