@@ -1,78 +1,80 @@
 .our-missions {
-    height: 500vh;
-    background-color: #FFFFFF;
-    position: relative;
-    box-sizing: border-box;
-    transition: 0ms;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  height: 500vh;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  transition: 0ms;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .our-missions-wrapper {
-    overflow: hidden;
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-    /* background-color: red; */
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  /* background-color: red; */
 }
 
 .our-missions.top {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .our-missions.bottom {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
-.our-missions.active .our-missions-wrapper{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 1000;
+.our-missions.active .our-missions-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
 }
 
-.our-missions.top .our-missions-wrapper, .our-missions.our-missions.bottom {
-    position: relative;
+.our-missions.top .our-missions-wrapper,
+.our-missions.our-missions.bottom {
+  position: relative;
 }
 
 .our-missions-wrapper p {
-    padding: 112px 165px;
-    box-sizing: border-box;
-    font-size: 100px;
-    font-weight: 700;
-    padding: 0px;
-    margin: 0px;
-    background-size: cover;
-    text-align: center;
-    line-height: 72px;
+  padding: 112px 165px;
+  box-sizing: border-box;
+  font-size: 100px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+  background-position: center;
+  white-space: nowrap;
+  background-size: contain;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
 }
 
 .our-missions-wrapper .headers {
-    padding: 112px 165px;
-    box-sizing: border-box;
-    background-image: url("../../../../public/images/2leaves.png");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    
+  padding: 112px 165px;
+  box-sizing: border-box;
+  background-image: url("../../../../public/images/2leaves.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-missions-wrapper .headers h2 {
-    font-weight: 600;
-    font-size: 64px;
+  font-weight: 600;
+  font-size: 64px;
 }
 
 .our-missions-wrapper .headers span {
-    font-weight: 400;
-    font-size: 32px;
+  font-weight: 400;
+  font-size: 32px;
 }

@@ -9,7 +9,7 @@ const OurMission = () => {
     const slideUpHeader = document.getElementById("slide-up-header");
     const slideUpSpan = document.getElementById("slide-up-span");
     const overlay = document.getElementById("overlay");
-    zoomParagraph.style.transform = "scale(1)";
+    zoomParagraph.style.fontSize = "100px";
     const { top, bottom, height } = ourMission.getBoundingClientRect();
     const interval = height / 5;
     const animationBottom = bottom - interval;
@@ -19,7 +19,7 @@ const OurMission = () => {
       const currentScrollbarYPosition = window.pageYOffset;
       if (currentScrollbarYPosition < Number(top)) {
         ourMission.classList = "our-missions top";
-        zoomParagraph.style.transform = "scale(1)";
+        zoomParagraph.style.fontSize = "100px";
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
       }
@@ -33,11 +33,13 @@ const OurMission = () => {
           (currentScrollbarYPosition - Number(top)) /
             (animationHeight - 1.5 * interval);
         zoomParagraph.style.color = `rgba(0,0,0,${opacity}`;
-        zoomParagraph.style.transform = `scale(${
-          ((currentScrollbarYPosition - Number(top)) * 24) /
+        zoomParagraph.style.fontSize = `${
+          (((currentScrollbarYPosition - Number(top)) * 24) /
             (animationHeight - 1.5 * interval) +
-          1
-        })`;
+            1) *
+            30 +
+          100
+        }px`;
         ourMission.classList = "our-missions active";
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
@@ -133,14 +135,14 @@ const OurMission = () => {
     });
     return () => document.removeEventListener("scroll", () => {});
   }, []);
-  
+
   return (
     <div className="our-missions" id="our-missions">
       <div className="our-missions-wrapper" id="our-missions-wrapper">
         <p
           id="zoom-paragraph"
           style={{
-            background: `url("/images/aero.jpg")`,
+            background: `url("/images/2leaves.png")`,
             WebkitBackgroundClip: "text",
           }}
         >
