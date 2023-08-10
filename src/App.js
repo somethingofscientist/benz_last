@@ -71,9 +71,9 @@ function App() {
 
   return (
     <>
-      <TawkMessengerReact
+      {/* <TawkMessengerReact
         propertyId="64d4897594cf5d49dc6987ce"
-        widgetId="1h7f3ht4j" />
+        widgetId="1h7f3ht4j" /> */}
       {/* <Homepage /> */}
       <Navbar />
       <Routes>
