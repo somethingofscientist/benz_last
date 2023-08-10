@@ -60,7 +60,7 @@ import Contract_packaging_sec from "./components/secondary-products/contract-pac
 import Secondary_export from "./components/secondary-products/contract-packaging/export-pack/Export";
 import Stretch_Films_Secondary from "./components/secondary-products/stretch-film/first_containers/FirstContainer_Des_Pack";
 import MachineGrade from "./components/secondary-products/stretch-film/machine-grade/MachineGrade";
-
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import { useTranslation } from 'react-i18next';
 
 function App() {
@@ -71,6 +71,9 @@ function App() {
 
   return (
     <>
+      <TawkMessengerReact
+        propertyId="64d4897594cf5d49dc6987ce"
+        widgetId="1h7f3ht4j" />
       {/* <Homepage /> */}
       <Navbar />
       <Routes>

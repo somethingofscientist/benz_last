@@ -140,7 +140,7 @@ const OurMission = () => {
         <p
           id="zoom-paragraph"
           style={{
-            background: `url("/images/3leaves.png")`,
+            background: `url("/images/aero.jpg")`,
             WebkitBackgroundClip: "text",
           }}
         >
