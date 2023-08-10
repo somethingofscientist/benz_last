@@ -7,8 +7,8 @@ import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
+  
   const tawkMessengerRef = useRef();
-
   const handleMinimize = () => {
     tawkMessengerRef.current.minimize();
   };

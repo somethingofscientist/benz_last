@@ -6,16 +6,22 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./utils/scrollToTop";
 import axios from "axios";
-// import i18n (needs to be bundled ;)) 
+import styles from './index.css';
 import './i18n';
 import { Suspense } from 'react';
+import gif from './load.gif';
 
 axios.defaults.baseURL = "https://backend-benz.vercel.app";
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={(<div>Loading</div>)} >
+  <Suspense fallback={(
+    <div className="loading_container">
+      <div className="loading_gif">
+        <img src={gif} alt="" />
+      </div>
+    </div>)}
+  >
     <BrowserRouter>
       <ScrollToTop />
       <App />
@@ -23,7 +29,4 @@ root.render(
   </Suspense>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

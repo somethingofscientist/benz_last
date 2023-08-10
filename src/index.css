@@ -52,3 +52,21 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.loading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* This ensures the container takes up the full viewport height */
+}
+
+.loading_gif {
+  width: 60px;
+  height: 60px;
+}
+
+.loading_gif img {
+  width: 100%;
+  height: 100%;
+}
