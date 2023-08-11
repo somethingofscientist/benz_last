@@ -91,6 +91,7 @@ img {
     /* font-size: 40px; */
     transition: 200ms;
     /* cursor: pointer; */
+    /* background-color: red !important; */
 }
 
 .card_icon2 {
@@ -168,6 +169,21 @@ img {
         font-size: 40px;
     }
 
+}
+
+@media only screen and (max-width: 1440px) {
+    .card_icon2 {
+        bottom: -150px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .card_icon {
+        padding: 10px;
+        bottom: 10px;
+        font-size: 10px;
+        /* background-color: red; */
+    }
 }
 
 @media only screen and (max-width: 1158px) {
@@ -300,14 +316,15 @@ img {
     .card_icon2 {
         bottom: -0px;
         left: 40px;
-        padding:10px;
+        padding: 10px;
         font-size: 20px;
         /* background-color: rebeccapurple; */
     }
+
     .card_icon {
         padding: 5px;
         left: 25px;
         bottom: 0px;
         font-size: 20px;
-    }   
+    }
 }
