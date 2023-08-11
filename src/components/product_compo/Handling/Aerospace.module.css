@@ -106,8 +106,12 @@
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
-    .auto_pack{
-        display: none;
+    
+    .auto_pack {
+        position: relative;
+        width: max-content;
+        padding: 10px 10px;
+        left: 0px;
     }
     .auto_img,
     .auto_img_text {
