@@ -307,7 +307,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/resources#section5"
+                  to="/resources#rest1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   FAQ

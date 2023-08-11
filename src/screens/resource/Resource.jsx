@@ -6,7 +6,7 @@ import News from '../../components/resource_compo/news_blog/News'
 import Work_with_us from '../../components/resource_compo/work_with_us/Work_with_us'
 import Packaging from '../../components/resource_compo/packaging_facts/Packaging'
 // import FAQ from '../../components/resource_compo/faq_res/FAQ'
-import FAQ from '../../components/home_compo/faq/FAQ'
+import FAQ from '../../components/resource_compo/faq_res/FAQ'
 
 
 const Resource = () => {

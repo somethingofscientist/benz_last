@@ -29,7 +29,7 @@ const Sticky_header_industry = () => {
                         {t("Become a Distributor")}
                     </div>
                 </a>
-                <a href="#section5">
+                <a href="#rest1">
                     <div className={styles.sticky_link}>
                         {t("FAQ")}
                     </div>

@@ -3,18 +3,18 @@ import styles from './FAQ.module.css'
 import AccordianItem from './AccordianItem';
 import avatar from '../../images/Avatar group.svg'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 const FAQ = () => {
-
-
+    const { t, i18n } = useTranslation();
     return (
         <>
-            <div className={styles.faq} id='section5'>
-                <div className={styles.faq_heading}>
+            <div className={styles.faq} id='rest1'>
+                <div className={styles.faq_heading} >
                     Frequently asked questions
                 </div>
-                <div className={styles.faq_subheading}>
+                <div className={styles.faq_subheading} >
                     Everything you need to know about the product and billing.
                 </div>
 
