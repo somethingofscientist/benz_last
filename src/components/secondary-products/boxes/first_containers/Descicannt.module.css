@@ -5,6 +5,7 @@
 .header_bg img {
     width: 100%;
 }
+
 .imageContainer {
     height: 10vh;
     /* background-image: url("../../images/des_heading.svg"); */
@@ -12,14 +13,15 @@
     background-size: cover;
     filter: brightness(30%);
     z-index: -1;
-  }
+}
 
-.images{
+.images {
     /* border: 1px solid pink; */
     object-fit: cover;
     width: 100%;
 }
-.images img{
+
+.images img {
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -33,7 +35,7 @@
     background-color: red;
     position: absolute;
     top: 50%;
-    bottom:50%;
+    bottom: 50%;
     left: 10%;
     color: white;
     font-size: 40px;
@@ -53,55 +55,58 @@
 }
 
 
-@media (max-width:1242px){
-    .sub_header{
+@media (max-width:1242px) {
+    .sub_header {
         /* display: none; */
         font-size: 12px;
         width: 80%;
     }
-    .header{
+
+    .header {
         font-size: 60px;
     }
 }
 
 /* ------------------------------> */
-@media (max-width:800px){
-    .header{
+@media (max-width:800px) {
+    .header {
         font-size: 40px;
-        
+
     }
 
-    .sub_header{
+    .sub_header {
         /* display: none; */
         font-size: 10px;
         width: 80%;
     }
-}   
+}
 
-@media (max-width:537px){
-    .header{
+@media (max-width:537px) {
+    .header {
         font-size: 30px;
-        
+
     }
 
-    .sub_header{
+    .sub_header {
         font-size: 7px;
         width: 80%;
         /* display: none; */
     }
-}  
-@media (max-width:400px){
-    .header{
+}
+
+@media (max-width:400px) {
+    .header {
         font-size: 20px;
-        
+
     }
 
-    .sub_header{
+    .sub_header {
         font-size: 7px;
         width: 80%;
         /* display: none; */
     }
-}  
+}
+
 .automobile_container {
     /* background-color: palevioletred; */
     width: 80%;
@@ -209,13 +214,14 @@
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
-    
+
     .auto_pack {
         position: relative;
         width: max-content;
         padding: 10px 10px;
         left: 0px;
     }
+
     .auto_img,
     .auto_img_text {
         width: 100%;
