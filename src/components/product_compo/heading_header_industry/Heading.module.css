@@ -6,7 +6,8 @@
 .header_bg img {
     width: 100%;
 }
-.header_bg video{
+
+.header_bg video {
     width: 100%;
     display: block;
     filter: brightness(40%);
@@ -21,7 +22,7 @@
     background-size: cover;
     filter: brightness(30%);
     z-index: -1;
-  }
+}
 
 
 .header {
@@ -56,37 +57,41 @@
     color: #FFFFFF;
 }
 
-@media (max-width:1073px){
-    .sub_header{
+@media (max-width:1073px) {
+    .sub_header {
         /* display: none; */
-        font-size: 12px;
+        /* font-size: 12px; */
         width: 80%;
     }
 }
 
 /* ------------------------------> */
-@media (max-width:685px){
-    .header{
+@media (max-width:685px) {
+    .header {
         font-size: 40px;
-        
+
     }
 
-    .sub_header{
+    .sub_header {
         /* display: none; */
-        font-size: 10px;
+        /* font-size: 10px; */
         width: 80%;
     }
-}   
+}
 
-@media (max-width:400px){
-    .header{
+@media (max-width:400px) {
+    .header {
+        top: 15%;
         font-size: 40px;
-        
+
     }
 
-    .sub_header{
-        font-size: 7px;
+    .sub_header {
+        position: absolute;
+        top: 35%;
+        font-size: 14px;
         width: 80%;
+        /* background-color: red; */
         /* display: none; */
     }
-}   
+}
