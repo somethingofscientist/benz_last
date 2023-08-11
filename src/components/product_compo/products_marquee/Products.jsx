@@ -21,14 +21,9 @@ const Products = () => {
 
   const handleCardClick = (page) => {
     setPage(page);
-    setContainerVisible(false);
-    // window.scrollX
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
-  const handleBackClick = () => {
-    setPage("");
-    setContainerVisible(true);
+    const yOffset = window.pageYOffset + 900;
+    window.scrollTo({ top: yOffset, behavior: 'smooth' });
   };
 
   return (
@@ -43,7 +38,7 @@ const Products = () => {
           </div>
           <div className={styles.card_container}>
             <div className={styles.card_up}
-              onClick={(e) => { setPage('humidity') }}
+              onClick={(e) => { handleCardClick('humidity') }}
             >
               <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
               <div className={styles.card_subtext}>{t("Anti - Humidity")} </div>
@@ -53,7 +48,7 @@ const Products = () => {
               </div>
             </div>
             <div className={styles.card_down}
-              onClick={(e) => { setPage('corrosion') }}>
+              onClick={(e) => { handleCardClick('corrosion') }}>
               <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
               <div className={styles.card_subtext}>{t("Anti - Corrosion")} </div>
               <img src={pic2} alt="pic1_humidity" />
@@ -62,7 +57,7 @@ const Products = () => {
               </div>
             </div>
             <div className={styles.card_up}
-              onClick={(e) => { setPage('handling') }}
+              onClick={(e) => { handleCardClick('handling') }}
             >
               <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
               <div className={styles.card_subtext}>{t("Handling")}</div>
@@ -72,7 +67,7 @@ const Products = () => {
               </div>
             </div>
             <div className={styles.card_down}
-              onClick={(e) => { setPage('traditional') }}>
+              onClick={(e) => { handleCardClick('traditional') }}>
               <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
               <div className={styles.card_subtext}>{t("Traditional Packaging")}</div>
               <img src={pic4} alt="pic1_traditional" />
