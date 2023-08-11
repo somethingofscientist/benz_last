@@ -111,14 +111,15 @@ img {
 .card_up:hover {
     filter: brightness(0.7)
 }
-.para{
+
+.para {
     font-size: 20px;
     /* height: 50vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
-    font-family:  'Urbanist';
+    font-family: 'Urbanist';
     margin: 130px auto;
     /* word-spacing: 50px; */
     /* color: blue; */
@@ -129,7 +130,8 @@ img {
     /* padding: 20px 30px; */
     text-align: center;
 }
-.para:hover{
+
+.para:hover {
     /* letter-spacing: 2px; */
     cursor: pointer;
 }
@@ -287,5 +289,11 @@ img {
 
     .card_up img {
         /* width: 100%; */
+    }
+
+    .card_text,
+    .card_subtext {
+        font-size: 16px;
+        text-align: center;
     }
 }

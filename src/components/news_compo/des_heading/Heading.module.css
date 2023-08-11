@@ -62,7 +62,7 @@
 
 @media (max-width:537px){
     .header{
-        font-size: 30px;
+        font-size: 60px;
         
     }
 
@@ -73,10 +73,6 @@
     }
 }  
 @media (max-width:400px){
-    .header{
-        font-size: 20px;
-        
-    }
 
     .sub_header{
         font-size: 7px;

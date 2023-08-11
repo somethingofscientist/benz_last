@@ -51,7 +51,13 @@
 /* ------------------------------> */
 @media (max-width:685px){
     .header{
-        font-size: 40px;
+        font-size: 60px;
+        
+    }
+}
+@media (max-width:500px){
+    .header{
+        font-size: 60px;
         
     }
 }
