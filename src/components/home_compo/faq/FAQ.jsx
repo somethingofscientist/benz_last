@@ -10,9 +10,25 @@ import { useTranslation } from 'react-i18next';
 const FAQ = () => {
     const { t, i18n } = useTranslation();
 
+    // const loadScript = () => {
+    //     return new Promise((resolve) => {
+    //         const script = document.createElement("script");
+    //         script.src = "//code.tidio.co/onhsgcjqs9p42d5kyyaked49940olgot.js";
+    //         script.onload = () => {
+    //             resolve(true);
+    //         };
+    //         script.onerror = () => {
+    //             resolve(false);
+    //         };
+    //         document.body.appendChild(script);
+    //     });
+    // };
+
     return (
         <>
             <div className={styles.faq}>
+
+                {/* <button type="button" onClick={loadScript}>Contact with</button> */}
                 <div className={styles.faq_heading}>
                     {t("Frequently asked questions")}
                 </div>

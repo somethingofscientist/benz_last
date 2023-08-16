@@ -26,6 +26,7 @@ const Navbar = () => {
     let arr = replaceAt(dropdown, index, !dropdown[index]);
     setDropdown(arr);
   };
+
   return (
     <>
       <div className={styles.navContainer}>
@@ -387,7 +388,7 @@ const FlexNavItems = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 71px 128px 20px 288px;
+  padding: 71px 228px 20px 288px;
 `;
 
 const Menu = styled.div`

@@ -229,9 +229,21 @@ const Aerospace = () => {
                             </div>
                         </div>
 
-                        {
+                        {/* {
                             item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
-                        }
+                        } */}
+
+                        <Link to={item.page_link}>
+                            {
+                                item.isSlider && (
+                                    <Slider subProducts={item.subProducts.map(subItem => ({
+                                        ...subItem,
+                                        item_text: t(subItem.item_text),
+                                        page_link: item.page_link, // Pass the main page link to subItems
+                                    }))} />
+                                )
+                            }
+                        </Link>
                     </div>
                 ))
             }
