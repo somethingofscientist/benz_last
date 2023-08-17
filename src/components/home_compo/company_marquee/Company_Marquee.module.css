@@ -1,0 +1,18 @@
+.company_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 ;
+}
+
+.company_logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.company_logo img {
+    width: 100%;
+}
