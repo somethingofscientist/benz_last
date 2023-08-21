@@ -19,7 +19,9 @@ const Company_Marquee = () => {
     return (
         <>
             <div className={styles.company_container}>
-                <Marquee>
+                <Marquee
+                    pauseOnClick
+                >
                     <div className={styles.company_logo}>
                         <img src={c0} alt="" />
                     </div>
