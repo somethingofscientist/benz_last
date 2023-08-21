@@ -88,16 +88,22 @@
     height: 100vh;
   }
 
+
+  .our-missions-wrapper p {
+    /* font-size: 70px !important; */
+    /* background-color: red; */
+  }
+
   .our-missions-wrapper .headers h2 {
     font-weight: 600;
     font-size: 64px;
     text-align: center;
   }
-  
+
   .our-missions-wrapper .headers span {
     font-weight: 400;
     font-size: 32px;
     text-align: center;
   }
-  
+
 }
