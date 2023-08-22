@@ -11,7 +11,7 @@ import Products from "../../components/home_compo/products_marquee/Products";
 import Navbar from "../../components/home_compo/navbar/Navbar";
 import Contact from "../../components/home_compo/contact_us_button/Contact";
 import styles from "./Homepage.module.css";
-import homepageVideo from "../../components/videos/home1.webm";
+import homepageVideo from "../../components/videos/home2.mp4";
 import Company_Marquee from "../../components/home_compo/company_marquee/Company_Marquee";
 
 const Homepage = () => {
