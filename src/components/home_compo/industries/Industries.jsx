@@ -12,6 +12,7 @@ import { NavHashLink } from "react-router-hash-link";
 import Automobile from "../../images/automobile.jpg";
 import { useTranslation } from "react-i18next";
 
+
 const Industries = () => {
   const [arr, setArr] = useState([
     {
