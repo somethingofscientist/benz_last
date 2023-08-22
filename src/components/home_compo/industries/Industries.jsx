@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Industries.module.css";
 import bmw from "../../images/bmw.svg";
-import bmw2 from "../../images/bmw2.svg";
+import bmw2 from "../../images/bmw2.jpg";
 import nasa from "../../images/nasa.svg";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 // import { FaArrowRightLong } from "react-icons/fa";
