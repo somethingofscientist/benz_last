@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./Product.module.css";
 import Marquee from "react-fast-marquee";
-import pic1 from "../../images/humidity.svg";
-import pic2 from "../../images/corrosion.svg";
-import pic3 from "../../images/handling.svg";
-import pic4 from "../../images/traditional.svg";
+import pic1 from "../../images/humidity.jpg";
+import pic2 from "../../images/corrossion.jpg";
+import pic3 from "../../images/handling.jpg";
+import pic4 from "../../images/traditional.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
