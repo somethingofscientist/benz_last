@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 
 const News = () => {
     const { t, i18n } = useTranslation();
-
     return (
         <div className={styles.news}>
             <div className={styles.news_flexbox}>
