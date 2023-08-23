@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './News.module.css';
-import player from '../../images/player.svg';
+import player from '../../images/player.jpg';
 import { BsArrowRightCircleFill } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
