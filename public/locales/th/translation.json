@@ -937,24 +937,26 @@
   
   "new FAQ":" ------- -------------- -------------- ------------>",
 
-  "What is the difference between shelf-life and in-service life?":"",
-  "What is the shelf life of VCI Products?":"",
-  "What is the in-service or useful life of VCI Products?":"",
-  "Can Your VCI Bags Be Reused?":"",
-  "What if I have a rip in my VCI bag? What should I do?":"",
-  "Can I use my VCI bag in conjunction with oil coatings?":"",
-  "How do I know which of your products to use for my type of metal?":"",
-  "Can used VCI films be recycled?":"",
-  "How do I know that I am measuring length, width and height correctly?":"",
+  "What is the difference between shelf-life and in-service life?": "ความแตกต่างระหว่างอายุการเก็บรักษาและอายุการใช้งาน",
+  "What is the shelf life of VCI Products?": "อายุการเก็บรักษาของผลิตภัณฑ์ VCI คืออะไร",
+  "What is the in-service or useful life of VCI Products?": "อายุการใช้งานหรืออายุการใช้งานของผลิตภัณฑ์ VCI คืออะไร",
+  "Can Your VCI Bags Be Reused?": "ถุง VCI ของคุณสามารถนำกลับมาใช้ซ้ำได้หรือไม่",
+  "What if I have a rip in my VCI bag? What should I do?": "หากฉันมีรอยแตกในถุง VCI ของฉัน ฉันควรทำอย่างไร",
+  "Can I use my VCI bag in conjunction with oil coatings?": "ฉันสามารถใช้ถุง VCI ของฉันพร้อมกับการเคลือบน้ำมันได้หรือไม่",
+  "How do I know which of your products to use for my type of metal?": "ฉันจะรู้ได้อย่างไรว่าผลิตภัณฑ์ของคุณที่จะใช้สำหรับประเภทโลหะของฉันคืออะไร",
+  "Can used VCI films be recycled?": "ฟิล์ม VCI ที่ใช้แล้วสามารถรีไซเคิลได้หรือไม่",
+  "How do I know that I am measuring length, width and height correctly?": "ฉันจะรู้ว่าฉันกำลังวัดความยาวความกว้างและความสูงถูกต้องหรือไม่",
 
-  "The shelf life is the duration of time that unused VCI products can be stored prior to use without losing their effectiveness. The in-service life is the duration of time that VCI products will protect clean metal objects from corrosion if used properly.":"",
-  "Most VCI products have a shelf life of up to two years when the product is stored in an external bag or box, out of direct sunlight and under shelter.":"",
-  "Most VCI products have an in-service life of up to five years when protecting clean metal surfaces and when used as recommended by our representatives.":"",
-  "Yes, if the bags are still in good condition without holes or tears. Bags that have an excessive number of holes or tears, have large holes or tears, or have begun to crack or lose strength due to excessive exposure to direct sunlight will not provide adequate corrosion protection and should not be reused.":"",
-  "If the rip is small, you can cover the rip or hole with a high quality piece of tape that is designed to adhere to “low energy” surfaces like polyethylene. Or, you can fold over and staple the area shut and then seal over the holes made by the staples with the recommended tape. If you have a large rip that you cannot close easily with tape or staples, you should replace the bag with a new one. The best seal is always a “heat seal”.":"",
-  "A light oil coating on the metal part is fine to use with a VCI bag. A heavy oil coating may affect the performance of the BENZ VCI bag by keeping the corrosion inhibiting vapor molecules from reaching the metal surface. Please contact us to determine the suitability of the oil and application.":"",
-  "Ferrous, Non Ferrous & Multimetal: Iron, steel, cast iron, Aluminum (and aluminum alloys containing copper and/or manganese), copper, brass, bronze and fully galvanized steel are protected using blue or clear VCI Protective Packaging. Although VCI products are usually sold in Blue / Clear standard colors but we are also able to custom produce VCI films in any color of your choice.":"",
-  "Yes. VCI films made of polyethylene and polypropylene have been recycled for years. VCI products, themselves, are produced using only virgin materials to assure a high level of quality and consistency for our customers.":"",
-  "For Flat Bag, Sheet, Sleeve, and Round Bottom Bags Width is measured from edge to edge. If it is a slit seal bag, measure inside seal to inside seal or inside seal to fold. Bag length is measured from top of bag to top of bottom seal or fold. Sleeve or sheet length is measured from cut edge to cut edge.":"" 
+
+  "The shelf life is the duration of time that unused VCI products can be stored prior to use without losing their effectiveness. The in-service life is the duration of time that VCI products will protect clean metal objects from corrosion if used properly.": "อายุการเก็บรักษาคือระยะเวลาที่ผลิตภัณฑ์ VCI ที่ไม่ได้ใช้งานสามารถเก็บรักษาได้ก่อนการใช้งานโดยไม่สูญเสียประสิทธิภาพ อายุการใช้งานในการบริการคือระยะเวลาที่ผลิตภัณฑ์ VCI จะปกป้องวัตถุโลหะที่สะอาดจากการกัดกร่อนด้วยสารเคมีหากใช้งานอย่างถูกต้อง",
+  "Most VCI products have a shelf life of up to two years when the product is stored in an external bag or box, out of direct sunlight and under shelter.": "ส่วนใหญ่ของผลิตภัณฑ์ VCI มีอายุการเก็บรักษาสูงสุดสองปีเมื่อสินค้าเก็บรักษาอยู่ในถุงหรือกล่องภายนอกโดยไม่ตรงตัวแสงแดดและอยู่ใต้ที่คุ้มครอง",
+  "Most VCI products have an in-service life of up to five years when protecting clean metal surfaces and when used as recommended by our representatives.": "ส่วนใหญ่ของผลิตภัณฑ์ VCI มีอายุการใช้งานในการบริการสูงสุดห้าปีเมื่อปกป้องผิวโลหะที่สะอาดและเมื่อใช้ตามคำแนะนำของตัวแทนของเรา",
+  "Yes, if the bags are still in good condition without holes or tears. Bags that have an excessive number of holes or tears, have large holes or tears, or have begun to crack or lose strength due to excessive exposure to direct sunlight will not provide adequate corrosion protection and should not be reused.": "ใช่หากถุงยังอยู่ในสภาพดีโดยไม่มีรูหรือรอยฉีกขาด ถุงที่มีรูหรือรอยฉีกจำนวนมากหรือมีรูหรือรอยฉีกขาดขนาดใหญ่หรือรอยฉีกหรือรอยฉีกเริ่มเกิดขึ้นหรือเริ่มแตกหรือสูญเสียความแข็งแรงเนื่องจากการถูกแดดจ้ามากเกินไปจะไม่สามารถให้ความปกป้องการกัดกร่อนที่เพียงพอและไม่ควรนำกลับมาใช้งานอีก",
+
+  "If the rip is small, you can cover the rip or hole with a high quality piece of tape that is designed to adhere to “low energy” surfaces like polyethylene. Or, you can fold over and staple the area shut and then seal over the holes made by the staples with the recommended tape. If you have a large rip that you cannot close easily with tape or staples, you should replace the bag with a new one. The best seal is always a “heat seal”.": "หากแตกหรือรอยแตกเล็ก คุณสามารถปิดรอยแตกหรือรูด้วยเทปคุณภาพสูงที่ออกแบบมาให้ติดกับพื้นผิว 'พลังงานต่ำ' เช่นโพลีเอทิลีน หรือคุณสามารถพับและเจาะที่ประสานแล้วหมุนล็อคหรือติดหุ้มรูด้วยเทปแนะนำ หากมีรอยแตกขนาดใหญ่ที่คุณไม่สามารถปิดได้ง่ายด้วยเทปหรือหมุดเข็ม คุณควรเปลี่ยนถุงเป็นใหม่ การซีลที่ดีที่สุดคือ 'ซีลความร้อน' เสมอ",
+  "A light oil coating on the metal part is fine to use with a VCI bag. A heavy oil coating may affect the performance of the BENZ VCI bag by keeping the corrosion inhibiting vapor molecules from reaching the metal surface. Please contact us to determine the suitability of the oil and application.": "การเคลือบน้ำมันบางบนส่วนโลหะเหมาะที่จะใช้กับถุง VCI น้ำมันเข้มอาจมีผลต่อประสิทธิภาพของถุง VCI BENZ โดยการเก็บโมเลกุลไอน้ำภายในจากการเข้าถึงพื้นผิวโลหะ โปรดติดต่อเราเพื่อกำหนดความเหมาะสมของน้ำมันและการใช้งาน",
+  "Ferrous, Non Ferrous & Multimetal: Iron, steel, cast iron, Aluminum (and aluminum alloys containing copper and/or manganese), copper, brass, bronze and fully galvanized steel are protected using blue or clear VCI Protective Packaging. Although VCI products are usually sold in Blue / Clear standard colors but we are also able to custom produce VCI films in any color of your choice.": "โลหะเหล็ก, โลหะไม่เหล็ก และโลหะหลายชนิด: เหล็ก, เหล็กกล้า, เหล็กหล่อ, อลูมิเนียม (และสังกะสีและ/หรือแมงกานีส), ทองเหลือง, ทองแดง, สามารถป้องกันโดยใช้การบรรจุภัณฑ์ VCI สีฟ้าหรือทะเล้น บรรจุภัณฑ์ VCI ส่วนใหญ่จะถูกขายในสีมาตรฐานสีน้ำเงิน / ใส แต่เรายังสามารถผลิตฟิล์ม VCI ในสีที่คุณเลือกได้",
+  "Yes. VCI films made of polyethylene and polypropylene have been recycled for years. VCI products, themselves, are produced using only virgin materials to assure a high level of quality and consistency for our customers.": "ใช่ ฟิล์ม VCI ที่ทำจากโพลีเอทิลีนและโพลีโพรพิลีนถูกรีไซเคิลมาหลายปี ผลิตภัณฑ์ VCI จะถูกผลิตโดยใช้วัสดุเป็นวิชิตเพื่อให้มีระดับคุณภาพและความสม่ำเสมอสูงสำหรับลูกค้าของเรา",
+  "For Flat Bag, Sheet, Sleeve, and Round Bottom Bags Width is measured from edge to edge. If it is a slit seal bag, measure inside seal to inside seal or inside seal to fold. Bag length is measured from top of bag to top of bottom seal or fold. Sleeve or sheet length is measured from cut edge to cut edge.": "สำหรับถุงแบบแบน, แผ่น, ถุงและถุงส่วนล่างทรงกลม ความกว้างจะถูกวัดจากขอบไปยังขอบ หากเป็นถุงที่มีรอยตัด วัดจากประสานด้านในไปยังประสานด้านใน หรือประสานด้านในไปยังขอบพับ ความยาวของถุงจะถูกวัดจากด้านบนของถุงไปยังด้านบนของประสานด้านล่างหรือพับ ความยาวของถุงหรือแผ่นจะถูกวัดจากขอบตัดไปยังขอบตัด"
 
 }
