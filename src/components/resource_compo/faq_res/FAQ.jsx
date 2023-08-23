@@ -11,11 +11,11 @@ const FAQ = () => {
     return (
         <>
             <div className={styles.faq} id='rest1'>
-                <div className={styles.faq_heading} >
-                    Frequently asked questions
+                <div className={styles.faq_heading}>
+                    {t("Frequently asked questions")}
                 </div>
-                <div className={styles.faq_subheading} >
-                    Everything you need to know about the product and billing.
+                <div className={styles.faq_subheading}>
+                    {t("Everything you need to know about the product and billing.")}
                 </div>
 
                 {/* faq */}
