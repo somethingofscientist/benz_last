@@ -7,6 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  pointer-events: none;
+  transition: 0.1s all linear;
 }
 
 .our-missions-wrapper {
@@ -18,7 +20,6 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  /* background-color: red; */
 }
 
 .our-missions.top {
@@ -37,7 +38,7 @@
 }
 
 .our-missions.top .our-missions-wrapper,
-.our-missions.our-missions.bottom {
+.our-missions.bottom {
   position: relative;
 }
 
@@ -79,19 +80,11 @@
   font-size: 32px;
 }
 
-
-
 @media only screen and (max-width: 450px) {
   .our-missions-wrapper {
     overflow: hidden;
     box-sizing: border-box;
     height: 100vh;
-  }
-
-
-  .our-missions-wrapper p {
-    /* font-size: 70px !important; */
-    /* background-color: red; */
   }
 
   .our-missions-wrapper .headers h2 {
@@ -105,5 +98,4 @@
     font-size: 32px;
     text-align: center;
   }
-
 }

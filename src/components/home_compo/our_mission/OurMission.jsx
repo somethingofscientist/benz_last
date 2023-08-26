@@ -23,7 +23,14 @@ const OurMission = () => {
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
       }
-
+      console.log(
+        animationBottom,
+        interval,
+        top,
+        bottom,
+        height,
+        currentScrollbarYPosition
+      );
       if (
         currentScrollbarYPosition >= Number(top) &&
         currentScrollbarYPosition <= animationBottom - interval
@@ -31,14 +38,15 @@ const OurMission = () => {
         const opacity =
           1 -
           (currentScrollbarYPosition - Number(top)) /
-          (animationHeight - 1.5 * interval);
+            (animationHeight - 1.5 * interval);
         zoomParagraph.style.color = `rgba(0,0,0,${opacity}`;
-        zoomParagraph.style.fontSize = `${(((currentScrollbarYPosition - Number(top)) * 24) /
-          (animationHeight - 1.5 * interval) +
-          1) *
-          30 +
+        zoomParagraph.style.fontSize = `${
+          (((currentScrollbarYPosition - Number(top)) * 24) /
+            (animationHeight - 1.5 * interval) +
+            1) *
+            30 +
           100
-          }px`;
+        }px`;
         ourMission.classList = "our-missions active";
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
@@ -72,20 +80,22 @@ const OurMission = () => {
 
         if (
           currentScrollbarYPosition >=
-          animationBottom - 2 * headerAnimationInterval &&
+            animationBottom - 2 * headerAnimationInterval &&
           currentScrollbarYPosition <= animationBottom - headerAnimationInterval
         ) {
-          slideUpHeader.style.marginBottom = `-${((animationBottom -
-            (headerAnimationInterval + currentScrollbarYPosition)) /
-            headerAnimationInterval) *
+          slideUpHeader.style.marginBottom = `-${
+            ((animationBottom -
+              (headerAnimationInterval + currentScrollbarYPosition)) /
+              headerAnimationInterval) *
             300
-            }px`;
+          }px`;
 
-          slideUpHeader.style.color = `rgba(255,255,255,${1 -
+          slideUpHeader.style.color = `rgba(255,255,255,${
+            1 -
             (animationBottom -
               (headerAnimationInterval + currentScrollbarYPosition)) /
-            headerAnimationInterval
-            })`;
+              headerAnimationInterval
+          })`;
         }
 
         if (
@@ -108,18 +118,20 @@ const OurMission = () => {
 
         if (
           currentScrollbarYPosition >=
-          animationBottom - headerAnimationInterval &&
+            animationBottom - headerAnimationInterval &&
           currentScrollbarYPosition <= animationBottom
         ) {
-          slideUpSpan.style.marginBottom = `-${((animationBottom - currentScrollbarYPosition) /
-            headerAnimationInterval) *
+          slideUpSpan.style.marginBottom = `-${
+            ((animationBottom - currentScrollbarYPosition) /
+              headerAnimationInterval) *
             300
-            }px`;
+          }px`;
 
-          slideUpSpan.style.color = `rgba(255,255,255,${1 -
+          slideUpSpan.style.color = `rgba(255,255,255,${
+            1 -
             (animationBottom - currentScrollbarYPosition) /
-            headerAnimationInterval
-            })`;
+              headerAnimationInterval
+          })`;
         }
 
         if (currentScrollbarYPosition > animationBottom) {
@@ -128,7 +140,7 @@ const OurMission = () => {
         }
       }
     });
-    return () => document.removeEventListener("scroll", () => { });
+    return () => document.removeEventListener("scroll", () => {});
   }, []);
 
   return (
