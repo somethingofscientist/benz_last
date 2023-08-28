@@ -58,7 +58,7 @@ const OurMission = () => {
         headers.style.display = "flex";
       }
 
-      if (currentScrollbarYPosition > animationBottom) {
+      if (currentScrollbarYPosition > animationBottom+200) {
         ourMission.classList = "our-missions bottom";
       }
 
