@@ -125,12 +125,23 @@
     cursor: pointer;
 }
 
+.certificate {
+    width: 20%;
+    margin: auto;
+}
+.certificate img{
+    width: 100%;
+}
 
 @media (max-width:769px){
     .route,
     .active_route {
        font-size: 20px; 
        /* background-color: red; */
+    }
+    .certificate {
+        width: 70%;
+        margin: auto;
     }
 }
 @media (max-width:640px){

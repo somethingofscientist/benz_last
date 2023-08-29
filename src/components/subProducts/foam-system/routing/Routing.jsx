@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FirstContainer from '../first_containers/FirstContainer_Des_Pack'
 import { TbDownload } from 'react-icons/tb';
 import { useTranslation } from 'react-i18next';
-
+import certificate1 from '../../../certificates/folder1/Udyam Registration Certificate_page-0001.jpg'
 
 const Routing = () => {
     const [page, setPage] = useState("product");
@@ -39,7 +39,10 @@ const Routing = () => {
                     : page === "certification" ?
                         <>
                             <h1 style={{ textAlign: "center", margin: "6% 0" }}>
-                                {t("Currently Certificate is Not  Available")}
+                                {/* {t("Currently Certificate is Not  Available")} */}
+                                <div className={styles.certificate}>
+                                    <img src={certificate1} alt="certificate" />
+                                </div>
                             </h1>
                         </>
                         : page === "application" ?

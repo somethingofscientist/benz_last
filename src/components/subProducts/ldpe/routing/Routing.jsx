@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FirstContainer from '../first_containers/FirstContainer_Des_Pack'
 import { TbDownload } from 'react-icons/tb';
 import { useTranslation } from 'react-i18next';
+import certificate1 from '../../../certificates/BENZ_Award_1.jpeg'
+import certificate2 from '../../../certificates/BENZ_Award_2.jpg'
 
 
 const Routing = () => {
@@ -40,6 +42,9 @@ const Routing = () => {
                         <>
                             <h1 style={{ textAlign: "center", margin: "6% 0" }}>
                                 {t("Currently Certificate is Not  Available")}
+                                <div className={styles.certificate}>
+                                    <img src={certificate1} alt="certificate" />
+                                </div>
                             </h1>
                         </>
                         : page === "application" ?
