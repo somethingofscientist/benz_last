@@ -4,12 +4,22 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FirstContainer from '../first_containers/FirstContainer_Des_Pack'
 import { TbDownload } from 'react-icons/tb';
 import { useTranslation } from 'react-i18next';
-import certificate1 from '../../../certificates/Certificate of Incorporation.jpg'
+import certificate1 from '../../../certificates/BENZ_Award_1.jpeg'
 import certificate2 from '../../../certificates/BENZ_Award_2.jpg'
+import certificate3 from '../../../certificates/Certificate of Incorporation.jpg'
+import certificate4 from '../../../certificates/Global Recycle Standard_page-0001.jpg'
+import certificate5 from '../../../certificates/NEW ISO_page-0001.jpg'
+import certificate6 from '../../../certificates/folder1/Udyam Registration Certificate_page-0001.jpg'
+import certificate7 from '../../../certificates/folder2/EPR certificate_BENZ_page-0001.jpg'
+import certificate7_1 from '../../../certificates/folder2/EPR certificate_BENZ_page-0002.jpg'
+import certificate7_2 from '../../../certificates/folder2/EPR certificate_BENZ_page-0003.jpg'
+import certificate8 from '../../../certificates/folder3/Certificate-CTE_page-0001.jpg'
+import certificate9 from '../../../certificates/folder3/Certificate-CTE_page-0002.jpg'
+import certificate10 from '../../../certificates/folder3/Certificate-CTE_page-0003.jpg'
+import certificate11 from '../../../certificates/folder3/Certificate-CTE_page-0004.jpg'
 
 const Routing = () => {
     const [page, setPage] = useState("product");
-
     const { t, i18n } = useTranslation();
 
     return (
@@ -43,6 +53,18 @@ const Routing = () => {
                                 {/* {t("Currently Certificate is Not  Available")} */}
                                 <div className={styles.certificate}>
                                     <img src={certificate1} alt="certificate" />
+                                    <img src={certificate2} alt="certificate" />
+                                    <img src={certificate3} alt="certificate" />
+                                    <img src={certificate4} alt="certificate" />
+                                    <img src={certificate5} alt="certificate" />
+                                    <img src={certificate6} alt="certificate" />
+                                    <img src={certificate7} alt="certificate" />
+                                    <img src={certificate7_1} alt="certificate" />
+                                    <img src={certificate7_2} alt="certificate" />
+                                    <img src={certificate8} alt="certificate" />
+                                    <img src={certificate9} alt="certificate" />
+                                    <img src={certificate10} alt="certificate" />
+                                    <img src={certificate11} alt="certificate" />
                                 </div>
                             </h1>
                         </>
