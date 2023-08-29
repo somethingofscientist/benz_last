@@ -127,14 +127,49 @@
 .certificate {
     width: 90%;
     margin: auto;
-    /* border: 1px solid lime; */
-    white-space: nowrap; 
-    overflow-x: scroll;
+    overflow: hidden;
+    position: relative;
 }
-.certificate img{
-    display: inline-block; 
+.certificateContainer {
+    white-space: nowrap;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    overflow-x: scroll;
+    position: relative !important;
+}
+.certificateContainer img {
+    flex-shrink: 0;
     width: 20%;
-    margin-right: 100px;
+    margin-right: 50px;
+}
+.certificate>button {
+    padding: 0px;
+    font-size: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificate>.left_arrow {
+    position: absolute;
+    left: 0px !important;
+    top: 50%;
+    bottom: 50%;
+    color: rgba(0, 0, 0, 0.354);
+}
+.certificate>.right_arrow {
+    position: absolute;
+    right: 0 !important;
+    top: 50%;
+    bottom: 50%;
+    color: rgba(0, 0, 0, 0.354);
+}
+.certificate>.left_arrow :hover,
+.certificate>.right_arrow :hover {
+    color:whitesmoke !important;
+    background-color: rgba(0, 129, 201, 0.85);
+    border-radius: 100%;
 }
 @media (max-width:769px) {
     .route,

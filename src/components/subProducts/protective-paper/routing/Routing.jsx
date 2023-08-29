@@ -17,9 +17,24 @@ import certificate8 from '../../../certificates/folder3/Certificate-CTE_page-000
 import certificate9 from '../../../certificates/folder3/Certificate-CTE_page-0002.jpg'
 import certificate10 from '../../../certificates/folder3/Certificate-CTE_page-0003.jpg'
 import certificate11 from '../../../certificates/folder3/Certificate-CTE_page-0004.jpg'
+import { useRef } from 'react';
+import { BsArrowRightCircle, BsArrowLeftCircle } from 'react-icons/bs'
 
 const Routing = () => {
     const [page, setPage] = useState("product");
+    const certificateContainerRef = useRef(null);
+
+    const scrollLeft = () => {
+        if (certificateContainerRef.current) {
+            certificateContainerRef.current.scrollLeft -= 200; // Adjust the scroll amount as needed
+        }
+    };
+
+    const scrollRight = () => {
+        if (certificateContainerRef.current) {
+            certificateContainerRef.current.scrollLeft += 200; // Adjust the scroll amount as needed
+        }
+    };
     
     const { t, i18n } = useTranslation();
 
@@ -53,19 +68,31 @@ const Routing = () => {
                             <h1 style={{ textAlign: "center", margin: "6% 0" }}>
                                 {/* {t("Currently Certificate is Not  Available")} */}
                                 <div className={styles.certificate}>
-                                    <img src={certificate1} alt="certificate" />
-                                    <img src={certificate2} alt="certificate" />
-                                    <img src={certificate3} alt="certificate" />
-                                    <img src={certificate4} alt="certificate" />
-                                    <img src={certificate5} alt="certificate" />
-                                    <img src={certificate6} alt="certificate" />
-                                    <img src={certificate7} alt="certificate" />
-                                    <img src={certificate7_1} alt="certificate" />
-                                    <img src={certificate7_2} alt="certificate" />
-                                    <img src={certificate8} alt="certificate" />
-                                    <img src={certificate9} alt="certificate" />
-                                    <img src={certificate10} alt="certificate" />
-                                    <img src={certificate11} alt="certificate" />
+                                    <div className={styles.certificateContainer} ref={certificateContainerRef}>
+                                        <img src={certificate1} alt="certificate" />
+                                        <img src={certificate2} alt="certificate" />
+                                        <img src={certificate3} alt="certificate" />
+                                        <img src={certificate4} alt="certificate" />
+                                        <img src={certificate5} alt="certificate" />
+                                        <img src={certificate6} alt="certificate" />
+                                        <img src={certificate7} alt="certificate" />
+                                        <img src={certificate7_1} alt="certificate" />
+                                        <img src={certificate7_2} alt="certificate" />
+                                        <img src={certificate8} alt="certificate" />
+                                        <img src={certificate9} alt="certificate" />
+                                        <img src={certificate10} alt="certificate" />
+                                        <img src={certificate11} alt="certificate" />
+                                    </div>
+                                    <button
+                                        className={styles.left_arrow}
+                                        onClick={scrollLeft}>
+                                        <BsArrowLeftCircle />
+                                    </button>
+                                    <button
+                                        className={styles.right_arrow}
+                                        onClick={scrollRight}>
+                                        <BsArrowRightCircle />
+                                    </button>
                                 </div>
                             </h1>
                         </>
