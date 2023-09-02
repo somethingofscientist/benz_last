@@ -21,7 +21,7 @@ const Working = () => {
         <>
             <div className={styles.working_container} id="section2">
                 <div className={styles.about_compo_heading} >
-                    {t("Benefits of working with us")}
+                    {/* {t("Benefits of working with us")} */}
                 </div>
                 <ScrollMenu className="horizontal-scroll-menu">
                     {data.map((imageUrl, index) => (
