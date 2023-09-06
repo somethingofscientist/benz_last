@@ -18,6 +18,7 @@ const Working = () => {
     };
     return (
 
+        
         <>
             <div className={styles.working_container} id="section2">
                 <div className={styles.about_compo_heading} >
