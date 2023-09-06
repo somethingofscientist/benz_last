@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
 import logo from "../../images/logo.svg";
@@ -11,25 +11,55 @@ import { FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Dropdown from "./dropdown/Dropdown";
+import { useEffect } from "react";
 
 const Navbar = () => {
+  const closeButtonRef = useRef(null)
+  const hamburgerRef = useRef(null)
+  const aboutButtonRef = useRef(null)
+  const navbarRef = useRef(null)
   const [selected, setSelected] = useState("Lang");
   const [burgerOpen, setBurgerOpen] = useState(false);
-  const [dropdown, setDropdown] = useState([false, false, false, false, false]);
-  function replaceAt(array, index, value) {
-    const ret = array.slice(0);
-    ret[index] = value;
-    return ret;
-  }
+  const [dropdown, setDropdown] = useState([]);
 
   const handleToogle = (index) => {
-    let arr = replaceAt(dropdown, index, !dropdown[index]);
-    setDropdown(arr);
+    const temp = [...dropdown]
+    const dropdownIndex = temp.indexOf(index)
+    if (dropdownIndex === -1) {
+      temp.push(index)
+    } else {
+      temp.splice(dropdownIndex, 1)
+    }
+    setDropdown([...temp])
   };
+
+  useEffect(() => {
+    document.addEventListener("click", (event) => {
+      if (navbarRef?.current && closeButtonRef?.current && hamburgerRef?.current) {
+        if (navbarRef?.current?.contains(event.target)) {
+          if (hamburgerRef?.current?.contains(event.target)) {
+            setBurgerOpen(true)
+          } else if (closeButtonRef.current.contains(event.target)) {
+            setBurgerOpen(false)
+          } else {
+            setBurgerOpen(true)
+          }
+        } else {
+          if (aboutButtonRef?.current?.contains(event.target)) {
+            setBurgerOpen(true)
+          } else {
+            setBurgerOpen(false)
+          }
+        }
+      }
+    })
+
+    return () => document.removeEventListener("scroll", () => { })
+  }, [])
 
   return (
     <>
-      <div className={styles.navContainer}>
+      <div ref={navbarRef} className={styles.navContainer}>
         <div className={styles.navbar}>
           {/* logo */}
           <div className={styles.logo}>
@@ -45,12 +75,12 @@ const Navbar = () => {
 
             {/* hamburger menu */}
 
-            <GiHamburgerMenu
-              onClick={() => setBurgerOpen(true)}
-              color="white"
-              size={28}
-              style={{ cursor: "pointer" }}
-            />
+            <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent" }}
+              ref={hamburgerRef}><GiHamburgerMenu
+                color="white"
+                size={28}
+                style={{ cursor: "pointer" }}
+              /></button>
           </div>
         </div>
 
@@ -60,11 +90,13 @@ const Navbar = () => {
               {/* <BsGlobe size={28} /> */}
             </li>
             <li>
-              <AiOutlineClose
-                size={28}
-                onClick={() => setBurgerOpen(false)}
-                style={{ cursor: "pointer" }}
-              />
+              <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent" }}
+
+                ref={closeButtonRef}><AiOutlineClose
+                  size={28}
+                  style={{ cursor: "pointer", color: "#000" }}
+                /></button>
+
             </li>
           </FlexNavItems>
           <OtherDetails>
@@ -76,14 +108,18 @@ const Navbar = () => {
                 {" "}
                 About{" "}
               </Link>
-              {dropdown[0] ? (
-                <FaChevronUp onClick={() => handleToogle(0)} />
-              ) : (
-                <FaChevronDown onClick={() => handleToogle(0)} />
-              )}
+              <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent", color: "#000" }} ref={aboutButtonRef} onClick={() => handleToogle(0)}
+              >
+                {dropdown.indexOf(0) !== -1 ? (
+                  <FaChevronUp />
+                ) : (
+                  <FaChevronDown />
+                )}
+              </button>
+
             </li>
 
-            <DropDown visible={dropdown[0]}>
+            <DropDown visible={dropdown.indexOf(0) !== -1}>
               <li>
                 <HashLink
                   smooth
@@ -139,13 +175,13 @@ const Navbar = () => {
                 {" "}
                 Products{" "}
               </Link>
-              {dropdown[1] ? (
+              {dropdown.indexOf(1) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(1)} />
               ) : (
                 <FaChevronDown onClick={() => handleToogle(1)} />
               )}
             </li>
-            <DropDown visible={dropdown[1]}>
+            <DropDown visible={dropdown.indexOf(1) !== -1}>
               <li>
                 <HashLink
                   smooth
@@ -191,13 +227,13 @@ const Navbar = () => {
                 {" "}
                 Industries{" "}
               </Link>
-              {dropdown[2] ? (
+              {dropdown.indexOf(2) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(2)} />
               ) : (
                 <FaChevronDown onClick={() => handleToogle(2)} />
               )}
             </li>
-            <DropDown visible={dropdown[2]}>
+            <DropDown visible={dropdown.indexOf(2) !== -1}>
               <li>
                 <HashLink
                   smooth
@@ -262,13 +298,13 @@ const Navbar = () => {
                 {" "}
                 Resources{" "}
               </Link>
-              {dropdown[3] ? (
+              {dropdown.indexOf(3) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(3)} />
               ) : (
                 <FaChevronDown onClick={() => handleToogle(3)} />
               )}
             </li>
-            <DropDown visible={dropdown[3]}>
+            <DropDown visible={dropdown.indexOf(3) !== -1}>
               <li>
                 <HashLink
                   smooth
@@ -324,13 +360,13 @@ const Navbar = () => {
                 {" "}
                 News{" "}
               </Link>
-              {dropdown[4] ? (
+              {dropdown.indexOf(4) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(4)} />
               ) : (
                 <FaChevronDown onClick={() => handleToogle(4)} />
               )}
             </li>
-            <DropDown visible={dropdown[4]}>
+            <DropDown visible={dropdown.indexOf(4) !== -1}>
               <li>
                 <HashLink
                   smooth
