@@ -35,6 +35,16 @@ const Sticky_header_industry = () => {
                         {t("Electronics")}
                     </div>
                 </a>
+                <a href="#section6">
+                    <div className={styles.sticky_link}>
+                        {t("FMCG (Fast Moving Consumable Goods)")}
+                    </div>
+                </a>
+                <a href="#section7">
+                    <div className={styles.sticky_link}>
+                        {t("Retail")}
+                    </div>
+                </a>
                 {/* <a href="#section5">
                     <div className={styles.sticky_link}>
                         Our Team

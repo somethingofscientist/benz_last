@@ -80,10 +80,19 @@
     display: none;
     /* Safari and Chrome */
 }
-
+.blue_img_manas{
+    width: 100%;
+}
+.blue_img_manas img{
+    width: 100%;
+}
+.blue_img{
+    width: 100%;
+}
 .blue_img img {
     display: block;
-    height: 500px;
+    /* height: 500px; */
+    width: 100%;
 }
 
 .blue_text {
@@ -154,6 +163,12 @@
 }
 
 @media (max-width:1440px) {
+    .blue_img_manas{
+        width: 100%;
+    }
+    .blue_img_manas img{
+        width: 100%;
+    }
     .blue_img {
         width: 50%;
         /* background-color: red; */

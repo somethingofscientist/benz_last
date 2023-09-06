@@ -8,6 +8,8 @@ import Aerospace from '../../components/industry_compo/aero_industry/Aerospace';
 import Electro from '../../components/industry_compo/electro_industry/Electro';
 import Mili from '../../components/industry_compo/mili_industry/Mili';
 import Contract_packaging from '../../components/industry_compo/contract_packaging_industry/Contract_packaging';
+import Fmcg from '../../components/industry_compo/fmcg/Fmcg';
+import Retail from '../../components/industry_compo/retail/Retail';
 
 const Industry = () => {
   return (
@@ -20,6 +22,8 @@ const Industry = () => {
         <Aerospace />
         <Contract_packaging />
         <Electro />
+        <Fmcg />
+        <Retail />  
     </>
   )
 }

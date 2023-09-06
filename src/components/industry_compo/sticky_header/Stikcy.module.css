@@ -19,12 +19,12 @@
 .sticky_header {
     z-index: 99;
     width: 80%;
-    /* background-color: red; */
     padding: 40px 0 0px 0;
     margin: auto;
     display: flex;
     justify-content: flex-start;
     background-color: white;
+    /* background-color: red !important; */
 
 
     position: -webkit-sticky;
