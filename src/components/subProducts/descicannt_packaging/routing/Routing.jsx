@@ -68,7 +68,7 @@ const Routing = () => {
                         <>
                             <h1 style={{ textAlign: "center", margin: "6% 0" }}>
                                 {/* {t("Currently Certificate is Not  Available")} */}
-                                <div className={styles.certificate}>
+                                {/* <div className={styles.certificate}>
                                     <div className={styles.certificateContainer} ref={certificateContainerRef}>
                                         <img src={certificate1} alt="certificate" />
                                         <img src={certificate2} alt="certificate" />
@@ -94,16 +94,16 @@ const Routing = () => {
                                         onClick={scrollRight}>
                                         <BsArrowRightCircle />
                                     </button>
-                                </div>
+                                </div> */}
                             </h1>
                         </>
                         : page === "application" ?
                             <>
                                 <h1 style={{ textAlign: "center", margin: "6% 0" }}>
-                                    {/* {t("Currently  Application is Not Available")} */}
-                                    <div className={styles.certificate}>
+                                    {t("Currently  Application is Not Available")}
+                                    {/* <div className={styles.certificate}>
                                         <img src={certificate2} alt="certificate" />
-                                    </div>
+                                    </div> */}
                                 </h1>
                             </>
 

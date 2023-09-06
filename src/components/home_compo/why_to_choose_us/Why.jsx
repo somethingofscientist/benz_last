@@ -20,7 +20,7 @@ const Why = () => {
       <div className={styles.right}>
         <div className={styles.map}>
           <div className={styles.map_flexbox}>
-            <div className={styles.map_heading}>{t("Why choose us.")}</div>
+            <div className={styles.map_heading}>{t("Benefits of working with us")}</div>
             <div className={styles.map_sub_heading}>
               {t("By selecting our packaging solutions, you not only gain access to the finest quality materials, cutting-edge technology, and a globally available network, but you also become an active participant in shaping a more sustainable future. We believe in the strength of collective efforts, and through our eco-friendly materials and practices, we can collectively reduce waste and preserve our precious natural resources. With our expert team by your side, we are dedicated to providing unparalleled support and expertise as we work together towards a more sustainable and responsible world.")}
             </div>
