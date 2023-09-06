@@ -12,7 +12,6 @@ import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 
-
 const Footer = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
