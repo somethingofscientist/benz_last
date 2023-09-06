@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
 import logo from "../../images/logo.svg";
@@ -14,52 +14,39 @@ import Dropdown from "./dropdown/Dropdown";
 import { useEffect } from "react";
 
 const Navbar = () => {
-  const closeButtonRef = useRef(null)
-  const hamburgerRef = useRef(null)
-  const aboutButtonRef = useRef(null)
-  const navbarRef = useRef(null)
   const [selected, setSelected] = useState("Lang");
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [dropdown, setDropdown] = useState([]);
 
   const handleToogle = (index) => {
-    const temp = [...dropdown]
-    const dropdownIndex = temp.indexOf(index)
+    const temp = [...dropdown];
+    const dropdownIndex = temp.indexOf(index);
     if (dropdownIndex === -1) {
-      temp.push(index)
+      temp.push(index);
     } else {
-      temp.splice(dropdownIndex, 1)
+      temp.splice(dropdownIndex, 1);
     }
-    setDropdown([...temp])
+    setDropdown([...temp]);
+    setBurgerOpen(true);
   };
 
   useEffect(() => {
-    document.addEventListener("click", (event) => {
-      if (navbarRef?.current && closeButtonRef?.current && hamburgerRef?.current) {
-        if (navbarRef?.current?.contains(event.target)) {
-          if (hamburgerRef?.current?.contains(event.target)) {
-            setBurgerOpen(true)
-          } else if (closeButtonRef.current.contains(event.target)) {
-            setBurgerOpen(false)
-          } else {
-            setBurgerOpen(true)
-          }
-        } else {
-          if (aboutButtonRef?.current?.contains(event.target)) {
-            setBurgerOpen(true)
-          } else {
-            setBurgerOpen(false)
-          }
+    const navbarElement = document.getElementById("navbar");
+    document.addEventListener(
+      "mousemove",
+      (event) => {
+        if (burgerOpen && !navbarElement.matches(":hover")) {
+          setBurgerOpen(false);
         }
-      }
-    })
-
-    return () => document.removeEventListener("scroll", () => { })
-  }, [])
+      },
+      []
+    );
+    return document.removeEventListener("mousemove", () => {});
+  }, [burgerOpen]);
 
   return (
     <>
-      <div ref={navbarRef} className={styles.navContainer}>
+      <div id="navbar" className={styles.navContainer}>
         <div className={styles.navbar}>
           {/* logo */}
           <div className={styles.logo}>
@@ -75,28 +62,24 @@ const Navbar = () => {
 
             {/* hamburger menu */}
 
-            <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent" }}
-              ref={hamburgerRef}><GiHamburgerMenu
-                color="white"
-                size={28}
-                style={{ cursor: "pointer" }}
-              /></button>
+            <GiHamburgerMenu
+              color="white"
+              size={28}
+              style={{ cursor: "pointer" }}
+              onClick={() => setBurgerOpen(true)}
+            />
           </div>
         </div>
 
         <Menu show={burgerOpen}>
           <FlexNavItems>
-            <li className={styles.iconSpace}>
-              {/* <BsGlobe size={28} /> */}
-            </li>
+            <li className={styles.iconSpace}>{/* <BsGlobe size={28} /> */}</li>
             <li>
-              <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent" }}
-
-                ref={closeButtonRef}><AiOutlineClose
-                  size={28}
-                  style={{ cursor: "pointer", color: "#000" }}
-                /></button>
-
+              <AiOutlineClose
+                size={28}
+                style={{ cursor: "pointer", color: "#000" }}
+                onClick={() => setBurgerOpen(false)}
+              />
             </li>
           </FlexNavItems>
           <OtherDetails>
@@ -108,15 +91,11 @@ const Navbar = () => {
                 {" "}
                 About{" "}
               </Link>
-              <button style={{ width: "max-content", width: "max-content", padding: "0px", backgroundColor: "transparent", color: "#000" }} ref={aboutButtonRef} onClick={() => handleToogle(0)}
-              >
-                {dropdown.indexOf(0) !== -1 ? (
-                  <FaChevronUp />
-                ) : (
-                  <FaChevronDown />
-                )}
-              </button>
-
+              {dropdown.indexOf(0) !== -1 ? (
+                <FaChevronUp onClick={() => handleToogle(0)} />
+              ) : (
+                <FaChevronDown onClick={() => handleToogle(0)} />
+              )}
             </li>
 
             <DropDown visible={dropdown.indexOf(0) !== -1}>
@@ -405,9 +384,7 @@ const Navbar = () => {
               </li>
             </DropDown>
             <li className={styles.otherMenu}>
-              <HashLink to="/contact_page">
-                contact
-              </HashLink>
+              <HashLink to="/contact_page">contact</HashLink>
             </li>
           </OtherDetails>
         </Menu>
