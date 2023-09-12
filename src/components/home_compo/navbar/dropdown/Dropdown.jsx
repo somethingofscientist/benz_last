@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Dropdown.module.css';
-import { BsChevronDown, BsChevronUp, BsGlobe, BsGlobe2 } from 'react-icons/bs';
+import { BsGlobe2 } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
 const Dropdown = ({ selected, setSelected }) => {
@@ -9,6 +9,7 @@ const Dropdown = ({ selected, setSelected }) => {
 
   const handleClick = (lang) => {
     i18n.changeLanguage(lang);
+    setActive(false); // Close the dropdown when a language is selected
   };
 
   return (
@@ -22,7 +23,11 @@ const Dropdown = ({ selected, setSelected }) => {
           <BsGlobe2 />
         </div>
         {isActive && (
-          <div className={styles.dropdown_content} onMouseEnter={() => setActive(true)} onMouseLeave={() => setActive(false)}>
+          <div
+            className={styles.dropdown_content}
+            onMouseEnter={() => setActive(true)}
+            onMouseLeave={() => setActive(false)}
+          >
             <nav className={styles.dropdown_items}>
               <button onClick={() => handleClick('en')}>English</button>
               <button onClick={() => handleClick('sp')}>Spanish</button>
