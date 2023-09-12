@@ -9,7 +9,7 @@ const OurMission = () => {
     const slideUpHeader = document.getElementById("slide-up-header");
     const slideUpSpan = document.getElementById("slide-up-span");
     const overlay = document.getElementById("overlay");
-    zoomParagraph.style.fontSize = "100px";
+    zoomParagraph.style.fontSize = window.screen.width < 768 ? "40px" : "100px";
     const { top, bottom, height } = ourMission.getBoundingClientRect();
     const interval = height / 5;
     const animationBottom = bottom - interval;
@@ -19,18 +19,11 @@ const OurMission = () => {
       const currentScrollbarYPosition = window.pageYOffset;
       if (currentScrollbarYPosition < Number(top)) {
         ourMission.classList = "our-missions top";
-        zoomParagraph.style.fontSize = "100px";
+        zoomParagraph.style.fontSize =
+          window.screen.width < 768 ? "40px" : "100px";
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
       }
-      console.log(
-        animationBottom,
-        interval,
-        top,
-        bottom,
-        height,
-        currentScrollbarYPosition
-      );
       if (
         currentScrollbarYPosition >= Number(top) &&
         currentScrollbarYPosition <= animationBottom - interval
@@ -44,8 +37,8 @@ const OurMission = () => {
           (((currentScrollbarYPosition - Number(top)) * 24) /
             (animationHeight - 1.5 * interval) +
             1) *
-            30 +
-          100
+            (window.screen.width < 768 ? 12 : 30) +
+          (window.screen.width < 768 ? 40 : 100)
         }px`;
         ourMission.classList = "our-missions active";
         zoomParagraph.style.display = "block";
@@ -58,7 +51,7 @@ const OurMission = () => {
         headers.style.display = "flex";
       }
 
-      if (currentScrollbarYPosition > animationBottom+200) {
+      if (currentScrollbarYPosition > animationBottom + 200) {
         ourMission.classList = "our-missions bottom";
       }
 
