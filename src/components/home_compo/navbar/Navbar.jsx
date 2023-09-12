@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
 import logo from "../../images/logo.svg";
@@ -14,6 +15,7 @@ import Dropdown from "./dropdown/Dropdown";
 import { useEffect } from "react";
 
 const Navbar = () => {
+  const location = useLocation();
   const [selected, setSelected] = useState("Lang");
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [dropdown, setDropdown] = useState([]);
@@ -37,12 +39,18 @@ const Navbar = () => {
       (event) => {
         if (burgerOpen && !navbarElement.matches(":hover")) {
           setBurgerOpen(false);
+          setDropdown([]);
         }
       },
       []
     );
     return document.removeEventListener("mousemove", () => {});
   }, [burgerOpen]);
+
+  useEffect(() => {
+    setDropdown([]);
+    setBurgerOpen(false);
+  }, [location.pathname]);
 
   return (
     <>
