@@ -14,6 +14,7 @@ import { HashLink } from "react-router-hash-link";
 import Dropdown from "./dropdown/Dropdown";
 import { useEffect } from "react";
 
+
 const Navbar = () => {
   const location = useLocation();
   const [selected, setSelected] = useState("Lang");
@@ -172,7 +173,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/products?anti-corosion"
+                  to="/products/corrosion"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   anti - corrosion
@@ -181,7 +182,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/products?anti-humidity"
+                  to="/products/humidity"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   anti - humidity
@@ -190,7 +191,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/products?industrial"
+                  to="/products/traditional"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   Traditional packaging
@@ -199,7 +200,7 @@ const Navbar = () => {
               <li>
                 <HashLink
                   smooth
-                  to="/products?handling"
+                  to="/products/handling"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   handling

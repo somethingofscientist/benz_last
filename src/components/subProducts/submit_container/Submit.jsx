@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import styles from './Submit.module.css';
 import { HiOutlineDownload } from 'react-icons/hi';
 import pdf from './benz.pdf';
@@ -9,9 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 const Submit = () => {
     const { t, i18n } = useTranslation();
-
     const [email, setEmail] = useState("");
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -62,16 +60,24 @@ const Submit = () => {
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.submit_flex_box}>
+                        {/* <div className={styles.new_container}> */}
                         <div className={styles.input_email}>
                             <input
-                                // placeholder='Phone Number Or Email*'
                                 type="email"
                                 placeholder="Enter Email Address"
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
+                            <button
+                                className={styles.submit_btn}
+                                type='submit'
+                            >
+                                {t("Submit")}
+                            </button>
                         </div>
+
+                        {/* </div> */}
 
                         <a href={pdf} target="_blank" download={'BENZ_Brochure'}>
                             <div className={styles.download}>
@@ -82,12 +88,8 @@ const Submit = () => {
                             </div>
                         </a>
                     </div>
-                    <button
-                        className={styles.submit_btn}
-                        type='submit'
-                    >
-                        {t("Submit")}
-                    </button>
+
+
                 </form>
             </div>
         </>

@@ -28,7 +28,6 @@ const Products = () => {
 
   const handleCardClick = (page) => {
     setPage(page);
-
     const yOffset = window.pageYOffset + 900;
     window.scrollTo({ top: yOffset, behavior: 'smooth' });
   };

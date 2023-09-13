@@ -16,15 +16,20 @@
 }
 
 .submit_flex_box {
-    display: flex;
     width: 50%;
     flex-wrap: wrap;
-    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center !important;
     margin: auto;
     padding: 50px 0 0 0;
     /* border: 1px solid lime; */
-    justify-content:space-evenly;
-    /* background-color: lime; */
+}
+.input_email{
+    /* background-color: red; */
+    margin-bottom: -20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .input_email input {
@@ -37,6 +42,7 @@
     text-align: center;
     color: rgb(111, 111, 111) !important;
     font-size: 18px;
+    /* border: 1px solid pink; */
 }
 
 .input_email input::placeholder {
@@ -44,10 +50,19 @@
     color: rgb(160, 160, 160);
     font-size: 18px;
     font-family: "Urbanist";
+    /* border: 1px solid lime; */
+}
+.new_container{
+    /* background-color: red; */
 }
 
 .download {
     color: #0081C9;
+    padding: 24px 0px;
+    /* background-color: red; */
+    /* margin-bottom: 30px; */
+    /* border: 1px solid pink; */
+    margin-bottom: 50px;
 }
 .download:hover{
     transform: scale(1.2);

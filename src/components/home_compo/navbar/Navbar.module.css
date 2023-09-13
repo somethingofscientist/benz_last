@@ -15,10 +15,12 @@
 
 .navbar {
   display: flex;
-  /* align-items: center; */
+  width: 100%;
+  position:fixed !important;
+  top: 0;
   justify-content: space-between;
   padding: 57px 124px 0px 140px;
-    /* background-color: red !important; */
+  background-color: rgba(0, 0, 0, 0.186) !important;
 }
 
 .otherMenu {
