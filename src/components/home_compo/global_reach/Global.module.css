@@ -259,4 +259,7 @@
     line-height: 30px;
     font-size: 16px;
   }
+  .global_image_text_container p{
+    text-align: left;
+  }
 }

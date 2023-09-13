@@ -17,7 +17,9 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
-  console.log("we are in footer ->")
+  
+  // console.log("we are in footer ->")
+
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
@@ -26,10 +28,10 @@ const Footer = () => {
         email,
       });
       if (res.status === 200) {
-        toast.dismiss();
+        // toast.dismiss();
         toast.success("Thank you for subscribing!", {
           position: "top-center",
-          autoClose: 5000,
+          autoClose: 1500,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -39,7 +41,9 @@ const Footer = () => {
         });
         setFirstName("");
         setEmail("");
-      } else {
+
+      } 
+      else {
         toast.dismiss();
         toast.error("Some Error Occured");
       }
@@ -184,7 +188,7 @@ const Footer = () => {
               <div className={styles.footer_lines}>
                 <HashLink
                   smooth
-                  to="/industry#section4"
+                  to="/"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   {t("Home")}

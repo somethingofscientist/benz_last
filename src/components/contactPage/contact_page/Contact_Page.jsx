@@ -42,7 +42,7 @@ const Contact_Page = () => {
         toast.dismiss();
         toast.success("Thank you for subscribing!", {
           position: "top-center",
-          autoClose: 3000,
+          autoClose: 1500,
           theme: "dark",
         });
       } else {
@@ -56,7 +56,7 @@ const Contact_Page = () => {
         autoClose: 3000,
         theme: "dark",
       });
-      console.log(error.message);
+      // console.log(error.message);
     }
   };
   const { t, i18n } = useTranslation();

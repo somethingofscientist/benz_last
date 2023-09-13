@@ -411,4 +411,7 @@
     font-size: 15px;
     line-height: 40px;
 }
+.global_image_text_container p{
+    text-align: left;
+}
 }

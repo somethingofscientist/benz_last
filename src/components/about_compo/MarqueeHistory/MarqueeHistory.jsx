@@ -17,7 +17,7 @@ const MarqueeHistory = () => {
         const { scrollTop } = event.target;
         setScrollPosition(scrollTop);
     };
-    console.log("scrollPosition", scrollPosition)
+    // console.log("scrollPosition", scrollPosition)
     return (
         <>
             <div id="section1" >

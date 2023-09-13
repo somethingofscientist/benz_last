@@ -145,4 +145,110 @@ const Industries = () => {
   );
 };
 
+
+// const Industries = () => {
+//   const [arr, setArr] = useState([
+//     {
+//       choti_image: bmw2,
+//       image: bmw,
+//       heading: "Automobile",
+//       hovered: false,
+//       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+//     },
+//     {
+//       choti_image: bmw2,
+//       image: bmw,
+//       heading: "Automobile",
+//       hovered: false,
+//       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+//     },
+//     {
+//       choti_image: bmw2,
+//       image: bmw,
+//       heading: "Automobile",
+//       hovered: false,
+//       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+//     },
+//     {
+//       choti_image: bmw2,
+//       image: bmw,
+//       heading: "Automobile",
+//       hovered: false,
+//       text: "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+//     },
+
+//     // Add other industry objects here
+//   ]);
+
+//   const { t, i18n } = useTranslation();
+
+//   const handleHover = (index) => {
+//     setArr((prevState) =>
+//       prevState.map((item, i) =>
+//         i === index ? { ...item, hovered: true } : item
+//       )
+//     );
+//   };
+
+//   const handleLeave = (index) => {
+//     setArr((prevState) =>
+//       prevState.map((item, i) =>
+//         i === index ? { ...item, hovered: false } : item
+//       )
+//     );
+//   };
+
+//   return (
+//     <div className={styles.map_whole_container}>
+//       <div className={styles.map}>
+//         <div className={styles.map_flexbox}>
+//           <div className={styles.map_heading}>
+//             {t("Industries to meet your needs.")}
+//           </div>
+//           <div className={styles.map_sub_heading}>
+//             {t(
+//               "Our packaging products are environmentally conscious, innovative, and cater to a variety of industries."
+//             )}
+//           </div>
+//         </div>
+//       </div>
+//       <div className={styles.hover_container}>
+//         {arr.map((value, index) => (
+//           <div
+//             key={index}
+//             className={value.hovered ? styles.car_container : styles.car_container2}
+//             onMouseEnter={() => handleHover(index)}
+//             onMouseLeave={() => handleLeave(index)}
+//           >
+//             <img src={value.hovered ? value.image : value.choti_image} alt="Image" />
+//             <div className={styles.car_inner_container}>
+//               <div className={styles.car_heading}>
+//                 {t(`${value.heading}`)}
+//               </div>
+//               <div className={styles.car_container_text2}>
+//                 {t(
+//                   "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components."
+//                 )}
+//               </div>
+//               <div className={styles.learn_more_button}>
+//                 {t("LEARN MORE")}
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//       <div className={styles.view_all_container}>
+//         <Link to="/industry">
+//           <div className={styles.view_all}>
+//             {t("View All Industries")}
+//             <span>
+//               <HiOutlineArrowNarrowRight />
+//             </span>
+//           </div>
+//         </Link>
+//       </div>
+//     </div>
+//   );
+// };
+
 export default Industries;

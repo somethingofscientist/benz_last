@@ -28,7 +28,7 @@ const NewsLetter = () => {
                 toast.dismiss();
                 toast.success("Thank you for subscribing!", {
                     position: "top-center",
-                    autoClose: 5000,
+                    autoClose: 1500,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
