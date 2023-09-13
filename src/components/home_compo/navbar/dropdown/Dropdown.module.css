@@ -5,6 +5,17 @@
 
 }
 
+.dropdown_items button.selected {
+    background-color: white;
+    color: #0081C9;    
+  }
+  
+  /* Add a new class for the selected button on hover */
+  .dropdown_items button.selected:hover {
+    background-color: white;
+    color: #0081C9;    
+}
+
 .dropdown {
     /* background-color: palegoldenrod; */
     display: flex;
@@ -55,6 +66,7 @@
 .dropdown_items button:hover {
     background-color: #ffffff;
     color: #0081C9;
+    /* border: 1px solid lime; */
 
 }
 

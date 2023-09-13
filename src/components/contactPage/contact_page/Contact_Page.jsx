@@ -7,14 +7,14 @@ import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
 import axios from "axios";
 
-import {SlEnvolopeLetter} from 'react-icons/sl'
-import {IoIosPeople} from 'react-icons/io';
-import {HiOutlineOfficeBuilding} from 'react-icons/hi';
+import { SlEnvolopeLetter } from 'react-icons/sl'
+import { IoIosPeople } from 'react-icons/io';
+import { HiOutlineOfficeBuilding } from 'react-icons/hi';
 import { useTranslation } from "react-i18next";
 
 
 const Contact_Page = () => {
-  // e.prevent.default()
+  // e.prevent.default();
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -40,10 +40,16 @@ const Contact_Page = () => {
       });
       if (res.status === 200) {
         toast.dismiss();
-        toast.success("Thank you for subscribing!", {
+        toast.success("Thank you!", {
           position: "top-center",
           autoClose: 1500,
           theme: "dark",
+        });
+        setData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
         });
       } else {
         toast.dismiss();
@@ -68,7 +74,7 @@ const Contact_Page = () => {
           <div className={styles.box}>
             <div className={styles.image}>
               {/* <img src={d1} alt="" /> */}
-              <SlEnvolopeLetter/>
+              <SlEnvolopeLetter />
             </div>
             <div className={styles.heading}>Drop Us A Line</div>
             <div className={styles.line}>
@@ -82,7 +88,7 @@ const Contact_Page = () => {
           <div className={styles.box}>
             <div className={styles.image}>
               {/* <img src={d1} alt="" /> */}
-              <IoIosPeople/>
+              <IoIosPeople />
             </div>
             <div className={styles.heading}>COMMERCIAL</div>
             <div className={styles.line}>
@@ -126,7 +132,7 @@ const Contact_Page = () => {
                 name="name"
                 required
                 // pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
-                pattern= "^[a-zA-Z]+$"
+                pattern="^[a-zA-Z]+$"
                 value={data.name}
                 onChange={handleInputs}
               />

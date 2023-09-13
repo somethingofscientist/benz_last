@@ -64,9 +64,9 @@ const Submit = () => {
                     <div className={styles.submit_flex_box}>
                         <div className={styles.input_email}>
                             <input
-                                placeholder='Phone Number Or Email*'
+                                // placeholder='Phone Number Or Email*'
                                 type="email"
-                                // placeholder="Enter email address"
+                                placeholder="Enter Email Address"
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
