@@ -305,6 +305,7 @@
         line-height: 34px;
         padding: 0px 10px;
     }
+
     .counter2 {
         width: 100%;
         justify-content: flex-end;
@@ -313,10 +314,11 @@
         margin-bottom: 50px;
         margin-left: 20px;
     }
+
     .global_image_text_container {
         border-top: 0px solid #ffffff !important;
     }
-    
+
 }
 
 @media (max-width:768px) {
@@ -398,20 +400,25 @@
 }
 
 @media (max-width:450px) {
+    .map_flexbox {
+        padding: 50px 0 50px 0;
+    }
     .map_heading {
         font-size: 35px;
+        line-height: 50px;
     }
 
     .map_sub_heading {
         font-size: 16px;
     }
 
-    
-.global_image_text_container {
-    font-size: 15px;
-    line-height: 40px;
-}
-.global_image_text_container p{
-    text-align: left;
-}
+
+    .global_image_text_container {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .global_image_text_container p {
+        text-align: left;
+    }
 }

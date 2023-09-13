@@ -1,8 +1,8 @@
-
 .swiper-wrapper {
     display: flex;
     align-items: center !important;
 }
+
 .swiper-wrapper .swiper-slide img {
     width: 100%;
     margin: auto;
@@ -13,15 +13,18 @@
 @media screen and (max-width: 1200px) {
     .swiper-wrapper .swiper-slide img {
         height: 200px;
-   }
+    }
 }
+
 .swiper {
     overflow: hidden;
     position: relative;
     --v-offset: 60px;
     --curve-height: 120px;
 }
-.swiper:before, .swiper:after {
+
+.swiper:before,
+.swiper:after {
     content: "";
     z-index: 99;
     display: block;
@@ -33,12 +36,15 @@
     left: calc(-1 * var(--v-offset));
     right: calc(-1 * var(--v-offset));
 }
+
 .swiper:before {
     top: calc(-0.7 * var(--curve-height));
 }
+
 .swiper:after {
     bottom: calc(-0.7 * var(--curve-height));
 }
+
 .wrapper {
     display: grid;
     grid-template-rows: 300px;
@@ -47,28 +53,46 @@
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
+
 .wrapper img {
     scroll-snap-align: center;
 }
 
-.carousel-image-container{
+.carousel-image-container {
     position: relative;
 }
 
-.carousel-image-data{
-position: absolute;
+.carousel-image-data {
+    position: absolute;
     top: 60%;
     left: 10px;
     color: white;
 
 }
-.carousel-image-head{
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+
+.carousel-image-head {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
-.carousel-image-text{
-font-weight: 200;
-font-size: 24px;
-line-height: 29px;
+
+.carousel-image-text {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+@media screen and (max-width: 420px) {
+    .carousel-image-head {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .carousel-image-text {
+        font-weight: 200;
+        font-size: 7px;
+        line-height: 12px;
+    }
 }

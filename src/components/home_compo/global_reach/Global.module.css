@@ -236,7 +236,7 @@
 @media (max-width:450px) {
   .map_heading {
     font-size: 35px;
-
+    line-height: 50px;
   }
 
   .map_sub_heading {

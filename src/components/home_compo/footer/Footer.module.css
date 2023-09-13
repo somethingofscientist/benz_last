@@ -140,6 +140,7 @@ input {
     align-items: center !important;
     margin-right: 20px;
     cursor: pointer;
+    /* background-color: red; */
 }
 
 .icon_container_t {
@@ -150,6 +151,7 @@ input {
 
 .footer_icons_container>a {
     color: #000;
+    padding-top: 2px;
     text-decoration: none !important;
 }
 

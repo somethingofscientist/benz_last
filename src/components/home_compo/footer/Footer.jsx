@@ -5,7 +5,8 @@ import styles from "./Footer.module.css";
 import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
 import footer_logo from "../../images/footer_logo_new.svg";
-import { FaTwitter } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
+import {BsTwitter} from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
 import axios from "axios";
@@ -111,7 +112,7 @@ const Footer = () => {
               <div className={styles.icon_container_t}>
                 <div className={styles.footer_icons_container}>
                   <a href="https://twitter.com/BENZ_Packaging">
-                    <FaTwitter />
+                    <BsTwitter />
                   </a>
                 </div>
                 <div className={styles.footer_icons_container}>

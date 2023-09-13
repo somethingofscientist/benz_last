@@ -193,7 +193,7 @@ const Navbar = () => {
                   to="/products?industrial"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  industrial packaging
+                  Traditional packaging
                 </HashLink>
               </li>
               <li>
@@ -266,6 +266,24 @@ const Navbar = () => {
                   electronics
                 </HashLink>
               </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section6"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  FMCG
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/industry#section7"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Retail
+                </HashLink>
+              </li>
             </DropDown>
 
             <li className={styles.otherMenu}>
@@ -316,7 +334,7 @@ const Navbar = () => {
                   to="/resources#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  become a distributor
+                  work with us
                 </HashLink>
               </li>
               <li>
@@ -325,7 +343,7 @@ const Navbar = () => {
                   to="/resources#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  work with us
+                  become a distributor
                 </HashLink>
               </li>
               <li>
