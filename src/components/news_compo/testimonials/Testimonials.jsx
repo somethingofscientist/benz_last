@@ -45,7 +45,7 @@ const Testimonials = () => {
       logo: renault,
       heading: "Flip Front 2",
       heading2: "Flip Back 2",
-      para: "Ever since we started using BENZ’s Protective Packaging, our products have been arriving safely and undamaged.Their packaging solutions are reliable, and it's been a stress-free experience."      
+      para: "Ever since we started using BENZ’s Protective Packaging, our products have been arriving safely and undamaged.Their packaging solutions are reliable, and it's been a stress-free experience."
     },
     {
       logo: bosch,
@@ -69,29 +69,31 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className={styles.test_container} id='section4'>
-        <div className={styles.test_heading}>{t("Testimonials")} </div>
+      <a id='section4'>
+        <div className={styles.test_container}>
+          <div className={styles.test_heading}>{t("Testimonials")} </div>
 
-        {/* video section */}
-        <div className={styles.test_video_container}>
-          {arr.map((item, index) => (
-            <div
-              key={index}
-              className={`${styles.tile} ${hoverState[index] ? styles.flipped : ''}`}
-              onMouseEnter={() => handleHover(index)}
-              onMouseLeave={() => handleHover(index)}
-            >
-              <div className={styles.front}>
-                <img src={item.logo} alt="" />
+          {/* video section */}
+          <div className={styles.test_video_container}>
+            {arr.map((item, index) => (
+              <div
+                key={index}
+                className={`${styles.tile} ${hoverState[index] ? styles.flipped : ''}`}
+                onMouseEnter={() => handleHover(index)}
+                onMouseLeave={() => handleHover(index)}
+              >
+                <div className={styles.front}>
+                  <img src={item.logo} alt="" />
+                </div>
+                <div className={styles.back}>
+                  {/* <h1>{item.heading2}</h1> */}
+                  <p> {t(`${item.para}`)} </p>
+                </div>
               </div>
-              <div className={styles.back}>
-                {/* <h1>{item.heading2}</h1> */}
-                <p> {t(`${item.para}`)} </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </a>
     </>
   );
 }

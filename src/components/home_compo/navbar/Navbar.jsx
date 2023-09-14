@@ -342,7 +342,7 @@ const Navbar = () => {
                   to="/resources#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  become a distributor
+                  become distributor
                 </HashLink>
               </li>
               <li>
@@ -449,6 +449,7 @@ const Menu = styled.div`
   width: 430px;
   position: fixed;
   height: 100vh;
+  overflow: hidden;
   top: 0;
   bottom: 0;
   right: 0;
