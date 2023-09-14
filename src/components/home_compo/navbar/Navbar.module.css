@@ -22,8 +22,12 @@
   padding: 20px 124px 20px 140px;
   /* background-color: #0081C9; */
   background-color: #b2d6e9;
+  /* background-color: black; */
   margin-bottom: 20px;
   /* border: 2px solid lime; */
+
+  background-color: rgba(138, 138, 138, 0.119);
+  backdrop-filter: blur(10px); 
 }
 
 .otherMenu {
