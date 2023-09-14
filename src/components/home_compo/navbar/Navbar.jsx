@@ -455,6 +455,7 @@ const Menu = styled.div`
 
   @media only screen and (max-width: 572px) {
     width: 90%;
+    overflow:hidden;
   }
 `;
 
