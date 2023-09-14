@@ -207,6 +207,7 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
+            
             <li className={styles.otherMenu}>
               <Link
                 to="/industry"
@@ -286,6 +287,7 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
+            
             <li className={styles.otherMenu}>
               <Link
                 to="/resources"
@@ -461,9 +463,13 @@ const Menu = styled.div`
 const OtherDetails = styled.div`
   width: 220px;
   margin-left: 61px;
+  padding-bottom: 100px;
   font-size: 24px;
   font-weight: 700;
   line-height: 58px;
+  ${'' /* height:100vh; */}
+  overflow-y:auto;
+  overflow-x:hidden;
 `;
 
 const DropDown = styled.div`
