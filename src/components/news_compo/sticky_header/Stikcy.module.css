@@ -5,11 +5,12 @@
     margin: auto;
     position: sticky;
     z-index: 9;
-    top: 0;
+    top: 0px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: white;
+    /* border: 2px solid pink; */
 }
 ::-webkit-scrollbar {
     width: 0px; /* Width of the scrollbar */
@@ -25,11 +26,9 @@
     display: flex;
     justify-content: flex-start;
     background-color: white;
-
-
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 200px;
     /* background-color: red; */
     overflow-x: auto;
 }

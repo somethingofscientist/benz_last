@@ -20,6 +20,7 @@ const Navbar = () => {
   const [selected, setSelected] = useState("Lang");
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [dropdown, setDropdown] = useState([]);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleToogle = (index) => {
     const temp = [...dropdown];
@@ -32,6 +33,10 @@ const Navbar = () => {
     setDropdown([...temp]);
     setBurgerOpen(true);
   };
+
+  // const handleToggleMenu = () => {
+  //   setMenuOpen(!menuOpen); // Toggle the menu state
+  // };
 
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
@@ -51,7 +56,7 @@ const Navbar = () => {
   useEffect(() => {
     setDropdown([]);
     setBurgerOpen(false);
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 
   return (
     <>
@@ -88,6 +93,7 @@ const Navbar = () => {
                 size={28}
                 style={{ cursor: "pointer", color: "#000" }}
                 onClick={() => setBurgerOpen(false)}
+              // onClick={handleToggleMenu}
               />
             </li>
           </FlexNavItems>
@@ -207,7 +213,7 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
-            
+
             <li className={styles.otherMenu}>
               <Link
                 to="/industry"
@@ -287,7 +293,7 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
-            
+
             <li className={styles.otherMenu}>
               <Link
                 to="/resources"
