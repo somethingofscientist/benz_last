@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../../components/home_compo/footer/Footer";
 import FAQ from "../../components/home_compo/faq/FAQ";
 import Map from "../../components/home_compo/map/Map";
@@ -15,14 +15,21 @@ import homepageVideo from "../../components/videos/home2.mp4";
 import Company_Marquee from "../../components/home_compo/company_marquee/Company_Marquee";
 
 const Homepage = () => {
+  useEffect(() => {
+    const videoElement = document.getElementById("video")
+    if (videoElement) {
+      videoElement.setAttribute("autoplay", "autoplay")
+    }
+  }, [])
   return (
     <>
       <div className={styles.homepage}>
         <div className={styles.imageContainer}>
           <video
+            id="video"
             controls={false}
             playsInline={false}
-            autoPlay loop muted
+            loop muted
             src={homepageVideo}></video>
         </div>
         <Global />
