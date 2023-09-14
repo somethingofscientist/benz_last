@@ -45,7 +45,7 @@ const Navbar = () => {
       },
       []
     );
-    return document.removeEventListener("mousemove", () => {});
+    return document.removeEventListener("mousemove", () => { });
   }, [burgerOpen]);
 
   useEffect(() => {
@@ -141,7 +141,7 @@ const Navbar = () => {
                   to="/about#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  environmental responsibilities
+                  environmental
                 </HashLink>
               </li>
               <li>
@@ -286,16 +286,6 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
-
-            <li className={styles.otherMenu}>
-              <Link
-                to="/services"
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                {" "}
-                Services{" "}
-              </Link>
-            </li>
             <li className={styles.otherMenu}>
               <Link
                 to="/resources"
@@ -410,6 +400,15 @@ const Navbar = () => {
                 </HashLink>
               </li>
             </DropDown>
+            <li className={styles.otherMenu}>
+              <Link
+                to="/services"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                {" "}
+                Services{" "}
+              </Link>
+            </li>
             <li className={styles.otherMenu}>
               <HashLink to="/contact_page">contact</HashLink>
             </li>

@@ -7,23 +7,20 @@
 
 .dropdown_items button.selected {
     background-color: white;
-    color: #0081C9;    
-  }
-  
-  /* Add a new class for the selected button on hover */
-  .dropdown_items button.selected:hover {
+    color: #0081C9;
+}
+
+.dropdown_items button.selected:hover {
     background-color: white;
-    color: #0081C9;    
+    color: #0081C9;
 }
 
 .dropdown {
-    /* background-color: palegoldenrod; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    /* font-size: 100px; */
     color: white;
 }
 
@@ -90,11 +87,25 @@
         /* background-color: red !important; */
     }
 
+
+    .dropdown_items button.selected {
+        background-color: white;
+        /* background-color: pink; */
+        padding: 10px 20px;
+        color: #0081C9;
+    }
+
+    .dropdown_items button.selected:hover {
+        /* background-color: white; */
+        /* color: #0081C9; */
+    }
+
     .dropdown_content {
         /* background-color: plum !important; */
         /* border: 1px solid white; */
         padding-bottom: 20px;
     }
+
     .dropdown_items {
         display: flex;
         justify-content: center;
