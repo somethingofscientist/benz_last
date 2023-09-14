@@ -39,7 +39,8 @@ const Award = () => {
     ]
     return (
         <>
-            <div className={styles.award_container} id='section2'>
+            <a id='section2'>
+            <div className={styles.award_container} >
                 <div className={styles.award_heading}>{t("Awards")} </div>
                 <CurvedCarousel />
                 <div className={styles.award_subheading}>{t("About Events")} </div>
@@ -75,6 +76,7 @@ const Award = () => {
                     ))
                 }
             </div>
+            </a>
         </>
     )
 }

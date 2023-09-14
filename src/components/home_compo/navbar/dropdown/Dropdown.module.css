@@ -2,7 +2,6 @@
     /* background-color: red; */
     width: 100px;
     border-radius: 0;
-
 }
 
 .dropdown_items button.selected {
@@ -80,17 +79,16 @@
 }
 
 @media (max-width:444px) {
+    
     .dropdown_items button {
         /* margin-bottom: -30px; */
         font-size: 10px;
         /* color: black; */
-        /* background-color: red !important; */
     }
 
 
     .dropdown_items button.selected {
         background-color: white;
-        /* background-color: pink; */
         padding: 10px 20px;
         color: #0081C9;
     }

@@ -11,7 +11,8 @@ const Distributor = () => {
 
     return (
         <>
-            <div className={styles.d_container} id='section4'>
+            <a id='section4'>
+            <div className={styles.d_container} >
                 <div className={styles.d_left}>
                     <div className={styles.d_left_heading}>{t("Become a Distributor")} </div>
                     <div className={styles.d_left_content}>
@@ -51,6 +52,7 @@ const Distributor = () => {
                     </Link>
                 </div>
             </div>
+            </a>
         </>
     )
 }

@@ -11,7 +11,8 @@ const Fmcg = () => {
 
     return (
         <>
-            <div className={styles.automobile_container} id='section6'>
+            <a id='section6'>
+            <div className={styles.automobile_container}>
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>6</div>
                     <div className={styles.auto_letter}>{t("FMCG (Fast Moving Consumable Goods)")}</div>
@@ -40,6 +41,7 @@ const Fmcg = () => {
                 </div>
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

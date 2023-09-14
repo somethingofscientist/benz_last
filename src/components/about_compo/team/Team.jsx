@@ -38,7 +38,8 @@ const Team = () => {
         },
     ]
     return (
-        <div className={styles.team_container} id="section5">
+        <a id="section5">
+            <div className={styles.team_container} >
             <div className={styles.about_compo_heading}>{t("Our Team")} </div>
             <div className={styles.wrapper}>
                 {
@@ -61,6 +62,7 @@ const Team = () => {
                 </div>
             </Link>
         </div>
+        </a>
     );
 };
 

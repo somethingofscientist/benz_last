@@ -129,7 +129,7 @@ const Navbar = () => {
                   to="/about#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  benefits
+                  why choose us
                 </HashLink>
               </li>
               <li>
@@ -468,7 +468,7 @@ const Menu = styled.div`
 `;
 
 const OtherDetails = styled.div`
-  width: 220px;
+  width: 240px;
   margin-left: 61px;
   padding-bottom: 100px;
   font-size: 24px;
@@ -477,6 +477,7 @@ const OtherDetails = styled.div`
   ${'' /* height:100vh; */}
   overflow-y:auto;
   overflow-x:hidden;
+  ${'' /* background:red; */}
 `;
 
 const DropDown = styled.div`

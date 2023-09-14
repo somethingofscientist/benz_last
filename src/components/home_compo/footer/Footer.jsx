@@ -63,7 +63,8 @@ const Footer = () => {
 
   return (
     <>
-      <div className={styles.footer_vol} id="footer">
+      <a id="footer">
+      <div className={styles.footer_vol} >
         <div className={styles.footer}>
           <div className={styles.newsletter}>
             <div className={styles.blue_container}>
@@ -229,6 +230,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </a>
     </>
   );
 };

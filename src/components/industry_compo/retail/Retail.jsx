@@ -11,7 +11,8 @@ const Retail = () => {
 
     return (
         <>
-            <div className={styles.automobile_container} id='section7'>
+            <a id='section7'>
+            <div className={styles.automobile_container} >
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>7</div>
                     <div className={styles.auto_letter}>{t("Retail")}  </div>
@@ -42,6 +43,7 @@ const Retail = () => {
                 </div>
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

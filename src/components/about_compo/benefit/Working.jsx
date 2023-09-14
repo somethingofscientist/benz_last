@@ -70,38 +70,40 @@ const Working = () => {
 
     return (
         <>
-            <div className={styles.working_container} id="section2">
-                <div className={styles.about_compo_heading} >
-                    {t("Why choose us.")}
-                </div>
-                <ScrollMenu className="horizontal-scroll-menu">
-                    {data.map((item, index) => (
-                        <div
-                            key={index}
-                            className={`image-container ${hoveredIndex === index ? 'hovered' : ''}`}
-                            style={{ width: '300px', height: '400px' }}
-                            onMouseEnter={() => handleImageHover(index)}
-                            onMouseLeave={() => handleImageHover(null)}
-                        >
-                            <img
-                                src={item.img}
-                                alt={`Image ${index}`}
-                                style={{ width: '100%', height: '100%' }}
-                            />
-                            {hoveredIndex === index ? (
-                                <div className="image-text">
-                                    {t(`${item.subHEading}`)}
-                                </div>
-                            ) : (
-                                <h1 className="image-textHeading">
-                                    {t(`${item.heading}`)}
-                                </h1>
-                            )}
-                        </div>
-                    ))}
+            <a id="section2">
+                <div className={styles.working_container} >
+                    <div className={styles.about_compo_heading} >
+                        {t("Why choose us.")}
+                    </div>
+                    <ScrollMenu className="horizontal-scroll-menu">
+                        {data.map((item, index) => (
+                            <div
+                                key={index}
+                                className={`image-container ${hoveredIndex === index ? 'hovered' : ''}`}
+                                style={{ width: '300px', height: '400px' }}
+                                onMouseEnter={() => handleImageHover(index)}
+                                onMouseLeave={() => handleImageHover(null)}
+                            >
+                                <img
+                                    src={item.img}
+                                    alt={`Image ${index}`}
+                                    style={{ width: '100%', height: '100%' }}
+                                />
+                                {hoveredIndex === index ? (
+                                    <div className="image-text">
+                                        {t(`${item.subHEading}`)}
+                                    </div>
+                                ) : (
+                                    <h1 className="image-textHeading">
+                                        {t(`${item.heading}`)}
+                                    </h1>
+                                )}
+                            </div>
+                        ))}
 
-                </ScrollMenu>
-            </div>
+                    </ScrollMenu>
+                </div>
+            </a>
         </>
     )
 }

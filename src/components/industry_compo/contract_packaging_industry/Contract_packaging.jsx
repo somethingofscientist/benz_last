@@ -11,7 +11,8 @@ const Contract_packaging = () => {
 
     return (
         <>
-            <div className={styles.automobile_container} id='section4'>
+            <a id='section4'>
+            <div className={styles.automobile_container} >
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>4</div>
                     <div className={styles.auto_letter}>{t("Contract packaging")}</div>
@@ -40,6 +41,7 @@ const Contract_packaging = () => {
                 </div>
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

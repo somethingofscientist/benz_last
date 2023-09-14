@@ -12,7 +12,8 @@ const Aerospace = () => {
 
     return (
         <>
-            <div className={styles.automobile_container} id='section3'>
+            <a id='section3'>
+            <div className={styles.automobile_container} >
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>3</div>
                     <div className={styles.auto_letter}>{t("Aerospace")} </div>
@@ -41,6 +42,7 @@ const Aerospace = () => {
                 </div>
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

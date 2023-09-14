@@ -7,7 +7,8 @@ const Packaging = () => {
     const { t, i18n } = useTranslation();
     return (
         <>
-            <div className={styles.fact_container} id='section1'>
+            <a id='section1'>
+            <div className={styles.fact_container} >
                 <div className={styles.fact_heading}>{t("Packaging Facts")} </div>
                 <div className={styles.fact_point}>
                     {t("1. Keep your cleaning solutions and metalworking fluids clean to reduce or eliminate small metal particles which are sometimes referred to as “dirt” or “dwarf.” Dwarf deposited on the part and not properly washed away can form a galvanic corrosion cell and rust will occur underneath the dwarf.")}
@@ -42,6 +43,7 @@ const Packaging = () => {
                     {t("10. And Finally, package metal parts in BENZ Packaging VCI Paper or VCI Poly bag to keep parts corrosion-free for years.")}
                 </div>
             </div>
+            </a>
         </>
     )
 }

@@ -8,8 +8,8 @@
     justify-content: space-between;
     /* border: 1px dotted pink; */
     /* margin: 200px auto; */
-    padding-top: 100px;
-    /* border: 1px solid lime; */
+    padding-top: 160px;
+    /* background-color: pink; */
 }
 
 .d_left {
@@ -41,8 +41,6 @@
     line-height: 34px;
     /* background-color: red !important; */
     /* or 189% */
-
-
     color: #000000;
 }
 

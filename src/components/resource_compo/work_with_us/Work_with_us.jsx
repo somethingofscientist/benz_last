@@ -11,7 +11,8 @@ const Work_with_us = () => {
 
     return (
         <>
-            <div className={styles.d_container} id='section3'>
+            <a id='section3'>
+            <div className={styles.d_container} >
                 <div className={styles.d_left}>
                     <div className={styles.d_left_heading}>{t("Work With Us")}</div>
                     <div className={styles.d_left_content}>
@@ -50,6 +51,7 @@ const Work_with_us = () => {
                     </div>
                 </div>
             </div>
+            </a>
         </>
     )
 }

@@ -24,7 +24,8 @@ const Automobile = () => {
     ]
     return (
         <>
-            <div className={styles.automobile_container} id='section1'>
+            <a id='section1'>
+            <div className={styles.automobile_container} >
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>1</div>
                     <div className={styles.auto_letter}>{t("Automobile Industry")}</div>
@@ -71,6 +72,7 @@ const Automobile = () => {
 
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

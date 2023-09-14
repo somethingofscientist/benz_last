@@ -12,7 +12,8 @@ const Mili = () => {
 
     return (
         <>
-            <div className={styles.automobile_container} id='section2'>
+            <a id='section2'>
+            <div className={styles.automobile_container} >
                 <div className={styles.auto_heading}>
                     <div className={styles.auto_number}>2</div>
                     <div className={styles.auto_letter}>{t("Military Applications")}  </div>
@@ -41,6 +42,7 @@ const Mili = () => {
                 </div>
                 {/* <Slider /> */}
             </div>
+            </a>
         </>
     )
 }

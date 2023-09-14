@@ -19,6 +19,7 @@
   position:fixed !important;
   top: 0;
   justify-content: space-between;
+  height: 100px;
   padding: 20px 124px 20px 140px;
   /* background-color: black; */
   margin-bottom: 20px;
@@ -110,10 +111,10 @@ a {
     padding:0 20px;
     display: flex;
     align-items: center;
+    height: auto;
     /* overflow: hidden; */
     /* background-color: red; */
   }
-
   .rightMenu {
     grid-gap: 20px;
     /* background-color: red; */

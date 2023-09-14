@@ -10,8 +10,8 @@ import { useTranslation } from "react-i18next";
 
 const MarqueeHistory = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
-    
-  const { t, i18n } = useTranslation();
+
+    const { t, i18n } = useTranslation();
 
     const handleScroll = (event) => {
         const { scrollTop } = event.target;
@@ -20,17 +20,19 @@ const MarqueeHistory = () => {
     // console.log("scrollPosition", scrollPosition)
     return (
         <>
-            <div id="section1" >
-                <div className={styles.products_tag}>
-                    <Marquee
-                        speed={200}
-                        loop={0}
-                    >
-                        <p>{t("History")} &nbsp;	 </p>
-                        <p>{t("History")} &nbsp;	 </p>
-                    </Marquee>
+            <a id="section1">
+                <div>
+                    <div className={styles.products_tag}>
+                        <Marquee
+                            speed={200}
+                            loop={0}
+                        >
+                            <p>{t("History")} &nbsp;	 </p>
+                            <p>{t("History")} &nbsp;	 </p>
+                        </Marquee>
+                    </div>
                 </div>
-            </div>
+            </a>
 
             <div className={styles.product_image_container}>
                 <div className={styles.product_timeline}>

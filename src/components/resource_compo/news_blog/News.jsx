@@ -25,7 +25,8 @@ const News = () => {
         },
     ]
     return (
-        <div className={styles.news} id='section2'>
+        <a id='section2'>
+            <div className={styles.news} >
             <div className={styles.news_flexbox}>
                 <div className={styles.news_mobile_heading}>
                     {t("Packaging Tips")}
@@ -69,6 +70,7 @@ const News = () => {
                 </div>
             </div>
         </div>
+        </a>
     )
 }
 

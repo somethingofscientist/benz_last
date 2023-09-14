@@ -1,6 +1,6 @@
 .working_container {
     /* background-color: red; */
-    padding: 50px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .about_compo_heading {
@@ -17,6 +17,7 @@
     font-size: 50px;
     line-height: 104px;
     color: #0081C9;
+    color: black;
 }
 
 @media (max-width:600px){

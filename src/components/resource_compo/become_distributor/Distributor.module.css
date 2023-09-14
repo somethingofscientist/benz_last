@@ -6,8 +6,9 @@
     /* align-items: center; */
     justify-content: space-between;
     /* border: 1px dotted pink; */
-    margin: 200px auto;
-    padding-top: 100px;
+    /* margin: 100px auto; */
+    padding-top: 160px;
+    /* border: 2px solid lime; */
 }
 
 .d_left {
