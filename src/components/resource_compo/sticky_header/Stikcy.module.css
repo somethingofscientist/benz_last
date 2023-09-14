@@ -5,32 +5,33 @@
     margin: auto;
     position: sticky;
     z-index: 9;
-    top: 0;
+    top: 0px;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 100px !important;
     background-color: white;
+    /* border: 2px solid pink; */
 }
+
 ::-webkit-scrollbar {
-    width: 0px; /* Width of the scrollbar */
-    height:0px;
-  }
+    width: 0px;
+    /* Width of the scrollbar */
+    height: 0px;
+}
 
 .sticky_header {
     z-index: 99;
     width: 80%;
     /* background-color: red; */
-    padding: 40px 0 0px 0;
+    padding: 10px 0 10px 0;
     margin: auto;
     display: flex;
     justify-content: flex-start;
     background-color: white;
-
-
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    /* background-color: red; */
+    top: 100px;
+    bottom: 0;
     overflow-x: auto;
 }
 
@@ -82,3 +83,9 @@
     }
 }
 
+
+@media (max-width:420px) {
+    .sticky_container {
+        top: 110px !important;
+    }
+}

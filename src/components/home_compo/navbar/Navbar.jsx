@@ -446,7 +446,7 @@ const Menu = styled.div`
   list-style: none;
   text-transform: uppercase;
   background: white;
-  width: 545px;
+  width: 430px;
   position: fixed;
   height: 100vh;
   top: 0;
