@@ -12,12 +12,12 @@ const Heading_header_industry = () => {
     return (
         <>
             <div className={styles.header_bg}>
-                <ReactPlayer
-                    controls={false}
-                    playing={false}
-                    loop={false}
-                    src={video} />
-                {/* <video autoPlay loop muted src={video}></video> */}
+                <video
+                    autoPlay
+                    loop
+                    muted={true}
+                    playsInline={""}
+                    src={video}></video>
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
