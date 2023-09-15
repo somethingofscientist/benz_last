@@ -14,7 +14,7 @@ const Heading = () => {
                 <img src={compnay} alt="" />
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
-                    Contact Us
+                    {t("Contact Us")}
                 </div>
             </div>
         </>

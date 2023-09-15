@@ -76,10 +76,11 @@ const Contact_Page = () => {
               {/* <img src={d1} alt="" /> */}
               <SlEnvolopeLetter />
             </div>
-            <div className={styles.heading}>Drop Us A Line</div>
+            <div className={styles.heading}>
+              {t("Drop Us A Line")}
+            </div>
             <div className={styles.line}>
-              Get in touch with customer support for assistance with our
-              products.
+              {t("Get in touch with customer support for assistance with our products.")}
             </div>
             <div className={styles.q_link}>
               <a href="mailto:care@benz-packaging.com">CARE@BENZ-PACKAGING.COM</a>
@@ -90,13 +91,14 @@ const Contact_Page = () => {
               {/* <img src={d1} alt="" /> */}
               <IoIosPeople />
             </div>
-            <div className={styles.heading}>COMMERCIAL</div>
+            <div className={styles.heading}>{t("COMMERCIAL")}</div>
             <div className={styles.line}>
-              Schedule a One-to-One meeting with our Team and get suggestions,
-              packaging advice, or answer to any of your questions!
+              {t("Schedule a One-to-One meeting with our Team and get suggestions, packaging advice, or answer to any of your questions!")}
             </div>
             <div className={styles.q_link}>
-              <a href="https://calendly.com/benzpack/15min?month=2023-06">SCHEDULE A MEETING</a>
+              <a href="https://calendly.com/benzpack/15min?month=2023-06">
+                {t("SCHEDULE A MEETING")}
+              </a>
             </div>
           </div>
           <div className={styles.box}>
@@ -104,22 +106,22 @@ const Contact_Page = () => {
               {/* <img src={d1} alt="" /> */}
               <HiOutlineOfficeBuilding />
             </div>
-            <div className={styles.heading}>VISIT OUR OFFICE</div>
+            <div className={styles.heading}>{t("VISIT OUR OFFICE")}</div>
             <div className={styles.line}>
-              BENZ Packaging Solutions Pvt. Ltd. 83, Sector - 5, IMT Manesar,
-              Gurgaon - 122050 INDIA
+              {t("BENZ Packaging Solutions Pvt. Ltd. 83, Sector - 5, IMT Manesar, Gurgaon - 122050 INDIA")}
             </div>
             <div className={styles.q_link}>
-              <a href="https://www.google.co.in/maps/dir/''/BENZ+Packaging+Solutions+Pvt.+Ltd.84,+Sector+-+6,+IMT+Manesar,+Gurgaon+-+122050INDIA/@28.3689787,76.8544095,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d3dd03b68dd91:0x13e9a162be88ce77!2m2!1d76.9244498!2d28.3689966?entry=ttu">GET DIRECTIONS</a>
+              <a href="https://www.google.co.in/maps/dir/''/BENZ+Packaging+Solutions+Pvt.+Ltd.84,+Sector+-+6,+IMT+Manesar,+Gurgaon+-+122050INDIA/@28.3689787,76.8544095,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d3dd03b68dd91:0x13e9a162be88ce77!2m2!1d76.9244498!2d28.3689966?entry=ttu">
+                {t("GET DIRECTIONS")}
+              </a>
             </div>
           </div>
         </div>
         {/* NEW PART OF FORM */}
         <div className={styles.input_container}>
-          <div className={styles.requirements}>DESCRIBE YOUR REQUIREMENT</div>
+          <div className={styles.requirements}>{t("DESCRIBE YOUR REQUIREMENT")}</div>
           <div className={styles.sub_require}>
-            We thrive when coming up with innovative ideas but also understand
-            that a smart concept should be supported with measurable results.
+            {t("We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with measurable results.")}
           </div>
           <div className={styles.form_fields}>
             <form onSubmit={handleSubmit}>
