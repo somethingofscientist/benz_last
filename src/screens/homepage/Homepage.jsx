@@ -31,6 +31,7 @@ const Homepage = () => {
             muted
             autoplay
             playsinline
+            controls={false}
             src={homepageVideo}
           ></video>
         </div>
