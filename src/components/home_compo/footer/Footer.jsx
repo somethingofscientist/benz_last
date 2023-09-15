@@ -59,6 +59,17 @@ const Footer = () => {
     }
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Add smooth scrolling behavior
+    });
+    setTimeout(() => {
+      window.location.reload();
+    }, 6);
+  };
+
+
   const { t, i18n } = useTranslation();
 
   return (
@@ -191,6 +202,7 @@ const Footer = () => {
                 <HashLink
                   smooth
                   to="/"
+                  onClick={scrollToTop}
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   {t("Home")}

@@ -35,6 +35,16 @@ const Navbar = () => {
     setDropdown([...temp]);
     setBurgerOpen(true);
   };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Add smooth scrolling behavior
+    });
+    setTimeout(() => {
+      window.location.reload();
+    }, 6);
+  };
+
 
   // const handleToggleMenu = () => {
   //   setMenuOpen(!menuOpen); // Toggle the menu state
@@ -55,15 +65,6 @@ const Navbar = () => {
     return document.removeEventListener("mousemove", () => { });
   }, [burgerOpen]);
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // Add smooth scrolling behavior
-    });
-    setTimeout(() => {
-      window.location.reload();
-    }, 6);
-  };
 
   useEffect(() => {
     setDropdown([]);
