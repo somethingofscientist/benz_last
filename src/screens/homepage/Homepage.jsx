@@ -26,10 +26,11 @@ const Homepage = () => {
       <div className={styles.homepage}>
         <div className={styles.imageContainer}>
           <video
-            // className={styles.heroVideo}
+            className={styles.heroVideo}
             loop
             muted
-            autoPlay
+            autoplay
+            playsinline
             src={homepageVideo}
           ></video>
         </div>
