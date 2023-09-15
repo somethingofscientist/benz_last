@@ -96,12 +96,11 @@
         background-color: white;
         padding: 10px 20px;
         color: #0081C9;
-    }
-
-    .dropdown_items button.selected:hover {
-        /* background-color: white; */
-        /* color: #0081C9; */
-    }
+        margin-top: 10px;
+        margin-bottom:-10px;
+        /* background-color: red; */
+        /* border: 1px solid lime; */
+    }   
 
     .dropdown_content {
         /* background-color: plum !important; */

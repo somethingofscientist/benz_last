@@ -55,6 +55,16 @@ const Navbar = () => {
     return document.removeEventListener("mousemove", () => { });
   }, [burgerOpen]);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Add smooth scrolling behavior
+    });
+    setTimeout(() => {
+      window.location.reload();
+    }, 6);
+  };
+
   useEffect(() => {
     setDropdown([]);
     setBurgerOpen(false);
@@ -65,7 +75,7 @@ const Navbar = () => {
       <div id="navbar" className={styles.navContainer}>
         <div className={styles.navbar}>
           {/* logo */}
-          <div className={styles.logo}>
+          <div className={styles.logo} onClick={scrollToTop}>
             <Link to="/">
               <img src={logo} alt="company_logo" />
             </Link>
@@ -421,7 +431,7 @@ const Navbar = () => {
             </li>
             <li className={styles.otherMenu}>
               <HashLink to="/contact_page">
-                {t("contact")}
+                {t("contact us")}
               </HashLink>
             </li>
           </OtherDetails>
