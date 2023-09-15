@@ -30,7 +30,7 @@ const Homepage = () => {
             loop
             muted
             autoplay
-            playsinline
+            playsInline
             controls={false}
             src={homepageVideo}
           ></video>
