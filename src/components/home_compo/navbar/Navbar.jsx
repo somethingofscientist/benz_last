@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Dropdown from "./dropdown/Dropdown";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 
 const Navbar = () => {
@@ -21,6 +22,7 @@ const Navbar = () => {
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [dropdown, setDropdown] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const handleToogle = (index) => {
     const temp = [...dropdown];
@@ -104,7 +106,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                About{" "}
+                {t("About")} {" "}
               </Link>
               {dropdown.indexOf(0) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(0)} />
@@ -120,7 +122,7 @@ const Navbar = () => {
                   to="/about#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  history
+                  {t("history")}
                 </HashLink>
               </li>
               <li>
@@ -129,7 +131,7 @@ const Navbar = () => {
                   to="/about#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  why choose us
+                  {t("why choose us")}
                 </HashLink>
               </li>
               <li>
@@ -138,7 +140,7 @@ const Navbar = () => {
                   to="/about#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  awards
+                  {t("awards")}
                 </HashLink>
               </li>
               <li>
@@ -147,7 +149,7 @@ const Navbar = () => {
                   to="/about#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  environmental
+                  {t("environmental")}
                 </HashLink>
               </li>
               <li>
@@ -156,7 +158,7 @@ const Navbar = () => {
                   to="/about#section5"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  our team
+                  {t("our team")}
                 </HashLink>
               </li>
             </DropDown>
@@ -167,7 +169,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                Products{" "}
+                {t("Products")}{" "}
               </Link>
               {dropdown.indexOf(1) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(1)} />
@@ -182,7 +184,7 @@ const Navbar = () => {
                   to="/products/corrosion"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  anti - corrosion
+                  {t("anti - corrosion")}
                 </HashLink>
               </li>
               <li>
@@ -191,7 +193,7 @@ const Navbar = () => {
                   to="/products/humidity"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  anti - humidity
+                  {t("anti - humidity")}
                 </HashLink>
               </li>
               <li>
@@ -200,7 +202,7 @@ const Navbar = () => {
                   to="/products/traditional"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Traditional packaging
+                  {t("Traditional packaging")}
                 </HashLink>
               </li>
               <li>
@@ -209,7 +211,7 @@ const Navbar = () => {
                   to="/products/handling"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  handling
+                  {t("handling")}
                 </HashLink>
               </li>
             </DropDown>
@@ -220,7 +222,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                Industries{" "}
+                {t("Industries")}{" "}
               </Link>
               {dropdown.indexOf(2) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(2)} />
@@ -235,7 +237,7 @@ const Navbar = () => {
                   to="/industry#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  automobile industry
+                  {t("automobile industry")}
                 </HashLink>
               </li>
               <li>
@@ -244,7 +246,7 @@ const Navbar = () => {
                   to="/industry#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  military applications
+                  {t("military applications")}
                 </HashLink>
               </li>
               <li>
@@ -253,7 +255,7 @@ const Navbar = () => {
                   to="/industry#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  aerospace
+                  {t("aerospace")}
                 </HashLink>
               </li>
               <li>
@@ -262,7 +264,7 @@ const Navbar = () => {
                   to="/industry#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  contract packaging
+                  {t("contract packaging")}
                 </HashLink>
               </li>
               <li>
@@ -271,7 +273,7 @@ const Navbar = () => {
                   to="/industry#section5"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  electronics
+                  {t("electronics")}
                 </HashLink>
               </li>
               <li>
@@ -280,7 +282,7 @@ const Navbar = () => {
                   to="/industry#section6"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  FMCG
+                  {t("FMCG")}
                 </HashLink>
               </li>
               <li>
@@ -289,7 +291,7 @@ const Navbar = () => {
                   to="/industry#section7"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Retail
+                  {t("Retail")}
                 </HashLink>
               </li>
             </DropDown>
@@ -300,7 +302,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                Resources{" "}
+                {t("Resources")}{" "}
               </Link>
               {dropdown.indexOf(3) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(3)} />
@@ -315,7 +317,7 @@ const Navbar = () => {
                   to="/resources#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  packaging facts
+                  {t("packaging facts")}
                 </HashLink>
               </li>
               <li>
@@ -324,7 +326,7 @@ const Navbar = () => {
                   to="/resources#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  packaging tips
+                  {t("packaging tips")}
                 </HashLink>
               </li>
               <li>
@@ -333,7 +335,7 @@ const Navbar = () => {
                   to="/resources#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  work with us
+                  {t("work with us")}
                 </HashLink>
               </li>
               <li>
@@ -342,7 +344,7 @@ const Navbar = () => {
                   to="/resources#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  become distributor
+                  {t("become distributor")}
                 </HashLink>
               </li>
               <li>
@@ -351,7 +353,7 @@ const Navbar = () => {
                   to="/resources#rest1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  FAQ
+                  {t("FAQ")}
                 </HashLink>
               </li>
             </DropDown>
@@ -362,7 +364,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                News{" "}
+                {t("News")}{" "}
               </Link>
               {dropdown.indexOf(4) !== -1 ? (
                 <FaChevronUp onClick={() => handleToogle(4)} />
@@ -377,7 +379,7 @@ const Navbar = () => {
                   to="/news#section1"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  events
+                  {t("events")}
                 </HashLink>
               </li>
               <li>
@@ -386,7 +388,7 @@ const Navbar = () => {
                   to="/news#section2"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  awards
+                  {t("awards")}
                 </HashLink>
               </li>
               <li>
@@ -395,7 +397,7 @@ const Navbar = () => {
                   to="/news#section3"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  newsletter
+                  {t("newsletter")}
                 </HashLink>
               </li>
               <li>
@@ -404,7 +406,7 @@ const Navbar = () => {
                   to="/news#section4"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  testimonials
+                  {t("testimonials")}
                 </HashLink>
               </li>
             </DropDown>
@@ -414,11 +416,13 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                Services{" "}
+                {t("Services")}{" "}
               </Link>
             </li>
             <li className={styles.otherMenu}>
-              <HashLink to="/contact_page">contact</HashLink>
+              <HashLink to="/contact_page">
+                {t("contact")}
+              </HashLink>
             </li>
           </OtherDetails>
         </Menu>
