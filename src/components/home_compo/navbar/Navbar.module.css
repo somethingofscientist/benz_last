@@ -1,6 +1,6 @@
 .navContainer {
   position: absolute;
-  width: 98vw;
+  width: 100%;
   z-index: 10;
   /* background-color: red !important; */
 }
@@ -61,7 +61,6 @@
 }
 
 a {
-
   color: black;
 }
 
@@ -90,7 +89,7 @@ a {
 @media only screen and (max-width:512px) {
   .navbar {
     padding: 20px;
-    width: 100% !important;
+    /* width: 100% !important; */
   }
 
   .rightMenu {
@@ -114,7 +113,7 @@ a {
     align-items: center;
     height: auto;
     
-    width: 100% !important;
+    /* width: 100% !important; */
     /* overflow: hidden; */
     /* background-color: red; */
   }
