@@ -12,6 +12,7 @@ import Navbar from "../../components/home_compo/navbar/Navbar";
 import Contact from "../../components/home_compo/contact_us_button/Contact";
 import styles from "./Homepage.module.css";
 import homepageVideo from "../../components/videos/home2.mp4";
+import homepageImage from "../../components/images/home.gif";
 import Company_Marquee from "../../components/home_compo/company_marquee/Company_Marquee";
 
 const Homepage = () => {
@@ -25,7 +26,8 @@ const Homepage = () => {
     <>
       <div className={styles.homepage}>
         <div className={styles.imageContainer}>
-          <video
+          <img src={homepageImage} />
+          {/* <video
             className={styles.heroVideo}
             autoPlay
             loop
@@ -33,7 +35,7 @@ const Homepage = () => {
             playsInline
             controls={false}
             src={homepageVideo}
-          ></video>
+          ></video> */}
         </div>
         <Global />
         <Why />
