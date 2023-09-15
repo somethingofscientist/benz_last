@@ -27,9 +27,9 @@ const Homepage = () => {
         <div className={styles.imageContainer}>
           <video
             className={styles.heroVideo}
+            autoPlay
             loop
             muted
-            autoplay
             playsInline
             controls={false}
             src={homepageVideo}
