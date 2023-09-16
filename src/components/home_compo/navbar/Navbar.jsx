@@ -172,6 +172,15 @@ const Navbar = () => {
                   {t("our team")}
                 </HashLink>
               </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="/about#section6"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  {t("testimonials")}
+                </HashLink>
+              </li>
             </DropDown>
 
             <li className={styles.otherMenu}>
@@ -269,7 +278,7 @@ const Navbar = () => {
                   {t("aerospace")}
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink
                   smooth
                   to="/industry#section4"
@@ -277,7 +286,7 @@ const Navbar = () => {
                 >
                   {t("contract packaging")}
                 </HashLink>
-              </li>
+              </li> */}
               <li>
                 <HashLink
                   smooth
@@ -393,7 +402,7 @@ const Navbar = () => {
                   {t("events")}
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink
                   smooth
                   to="/news#section2"
@@ -401,7 +410,7 @@ const Navbar = () => {
                 >
                   {t("awards")}
                 </HashLink>
-              </li>
+              </li> */}
               <li>
                 <HashLink
                   smooth
@@ -411,7 +420,7 @@ const Navbar = () => {
                   {t("newsletter")}
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink
                   smooth
                   to="/news#section4"
@@ -419,7 +428,7 @@ const Navbar = () => {
                 >
                   {t("testimonials")}
                 </HashLink>
-              </li>
+              </li> */}
             </DropDown>
             <li className={styles.otherMenu}>
               <Link

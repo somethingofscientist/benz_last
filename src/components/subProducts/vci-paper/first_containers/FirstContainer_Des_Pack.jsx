@@ -5,6 +5,8 @@ import engine from '../../../images/engine.svg'
 import vci_plain1 from '../../../images/vci_plain1.jpeg'
 import vci_plain2 from '../../../images/vci_plain2.jpeg'
 
+import vci_chip from '../../../images/new_images_client/VCI Emitter/VCI Chips.jpg'
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
@@ -44,7 +46,7 @@ const Descicannt = () => {
             id: "section4",
             number: "4",
             heading: "VCI Chips",
-            image: engine,
+            image: vci_chip,
             image_text: "Benz Packaging is excited to introduce our VCI Crepe Paper, a flexible solution designed to provide effective corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2: "Our VCI Crepe Paper features a creped texture, which enhances its flexibility and conformability. This unique characteristic allows the paper to adapt to various product shapes and sizes, ensuring optimal coverage and protection. The paper is infused with Volatile Corrosion Inhibitor (VCI) technology, creating a protective shield that prevents corrosion and preserves your assets."
         },

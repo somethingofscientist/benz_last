@@ -17,7 +17,7 @@ const Sticky_header = () => {
                 </a>
                 <a href="#section2">
                     <div className={styles.sticky_link}>
-                        {t("Benefits")}
+                        {t("Why choose us")}
                     </div>
                 </a>
                 <a href="#section3">
@@ -33,6 +33,11 @@ const Sticky_header = () => {
                 <a href="#section5">
                     <div className={styles.sticky_link}>
                         {t("Our Team")}
+                    </div>
+                </a>
+                <a href="#section6">
+                    <div className={styles.sticky_link}>
+                        {t("Testimonial")}
                     </div>
                 </a>
             </div>

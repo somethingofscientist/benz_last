@@ -69,7 +69,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <a id='section4'>
+      <a id='section6'>
         <div className={styles.test_container}>
           <div className={styles.test_heading}>{t("Testimonials")} </div>
 

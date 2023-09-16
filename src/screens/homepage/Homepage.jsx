@@ -24,9 +24,14 @@ const Homepage = () => {
   return (
     <>
       <div className={styles.homepage}>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
         <div className={styles.imageContainer}>
           <video
-            className={styles.heroVideo}
+            // className={styles.heroVideo}
             loop
             muted
             autoPlay

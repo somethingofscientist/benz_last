@@ -14,21 +14,21 @@ const Sticky_header_industry = () => {
                         {t("Events")}
                     </div>
                 </a>
-                <a href="#section2">
+                {/* <a href="#section2">
                     <div className={styles.sticky_link}>
                         {t("Awards")}
                     </div>
-                </a>
+                </a> */}
                 <a href="#section3">
                     <div className={styles.sticky_link}>
                         {t("Newsletter")}
                     </div>
                 </a>
-                <a href="#section4">
+                {/* <a href="#section4">
                     <div className={styles.sticky_link}>
                         {t("Testimonials")}
                     </div>
-                </a>
+                </a> */}
             </div>
         </div>
     )

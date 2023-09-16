@@ -14,7 +14,7 @@ const Fmcg = () => {
             <a id='section6'>
             <div className={styles.automobile_container}>
                 <div className={styles.auto_heading}>
-                    <div className={styles.auto_number}>6</div>
+                    <div className={styles.auto_number}>5</div>
                     <div className={styles.auto_letter}>{t("FMCG (Fast Moving Consumable Goods)")}</div>
                 </div>
 

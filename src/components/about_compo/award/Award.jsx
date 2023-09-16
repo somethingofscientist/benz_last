@@ -64,12 +64,12 @@ const Award = () => {
                             <img src={certificate5} alt="certificate" />
                             <img src={certificate6} alt="certificate" />
                             <img src={certificate7} alt="certificate" />
-                            <img src={certificate7_1} alt="certificate" />
-                            <img src={certificate7_2} alt="certificate" />
+                            {/* <img src={certificate7_1} alt="certificate" /> */}
+                            {/* <img src={certificate7_2} alt="certificate" /> */}
                             <img src={certificate8} alt="certificate" />
-                            <img src={certificate9} alt="certificate" />
-                            <img src={certificate10} alt="certificate" />
-                            <img src={certificate11} alt="certificate" />
+                            {/* <img src={certificate9} alt="certificate" /> */}
+                            {/* <img src={certificate10} alt="certificate" /> */}
+                            {/* <img src={certificate11} alt="certificate" /> */}
                         </div>
                         <button
                             className={styles.left_arrow}

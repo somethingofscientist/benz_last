@@ -46,7 +46,7 @@ const Products = () => {
             <div className={styles.card_up}
               onClick={(e) => { handleCardClick('humidity') }}
             >
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Anti - Humidity")} </div>
               <img src={pic1} alt="pic1_humidity" />
               <div className={styles.card_icon}>
@@ -55,7 +55,7 @@ const Products = () => {
             </div>
             <div className={styles.card_down}
               onClick={(e) => { handleCardClick('corrosion') }}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Anti - Corrosion")} </div>
               <img src={pic2} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
@@ -65,7 +65,7 @@ const Products = () => {
             <div className={styles.card_up}
               onClick={(e) => { handleCardClick('handling') }}
             >
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Handling")}</div>
               <img src={pic3} alt="pic1_handling" />
               <div className={styles.card_icon}>
@@ -74,7 +74,7 @@ const Products = () => {
             </div>
             <div className={styles.card_down}
               onClick={(e) => { handleCardClick('traditional') }}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div>  */}
               <div className={styles.card_subtext}>{t("Traditional Packaging")}</div>
               <img src={pic4} alt="pic1_traditional" />
               <div className={styles.card_icon2}>

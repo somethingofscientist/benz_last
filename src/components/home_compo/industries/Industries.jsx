@@ -20,7 +20,7 @@ const Industries = () => {
       image: bmw,
       heading: "Automobile",
       text:
-        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+        "Partnering with leading automakers, we deliver specialized packaging solutions that safeguard automotive components, enhancing supply chain efficiency and product protection.",
       hovered: false,
     },
     {
@@ -29,7 +29,7 @@ const Industries = () => {
       heading: "Military",
       hovered: false,
       text:
-        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+        "We proudly support the military sector with precision-engineered packaging solutions, ensuring the safe transport of critical equipment and supplies for national defence.",
     },
     {
       choti_image: bmw2,
@@ -37,7 +37,7 @@ const Industries = () => {
       heading: "Aerospace",
       hovered: false,
       text:
-        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+        "Collaborating with the aerospace industry, we provide advanced packaging solutions for delicate components, contributing to the success of cutting-edge aviation and space technologies.",
     },
     {
       choti_image: bmw2,
@@ -45,7 +45,7 @@ const Industries = () => {
       heading: "Electronics",
       hovered: false,
       text:
-        "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components.",
+        " In the electronics sector, we specialize in tailored packaging solutions, safeguarding sensitive electronics during transit, ensuring product integrity and customer satisfaction.",
     },
   ]);
 
@@ -115,9 +115,10 @@ const Industries = () => {
                     {t(`${value.heading}`)}
                   </div>
                   <div className={styles.car_container_text2}>
-                    {t(
+                    {/* {t(
                       "Our packaging solutions for the automobile industry provide optimal protection and efficiency for transportation and storage of vehicle parts and components."
-                    )}
+                    )} */}
+                    {t(`${value.text}`)}
                   </div>
                   <div className={styles.learn_more_button}>
                     {t("LEARN MORE")}{" "}

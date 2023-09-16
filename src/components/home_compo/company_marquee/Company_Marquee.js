@@ -37,12 +37,10 @@ const Company_Marquee = () => {
                     <div className={styles.company_logo}>
                         <img src={c4} alt="" />
                     </div>
+                    
                     <div className={styles.company_logo}>
                         <img src={c5} alt="" />
                     </div>
-
-
-
                     <div className={styles.company_logo}>
                         <img src={c6} alt="" />
                     </div>
@@ -57,6 +55,48 @@ const Company_Marquee = () => {
                     </div>
 
 
+                </Marquee>
+            </div>
+
+            <div className={styles.company_container}>
+                <Marquee
+                    direction='right'
+                    speed={100}
+                    pauseOnClick
+                >
+                    
+                    <div className={styles.company_logo}>
+                        <img src={c6} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c7} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c8} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c9} alt="" />
+                    </div>
+
+
+                    <div className={styles.company_logo}>
+                        <img src={c0} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c1} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c2} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c3} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c4} alt="" />
+                    </div>
+                    <div className={styles.company_logo}>
+                        <img src={c5} alt="" />
+                    </div>
                 </Marquee>
             </div>
         </>

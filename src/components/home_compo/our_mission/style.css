@@ -80,7 +80,8 @@
   font-size: 32px;
 }
 
-@media only screen and (max-width: 450px) {
+
+@media (max-width:450px) {
   .our-missions-wrapper {
     overflow: hidden;
     box-sizing: border-box;
@@ -97,5 +98,9 @@
     font-weight: 400;
     font-size: 32px;
     text-align: center;
+  }
+
+  .headers span{
+    font-size: 12px;
   }
 }

@@ -10,6 +10,7 @@
     /* border: 1px solid plum; */
     position: relative;
     display: flex;
+    flex-direction: row-reverse;
     /* padding: 20px 0; */
     /* justify-content: center; */
     align-items: center;
@@ -40,6 +41,7 @@
 
 .auto_img_container {
     display: flex;
+    flex-direction: row-reverse;
     /* border: 1px solid palevioletred; */
 }
 
@@ -55,23 +57,24 @@
 .auto_img_text {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
     padding: 0 20px;
-    /* border: 1px solid lime; */
+
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
-    /* margin-bottom: 20px; */
+    /* text-align: justify; */
     /* or 189% */
 
-
+    flex-direction: column;
     color: #000000;
     /* position: relative; */
 }
 
-.auto_pack{
+.auto_pack {
     position: absolute;
     width: max-content;
     background: #0081C9;
@@ -81,8 +84,8 @@
     /* height: 48px; */
     text-align: center;
     /* line-height: 48px; */
-    bottom: 10%;
-    right: -33%;
+    bottom: 20%;
+    left: -30%;
 
     /* text */
     font-family: 'Urbanist';
@@ -94,11 +97,12 @@
     letter-spacing: 0.17em;
     color: #F5FAFF;
 }
-.auto_pack2{
+
+.auto_pack2 {
     width: max-content;
     background: #0081C9;
     border-radius: 2px;
-    padding: 10px 80px; 
+    padding: 10px 80px;
     position: relative;
     font-family: 'Urbanist';
     text-transform: uppercase;
@@ -112,21 +116,36 @@
     display: none;
 }
 
+
 @media only screen and (max-width:990px) {
     .auto_img_container {
         display: flex;
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
-    
-    .auto_pack{
+    .auto_pack {
         display: none;
     }
-    .auto_pack2{
+
+    .auto_pack2 {
         display: block;
     }
+
     .auto_img,
     .auto_img_text {
         width: 100%;
+        /* background-color: red; */
+        display: flex;
+        /* align-items:left !important; */
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    .auto_heading{
+        /* border: 1px solid lime; */
+        padding: 50px 0;
+        /* margin:300px 0; */
+        /* background-color: rgb(246, 162, 162); */
     }
 }

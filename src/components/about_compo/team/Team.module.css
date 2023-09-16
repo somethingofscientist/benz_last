@@ -14,18 +14,17 @@
     font-weight: 400;
     font-size: 50px;
     line-height: 104px;
-
-    /* color: #0081C9; */
+    /* border: 2px solid pink; */
 }
 
 .team_container {
     width: 93%;
     margin-left: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     /* border: 1px solid grey; */
     /* background-color: lime; */
     /* height: 100vh; */
-    padding: 70px 0;
+    padding: 70px 0 0 0;
 }
 
 /* CustomScroller.module.css */

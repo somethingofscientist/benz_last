@@ -5,6 +5,11 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../images/tape.svg'
 import { useTranslation } from 'react-i18next';
+import { Carousel } from 'react-responsive-carousel';
+
+import air1 from '../../images/new_images_client/air_cushions/IMG_9054.jpg'
+import air2 from '../../images/new_images_client/air_cushions/IMG_9056.jpg'
+import air3 from '../../images/new_images_client/air_cushions/IMG_9061.jpg'
 
 const Aerospace = () => {
 
@@ -43,7 +48,7 @@ const Aerospace = () => {
             number: "2",
             page_link: "/inflatable-air-systems",
             heading: "Inflatable Air Systems",
-            image: engine,
+            image: [air1, air2, air3],
             isSlider: true,
             content: "Benz Packaging understands the importance of efficient and reliable packaging solutions, which is why we offer Inflatable Air Systems. Our Inflatable Air Systems provide an innovative and effective way to protect your products during transit and storage.",
             subProducts: [
@@ -216,7 +221,28 @@ const Aerospace = () => {
 
                         <div className={styles.auto_img_container}>
                             <div className={styles.auto_img}>
-                                <img src={item.image} alt="engine" />
+                                {/* <img src={item.image} alt="engine" /> */}
+
+                                <Carousel
+                                    autoPlay={true}
+                                    interval={3000}
+                                    infiniteLoop
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    showArrows={false}
+                                >
+                                    {Array.isArray(item.image) ? (
+                                        item.image.map((image, idx) => (
+                                            <div className={styles.images} key={idx}>
+                                                <img src={image} alt={image} />
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <div className={styles.images}>
+                                            <img src={item.image} alt={item.image} />
+                                        </div>
+                                    )}
+                                </Carousel>
 
                                 <Link to={item.page_link}>
                                     <div className={styles.auto_pack}>

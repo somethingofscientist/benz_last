@@ -27,7 +27,7 @@ const Products = () => {
         <div className={styles.card_container}>
           <Link to="/products/humidity">
             <div className={styles.card_up}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")} </div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")} </div> */}
               <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
               <img src={pic1} alt="pic1_humidity" />
               <div className={styles.card_icon}>
@@ -37,7 +37,7 @@ const Products = () => {
           </Link>
           <Link to="/products/corrosion">
             <div className={styles.card_down}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Anti - Corrosion")}</div>
               <img src={pic2} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
@@ -47,7 +47,7 @@ const Products = () => {
           </Link>
           <Link to="/products/handling">
             <div className={styles.card_up}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Handling")} </div>
               <img src={pic3} alt="pic1_humidity" />
               <div className={styles.card_icon}>
@@ -57,7 +57,7 @@ const Products = () => {
           </Link>
           <Link to="/products/traditional">
             <div className={styles.card_down}>
-              <div className={styles.card_text}>{t("INDUSTRIAL")}</div>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Traditional Packaging")} </div>
               <img src={pic4} alt="pic1_humidity" />
               <div className={styles.card_icon2}>

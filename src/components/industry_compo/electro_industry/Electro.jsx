@@ -14,7 +14,7 @@ const Electro = () => {
             <a id='section5'>
                 <div className={styles.automobile_container} >
                     <div className={styles.auto_heading}>
-                        <div className={styles.auto_number}>5</div>
+                        <div className={styles.auto_number}>4</div>
                         <div className={styles.auto_letter}>{t("Electronics")}  </div>
                     </div>
 

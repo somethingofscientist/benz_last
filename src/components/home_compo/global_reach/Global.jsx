@@ -15,7 +15,7 @@ const Global = () => {
     <>
       <div className={styles.map_flexbox}>
         <div className={styles.map_heading}>{t("Global reach, local impact.")}</div>
-        <div className={styles.map_sub_heading}>{t("This is our guiding principle, representing our commitment to making a positive difference on a global scale through individual actions at the local level. We firmly believe that even the smallest actions can have far-reaching effects, and we strive to be a catalyst for change in our interconnected world.")}
+        <div className={styles.map_sub_heading}>{t(": At BENZ Packaging, our global reach and local impact define our commitment. We provide innovative packaging solutions worldwide, with a focus on sustainability and community engagement. Experience excellence in packaging that makes a difference in your neighbourhood and beyond.")}
         </div>
       </div>
       <div className={styles.global_container}>
@@ -27,7 +27,7 @@ const Global = () => {
         </div>
         <div className={styles.global_image_text_container}>
           <p>
-            {t("As a packaging company, we take pride in offering cutting-edge and top-notch packaging solutions tailored to businesses of all scales. Our unwavering commitment to sustainability is evident in our eco-conscious practices. By utilizing the highest quality materials and employing sustainable manufacturing processes, we prioritize minimizing our environmental footprint.")}
+            {t("At BENZ Packaging, we are your trusted partner for premium packaging solutions. Our expertise and dedication ensure your products are packaged with precision and care. From custom designs to eco-friendly options, we offer a wide range of packaging solutions tailored to your needs. Join hands with us for packaging excellence that sets you apart in the market. Let's package success together")}
           </p>
 
           <div className={styles.pack_button}>

@@ -1,6 +1,5 @@
 .homepage {
     position: relative;
-
     /* background-color: #F8FAFC; */
     /* background-color: whitesmoke; */
     /* background-color: red; */
@@ -8,7 +7,9 @@
 
 .imageContainer {
     /* height: 100vh; */
-    width: 100%;
+    width: 75%;
+    text-align: center;
+    margin:auto;
     /* background-image: url("../../components/videos/homepage1.mp4"); */
     background-repeat: no-repeat;
     background-size: cover;

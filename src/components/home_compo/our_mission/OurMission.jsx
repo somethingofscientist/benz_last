@@ -31,15 +31,14 @@ const OurMission = () => {
         const opacity =
           1 -
           (currentScrollbarYPosition - Number(top)) /
-            (animationHeight - 1.5 * interval);
+          (animationHeight - 1.5 * interval);
         zoomParagraph.style.color = `rgba(0,0,0,${opacity}`;
-        zoomParagraph.style.fontSize = `${
-          (((currentScrollbarYPosition - Number(top)) * 24) /
+        zoomParagraph.style.fontSize = `${(((currentScrollbarYPosition - Number(top)) * 24) /
             (animationHeight - 1.5 * interval) +
             1) *
-            (window.screen.width < 768 ? 12 : 30) +
+          (window.screen.width < 768 ? 12 : 30) +
           (window.screen.width < 768 ? 40 : 100)
-        }px`;
+          }px`;
         ourMission.classList = "our-missions active";
         zoomParagraph.style.display = "block";
         headers.style.display = "none";
@@ -73,22 +72,20 @@ const OurMission = () => {
 
         if (
           currentScrollbarYPosition >=
-            animationBottom - 2 * headerAnimationInterval &&
+          animationBottom - 2 * headerAnimationInterval &&
           currentScrollbarYPosition <= animationBottom - headerAnimationInterval
         ) {
-          slideUpHeader.style.marginBottom = `-${
-            ((animationBottom -
+          slideUpHeader.style.marginBottom = `-${((animationBottom -
               (headerAnimationInterval + currentScrollbarYPosition)) /
               headerAnimationInterval) *
             300
-          }px`;
+            }px`;
 
-          slideUpHeader.style.color = `rgba(255,255,255,${
-            1 -
+          slideUpHeader.style.color = `rgba(255,255,255,${1 -
             (animationBottom -
               (headerAnimationInterval + currentScrollbarYPosition)) /
-              headerAnimationInterval
-          })`;
+            headerAnimationInterval
+            })`;
         }
 
         if (
@@ -111,20 +108,18 @@ const OurMission = () => {
 
         if (
           currentScrollbarYPosition >=
-            animationBottom - headerAnimationInterval &&
+          animationBottom - headerAnimationInterval &&
           currentScrollbarYPosition <= animationBottom
         ) {
-          slideUpSpan.style.marginBottom = `-${
-            ((animationBottom - currentScrollbarYPosition) /
+          slideUpSpan.style.marginBottom = `-${((animationBottom - currentScrollbarYPosition) /
               headerAnimationInterval) *
             300
-          }px`;
+            }px`;
 
-          slideUpSpan.style.color = `rgba(255,255,255,${
-            1 -
+          slideUpSpan.style.color = `rgba(255,255,255,${1 -
             (animationBottom - currentScrollbarYPosition) /
-              headerAnimationInterval
-          })`;
+            headerAnimationInterval
+            })`;
         }
 
         if (currentScrollbarYPosition > animationBottom) {
@@ -133,7 +128,7 @@ const OurMission = () => {
         }
       }
     });
-    return () => document.removeEventListener("scroll", () => {});
+    return () => document.removeEventListener("scroll", () => { });
   }, []);
 
   return (
@@ -150,7 +145,8 @@ const OurMission = () => {
         </p>
         <div className="headers" id="headers">
           <h2 id="slide-up-header">Our Missions</h2>
-          <span id="slide-up-span">Eco - Friendly packaging</span>
+          <span id="slide-up-span">Our mission is to redefine packaging excellence by delivering sustainable,
+            innovative solutions that protect products, empower businesses, and enrich lives, globally.</span>
         </div>
       </div>
     </div>

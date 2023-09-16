@@ -21,7 +21,7 @@
 
 .product_image_container {
     margin: auto;
-    width: 80%;
+    width: 50%;
     height: 60vh;
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@
 
 .line_year_green {
     background-color: rgb(47, 255, 0);
-    width: 1px;
+    width: 1px; 
     height: 20px;
 }
 

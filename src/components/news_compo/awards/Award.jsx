@@ -41,8 +41,8 @@ const Award = () => {
         <>
             <a id='section2'>
             <div className={styles.award_container} >
-                <div className={styles.award_heading}>{t("Awards")} </div>
-                <CurvedCarousel />
+                {/* <div className={styles.award_heading}>{t("Awards")} </div> */}
+                {/* <CurvedCarousel /> */}
                 <div className={styles.award_subheading}>{t("About Events")} </div>
                 <div className={styles.award_para}>
                     {t("BENZ Packaging backed by its parent company – New Sales Corporation has been in the field of packaging for over 38 years. BENZ Packaging has delivered safe and effective corrosion solutions across the globe. Our Technical Partners- Propagroup (Italy) are the leading manufactures of Protective Packaging Products and have onsite representation in over 90-plus countries, to provide seamless support wherever you require it. We can help you get over any challenging corrosion prevention need such as overseas shipping in corrosive environments to storage in high humidity conditions.")}

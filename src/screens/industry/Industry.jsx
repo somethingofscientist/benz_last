@@ -20,7 +20,7 @@ const Industry = () => {
         <Automobile />
         <Mili />
         <Aerospace />
-        <Contract_packaging />
+        {/* <Contract_packaging /> */}
         <Electro />
         <Fmcg />
         <Retail />  

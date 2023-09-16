@@ -22,13 +22,13 @@ const Why = () => {
           <div className={styles.map_flexbox}>
             <div className={styles.map_heading}>{t("Benefits of working with us")}</div>
             <div className={styles.map_sub_heading}>
-              {t("By selecting our packaging solutions, you not only gain access to the finest quality materials, cutting-edge technology, and a globally available network, but you also become an active participant in shaping a more sustainable future. We believe in the strength of collective efforts, and through our eco-friendly materials and practices, we can collectively reduce waste and preserve our precious natural resources. With our expert team by your side, we are dedicated to providing unparalleled support and expertise as we work together towards a more sustainable and responsible world.")}
+              {t("Partnering with BENZ Packaging offers a multitude of advantages. Our commitment to tailored solutions ensures your packaging needs are met with precision, backed by our unwavering dedication to quality assurance. Choose ecofriendly options to reduce your environmental impact, and leverage our global reach for packaging solutions that transcend borders. Our innovative designs give you a competitive edge, and our reliable partnership guarantees consistency and on-time delivery. Experience these benefits first-hand with BENZ Packaging and elevate your packaging game to new heights.")}
             </div>
           </div>
           <div className={styles.global_container}>
             <div className={styles.global_image_text_container}>
               <p>
-                {t("At BENZ Packaging, we foster a dynamic environment that prioritizes growth and development. Joining our team means embracing a culture where individuals are encouraged to expand their knowledge, skills, and expertise. We provide abundant opportunities for professional advancement, allowing you to shape your career trajectory. As we explore new frontiers in the packaging industry, your contributions will be pivotal in driving the future of our organization. Together, we can chart a path of innovation and success.")}
+                {t("At BENZ Packaging, we're an innovative, forward-thinking company seeking passionate individuals who share our commitment to excellence and sustainability. As a member of our team, you'll have the opportunity to contribute to cutting-edge packaging solutions, work in a collaborative environment, and make a meaningful impact. Explore our current openings and embark on a rewarding career journey with BENZ Packaging today.")}
               </p>
 
 
@@ -47,7 +47,7 @@ const Why = () => {
             </div>
           </div>
           <div className={styles.why_para}>
-            {t("By collaborating tirelessly with our clients, partners, and subcontractors, our team members continually challenge the limits of the packaging industry. We wholeheartedly value each opportunity presented to us, as it allows us to embark on new projects and transform them into vibrant realities.")}
+            {t("Prepare to delve into our expansive global enterprise. BENZ Packaging stands as a prominent multinational corporation, boasting an extensive network of state-ofthe-art manufacturing facilities, a robust global operational infrastructure, multiple strategically-located warehouses, a diverse and far-reaching clientele, and a comprehensive portfolio of packaging solutions catering to a myriad of global industries.")}
           </div>
 
           <div className={styles.counter_section}>
@@ -65,10 +65,10 @@ const Why = () => {
                   </h1>
                 </ScrollTrigger>
                 <div className={styles.counter_heading}>
-                  {t("Manufacturing Units in Indo-Pacific Region")}
+                  {t("Manufacturing Units")}
                 </div>
                 <p>
-                  {t("Manufacturing units play a vital role in creating products that cater to the needs of consumers")}
+                  {t(" Over six cutting-edge manufacturing units strategically located within the Indo-Pacific region, ensuring efficiency and proximity for global operations.")}
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Why = () => {
                 </ScrollTrigger>
                 <div className={styles.counter_heading}>{t("Warehouses")}</div>
                 <p>
-                  {t("Warehouses are essential facilities for storing and organizing goods before they are distributed to customers")}
+                  {t("Experience convenience and accessibility with our extensive network of strategically positioned warehouses, enhancing our global reach for seamless logistics.")}
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Why = () => {
                 </ScrollTrigger>
                 <div className={styles.counter_heading}>{t("Customers")}</div>
                 <p>
-                 {t("Happy customers are the lifeblood of any successful business.")}
+                 {t("Join our extensive network of satisfied customers worldwide, benefiting from our tailored packaging solutions and exceptional service")}
                 </p>
               </div>
             </div>
@@ -125,7 +125,7 @@ const Why = () => {
                 </ScrollTrigger>
                 <div className={styles.counter_heading}>{t("Products")}</div>
                 <p>
-                  {t("Products are goods or services that are created and offered for sale to meet the needs and wants of customers.")}
+                  {t("Explore our diverse portfolio of cutting-edge packaging products, designed to meet the unique needs of industries across the globe.")}
                 </p>
               </div>
             </div>

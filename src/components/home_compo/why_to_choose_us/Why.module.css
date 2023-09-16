@@ -12,13 +12,13 @@
     /* width: 70%; */
     padding: 50px 0 50px 0;
     margin: auto;
-    /* background-color: rgb(120, 165, 157); */
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .map_heading {
-    width: 300px;
+    width: 30%;
     /* height: 135px; */
     font-family: 'DM Serif Display';
     font-style: normal;
@@ -29,13 +29,13 @@
 }
 
 .map_sub_heading {
-    width: 1000px;
+    width: 70%;
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     color: rgba(0, 0, 0, 0.42);
 }
 
@@ -111,7 +111,7 @@
 
 .counter_section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 75%;
     flex-wrap: wrap;
@@ -126,23 +126,26 @@
 }
 
 .counter {
-    width: 40%;
+    width: 45%;
+    top: 0;
     justify-content: flex-end;
     /* position: absolute; */
     /* background-color: red; */
     margin-bottom: 50px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     /* background-color: aqua; */
+    /* padding: 20px; */
 }
 
 .counter2 {
-    width: 50%;
+    width: 45%;
     justify-content: flex-end;
     /* position: absolute; */
     /* background-color: red; */
     margin-bottom: 50px;
     margin-left: 20px;
     /* background-color: aqua; */
+    /* padding: 20px; */
 }
 
 .counter_subheading>p {

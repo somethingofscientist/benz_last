@@ -14,7 +14,7 @@
 
 .map_flexbox {
     display: flex;
-    width: 80%;
+    width: 100%;
     padding: 20px 0 70px 0;
     /* margin: auto; */
     /* background-color: rgb(120, 165, 157);     */
@@ -38,7 +38,7 @@
 
 .map_sub_heading {
     /* width: 600px; */
-    width: 50%;
+    width: 70%;
     /* background-color: red; */
     /* padding: 0 0 0 50px; */
     /* font-family: 'Urbanist'; */
@@ -148,13 +148,14 @@
 .car_container_text2 {
     font-family: 'Urbanist';
     font-style: normal;
-    padding-top: 5px;
+    padding-top: -15px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.54);
     font-size: 16px;
     line-height: 25px;
     transition: 0.2s all linear;
-    margin-bottom: 50px;
+    margin-bottom: -20px;
+    /* border: 2px solid pink; */
 }
 
 /* hover  */
@@ -258,7 +259,7 @@
         position: relative;
         transition: 0.2s all linear;
         left: 0;
-        /* background-color: red; */
+        /* background-x`x`; */
     }
 
     .car_container img {

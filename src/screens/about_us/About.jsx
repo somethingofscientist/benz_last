@@ -8,6 +8,7 @@ import Heading from "../../components/about_compo/heading_header/Heading";
 import Sticky_header from "../../components/about_compo/sticky_header/Sticky_header";
 import Team from "../../components/about_compo/team/Team";
 import Trusted_partner from "../../components/about_compo/trusted/Trusted_partner";
+import Testimonials from "../../components/news_compo/testimonials/Testimonials";
 
 const About = () => {
 
@@ -21,6 +22,7 @@ const About = () => {
       <Award />
       <Environment />
       <Team />
+      <Testimonials />
     </>
   );
 };

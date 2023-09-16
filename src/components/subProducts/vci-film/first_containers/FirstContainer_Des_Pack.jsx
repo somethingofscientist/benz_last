@@ -11,6 +11,18 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
+import antistatic1 from '../../../images/new_images_client/VCI Film/VCI Antistatic/IMG_8994.jpg'
+import antistatic2 from '../../../images/new_images_client/VCI Film/VCI Antistatic/IMG_8996.jpg'
+import antistatic3 from '../../../images/new_images_client/VCI Film/VCI Antistatic/IMG_8999.jpg'
+
+import vci_wooven1 from '../../../images/new_images_client/VCI Film/Woven Fabric/IMG_9063.jpg'
+import vci_wooven2 from '../../../images/new_images_client/VCI Film/Woven Fabric/IMG_9076.jpg'
+import vci_wooven3 from '../../../images/new_images_client/VCI Film/Woven Fabric/IMG_9078.jpg'
+
+import vci_non_wooven1 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9082.jpg'
+import vci_non_wooven2 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9084.jpg'
+
+
 const Descicannt = () => {
     
     const { t, i18n } = useTranslation();
@@ -55,7 +67,7 @@ const Descicannt = () => {
             id: "section5",
             number: "5",
             heading: "VCI Woven Fabric Film",
-            image: engine,
+            image: [vci_wooven1, vci_wooven2, vci_wooven3],
             image_text: "Benz Packaging is excited to introduce our VCI Woven Fabric Film, a robust solution designed to provide superior corrosion protection with the added strength and durability of woven fabric. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2: "Our VCI Woven Fabric Film combines the benefits of Volatile Corrosion Inhibitor (VCI) technology with the resilience of woven fabric material. This unique combination offers a high level of protection against corrosion while providing excellent strength and durability for demanding applications. The VCI molecules in the film create a protective shield around your products, preventing corrosion, while the woven fabric enhances the film's physical properties."
         },
@@ -63,7 +75,7 @@ const Descicannt = () => {
             id: "section6",
             number: "6",
             heading: "VCI Anti static Film",
-            image: engine,
+            image: [antistatic1, antistatic2, antistatic3],
             image_text: "Benz Packaging is proud to introduce our VCI Anti-static Film, an advanced solution that combines superior corrosion protection with effective electrostatic discharge control. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from both corrosion and electrostatic damage.",
             image_text2: "Our VCI Anti-static Film incorporates Volatile Corrosion Inhibitor (VCI) technology along with anti-static additives. This unique combination provides a dual-function solution, offering corrosion protection and electrostatic discharge control in a single packaging material. The VCI molecules released by the film create a protective shield around your products, preventing corrosion, while the anti-static properties prevent the build-up and discharge of static electricity."
         },
@@ -79,7 +91,7 @@ const Descicannt = () => {
             id: "section8",
             number: "8",
             heading: "VCI Non-Woven Film",
-            image: [non_wooven1, non_wooven1],
+            image: [non_wooven1, non_wooven1, vci_non_wooven1, vci_non_wooven2],
             image_text: "Benz Packaging is delighted to introduce our VCI Non-Woven Film, a versatile solution designed to provide effective corrosion protection using non-woven material. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2: "Our VCI Non-Woven Film incorporates Volatile Corrosion Inhibitor (VCI) technology into a non-woven fabric construction. This unique combination offers excellent corrosion protection while providing versatility for a wide range of applications. The VCI molecules released by the film create a protective shield around your products, preventing corrosion and ensuring their longevity during storage and transportation."
         },
