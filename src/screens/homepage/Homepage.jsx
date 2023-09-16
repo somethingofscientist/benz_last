@@ -35,6 +35,7 @@ const Homepage = () => {
             // className={styles.heroVideo}
             loop
             muted
+            autoPlay
             playsInline
             controls={false}
             src={homepageVideo}
