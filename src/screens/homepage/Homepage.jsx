@@ -12,6 +12,7 @@ import Navbar from "../../components/home_compo/navbar/Navbar";
 import Contact from "../../components/home_compo/contact_us_button/Contact";
 import styles from "./Homepage.module.css";
 import homepageVideo from "../../components/videos/home2.mp4";
+import homepageImage from "../../components/images/home.gif";
 import Company_Marquee from "../../components/home_compo/company_marquee/Company_Marquee";
 
 const Homepage = () => {
@@ -34,8 +35,10 @@ const Homepage = () => {
             // className={styles.heroVideo}
             loop
             muted
-            autoPlay
-            src={homepageVideo}></video>
+            playsInline
+            controls={false}
+            src={homepageVideo}
+          ></video> 
         </div>
         <Global />
         <Why />
