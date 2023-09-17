@@ -15,7 +15,7 @@ const Global = () => {
     <>
       <div className={styles.map_flexbox}>
         <div className={styles.map_heading}>{t("Global reach, local impact.")}</div>
-        <div className={styles.map_sub_heading}>{t(": At BENZ Packaging, our global reach and local impact define our commitment. We provide innovative packaging solutions worldwide, with a focus on sustainability and community engagement. Experience excellence in packaging that makes a difference in your neighbourhood and beyond.")}
+        <div className={styles.map_sub_heading}>{t("At BENZ Packaging, our global reach and local impact define our commitment. We provide innovative packaging solutions worldwide, with a focus on sustainability and community engagement. Experience excellence in packaging that makes a difference in your neighbourhood and beyond.")}
         </div>
       </div>
       <div className={styles.global_container}>

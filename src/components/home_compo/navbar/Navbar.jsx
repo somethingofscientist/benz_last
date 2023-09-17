@@ -101,14 +101,13 @@ const Navbar = () => {
         <Menu show={burgerOpen}>
           <FlexNavItems>
             <li className={styles.iconSpace}>{/* <BsGlobe size={28} /> */}</li>
-            <li>
+            {/* <li>
               <AiOutlineClose
                 size={28}
                 style={{ cursor: "pointer", color: "#000" }}
                 onClick={() => setBurgerOpen(false)}
-              // onClick={handleToggleMenu}
               />
-            </li>
+            </li> */}
           </FlexNavItems>
           <OtherDetails>
             <li className={styles.otherMenu}>

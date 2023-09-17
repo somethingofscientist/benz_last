@@ -39,8 +39,6 @@
     font-size: 18px;
     line-height: 34px;
     /* or 189% */
-
-
     color: #000000;
 }
 
@@ -68,15 +66,21 @@
     font-family: 'Urbanist';
     left: 20%;
     font-size: 12px;
-    
     bottom: 10%;
-    padding: 13px 80px;
+    padding: 9px 80px;
     background-color: #0081C9;
     border-radius: 2px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.17em;
     text-align: center;
+}
+.join button{
+    color: white !important;
+}
+.join:hover{
+    cursor: pointer;
+    background-color: rgb(14, 94, 14);
 }
 
 @media (max-width:930px) {
@@ -133,7 +137,6 @@
         text-align: center;
         width: max-content;
         z-index:100;
-
     }
 }
 
@@ -171,12 +174,39 @@
     
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
     .faq_heading {
         font-size: 35px;
     }
 
     .faq_subheading {
         font-size: 16px;
+    }
+    
+    .d_right, 
+    .top_img,
+    .top_img img,
+    .bottom_img,
+    .bottom_img img
+    .top_mobile_img ,
+    .top_mobile_img img,
+    .bottom_mobile_img,
+    .bottom_mobile_img img,
+    .d_right img{
+        display: none;
+    }
+
+    .d_mobile_right,
+    .d_mobile_right .join {
+        display: block;
+        position: relative;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .join button{
+        text-align: center;
+        margin: auto;
+        padding: 10px 20px;
+        color: white !important;
     }
 }
