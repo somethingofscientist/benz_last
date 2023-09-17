@@ -119,3 +119,21 @@
     }
 
 }
+
+@media (max-width:420px) {
+    .input_email input {
+        /* padding: 24px 50px; */
+        width: 100%;
+    }
+    .button_flex{
+        display: flex;
+        padding: 10px 0;
+        /* border: 2px solid lime; */
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .button_flex button {
+        margin-bottom: 20px;
+    }
+}

@@ -25,22 +25,23 @@ const Products = () => {
           </Marquee>
         </div>
         <div className={styles.card_container}>
-          <Link to="/products/humidity">
+          
+          <Link to="/products/corrosion">
             <div className={styles.card_up}>
-              {/* <div className={styles.card_text}>{t("INDUSTRIAL")} </div> */}
-              <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
-              <img src={pic1} alt="pic1_humidity" />
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
+              <div className={styles.card_subtext}>{t("Anti - Corrosion")}</div>
+              <img src={pic2} alt="pic1_humidity" />
               <div className={styles.card_icon}>
                 <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>
           </Link>
-          <Link to="/products/corrosion">
+          <Link to="/products/humidity">
             <div className={styles.card_down}>
-              {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
-              <div className={styles.card_subtext}>{t("Anti - Corrosion")}</div>
-              <img src={pic2} alt="pic1_humidity" />
-              <div className={styles.card_icon2}>
+              {/* <div className={styles.card_text}>{t("INDUSTRIAL")} </div> */}
+              <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
+              <img src={pic1} alt="pic1_humidity" />
+              <div className={styles.card_icon}>
                 <HiArrowNarrowRight size={20} color="white" />
               </div>
             </div>

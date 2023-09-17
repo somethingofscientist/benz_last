@@ -55,7 +55,7 @@ const Map = () => {
             stroke="grey"
             strokeWidth={2}
           />
-          <Marker coordinates={[-80.006, 40.7128]}>
+          <Marker coordinates={[-80.006, 44.7128]}>
             <circle r={4} fill="#377C2B" className="my-tooltip" />
             <circle
               r={5}
@@ -78,7 +78,7 @@ const Map = () => {
             stroke="grey"
             strokeWidth={2}
           />
-          <Marker coordinates={[100, 70.7128]}>
+          <Marker coordinates={[100, 74.7128]}>
             <circle r={4} fill="#377C2B" className="my-tooltip" />
             <circle
               r={5}
@@ -101,7 +101,7 @@ const Map = () => {
             stroke="grey"
             strokeWidth={2}
           />
-          <Marker coordinates={[78.006, 7.128]}>
+          <Marker coordinates={[78.006, 12.7128]}>
             <circle r={4} fill="#377C2B" className="my-tooltip" />
             <circle
               r={5}
@@ -124,7 +124,7 @@ const Map = () => {
             stroke="grey"
             strokeWidth={2}
           />
-          <Marker coordinates={[-60.006, -40.7128]}>
+          <Marker coordinates={[-60.006, -36.7128]}>
             <circle r={4} fill="#377C2B" className="my-tooltip" />
             <circle
               r={5}
@@ -142,7 +142,7 @@ const Map = () => {
             />
           </Marker>
         </ComposableMap>
-        <Tooltip
+        {/* <Tooltip
           anchorSelect=".my-tooltip"
           style={{
             backgroundColor: "white",
@@ -162,7 +162,7 @@ const Map = () => {
               </p>
             </div>
           </div>
-        </Tooltip>
+        </Tooltip> */}
       </div>
     </div>
   );

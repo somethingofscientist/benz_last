@@ -24,17 +24,18 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 500,
+    width: 700,
     bgcolor: 'background.paper',
     boxShadow: 24,
     p: 4,
-    height: '450px',
+    height: '660px',
     overflowY: 'auto',
-
     '@media (max-width: 420px)': {
         width: 400,
     },
 };
+
+
 
 
 const Distributor = () => {
@@ -44,15 +45,30 @@ const Distributor = () => {
     const handleClose = () => setOpen(false);
 
     const handleSubmit = () => {
-        console.log('hi submit alert')
-        window.alert("Form Submitted")
+        // console.log('hi submit alert')
+        // window.alert("Form Submitted")
     }
+
+    const CloseIcon = () => (
+        <span
+            style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                cursor: 'pointer',
+            }}
+            onClick={handleClose}
+        >
+            &#x2716;
+        </span>
+    );
+
     return (
         <>
             <a id='section4'>
                 <div className={styles.d_container} >
                     <div className={styles.d_left}>
-                        <div className={styles.d_left_heading}>{t("Become a Distributor")} </div>
+                        <div className={styles.d_left_heading}>{t("Become Our Distributor")} </div>
                         <div className={styles.d_left_content}>
                             {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
                             <br /><br />
@@ -74,7 +90,7 @@ const Distributor = () => {
                             className={styles.join}
                         // onClick={handleOpen}
                         >
-                            <Button onClick={handleOpen}>Become Distributor</Button>
+                            <Button onClick={handleOpen}>Become Our Distributor</Button>
                             <Modal
                                 open={open}
                                 onClose={handleClose}
@@ -82,6 +98,7 @@ const Distributor = () => {
                                 aria-describedby="modal-modal-description"
                             >
                                 <Box sx={style}>
+                                    <CloseIcon />
                                     <Typography
                                         id="modal-modal-title"
                                         variant="h6"
@@ -92,159 +109,161 @@ const Distributor = () => {
                                     </Typography>
                                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
 
-                                        <form onSubmit={handleSubmit}>
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                Name of company<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.name}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                Address<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.name}
-                                            // onChange={handleInputs}
-                                            />
+                                        <div>
+                                            <form onSubmit={handleSubmit}>
+                                                <label htmlFor="companyName" className={styles.form_label}>
+                                                    Name of company<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="companyName"
+                                                    name="companyName"
+                                                    pattern="^[a-zA-Z]+$"
+                                                    required
+                                                />
 
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                How long have you been operating<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.name}
-                                            // onChange={handleInputs}
-                                            />
+                                                <label htmlFor="address" className={styles.form_label}>
+                                                    Address<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="address"
+                                                    name="address"
+                                                    pattern="^[a-zA-Z]+$"
+                                                    required
+                                                />
 
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                How much you invest<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.name}
-                                            // onChange={handleInputs}
-                                            />
+                                                {/* Add unique id attributes for other fields as needed */}
 
-                                            <label htmlFor="boolean" className={styles.form_label}>
-                                                Do you have vehicle for business<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <Select
-                                                // value={selectedOption}
-                                                // onChange={this.handleChange}
-                                                options={options}
-                                            />
+                                                <label htmlFor="operatingYears" className={styles.form_label}>
+                                                    How long have you been operating<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="operatingYears"
+                                                    name="operatingYears"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                />
 
-                                            <label htmlFor="name" style={{ marginTop: "10px" }} className={styles.form_label}>
-                                                Address<span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.name}
-                                            // onChange={handleInputs}
-                                            />
+                                                <label htmlFor="investment" className={styles.form_label}>
+                                                    How much you invest<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="investment"
+                                                    name="investment"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                />
 
-                                            <label htmlFor="number" className={styles.form_label}>
-                                                Phone <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="tel"
-                                                name="phone"
-                                                minlength="10"
-                                                maxlength="10"
-                                                pattern="[789][0-9]{9}"
-                                                required
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                Name of the Bank <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="number" className={styles.form_label}>
-                                                How long has the account have been operating <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="tel"
-                                                name="phone"
-                                                // minlength="10"
-                                                // maxlength="10"
-                                                pattern="[0-9]"
-                                                required
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                What area do you want to cover <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                Name of the officer <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
-                                            <label htmlFor="name" className={styles.form_label}>
-                                                Position <span style={{ color: "red" }}>*</span>
-                                            </label>
-                                            <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                required
-                                                pattern="^[a-zA-Z]+$"
-                                            // value={data.phone}
-                                            // onChange={handleInputs}
-                                            />
+                                                <label htmlFor="hasVehicle" className={styles.form_label}>
+                                                    Do you have a vehicle for business<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <Select
+                                                    id="hasVehicle"
+                                                    options={options}
+                                                    styles={{
+                                                        control: (baseStyles, state) => ({
+                                                            ...baseStyles,
+                                                            padding: "10px 0",
+                                                            margin: "0 0 10px 0",
+                                                        }),
+                                                    }}
+                                                />
 
-                                            <button type="submit">
-                                                Submit
-                                            </button>
-                                        </form>
+                                                {/* Add unique id attributes for other fields as needed */}
+
+                                                <label htmlFor="phone" className={styles.form_label}>
+                                                    Phone <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="tel"
+                                                    id="phone"
+                                                    name="phone"
+                                                    minLength="10"
+                                                    maxLength="10"
+                                                    pattern="[789][0-9]{9}"
+                                                    required
+                                                />
+
+                                                <label htmlFor="bankName" className={styles.form_label}>
+                                                    Name of the Bank <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="bankName"
+                                                    name="bankName"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                />
+
+                                                <label htmlFor="operatingYearsBank" className={styles.form_label}>
+                                                    How long has the account been operating <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="tel"
+                                                    id="operatingYearsBank"
+                                                    name="operatingYearsBank"
+                                                    pattern="[0-9]"
+                                                    required
+                                                />
+
+                                                {/* Add unique id attributes for the remaining fields */}
+
+                                                <label htmlFor="area" className={styles.form_label}>
+                                                    What area do you want to cover <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="area"
+                                                    name="area"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                // value={data.phone}
+                                                // onChange={handleInputs}
+                                                />
+
+                                                <label htmlFor="officerName" className={styles.form_label}>
+                                                    Name of the officer <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="officerName"
+                                                    name="officerName"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                // value={data.phone}
+                                                // onChange={handleInputs}
+                                                />
+
+                                                <label htmlFor="position" className={styles.form_label}>
+                                                    Position <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="position"
+                                                    name="position"
+                                                    required
+                                                    pattern="^[a-zA-Z]+$"
+                                                // value={data.phone}
+                                                // onChange={handleInputs}
+                                                />
+
+                                                <div
+                                                    style={{
+                                                        width: "max-content",
+                                                        margin: "auto",
+                                                        textAlign: "center",
+                                                    }}
+                                                >
+                                                    <button type="submit">
+                                                        Submit
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+
 
                                     </Typography>
                                 </Box>

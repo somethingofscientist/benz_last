@@ -49,16 +49,16 @@ const Submit = () => {
         }
     };
 
-    const handleDownloadClick = () => {
-        if (!submittedEmail) {
-            // Display a toast error if email is not submitted
-            toast.error('You need to submit your email address first', {
-                position: 'top-center',
-                autoClose: 3000,
-                theme: 'dark',
-            });
-        }
-    };
+    // const handleDownloadClick = () => {
+    //     if (!submittedEmail) {
+    //         // Display a toast error if email is not submitted
+    //         toast.error('You need to submit your email address first', {
+    //             position: 'top-center',
+    //             autoClose: 3000,
+    //             theme: 'dark',
+    //         });
+    //     }
+    // };
 
     return (
         <>
@@ -83,20 +83,20 @@ const Submit = () => {
                                     {t('Submit')}
                                 </button>
 
-                                {submittedEmail && ( // Render download link if email is submitted
-                                    <div className={styles.submit_btn}>
-                                        <a
-                                            href={pdf}
-                                            target="_blank"
-                                            download={'BENZ_Brochure'}
-                                            onClick={handleDownloadClick} // Handle download click
-                                        >
-                                            <span style={{ color: 'white' }}>
-                                                {t('Download Brochure')}
-                                            </span>
-                                        </a>
-                                    </div>
-                                )}
+                                {/* {submittedEmail && ( // Render download link if email is submitted */}
+                                <div className={styles.submit_btn}>
+                                    <a
+                                        href={pdf}
+                                        target="_blank"
+                                        download={'BENZ_Brochure'}
+                                    // onClick={handleDownloadClick}
+                                    >
+                                        <span style={{ color: 'white' }}>
+                                            {t('Download Brochure')}
+                                        </span>
+                                    </a>
+                                </div>
+                                {/* )} */}
                             </div>
                         </div>
                     </div>

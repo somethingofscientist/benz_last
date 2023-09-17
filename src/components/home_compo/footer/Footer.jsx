@@ -8,7 +8,7 @@ import footer_logo from "../../images/footer_logo_new.svg";
 // import { FaTwitter } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
-import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
@@ -125,6 +125,7 @@ const Footer = () => {
                   <div className={styles.footer_icons_container}>
                     <a href="https://twitter.com/BENZ_Packaging">
                       <BsTwitter />
+                      {/* <AiFillTwitterCircle /> */}
                     </a>
                   </div>
                   <div className={styles.footer_icons_container}>
