@@ -19,7 +19,7 @@ const Handling = () => {
             heading: "Paper Systems",
             image: engine,
             isSlider: true,
-            content: "Benz Packaging takes pride in offering innovative paper systems that provide sustainable packaging solutions for various industries. With our commitment to environmental responsibility, we provide high-quality paper-based packaging solutions that are both eco-friendly and efficient.",
+            content: "BENZ Packaging offers a comprehensive range of paper systems designed for superior cushioning, effective void fills, and secure wrapping within your packaging. Our products are eco-friendly paper-based solutions, meticulously crafted for cushioning, void fills, and secure wrapping within your packaging, crafted to protect your valuable goods during transit and storage. Whether you need to cushion delicate items, fill empty spaces to prevent movement, or wrap products securely, our paper systems have you covered. Choose from our versatile options to enhance the safety and security of your shipments, all of which are FSC certified. With BENZ Packaging's paper systems, you can trust that your products will reach their destination in excellent condition, safeguarded from damage and shifting during transportation.",
             subProducts: [
                 {
                     image: tape,

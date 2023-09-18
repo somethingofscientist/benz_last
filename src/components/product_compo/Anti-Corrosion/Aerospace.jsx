@@ -82,7 +82,7 @@ const Aerospace = () => {
             ]
         },
         {
-            number: "2 ",
+            number: "2",
             page_link: "/vci-paper",
             heading: "VCI Paper",
             image: vci_Paper,
@@ -127,7 +127,7 @@ const Aerospace = () => {
             heading: "VCI Emitters",
             image: [vci_emitter1, vci_emitter2, vci_emitter3],
             isSlider: true,
-            content: "Benz Packaging is proud to introduce our VCI Emitters, an advanced solution designed to provide superior corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
+            content: "BENZ Packaging Solutions, offers advanced VCI Anticorrosion Packing Items designed to provide robust metal protection. Our VCI Emitters utilize innovative technology to disperse VCI molecules efficiently within your packaging, reaching even concealed areas that are typically challenging to protect. They cover a significant area, offering unparalleled corrosion prevention. These emitters deposit an invisible molecular layer on metal surfaces, providing long-term corrosion protection even in humid conditions. Their versatility and reliability make them a valuable asset in safeguarding your metal assets",
             subProducts: [
                 {
                     image: tape,

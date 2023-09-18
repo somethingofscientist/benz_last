@@ -82,12 +82,12 @@ const AntiCorrosion = () => {
             ]
         },
         {
-            number: "2 ",
+            number: "2",
             page_link: "/vci-paper",
             heading: "VCI Paper",
             image: vci_Paper,
             isSlider: true,
-            content: "Benz Packaging is proud to present our VCI Paper, a reliable solution designed to provide effective corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a trusted and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
+            content: "At BENZ Packaging Solutions, we are dedicated to providing cutting-edge technology for your packaging needs, and our VCI Papers stand as the pinnacle of anti-corrosion solutions. Our VCI Paper, VCI Poly Coated Paper, and VCI Reinforced Fabric Papers offer unmatched protection against oxidation and corrosion for all metal goods. Utilizing a tailor-made coating process,these innovative papers are infused with VCI on both sides, ensuring comprehensive protection. By subliming VCI molecules from both sides, they form a powerful shield against environmental pollutants, effectively safeguarding your metals during transport and storage.Available in Ferrous Grade and Universal Grade variants, our VCI Papers cater to specific metal protection needs. Crafted with patented Propagroup's Technology from Italy, these papers have a proven track record of success. With diverse applications, they excel as intersecting layers in combination with other BENZ VCI products, ensuring your metal goods remain corrosion-free and pristine.",
             subProducts: [
                 {
                     image: tape,
@@ -127,7 +127,7 @@ const AntiCorrosion = () => {
             heading: "VCI Emitters",
             image: [vci_emitter1, vci_emitter2, vci_emitter3],
             isSlider: true,
-            content: "Benz Packaging is proud to introduce our VCI Emitters, an advanced solution designed to provide superior corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
+            content: "BENZ Packaging Solutions, offers advanced VCI Anticorrosion Packing Items designed to provide robust metal protection. Our VCI Emitters utilize innovative technology to disperse VCI molecules efficiently within your packaging, reaching even concealed areas that are typically challenging to protect. They cover a significant area, offering unparalleled corrosion prevention. These emitters deposit an invisible molecular layer on metal surfaces, providing long-term corrosion protection even in humid conditions. Their versatility and reliability make them a valuable asset in safeguarding your metal assets",
             subProducts: [
                 {
                     image: tape,
@@ -195,7 +195,7 @@ const AntiCorrosion = () => {
             heading: "Rust Removers",
             image: engine,
             isSlider: true,
-            content: "Benz Packaging is pleased to introduce our range of Rust Removers, specially formulated to effectively remove rust and restore surfaces to their original condition. With our expertise in packaging technology, we offer reliable and innovative solutions to tackle rust-related challenges.",
+            content: "BENZ Packaging offers a top-tier Rust Removers that effectively eliminates corrosion from metal surfaces. Our rust removers are a powerful and reliable solution for restoring metal parts and equipment. It works by dissolving rust, leaving surfaces clean and corrosion-free. Whether you're dealing with mild surface rust or severe corrosion, our rust remover is up to the task. It's easy to use, making it suitable for various applications. BENZ Packaging's Rust Remover ensures your valuable metal assets remain in optimal condition, free from the damaging effects of rust. Trust us for a comprehensive rust removal solution that delivers exceptional results.",
             subProducts: [
                 {
                     image: tape,

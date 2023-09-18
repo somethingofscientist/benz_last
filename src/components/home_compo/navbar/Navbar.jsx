@@ -14,6 +14,7 @@ import { HashLink } from "react-router-hash-link";
 import Dropdown from "./dropdown/Dropdown";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import products from "../../../products/Products"
 
 
 const Navbar = () => {
@@ -23,6 +24,10 @@ const Navbar = () => {
   const [dropdown, setDropdown] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const [showProducts, setShowProducts] = useState([])
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isDropdown, setIsDropdown] = useState(false);
+
 
   const handleToogle = (index) => {
     const temp = [...dropdown];
@@ -45,10 +50,27 @@ const Navbar = () => {
     }, 6);
   };
 
-
-  // const handleToggleMenu = () => {
-  //   setMenuOpen(!menuOpen); // Toggle the menu state
-  // };
+  const searchHandler = (event) => {
+    const inputValue = event.target.value.trim().toLowerCase();
+    if (inputValue === "") {
+      setShowProducts([]);
+    } else {
+      const temp = [];
+      products.forEach((product) => {
+        if (temp.length < 6 && product.title.toLowerCase().includes(inputValue)) {
+          temp.push(product);
+        }
+      });
+      setShowProducts([...temp]);
+      setIsDropdown(true);
+    }
+    setSearchQuery(inputValue); 
+  };
+  const handleResultClick = () => {
+    // Clear the input field when a result is clicked
+    setSearchQuery('');
+    setIsDropdown(false);
+  };
 
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
@@ -81,6 +103,38 @@ const Navbar = () => {
               <img src={logo} alt="company_logo" />
             </Link>
           </div>
+
+
+          {/* input field */}
+          <div className={styles.searchBar}>
+            <input
+              type="search"
+              onChange={searchHandler}
+              placeholder="Search Product"
+              value={searchQuery} // Bind the input value to the searchQuery state
+            />
+            <div className={styles.searchList}>
+               { 
+               isDropdown && 
+               showProducts?.length > 0 && (
+                <div className={styles.searchList}>
+                  {showProducts.map((product) => (
+                    <li key={product.id}>
+                      <Link
+                        className={styles.searchList}
+                        to={product.url}
+                        onClick={handleResultClick} 
+                      >
+                        {product.title}
+                      </Link>
+                    </li>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+          {/* input field */}
+
 
           <div className={styles.rightMenu}>
             {/* globe icon */}

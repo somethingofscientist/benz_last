@@ -34,8 +34,8 @@ const Descicannt = () => {
             greenProduct: "Green Product",
             heading: "VCI Bio-Film",
             image: engine,
-            image_text: "Benz Packaging is proud to introduce our latest innovation, VCI Bio-Film, an environmentally friendly solution that provides exceptional corrosion protection for your valuable products. With our commitment to sustainability and packaging technology expertise, we offer a reliable and innovative approach to safeguarding your goods while minimizing environmental impact.",
-            image_text2: "VCI Bio-Film combines the benefits of Volatile Corrosion Inhibitor (VCI) technology with a bio-based film material. The VCI molecules in the film create a protective shield around your products, preventing corrosion and preserving their integrity. At the same time, the bio-based film is derived from renewable resources, reducing the reliance on traditional petroleum-based materials and minimizing carbon footprint."
+            image_text: "BENZ VCI Bio Film stands as an eco-conscious alternative to traditional nondegradable films. Offering superior mechanical properties and stability compared to other compostable films, it holds certifications from both DIN and as per EN 13432 and ASTM D6400. Unlike some compostable films, BENZ VCI Bio Film remains heat and water stable during use, making it ideal for organic waste collection and community composting programs.",
+            image_text2: "The biodegradation timeline depends on disposal conditions, but in a typical commercial composting environment, it breaks down into carbon dioxide and water within weeks, posing no harm to soil, plants, or microorganisms. Shelf-stable and available in various sizes and thicknesses, BENZ VCI Bio Film is your sustainable choice for responsible packaging."
         },
 
         {
@@ -43,8 +43,8 @@ const Descicannt = () => {
             number: "2",
             heading: "VCI Film",
             image: engine,
-            image_text: "Benz Packaging is excited to introduce our VCI Film, a cutting-edge solution designed to provide exceptional corrosion protection for your valuable goods. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your products from the damaging effects of corrosion.",
-            image_text2: "VCI, which stands for Volatile Corrosion Inhibitor, is a revolutionary technology that creates a protective shield around your products. Our VCI Film releases special corrosion-inhibiting molecules into the surrounding environment, forming an invisible barrier that prevents the onset and progression of corrosion. This unique feature makes it an ideal choice for protecting a wide range of metal components, equipment, machinery, and other susceptible items."
+            image_text: "At BENZ Packaging Solutions, we offer cutting-edge technology for your packaging needs, including our advanced VCI Films & VCI Bags, designed to provide ultimate protection against corrosion. These innovative films are engineered using high-technology resins and a custom co-extrusion process, resulting in higher mechanical strength and low water vapor permeability. The BENZ VCI FILM range introduces a VCI additive during co-extrusion, which sublimes from the plastic to safeguard packed metallic items from corrosion.",
+            image_text2: "Trusted by leading automobile manufacturers, steelmakers, and metallurgical companies worldwide, our VCI FILM products offer an easy, practical, and cost-effective solution to prevent corrosion damage. Their transparency allows for efficient goods placement and streamlined customs procedures, eliminating the need to open and compromise the packaging"
         },
 
         {
@@ -52,8 +52,8 @@ const Descicannt = () => {
             number: "3",
             heading: "VCI Stretch Film",
             image: [stretchFilm1, stretchFilm2],
-            image_text: "Benz Packaging is thrilled to introduce our VCI Stretch Film, an innovative solution designed to provide advanced corrosion protection with the added benefit of stretchability. With our expertise in packaging technology, we offer a reliable and efficient approach to safeguarding your valuable goods from the damaging effects of corrosion.",
-            image_text2: "Our VCI Stretch Film combines the benefits of Volatile Corrosion Inhibitor (VCI) technology with the stretchability of film. This unique combination allows for easy application and excellent coverage around your products, ensuring maximum protection. The VCI molecules in the film create a protective shield, preventing the onset and progression of corrosion, while the stretchable nature of the film enables it to conform to different shapes and sizes."
+            image_text: "BENZ VCI Stretch Film represents a top-tier, coextruded solution known for its exceptional strength, stretch capabilities, and multi-metal corrosion protection. This high-performance film not only delivers impressive puncture resistance but also excels in load retention, enabling users to reduce gauge, secure even aggressive loads, and optimize packaging efficiency while minimizing costs. It's also recyclable, underscoring its sustainability.",
+            image_text2: ". Available in Hand Grade and Machine Grade variants, BENZ VCI Stretch Film offers versatility, with thickness options ranging from 9 Microns to 55 Microns, ensuring a tailored solution for diverse packaging needs."
         },
 
         {
@@ -61,40 +61,40 @@ const Descicannt = () => {
             number: "4",
             heading: "VCI Bubble Film",
             image: bubble_film,
-            image_text: "Benz Packaging is delighted to introduce our VCI Bubble Film, a comprehensive solution that combines advanced corrosion protection with the cushioning properties of bubble wrap. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
-            image_text2: "Our VCI Bubble Film incorporates Volatile Corrosion Inhibitor (VCI) technology into the protective bubble cushioning material. This unique combination provides a dual-function solution, offering both corrosion protection and impact resistance. The VCI molecules released by the film create a protective shield around your products, preventing corrosion, while the bubble wrap cushions and protects the items from shocks, vibrations, and scratches during storage and transportation."
+            image_text: "BENZ VCI Bubble Film seamlessly blends the power of volatile corrosion inhibitors with cushioning packing bubbles to provide unparalleled protection for delicate or sensitive components. Employing Vapor Phase Corrosion Inhibitor (VCI) technology, these bubbles shield a wide spectrum of metals, including carbon steel, aluminum, copper, brass, silver, and stainless steels, all without leaving any film or residue on your valuable items.",
+            image_text2: "Moreover, BENZ VCI Bubble Film effectively safeguards sensitive electronic equipment from triboelectric charge generation. Environmentally responsible and user-friendly, it is both non-toxic and recyclable. Available in customizable rolls, sheeting, or heat-sealable bags, BENZ VCI Bubble Film ensures tailored protection for your specific packaging needs."
         },
         {
             id: "section5",
             number: "5",
             heading: "VCI Woven Fabric Film",
             image: [vci_wooven1, vci_wooven2, vci_wooven3],
-            image_text: "Benz Packaging is excited to introduce our VCI Woven Fabric Film, a robust solution designed to provide superior corrosion protection with the added strength and durability of woven fabric. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
-            image_text2: "Our VCI Woven Fabric Film combines the benefits of Volatile Corrosion Inhibitor (VCI) technology with the resilience of woven fabric material. This unique combination offers a high level of protection against corrosion while providing excellent strength and durability for demanding applications. The VCI molecules in the film create a protective shield around your products, preventing corrosion, while the woven fabric enhances the film's physical properties."
+            image_text: "BENZ VCI Woven Fabric Film represents the pinnacle of corrosion-inhibiting reinforced films in the industry. Leveraging our patented Vapor Corrosion Inhibiting (VCI) technology, it has revolutionized metal protection within sealed packages. This film delivers unmatched corrosion protection for both ferrous and non-ferrous metals while remaining non-toxic, free from nitrites, phosphates, silicates, or other hazardous compounds. Crafted from the highestquality BENZ VCI Films and laminated with woven fabrics, BENZ VCI Woven Fabric Film features a three/four-layer structure that ensures exceptional tear resistance.",
+            image_text2: "The VCI within the film vaporizes, extending its protective reach to all metal surfaces, creating a remarkably thin yet highly effective protective layer that preserves product appearance without necessitating removal."
         },
         {
             id: "section6",
             number: "6",
             heading: "VCI Anti static Film",
             image: [antistatic1, antistatic2, antistatic3],
-            image_text: "Benz Packaging is proud to introduce our VCI Anti-static Film, an advanced solution that combines superior corrosion protection with effective electrostatic discharge control. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from both corrosion and electrostatic damage.",
-            image_text2: "Our VCI Anti-static Film incorporates Volatile Corrosion Inhibitor (VCI) technology along with anti-static additives. This unique combination provides a dual-function solution, offering corrosion protection and electrostatic discharge control in a single packaging material. The VCI molecules released by the film create a protective shield around your products, preventing corrosion, while the anti-static properties prevent the build-up and discharge of static electricity."
+            image_text: "BENZ VCI Anti Static Film stands as a reliable solution that not only meets the stringent antistatic standards but also offers multi-metal corrosion protection and ESD protection. Plastic films often exhibit poor electrical conductivity, making them susceptible to static discharges during packaging, which can be especially problematic in applications where such discharges are unacceptable.",
+            image_text2: "The film effectively dissipates static discharges, ensuring your products remain free from harm. Additionally, its transparent nature allows for see-through packaging, providing clarity and convenience in identifying your goods."
         },
         {
             id: "section7",
             number: "7",
             heading: "VCI Shrink Film",
             image: engine,
-            image_text: "Benz Packaging is pleased to introduce our VCI Shrink Film, a superior solution designed to provide exceptional corrosion protection while offering secure wrapping for your valuable goods. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your products from the damaging effects of corrosion.",
-            image_text2: "Our VCI Shrink Film combines the benefits of Volatile Corrosion Inhibitor (VCI) technology with the shrinkable properties of film. This unique combination allows for easy application and creates a tight, secure, and conforming wrap around your products. The VCI molecules released by the film create a protective shield, preventing corrosion and ensuring long-lasting protection during storage and transportation."
+            image_text: "BENZ VCI Shrink Film seamlessly merges cutting-edge film technology with potent corrosion protection for metal products. This film amalgamates high-strength resins, UV light stabilizers, flame retardants, and Vapor Corrosion Inhibitor (VCI) technology. Notably, it excels in preventing corrosion and Electrostatic Discharge (ESD) damage, providing multi-metal corrosion protection and robust static dissipative properties. Replacing conventional rust preventatives like oils and desiccants, BENZ VCI Shrink Film ensures immediate usability without the need for cleaning or degreasing. By sealing your products in this film, you shield a wide range of metals from rust, tarnish, stains, and oxidation, resulting in cost savings by eliminating previous degreasing or coating removal requirements.",
+            image_text2: "Moreover, it's eco-friendly, devoid of harmful ingredients, and adheres to MILPRF-81705 D standards for Static Dissipative Packaging Materials. BENZ VCI Shrink Film guarantees up to 2 years of corrosion protection and 1 year of ESD protection in open environments, providing peace of mind for your metal products."
         },
         {
             id: "section8",
             number: "8",
             heading: "VCI Non-Woven Film",
             image: [non_wooven1, non_wooven1, vci_non_wooven1, vci_non_wooven2],
-            image_text: "Benz Packaging is delighted to introduce our VCI Non-Woven Film, a versatile solution designed to provide effective corrosion protection using non-woven material. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
-            image_text2: "Our VCI Non-Woven Film incorporates Volatile Corrosion Inhibitor (VCI) technology into a non-woven fabric construction. This unique combination offers excellent corrosion protection while providing versatility for a wide range of applications. The VCI molecules released by the film create a protective shield around your products, preventing corrosion and ensuring their longevity during storage and transportation."
+            image_text: "BENZ VCI Woven Fabric Film is a robust nonwoven fabric blend, skillfully crafted from a fusion of synthetic and cellulosic fibers, complemented by Propagroup's cutting-edge Vapor Corrosion Inhibitor (VCI)technology. This versatile product finds utility across a wide spectrum of applications.",
+            image_text2: "Beyond its formidable corrosion protection capabilities, it offers a vital shield against mechanical hazards such as scratching, abrasion, and staining—common culprits in standard packaging scenarios. Furthermore, it boasts moisture-wicking properties, preventing condensation buildup on vital parts and components during critical packaging operations.BENZ VCI Woven Fabric Film shines as an exceptional choice for safeguarding castings and highly sensitive metals, with typical applications including interleaving, wrapping, and lining."
         },
 
 

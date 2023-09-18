@@ -13,10 +13,37 @@
   width: 100%;
 }
 
+.searchBar {
+  width: 40%;
+}
+
+.searchList {
+  color: white !important;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.255);
+  backdrop-filter: blur(5px);
+  list-style: none;
+}
+
+.searchList li {
+  padding: 10px 0;
+  /* color: white; */
+}
+
+.searchBar input {
+  width: 100%;
+  color: white !important;
+  /* border-radius:-10px; */
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+  background-color: transparent;
+  transition: 100ms;
+  text-align: center;
+}
+
 .navbar {
   display: flex;
   width: 100% !important;
-  position:fixed !important;
+  position: fixed !important;
   top: 0;
   justify-content: space-between;
   height: 100px;
@@ -24,7 +51,7 @@
   /* background-color: black; */
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.308);
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
 }
 
 .otherMenu {
@@ -108,22 +135,29 @@ a {
 
 @media only screen and (max-width:512px) {
   .navbar {
-    padding:0 20px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     height: auto;
-    
+    flex-wrap: wrap;
     /* width: 100% !important; */
     /* overflow: hidden; */
     /* background-color: red; */
   }
+  .searchBar {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -30px;
+  }
+  
   .rightMenu {
     grid-gap: 20px;
     /* background-color: red; */
     /* width: 20%; */
     display: flex;
     padding-bottom: 20px;
-    justify-content: end;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .logo {

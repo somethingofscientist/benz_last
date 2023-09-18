@@ -15,8 +15,8 @@ const Descicannt = () => {
             number: "1",
             heading: "Acidic",
             image: engine,
-            image_text: "Benz Packaging is proud to offer our range of Acidic Rust Removers, specifically formulated to tackle stubborn rust and corrosion. With our expertise in packaging technology, we provide effective and reliable solutions for rust removal, ensuring surfaces are restored to their original condition.",
-            image_text2: "Our Acidic Rust Removers are specially designed to penetrate and dissolve tough rust and corrosion on a variety of surfaces. The acidic formula works effectively to break down the rust, making it easier to remove. Whether you're dealing with rust on metal, tools, equipment, or other surfaces, our acidic rust removers provide powerful and efficient performance."
+            image_text: "BENZ Packaging presents the Rust Remover RR 125 A, a potent liquid phosphoric acid-based cleaner engineered to effectively clean and eradicate rust from steel and iron components. It excels at removing heat scale, flux, and other oxides from steel, stainless steel, brass, copper,and aluminum. What sets RR 125 A apart is its unique ability to swiftly dissolve iron oxide while gently etching iron, allowing for longer soaking times with minimal damage.", 
+            image_text2: "This remarkable solution also leaves a thin iron phosphate coating, offering an added layer of rust prevention. For optimal protection, complement its use with our Loc Rust range of Rust Preventive Oils. Simply soak rusty parts, and with the assistance of an Ultrasonic Machine at 50°C, watch as the rust disappears, leaving your metal components rejuvenated and corrosion-free."
         },
 
         {
@@ -25,8 +25,8 @@ const Descicannt = () => {
             heading: "Neutral",
             greenProduct: "Green Product",
             image: neutralacid,
-            image_text: "Benz Packaging is pleased to introduce our line of Neutral Rust Removers, designed to safely and effectively remove rust from a variety of surfaces. With our expertise in packaging technology, we offer reliable and innovative solutions to tackle rust-related challenges.",
-            image_text2: "Our Neutral Rust Removers are formulated with a pH-neutral composition, making them safe to use on a wide range of materials, including metal, tools, equipment, and more. They effectively penetrate rust layers, dissolve rust particles, and facilitate easy removal without causing harm or damage to the underlying surface."
+            image_text: "BENZ Packaging brings you the revolutionary Neutral Rust Remover, a highly efficient and eco-friendly solution to rejuvenate rusty parts. Our pH-neutral rust remover offers a safe and biodegradable method to completely restore rust-covered components, eliminating the need for labor-intensive and abrasive cleaning that can damage surfaces. The secret lies in its ability to break the iron-oxide chemical bond of rust without harming other metals or non-metals.",
+            image_text2: "Whether it's crevices, pits, or threads, Neutral Rust Remover works diligently, leaving your parts rust-free and rejuvenated. For optimal results, pair it with an Ultrasonic Machine and heat it to 50°C for a speedy, thorough rust removal process"
         },
 
     ]

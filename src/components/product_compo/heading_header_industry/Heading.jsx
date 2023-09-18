@@ -18,7 +18,7 @@ const Heading_header_industry = () => {
                     {t("Products")}
                 </div>
                 <div className={styles.sub_header}>
-                    {t("BENZ Packaging backed by its parent company – New Sales Corporation has been in the field of packaging for over 38 years. BENZ Packaging has delivered safe and effective corrosion solutions across the globe. Our Technical Partners- Propagroup (Italy) are the leading manufactures of Protective Packaging Products and have onsite representation in over 90-plus countries, to provide seamless support wherever you need it. We can help you get over any challenging corrosion prevention need such as overseas shipping in corrosive environments to storage in high humidity conditions.")}
+                    {t("Explore our extensive range of desiccants, each tailored to unique industry needs. From silica gel to clay and molecular sieve desiccants, BENZ Packaging offers a comprehensive selection. Our desiccants effectively combat moisture, preserving product quality and shelf life. Whether you require moisture control for electronics, pharmaceuticals, or any other industry, our solutions ensure optimal protection. By choosing BENZ Packaging's desiccant solutions, you gain a competitive edge through reliable moisture control, reducing the risk of damage, and increasing your product's reliability.")}
                 </div>
             </div>
         </>
