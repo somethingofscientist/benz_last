@@ -94,12 +94,14 @@ const Secondary_ldpe = () => {
     {
       number: "12",
       heading: "Bio Degradable Bags",
+      greenProduct:"Green Product",
       image: [eco_bio, eco_bio2, eco_bio3],
       content: "Welcome to Benz Packaging, your trusted provider of biodegradable bags for eco-friendly packaging solutions. Our biodegradable bags are designed to offer a sustainable alternative to traditional plastic bags, helping to reduce environmental impact and promote a greener future.At Benz Packaging, we understand the importance of responsible and sustainable packaging practices. Our biodegradable bags are made from materials that can naturally break down over time, minimizing their impact on the environment. By choosing our biodegradable bags, you can contribute to reducing plastic waste and protecting our planet.",
     },
     {
       number: "13",
       heading: "Compostable Bags",
+      greenProduct:"Green Product",
       image: vci_film,
       content: "Welcome to Benz Packaging, your trusted provider of compostable bags for sustainable packaging solutions. Our compostable bags are designed to offer an eco-friendly alternative to traditional plastic bags, helping to reduce waste and support a more sustainable future.At Benz Packaging, we understand the importance of responsible packaging practices and the need to minimize our impact on the environment. Our compostable bags are made from plant-based materials that can naturally break down into nutrient-rich compost, contributing to a circular economy and reducing landfill waste.",
     },
@@ -131,6 +133,9 @@ const Secondary_ldpe = () => {
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
               <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
+              {item?.greenProduct ? <div className={styles.auto_letter2}>
+                {t(`${item?.greenProduct ?? ""}`)}
+              </div> : <></>}
             </div>
 
             <div className={styles.auto_img_container}>

@@ -9,7 +9,8 @@ import { useTranslation } from 'react-i18next';
 const Submit = () => {
     const { t, i18n } = useTranslation();
     const [email, setEmail] = useState('');
-    const [submittedEmail, setSubmittedEmail] = useState(false); // Track if email is submitted
+    const [isdisabled, setIsdisabled] = useState(false);
+    const [submittedEmail, setSubmittedEmail] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -29,8 +30,9 @@ const Submit = () => {
                     progress: undefined,
                     theme: 'light',
                 });
+                setIsdisabled(true);
                 setEmail('');
-                setSubmittedEmail(true); // Mark email as submitted
+                setSubmittedEmail(true);
             } else {
                 toast.dismiss();
                 toast.error('Error occurred in the newsletter else block', {
@@ -48,17 +50,6 @@ const Submit = () => {
             });
         }
     };
-
-    // const handleDownloadClick = () => {
-    //     if (!submittedEmail) {
-    //         // Display a toast error if email is not submitted
-    //         toast.error('You need to submit your email address first', {
-    //             position: 'top-center',
-    //             autoClose: 3000,
-    //             theme: 'dark',
-    //         });
-    //     }
-    // };
 
     return (
         <>
@@ -82,21 +73,23 @@ const Submit = () => {
                                 <button className={styles.submit_btn} type="submit">
                                     {t('Submit')}
                                 </button>
-
-                                {/* {submittedEmail && ( // Render download link if email is submitted */}
-                                <div className={styles.submit_btn}>
+                                <button
+                                    className={styles.submit_btn}
+                                    disabled={isdisabled}
+                                    style={{
+                                        backgroundColor: isdisabled ? "" : "grey",
+                                    }}
+                                >
                                     <a
                                         href={pdf}
                                         target="_blank"
                                         download={'BENZ_Brochure'}
-                                    // onClick={handleDownloadClick}
                                     >
                                         <span style={{ color: 'white' }}>
                                             {t('Download Brochure')}
                                         </span>
                                     </a>
-                                </div>
-                                {/* )} */}
+                                </button>
                             </div>
                         </div>
                     </div>

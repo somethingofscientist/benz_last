@@ -30,6 +30,7 @@ const Secondary_Tapes = () => {
     {
       number: "3",
       heading: "Paper Tapes",
+      greenProduct:"Green Product",
       image: [tape1],
       content: "Welcome to Benz Packaging, your trusted provider of environmentally friendly paper tapes. Our paper tapes are designed to offer eco-friendly and reliable packaging solutions for various industries and applications. With their biodegradable properties, strong adhesion, and versatility, our paper tapes are the perfect choice for businesses committed to sustainable packaging practices.",
     },
@@ -73,6 +74,9 @@ const Secondary_Tapes = () => {
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
               <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
+              {item?.greenProduct ? <div className={styles.auto_letter2}>
+                {t(`${item?.greenProduct ?? ""}`)}
+              </div> : <></>}
             </div>
 
             <div className={styles.auto_img_container}>

@@ -24,13 +24,14 @@ import vci_non_wooven2 from '../../../images/new_images_client/VCI Non Woven Fab
 
 
 const Descicannt = () => {
-    
+
     const { t, i18n } = useTranslation();
 
     const arr = [
         {
             id: "section1",
             number: "1",
+            greenProduct: "Green Product",
             heading: "VCI Bio-Film",
             image: engine,
             image_text: "Benz Packaging is proud to introduce our latest innovation, VCI Bio-Film, an environmentally friendly solution that provides exceptional corrosion protection for your valuable products. With our commitment to sustainability and packaging technology expertise, we offer a reliable and innovative approach to safeguarding your goods while minimizing environmental impact.",
@@ -104,12 +105,16 @@ const Descicannt = () => {
                 arr.map((item => (
                     <div className={styles.automobile_container} id={item.id}>
                         <div className={styles.auto_heading}>
-                            <div className={styles.auto_number}>
-                                {item.number}
-                            </div>
-                            <div className={styles.auto_letter}>
-                            {t(`${item.heading}`)}
-                            </div>
+                                <div className={styles.auto_number}>
+                                    {item.number}
+                                </div>
+                                <div className={styles.auto_letter}>
+                                    {t(`${item.heading}`)}
+                                </div>
+
+                            {item?.greenProduct ? <div className={styles.auto_letter2}>
+                                {t(`${item?.greenProduct ?? ""}`)}
+                            </div> : <></>}
                         </div>
 
                         <div className={styles.auto_img_container}>
@@ -139,7 +144,7 @@ const Descicannt = () => {
 
                             </div>
                             <div className={styles.auto_img_text}>
-                            {t(`${item.image_text}`)}
+                                {t(`${item.image_text}`)}
                                 <br />
                                 {t(`${item.image_text2}`)}
                             </div>

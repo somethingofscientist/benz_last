@@ -40,6 +40,22 @@
     color: #0081C9;
 }
 
+.auto_letter2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+    /* padding-top: 60px; */
+    position: absolute;
+    padding: 0 20px;
+    border-radius: 10px;
+    letter-spacing: 0.04em;
+    color: #1bc900;
+    right: 0;
+    border: 2px solid #1bc900;
+}
+
 .auto_img_container {
     display: flex;
     /* border: 1px solid palevioletred; */
@@ -105,11 +121,27 @@
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
-    .auto_pack{
+
+    .auto_pack {
         display: none;
     }
+
     .auto_img,
     .auto_img_text {
         width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:420px) {
+
+    .auto_letter2 {
+        position: relative;
+        padding: 0 10px;
+        right: 0;
+        /* margin-top: 250px; */
+        /* margin-bottom: 10px; */
+        margin: 350px auto 10px auto;
     }
 }

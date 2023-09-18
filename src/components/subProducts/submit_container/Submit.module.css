@@ -34,7 +34,10 @@
 .button_flex{
     /* border: 2px solid palevioletred; */
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-between !important;    
+}
+.button_flex button{
+    /* background-color: red !important; */
 }
 .input_email input {
     padding: 24px 100px;

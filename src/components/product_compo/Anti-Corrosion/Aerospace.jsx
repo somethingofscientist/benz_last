@@ -35,7 +35,7 @@ const Aerospace = () => {
                     image: tape,
                     items: "VCI Bio-Film",
                     item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
-                    date: "8 June 2023"
+                    date: "18 June 2023"
                 },
                 {
                     image: tape,
