@@ -119,13 +119,14 @@
 
 @media (max-width:420px) {
     .sticky_container {
-        top: 70px !important;
-        width: 85%;
+        top: 160px !important;
+        width: 75%;
+        /* border: 1px solid lime; */
     }
 
     .sticky_container>.left_arrow {
         position: absolute;
-        left: -30px !important;
+        left: -48px !important;
         top: 50%;
         bottom: 50%;
         z-index: 99;
@@ -134,7 +135,7 @@
 
     .sticky_container>.right_arrow {
         position: absolute;
-        right: -30px !important;
+        right: -48px !important;
         top: 50%;
         bottom: 50%;
         z-index: 99;

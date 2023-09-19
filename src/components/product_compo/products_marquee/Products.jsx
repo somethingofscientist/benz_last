@@ -60,7 +60,7 @@ const Products = () => {
                 {/* <div className={styles.card_text}>{t("INDUSTRIAL")} </div> */}
                 <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
                 <img src={pic1} alt="pic1_humidity" />
-                <div className={styles.card_icon}>
+                <div className={styles.card_icon2}>
                   <HiArrowNarrowRight size={20} color="white" />
                 </div>
               </div>

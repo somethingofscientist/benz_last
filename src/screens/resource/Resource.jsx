@@ -19,7 +19,7 @@ const Resource = () => {
         <Work_with_us />
         <Distributor />
         {/* <FAQ /> */}
-        <FAQ />
+        {/* <FAQ /> */}
     </>
   )
 }

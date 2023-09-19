@@ -36,9 +36,6 @@ const style = {
     },
 };
 
-
-
-
 const Distributor = () => {
     const { t, i18n } = useTranslation();
     const [open, setOpen] = useState(false);
@@ -112,6 +109,17 @@ const Distributor = () => {
 
                                         <div>
                                             <form onSubmit={handleSubmit}>
+                                                <label htmlFor="name" className={styles.form_label}>
+                                                    Name<span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <input
+                                                    type="text"
+                                                    id="name"
+                                                    name="name"
+                                                    pattern="^[a-zA-Z]+$"
+                                                    required
+                                                />
+
                                                 <label htmlFor="companyName" className={styles.form_label}>
                                                     Name of company<span style={{ color: "red" }}>*</span>
                                                 </label>
@@ -148,7 +156,7 @@ const Distributor = () => {
                                                 />
 
                                                 <label htmlFor="investment" className={styles.form_label}>
-                                                    How much you invest<span style={{ color: "red" }}>*</span>
+                                                    How much you want to Invest<span style={{ color: "red" }}>*</span>
                                                 </label>
                                                 <input
                                                     type="text"
@@ -264,8 +272,6 @@ const Distributor = () => {
                                                 </div>
                                             </form>
                                         </div>
-
-
                                     </Typography>
                                 </Box>
                             </Modal>

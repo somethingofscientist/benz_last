@@ -7,6 +7,7 @@
     width: 100%;
     margin: auto;
     height: 442px;
+    object-fit: cover;
 }
 
 
@@ -56,6 +57,7 @@
 
 .wrapper img {
     scroll-snap-align: center;
+    /* width: 100%; */
 }
 
 .carousel-image-container {
@@ -64,7 +66,8 @@
 
 .carousel-image-data {
     position: absolute;
-    top: 60%;
+    top: 80%;
+    font-weight: bold;
     left: 10px;
     color: white;
 
