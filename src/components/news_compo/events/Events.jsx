@@ -7,14 +7,16 @@ import pack4 from "../../images/pack4.png";
 import CurvedCarousel from "../carousel/curved_carousel";
 import { useTranslation } from "react-i18next";
 
+import img1 from '../../images/events_clients/IMG_6494.jpg'
+
 const Events = () => {
   const { t, i18n } = useTranslation();
 
   const arr = [
     {
-      image: pack,
+      image: img1,
       date: "24 May 2023",
-      heading: "Pack Summit",
+      heading: "Chinaplas",
       subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
     },
     {

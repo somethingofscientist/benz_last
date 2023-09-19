@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Aerospace.module.css';
 import engine from '../../../components/images/engine.svg';
 import Slider from '../../../components/product_compo/horizontal_slider/Slider';
@@ -19,9 +19,14 @@ import Heading_header_industry from '../../../components/product_compo/heading_h
 import header_heading from '../../../components/images/des_heading.svg';
 import ProductHeading from '../heading/Heading';
 
+import routestyle from './Routing.module.css'
+
 const AntiCorrosion = () => {
 
     const { t, i18n } = useTranslation();
+    const [page, setPage] = useState("product");
+
+
     const arr = [
         {
             number: "1",
@@ -217,71 +222,109 @@ const AntiCorrosion = () => {
             <ProductHeading
                 title="Anti Corrosion"
             />
-            {
-                arr.map((item) => (
-                    <div className={styles.automobile_container} id='section3'>
-                        <div className={styles.auto_heading}>
-                            <div className={styles.auto_number}>
-                                {t(`${item.number}`)}
-                            </div>
-                            <div className={styles.auto_letter}>
-                                {t(`${item.heading}`)}
-                            </div>
-                        </div>
 
-                        <div className={styles.auto_img_container}>
-                            <div className={styles.auto_img}>
-                                <Carousel
-                                    autoPlay={true}
-                                    interval={2000}
-                                    infiniteLoop
-                                    showStatus={false}
-                                    showThumbs={false}
-                                    showArrows={false}
-                                >
-                                    {Array.isArray(item.image) ? (
-                                        item.image.map((imageUrl, idx) => (
-                                            <div className={styles.images} key={idx}>
-                                                <img src={imageUrl} alt={imageUrl} />
-                                            </div>
-                                        ))
-                                    ) : (
-                                        <div className={styles.images}>
-                                            <img src={item.image} alt={item.image} />
-                                        </div>
-                                    )}
-                                </Carousel>
-                                {/* <img src={item.image} alt="engine" /> */}
-
-                                <Link to={item.page_link}>
-                                    <div className={styles.auto_pack}>
-                                        {t("PACK WITH US")}
-                                    </div>
-                                </Link>
-                            </div>
-                            <div className={styles.auto_img_text}>
-                                {t(`${item.content}`)}
-                            </div>
-                        </div>
-
-                        {/* {
-                            item.isSlider && <Slider subProducts={item.subProducts.map(subItem => ({ ...subItem, item_text: t(subItem.item_text) }))} />
-                        } */}
-
-                        <Link to={item.page_link}>
-                            {
-                                item.isSlider && (
-                                    <Slider subProducts={item.subProducts.map(subItem => ({
-                                        ...subItem,
-                                        item_text: t(subItem.item_text),
-                                        page_link: item.page_link, // Pass the main page link to subItems
-                                    }))} />
-                                )
-                            }
-                        </Link>
+            <>
+                <div className={routestyle.routing}>
+                    <div className={page === 'product' ? routestyle.active_route : routestyle.route} onClick={(e) => { setPage('product') }}>
+                        {t("THE PRODUCT")}
                     </div>
-                ))
-            }
+                    <div className={page === 'certification' ? routestyle.active_route : routestyle.route} onClick={(e) => { setPage('certification') }}>
+                        {t("CERTIFICATIONS AND REGULATIONS")}
+                    </div>
+                    <div className={page === 'application' ? routestyle.active_route : routestyle.route} onClick={(e) => { setPage('application') }}>
+                        {t("APPLICATION")}
+                    </div>
+                </div>
+
+
+                <div className={routestyle.para}>
+                    {t("BENZ Packaging backed by its parent company – New Sales Corporation has been in the field of packaging for over 38 years. BENZ Packaging has delivered safe and effective corrosion solutions across the globe. Our Technical Partners- Propagroup (Italy) are the leading manufactures of Protective Packaging Products and have onsite representation in over 90-plus countries, to provide seamless support wherever you need it. We can help you get over any challenging corrosion prevention need such as overseas shipping in corrosive environments to storage in high humidity conditions.")}
+                </div>
+
+
+                {
+                    page === "product" ?
+                        <>
+                            {
+                                arr.map((item) => (
+                                    <div className={styles.automobile_container} id='section3'>
+                                        <div className={styles.auto_heading}>
+                                            <div className={styles.auto_number}>
+                                                {t(`${item.number}`)}
+                                            </div>
+                                            <div className={styles.auto_letter}>
+                                                {t(`${item.heading}`)}
+                                            </div>
+                                        </div>
+
+                                        <div className={styles.auto_img_container}>
+                                            <div className={styles.auto_img}>
+                                                <Carousel
+                                                    autoPlay={true}
+                                                    interval={2000}
+                                                    infiniteLoop
+                                                    showStatus={false}
+                                                    showThumbs={false}
+                                                    showArrows={false}
+                                                >
+                                                    {Array.isArray(item.image) ? (
+                                                        item.image.map((imageUrl, idx) => (
+                                                            <div className={styles.images} key={idx}>
+                                                                <img src={imageUrl} alt={imageUrl} />
+                                                            </div>
+                                                        ))
+                                                    ) : (
+                                                        <div className={styles.images}>
+                                                            <img src={item.image} alt={item.image} />
+                                                        </div>
+                                                    )}
+                                                </Carousel>
+
+                                                <Link to={item.page_link}>
+                                                    <div className={styles.auto_pack}>
+                                                        {t("PACK WITH US")}
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className={styles.auto_img_text}>
+                                                {t(`${item.content}`)}
+                                            </div>
+                                        </div>
+
+                                        <Link to={item.page_link}>
+                                            {
+                                                item.isSlider && (
+                                                    <Slider subProducts={item.subProducts.map(subItem => ({
+                                                        ...subItem,
+                                                        item_text: t(subItem.item_text),
+                                                        page_link: item.page_link,
+                                                    }))} />
+                                                )
+                                            }
+                                        </Link>
+                                    </div>
+                                ))
+                            }
+                        </>
+                        : page === "certification" ?
+                            <>
+                                <h1 style={{ textAlign: "center", margin: "6% 0" }}>
+                                    {t("Currently Certificate is Not  Available")}
+                                </h1>
+                            </>
+                            : page === "application" ?
+                                <>
+                                    <h1 style={{ textAlign: "center", margin: "6% 0" }}>
+                                        {t("Currently  Application is Not Available")}
+                                    </h1>
+                                </>
+
+                                :
+                                <div className={routestyle.para}>
+                                    {t("No Data Found For This Particular Section.")}
+                                </div>
+                }
+            </>
         </>
     )
 }

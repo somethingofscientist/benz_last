@@ -17,7 +17,6 @@ const Heading_header_industry = () => {
                     autoPlay
                     controlsList="nodownload"
                 ></video>
-                <div></div>
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>

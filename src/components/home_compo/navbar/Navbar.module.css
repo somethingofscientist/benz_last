@@ -40,6 +40,18 @@
   text-align: center;
 }
 
+.searchIcon {
+  /* background-color: lime; */
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon button {
+  z-index: 99;
+  background-color: transparent;
+  color: white !important;
+}
+
 .navbar {
   display: flex;
   width: 100% !important;
@@ -60,10 +72,14 @@
 }
 
 .rightMenu {
-  display: grid;
+  /* display: grid;
   padding-top: 20px;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 66px;
+  grid-gap: 66px; */
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imageContainer {
@@ -144,18 +160,20 @@ a {
     /* overflow: hidden; */
     /* background-color: red; */
   }
+
   .searchBar {
     width: 100%;
     margin-top: 10px;
     margin-bottom: -30px;
   }
-  
+
   .rightMenu {
     grid-gap: 20px;
     /* background-color: red; */
     /* width: 20%; */
     display: flex;
-    padding-bottom: 20px;
+    align-items: center;
+    padding:20px 0;
     justify-content: space-between;
     width: 100%;
   }

@@ -1,0 +1,99 @@
+.career_container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left {
+    width: 45%;
+    padding: 20px;
+    border-right: 0.1px solid rgba(37, 150, 0, 0.431);
+}
+
+.right {
+    width: 45%;
+    padding: 20px;
+    border-left: 0.1px solid rgb(16, 145, 1);
+
+    /* background: linear-gradient(45deg, #ff9900, #ff00cc, #9900ff, #00ccff); */
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+.right input {
+    margin-top: 10px;
+}
+
+.jobDesc {}
+
+.jobTitleMain {
+    /* background: linear-gradient(45deg, #ff9900, #ff00cc, #9900ff, #00ccff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    /* border: 1px solid grey; */
+
+}
+
+.jobTitle {
+    /* border: 2px solid lime; */
+    padding: 40px 0px;
+    text-align: justify;
+}
+
+.jobResponsibility {
+    padding: 40px 0px;
+    text-align: justify;
+    /* border: 1px solid pink; */
+}
+
+.jobResponsibility li,
+.jobSkills li {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.form_group {
+    text-align: left;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.right .submit_button{
+    font-size: 20px;
+    padding: 10px 20px !important;
+}
+.right .submit_button:hover{
+    background-color: rgb(48, 165, 228);
+}
+
+@media (max-width:420px) {
+    .career_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: top;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .left {
+        width: 90%;
+        padding: 20px;
+        border-right: 0.1px solid rgba(37, 150, 0, 0.431);
+        border: none;
+    }
+
+    .right {
+
+        width: 90%;
+        padding: 20px;
+        border-left: 0.1px solid rgb(16, 145, 1);
+        border: none;
+    }
+}

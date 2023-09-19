@@ -66,6 +66,7 @@ import AntiCorrosion from "./screens/productsPages/antiCorrosion/Aerospace";
 import AntiHumidity from "./screens/productsPages/antiHumidity/Aerospace";
 import Handling from "./screens/productsPages/handling/Aerospace";
 import TraditionalPackaging from "./screens/productsPages/traditionalPacking/Aerospace";
+import CareerPage from "./screens/careerPage/CareerPage";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -160,10 +161,13 @@ function App() {
 
         {/* new after client */}
         <Route path="/products/corrosion" element={<AntiCorrosion />} />
-        <Route path="/products/humidity" element={ <AntiHumidity/> } />
-        <Route path="/products/handling" element={ <Handling /> } />
-        <Route path="/products/traditional" element={ <TraditionalPackaging /> } />
+        <Route path="/products/humidity" element={<AntiHumidity />} />
+        <Route path="/products/handling" element={<Handling />} />
+        <Route path="/products/traditional" element={<TraditionalPackaging />} />
 
+
+        {/* Career Page */}
+        <Route path="/career" element={<CareerPage />} />
 
       </Routes>
       <Footer />

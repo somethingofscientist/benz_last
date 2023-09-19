@@ -37,7 +37,7 @@ const CurvedCarousel = () => {
     },
     {
       img: img5,
-      title: "Exhibition",
+      title: "China Event",
       text1: "",
       text2: "",
     },

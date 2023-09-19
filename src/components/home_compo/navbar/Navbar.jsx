@@ -6,7 +6,7 @@ import logo from "../../images/logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsGlobe } from "react-icons/bs";
 import { useState } from "react";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineSearch } from "react-icons/ai";
 import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -27,7 +27,7 @@ const Navbar = () => {
   const [showProducts, setShowProducts] = useState([])
   const [searchQuery, setSearchQuery] = useState('');
   const [isDropdown, setIsDropdown] = useState(false);
-
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const handleToogle = (index) => {
     const temp = [...dropdown];
@@ -49,7 +49,6 @@ const Navbar = () => {
       window.location.reload();
     }, 6);
   };
-
   const searchHandler = (event) => {
     const inputValue = event.target.value.trim().toLowerCase();
     if (inputValue === "") {
@@ -64,14 +63,17 @@ const Navbar = () => {
       setShowProducts([...temp]);
       setIsDropdown(true);
     }
-    setSearchQuery(inputValue); 
+    setSearchQuery(inputValue);
   };
   const handleResultClick = () => {
     // Clear the input field when a result is clicked
     setSearchQuery('');
     setIsDropdown(false);
   };
-
+  const toggleSearch = () => {
+    // Toggle the search field open or closed
+    setIsSearchOpen((prevIsSearchOpen) => !prevIsSearchOpen);
+  };
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
     document.addEventListener(
@@ -104,44 +106,51 @@ const Navbar = () => {
             </Link>
           </div>
 
-
           {/* input field */}
-          <div className={styles.searchBar}>
-            <input
-              type="search"
-              onChange={searchHandler}
-              placeholder="Search Product"
-              value={searchQuery} // Bind the input value to the searchQuery state
-            />
-            <div className={styles.searchList}>
-               { 
-               isDropdown && 
-               showProducts?.length > 0 && (
+          {
+            isSearchOpen && (
+              <div className={styles.searchBar}>
+                <input
+                  type="search"
+                  onChange={searchHandler}
+                  placeholder="Search Product"
+                  value={searchQuery}
+                />
                 <div className={styles.searchList}>
-                  {showProducts.map((product) => (
-                    <li key={product.id}>
-                      <Link
-                        className={styles.searchList}
-                        to={product.url}
-                        onClick={handleResultClick} 
-                      >
-                        {product.title}
-                      </Link>
-                    </li>
-                  ))}
+                  {
+                    isDropdown &&
+                    showProducts?.length > 0 && (
+                      <div className={styles.searchList}>
+                        {showProducts.map((product) => (
+                          <li key={product.id}>
+                            <Link
+                              className={styles.searchList}
+                              to={product.url}
+                              onClick={handleResultClick}
+                            >
+                              {product.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </div>
+                    )}
                 </div>
-              )}
-            </div>
-          </div>
+              </div>
+            )
+          }
           {/* input field */}
 
 
           <div className={styles.rightMenu}>
-            {/* globe icon */}
-            {/* <BsGlobe color="white" size={28} /> */}
-            <Dropdown selected={selected} setSelected={setSelected} />
 
-            {/* hamburger menu */}
+            <AiOutlineSearch
+              color="white"
+              size={28}
+              style={{ cursor: "pointer" }}
+              onClick={toggleSearch}
+            />
+
+            <Dropdown selected={selected} setSelected={setSelected} />
 
             <GiHamburgerMenu
               color="white"
@@ -493,6 +502,15 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.otherMenu}>
+              <Link
+                to="/career"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                {" "}
+                {t("Career Page")}{" "}
+              </Link>
+            </li>
+            <li className={styles.otherMenu}>
               <HashLink to="/contact_page">
                 {t("contact us")}
               </HashLink>
@@ -507,6 +525,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
 const FlexNavItems = styled.div`
   display: flex;

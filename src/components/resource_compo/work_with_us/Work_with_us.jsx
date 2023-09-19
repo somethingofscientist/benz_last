@@ -30,9 +30,9 @@ const Work_with_us = () => {
                     <div className={styles.bottom_img}>
                         <img src={bottom1} alt="" />
                     </div>
-                    <Link to="/contact_page">
+                    <Link to="/career">
                         <div className={styles.join}>
-                            {t("Join Our Team")}
+                            {t("Career")}
                         </div>
                     </Link>
                 </div>

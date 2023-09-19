@@ -67,7 +67,7 @@ const Routing = () => {
                     : page === "certification" ?
                         <>
                             <h1 style={{ textAlign: "center", margin: "6% 0" }}>
-                                {/* {t("Currently Certificate is Not  Available")} */}
+                                {t("Currently Certificate is Not  Available")}
                                 {/* <div className={styles.certificate}>
                                     <div className={styles.certificateContainer} ref={certificateContainerRef}>
                                         <img src={certificate1} alt="certificate" />
