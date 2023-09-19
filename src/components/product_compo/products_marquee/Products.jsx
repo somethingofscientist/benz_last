@@ -6,10 +6,10 @@ import Marquee from "react-fast-marquee";
 // import pic3 from "../../images/handling.svg";
 // import pic4 from "../../images/traditional.svg";
 
-import pic1 from "../../images/humidity.jpg";
-import pic2 from "../../images/corrossion.jpg";
-import pic3 from "../../images/handling.jpg";
-import pic4 from "../../images/traditional.jpg";
+// import pic1 from "../../images/humidity.jpg";
+// import pic2 from "../../images/corrossion.jpg";
+// import pic3 from "../../images/handling.jpg";
+// import pic4 from "../../images/traditional.jpg";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 
@@ -19,6 +19,12 @@ import Handle from "../Handling/Aerospace";
 import Traditional from "../Traditional/Aerospace";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+
+
+import pic1 from "../../images/new_images_client/cardsimages/Handling..jpeg";
+import pic2 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.07 PM.jpeg";
+import pic3 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.08 PM.jpeg";
+import pic4 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.07 PM (1).jpeg";
 
 
 const Products = () => {

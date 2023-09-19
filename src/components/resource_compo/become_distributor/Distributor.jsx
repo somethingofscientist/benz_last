@@ -14,6 +14,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Select from 'react-select';
 import { TextField } from '@mui/material';
+import ReactSignatureCanvas from 'react-signature-canvas';
 
 const options = [
     { value: 'Yes', label: 'Yes' },
@@ -258,6 +259,31 @@ const Distributor = () => {
                                                 // value={data.phone}
                                                 // onChange={handleInputs}
                                                 />
+
+
+                                                {/* <label htmlFor="position" className={styles.form_label}>
+                                                    Upload File <span style={{ color: "red" }}>*</span>
+                                                    <span style={{ fontWeight: "normal" }}>
+                                                        ( .pdf, .doc, .docx)
+                                                    </span>
+                                                </label>
+                                                <input
+                                                    type="file"
+                                                    id="resume"
+                                                    accept=".pdf, .doc, .docx" // Specify the allowed file types
+                                                    required
+                                                /> */}
+
+                                                <label htmlFor="position" className={styles.form_label}>
+                                                    Upload Signature <span style={{ color: "red" }}>*</span>
+                                                </label>
+                                                <div className={styles.sign}>
+                                                    <ReactSignatureCanvas
+                                                        penColor="blue"
+                                                        canvasProps={{ width: 500, height: 200 }}
+                                                    />
+                                                </div>
+
 
                                                 <div
                                                     style={{

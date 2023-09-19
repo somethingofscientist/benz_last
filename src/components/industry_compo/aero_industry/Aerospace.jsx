@@ -6,6 +6,8 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/Industries/aero.jpeg'
+
 const Aerospace = () => {
 
     const { t, i18n } = useTranslation();
@@ -21,7 +23,7 @@ const Aerospace = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={aero} alt="engine" />
+                        <img src={img1} alt="engine" />
 
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>

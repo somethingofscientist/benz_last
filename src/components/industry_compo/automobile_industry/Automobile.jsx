@@ -4,17 +4,19 @@ import automobile from '../../images/automobile.jpg';
 import automobile1 from '../../images/automobile1.jpeg';
 import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
-
-
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/Industries/auto.jpeg'
 
 const Automobile = () => {
     const { t, i18n } = useTranslation();
 
     const arr = [
+        {
+            src:img1
+        },
         {
             src:automobile
         },

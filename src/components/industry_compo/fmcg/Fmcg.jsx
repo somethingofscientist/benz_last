@@ -5,6 +5,7 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/Industries/fcmg.jpeg'
 
 const Fmcg = () => {
     const { t, i18n } = useTranslation();
@@ -20,7 +21,7 @@ const Fmcg = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={img1} alt="engine" />
 
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>

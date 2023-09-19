@@ -1,10 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./Product.module.css";
 import Marquee from "react-fast-marquee";
-import pic1 from "../../images/humidity.jpg";
-import pic2 from "../../images/corrossion.jpg";
-import pic3 from "../../images/handling.jpg";
-import pic4 from "../../images/traditional.jpg";
+// import pic1 from "../../images/humidity.jpg";
+// import pic2 from "../../images/corrossion.jpg";
+// import pic3 from "../../images/handling.jpg";
+// import pic4 from "../../images/traditional.jpg";
+
+
+import pic1 from "../../images/new_images_client/cardsimages/Handling..jpeg";
+import pic2 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.07 PM.jpeg";
+import pic3 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.08 PM.jpeg";
+import pic4 from "../../images/new_images_client/cardsimages/WhatsApp Image 2023-09-19 at 7.20.07 PM (1).jpeg";
+
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Link } from 'react-router-dom';
@@ -40,7 +48,7 @@ const Products = () => {
             <div className={styles.card_down}>
               {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Anti - Humidity")}</div>
-              <img src={pic1} alt="pic1_humidity" />
+              <img src={pic3} alt="pic1_humidity" />
               <div className={styles.card_icon2}>
                 <HiArrowNarrowRight size={20} color="white" />
               </div>
@@ -50,7 +58,7 @@ const Products = () => {
             <div className={styles.card_up}>
               {/* <div className={styles.card_text}>{t("INDUSTRIAL")}</div> */}
               <div className={styles.card_subtext}>{t("Handling")} </div>
-              <img src={pic3} alt="pic1_humidity" />
+              <img src={pic1} alt="pic1_humidity" />
               <div className={styles.card_icon}>
                 <HiArrowNarrowRight size={20} color="white" />
               </div>
