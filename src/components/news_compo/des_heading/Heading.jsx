@@ -10,12 +10,14 @@ const Heading_header_industry = () => {
         <>
             <div className={styles.header_bg}>
                 <video
-                    playsinline
-                    controlsList="nodownload"
-                    autoPlay
+                    src={video}
                     loop
                     muted
-                    src={video}></video>
+                    playsinline
+                    autoPlay
+                    controlsList="nodownload"
+                ></video>
+                <div></div>
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>
