@@ -22,6 +22,8 @@ import vci_wooven3 from '../../../images/new_images_client/VCI Film/Woven Fabric
 import vci_non_wooven1 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9082.jpg'
 import vci_non_wooven2 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9084.jpg'
 import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
+import vci_bio_film from '../../../images/new_images_client/VCI Film/VCI Biopez/IMG_9098.jpg'
+import vci_shrink_film from '../../../images/new_images_client/VCI Film/VCI Shrink/shrink.jpg'
 
 import vci_film from '../../../images/events_clients/newProducts/5.JPG'
 
@@ -35,7 +37,7 @@ const Descicannt = () => {
             number: "1",
             greenProduct: "Green Product",
             heading: "VCI Bio-Film",
-            image: engine,
+            image: vci_bio_film,
             image_text: "BENZ VCI Bio Film stands as an eco-conscious alternative to traditional nondegradable films. Offering superior mechanical properties and stability compared to other compostable films, it holds certifications from both DIN and as per EN 13432 and ASTM D6400. Unlike some compostable films, BENZ VCI Bio Film remains heat and water stable during use, making it ideal for organic waste collection and community composting programs.",
             image_text2: "The biodegradation timeline depends on disposal conditions, but in a typical commercial composting environment, it breaks down into carbon dioxide and water within weeks, posing no harm to soil, plants, or microorganisms. Shelf-stable and available in various sizes and thicknesses, BENZ VCI Bio Film is your sustainable choice for responsible packaging."
         },
@@ -86,7 +88,7 @@ const Descicannt = () => {
             id: "section7",
             number: "7",
             heading: "VCI Shrink Film",
-            image: engine,
+            image: vci_shrink_film,
             image_text: "BENZ VCI Shrink Film seamlessly merges cutting-edge film technology with potent corrosion protection for metal products. This film amalgamates high-strength resins, UV light stabilizers, flame retardants, and Vapor Corrosion Inhibitor (VCI) technology. Notably, it excels in preventing corrosion and Electrostatic Discharge (ESD) damage, providing multi-metal corrosion protection and robust static dissipative properties. Replacing conventional rust preventatives like oils and desiccants, BENZ VCI Shrink Film ensures immediate usability without the need for cleaning or degreasing. By sealing your products in this film, you shield a wide range of metals from rust, tarnish, stains, and oxidation, resulting in cost savings by eliminating previous degreasing or coating removal requirements.",
             image_text2: "Moreover, it's eco-friendly, devoid of harmful ingredients, and adheres to MILPRF-81705 D standards for Static Dissipative Packaging Materials. BENZ VCI Shrink Film guarantees up to 2 years of corrosion protection and 1 year of ESD protection in open environments, providing peace of mind for your metal products."
         },

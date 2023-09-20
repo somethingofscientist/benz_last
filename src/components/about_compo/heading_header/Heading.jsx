@@ -11,11 +11,15 @@ const Heading = () => {
         <>
             <div className={styles.header_bg}>
                 <video
-                    autoPlay
-                    
+                    src={video}
                     loop
                     muted
-                    src={video}></video>
+                    playsInline
+                    autoPlay={true}
+                    controls={false}
+                    preload='auto'
+                    controlsList="nodownload"
+                ></video>
                 {/* <img src={header_heading} alt="" /> */}
                 {/* <div className={styles.imageContainer}></div> */}
                 <div className={styles.header}>

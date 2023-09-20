@@ -22,6 +22,19 @@ import ProductHeading from '../heading/Heading';
 import routestyle from './Routing.module.css'
 import vci_film1 from '../../../components/images/events_clients/newProducts/5.JPG'
 import vci_stretch_film from '../../../components/images/events_clients/newProducts/stretch.JPG'
+import vci_bubble_film from '../../../components/images/bubble_film.jpeg';
+import vci_wooven_fabric_film from '../../../components/images/new_images_client/VCI Film/Woven Fabric/IMG_9063.jpg'
+import vci_anti_static_film from '../../../components/images/new_images_client/VCI Film/VCI Antistatic/IMG_8994.jpg'
+import vci_non_wooven_film from '../../../components/images/new_images_client/VCI Non Woven Fabric/IMG_9082.jpg'
+import vci_chip from '../../../components/images/new_images_client/VCI Emitter/VCI Chips.jpg'
+import vci_plain1 from '../../../components/images/vci_plain1.jpeg'
+import vci_noxy from '../../../components/images/new_images_client/VCI Emitter/VCI Noxy/IMG_9106.jpg'
+import vci_foam from '../../../components/images/new_images_client/VCI Emitter/VCI Foam.jpg'
+import vci_tablet from '../../../components/images/new_images_client/VCI Emitter/VCI Tablets.jpg'
+import neutralacid from '../../../components/images/neutralacid.jpg'
+import vci_shrink from '../../../components/images/new_images_client/VCI Film/VCI Shrink/shrink.jpg'
+import vci_bio_film from '../../../components/images/new_images_client/VCI Film/VCI Biopez/IMG_9098.jpg'
+import vci_25 from '../../../components/images/new_images_client/VCI Film/VCI Emitters/VCI 25.jpg'
 
 const AntiCorrosion = () => {
 
@@ -39,49 +52,49 @@ const AntiCorrosion = () => {
             content: "Benz Packaging is delighted to introduce our VCI Film, an advanced solution designed to provide exceptional protection against corrosion for your valuable products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your goods from the damaging effects of corrosion.",
             subProducts: [
                 {
-                    image: tape,
+                    image: vci_bio_film,
                     items: "VCI Bio-Film",
                     item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_film1,
                     items: "VCI Film",
                     item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_stretch_film,
                     items: "VCI Stretch Film",
                     item_text: "Benz Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_bubble_film,
                     items: "VCI Bubble Film",
                     item_text: "Benz Packaging - VCI Bubble Film: Comprehensive Corrosion Protection with Bubble Cushioning",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_wooven_fabric_film,
                     items: "VCI Woven Fabric Film",
                     item_text: "Benz Packaging - VCI Woven Fabric Film: Robust Corrosion Protection with Strength and Durability",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_anti_static_film,
                     items: "VCI Anti static Film",
                     item_text: "Benz Packaging - VCI Anti-static Film: Advanced Corrosion Protection with Electrostatic Discharge Control",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_shrink,
                     items: "VCI Shrink Film",
                     item_text: "Benz Packaging - VCI Shrink Film: Superior Corrosion Protection with Secure Wrapping",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_non_wooven_film,
                     items: "VCI Non-Woven Film",
                     item_text: "Benz Packaging - VCI Non-Woven Film: Versatile Corrosion Protection with Non-Woven Material",
                     date: "8 June 2023"
@@ -94,7 +107,8 @@ const AntiCorrosion = () => {
             heading: "VCI Paper",
             image: vci_Paper,
             isSlider: true,
-            content: "At BENZ Packaging Solutions, we are dedicated to providing cutting-edge technology for your packaging needs, and our VCI Papers stand as the pinnacle of anti-corrosion solutions. Our VCI Paper, VCI Poly Coated Paper, and VCI Reinforced Fabric Papers offer unmatched protection against oxidation and corrosion for all metal goods. Utilizing a tailor-made coating process,these innovative papers are infused with VCI on both sides, ensuring comprehensive protection. By subliming VCI molecules from both sides, they form a powerful shield against environmental pollutants, effectively safeguarding your metals during transport and storage.Available in Ferrous Grade and Universal Grade variants, our VCI Papers cater to specific metal protection needs. Crafted with patented Propagroup's Technology from Italy, these papers have a proven track record of success. With diverse applications, they excel as intersecting layers in combination with other BENZ VCI products, ensuring your metal goods remain corrosion-free and pristine.",
+            content: "At BENZ Packaging Solutions, we are dedicated to providing cutting-edge technology for your packaging needs, and our VCI Papers stand as the pinnacle of anti-corrosion solutions. Our VCI Paper, VCI Poly Coated Paper, and VCI Reinforced Fabric Papers offer unmatched protection against oxidation and corrosion for all metal goods. Utilizing a tailor-made coating process,these innovative papers are infused with VCI on both sides, ensuring comprehensive protection. By subliming VCI molecules from both sides, they form a powerful shield against environmental pollutants, effectively safeguarding your metals during transport and storage.Available in Ferrous Grade and Universal Grade variants, our VCI Papers cater to specific metal protection needs. Crafted with patented Propagroup's Technology from Italy, these papers have a proven track record of success.",
+            content2: "With diverse applications, they excel as intersecting layers in combination with other BENZ VCI products, ensuring your metal goods remain corrosion-free and pristine.",
             subProducts: [
                 {
                     image: tape,
@@ -103,7 +117,7 @@ const AntiCorrosion = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_plain1,
                     items: "VCI Plain Paper",
                     item_text: "Benz Packaging - VCI Plain Paper: Reliable Corrosion Protection in a Simple and Versatile Form",
                     date: "8 June 2023"
@@ -115,7 +129,7 @@ const AntiCorrosion = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_chip,
                     items: "VCI Chips",
                     item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Creped Texture",
                     date: "8 June 2023"
@@ -137,7 +151,7 @@ const AntiCorrosion = () => {
             content: "BENZ Packaging Solutions, offers advanced VCI Anticorrosion Packing Items designed to provide robust metal protection. Our VCI Emitters utilize innovative technology to disperse VCI molecules efficiently within your packaging, reaching even concealed areas that are typically challenging to protect. They cover a significant area, offering unparalleled corrosion prevention. These emitters deposit an invisible molecular layer on metal surfaces, providing long-term corrosion protection even in humid conditions. Their versatility and reliability make them a valuable asset in safeguarding your metal assets",
             subProducts: [
                 {
-                    image: tape,
+                    image: vci_25,
                     items: "VCI 25",
                     item_text: "Benz Packaging - VCI 25: Long-Lasting Corrosion Protection for Metals",
                     date: "8 June 2023"
@@ -149,19 +163,19 @@ const AntiCorrosion = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_tablet,
                     items: "VCI Tablets",
                     item_text: "Benz Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_foam,
                     items: "VCI Foam",
                     item_text: "Benz Packaging - VCI Foam: Versatile Corrosion Protection with Cushioning Properties",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: vci_noxy,
                     items: "VCI Noxy",
                     item_text: "Benz Packaging - VCI Noxy: Advanced Corrosion Protection for Ferrous and Non-Ferrous Metals",
                     date: "8 June 2023"
@@ -211,7 +225,7 @@ const AntiCorrosion = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: neutralacid,
                     items: "Neutral",
                     item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
                     date: "8 June 2023"
@@ -289,17 +303,20 @@ const AntiCorrosion = () => {
                                             </div>
                                             <div className={styles.auto_img_text}>
                                                 {t(`${item.content}`)}
+                                                {t(`${item.content2}`)}
                                             </div>
                                         </div>
 
                                         <Link to={item.page_link}>
                                             {
                                                 item.isSlider && (
-                                                    <Slider subProducts={item.subProducts.map(subItem => ({
-                                                        ...subItem,
-                                                        item_text: t(subItem.item_text),
-                                                        page_link: item.page_link,
-                                                    }))} />
+                                                    <Slider
+                                                        subProducts={item.subProducts.map(subItem => ({
+                                                            ...subItem,
+                                                            item_text: t(subItem.item_text),
+                                                            page_link: item.page_link,
+                                                        }))}
+                                                    />
                                                 )
                                             }
                                         </Link>

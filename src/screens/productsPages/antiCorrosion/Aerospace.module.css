@@ -70,11 +70,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
-    /* or 189% */
-
-
     color: #000000;
-    /* position: relative; */
+    margin-bottom: 120px;
+    /* background-color: red; */
 }
 
 .auto_pack {

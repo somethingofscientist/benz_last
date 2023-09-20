@@ -14,10 +14,14 @@ const Heading_header_industry = () => {
             <div className={styles.header_bg}>
                 <div>
                     <video
-                        autoPlay
+                        src={video}
                         loop
                         muted
-                        src={video}
+                        playsInline
+                        autoPlay={true}
+                        controls={false}
+                        preload='auto'
+                        controlsList="nodownload"
                     >
                     </video>
                 </div>

@@ -2,9 +2,8 @@ import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
-import vci_plain1 from '../../../images/vci_plain1.jpeg'
-import vci_plain2 from '../../../images/vci_plain2.jpeg'
 
+import vci_plain1 from '../../../images/vci_plain1.jpeg'
 import vci_chip from '../../../images/new_images_client/VCI Emitter/VCI Chips.jpg'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";

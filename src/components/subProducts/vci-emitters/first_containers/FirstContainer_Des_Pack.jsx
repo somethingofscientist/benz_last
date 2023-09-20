@@ -10,6 +10,8 @@ import vci_noxy3 from '../../../images/new_images_client/VCI Emitter/VCI Noxy/IM
 
 import vci_foam from '../../../images/new_images_client/VCI Emitter/VCI Foam.jpg'
 import vci_tablet from '../../../images/new_images_client/VCI Emitter/VCI Tablets.jpg'
+import vci_25 from '../../../images/new_images_client/VCI Film/VCI Emitters/VCI 25.jpg'
+
 import { Carousel } from 'react-responsive-carousel';
 
 const Descicannt = () => {
@@ -20,7 +22,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "VCI 25",
-            image: engine,
+            image: vci_25,
             image_text: "BENZ Packaging Solutions proudly presents the VCI 25 Emitter, a powerful corrosion protection solution for metal components and parts enclosed in non-ventilated voids, cabinetry, or toolboxes. These emitters are specially designed to emit anti-corrosion vapors that form an invisible molecular layer on metal surfaces. This layer effectively shields metal and electronic equipment during operation, shipping, or storage.",
             image_text2: "VCI 25 emitters come in small breathable pouches (also available in foam format) that slowly release the corrosion inhibitor while absorbing moisture and air pollutants that may enter the packaging. This ensures long-term corrosion protection, even in the presence of moisture, making them an ideal choice for safeguarding your valuable metal assets. Available in 8 Grams, 10 Grams, 20 Grams and 50 Grams. Bulk Options also available."
         },
