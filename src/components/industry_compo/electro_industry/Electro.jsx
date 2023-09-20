@@ -5,7 +5,7 @@ import Slider from '../horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-import img1 from '../../images/new_images_client/Industries/elect.jpeg'
+import img1 from '../../images/new_images_client/Industries/Electronics.jpeg'
 
 const Electro = () => {
     const { t, i18n } = useTranslation();

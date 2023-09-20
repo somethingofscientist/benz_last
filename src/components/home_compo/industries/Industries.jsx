@@ -12,36 +12,45 @@ import { NavHashLink } from "react-router-hash-link";
 import Automobile from "../../images/automobile.jpg";
 import { useTranslation } from "react-i18next";
 
+import auto from '../../images/new_images_client/Industries/Automobile2.jpeg'
+import auto1 from '../../images/new_images_client/Industries/Automobile2.jpeg'
+import war from '../../images/new_images_client/Industries/Military.jpeg'
+import war1 from '../../images/new_images_client/Industries/Military.jpeg' 
+
+import elect from '../../images/new_images_client/Industries/Electronics.jpeg' 
+import elect2 from '../../images/new_images_client/Industries/Electronics.jpeg' 
+import aero from '../../images/new_images_client/Industries/Machine Packaging.jpeg' 
+import aero2 from '../../images/new_images_client/Industries/Machine Packaging.jpeg' 
 
 const Industries = () => {
   const [arr, setArr] = useState([
     {
-      choti_image: bmw2,
-      image: bmw,
+      choti_image: auto,
+      image: auto1,
       heading: "Automobile",
       text:
         "Partnering with leading automakers, we deliver specialized packaging solutions that safeguard automotive components, enhancing supply chain efficiency and product protection.",
       hovered: false,
     },
     {
-      choti_image: bmw2,
-      image: bmw,
+      choti_image: war,
+      image: war1,
       heading: "Military",
       hovered: false,
       text:
         "We proudly support the military sector with precision-engineered packaging solutions, ensuring the safe transport of critical equipment and supplies for national defence.",
     },
     {
-      choti_image: bmw2,
-      image: bmw,
+      choti_image: aero,
+      image: aero2,
       heading: "Aerospace",
       hovered: false,
       text:
         "Collaborating with the aerospace industry, we provide advanced packaging solutions for delicate components, contributing to the success of cutting-edge aviation and space technologies.",
     },
     {
-      choti_image: bmw2,
-      image: bmw,
+      choti_image: elect,
+      image: elect2,
       heading: "Electronics",
       hovered: false,
       text:
@@ -107,7 +116,7 @@ const Industries = () => {
                 className={styles.car_container2}
                 onMouseEnter={() => handleHover(index)}
                 onFocus={() => handleHover(index)}
-                // onMouseLeave={handleHover}
+              // onMouseLeave={handleHover}
               >
                 <img src={value.choti_image} alt="Image" />
                 <div className={styles.car_inner_container}>

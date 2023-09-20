@@ -77,12 +77,17 @@
 
 .car_container img {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
     transition: 0.2s all linear;
 }
 
 .car_container_text {
     position: absolute;
     color: white;
+    /* color: rgba(0, 0, 0, 0.578); */
+    /* text-shadow: 2px 2px 1px #000000; */
+    background-color: rgba(0, 0, 0, 0.483);
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 400;
@@ -128,6 +133,7 @@
 
 .car_container2 img {
     width: 100%;
+    height: 150px;
     transition: 0.2s all linear;
 }
 

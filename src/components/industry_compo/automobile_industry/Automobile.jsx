@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
-import img1 from '../../images/new_images_client/Industries/auto.jpeg'
+import img1 from '../../images/new_images_client/Industries/Automobile2.jpeg'
 
 const Automobile = () => {
     const { t, i18n } = useTranslation();
@@ -17,12 +17,7 @@ const Automobile = () => {
         {
             src:img1
         },
-        {
-            src:automobile
-        },
-        {
-            src:automobile1
-        },
+        
     ]
     return (
         <>
