@@ -6,7 +6,7 @@ import paper_cushion from '../../../images/paper_cushion.jpeg'
 import paper_wrapping from '../../../images/paper_wrapping.jpeg'
 import paper_void from '../../../images/paper_void.jpg'
 import { useTranslation } from 'react-i18next';
-
+import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 const Descicannt = () => {
 
     const { t, i18n } = useTranslation();
@@ -55,10 +55,15 @@ const Descicannt = () => {
                             </div>
                             <div className={styles.auto_letter}>
                                 {t(`${item.heading}`)}
+                                {item.greenProduct ? (
+                                    <div className={styles.greenrange}>
+                                        <img src={greenProLogo} alt="" />
+                                    </div>
+                                ) : null}
                             </div>
-                            {item?.greenProduct ? <div className={styles.auto_letter2}>
+                            {/* {item?.greenProduct ? <div className={styles.auto_letter2}>
                                 {t(`${item?.greenProduct ?? ""}`)}
-                            </div> : <></>}
+                            </div> : <></>} */}
                         </div>
 
                         <div className={styles.auto_img_container}>

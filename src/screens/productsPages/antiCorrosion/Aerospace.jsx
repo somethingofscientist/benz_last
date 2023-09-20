@@ -222,7 +222,6 @@ const AntiCorrosion = () => {
             <ProductHeading
                 title="Anti Corrosion"
             />
-
             <>
                 <div className={routestyle.routing}>
                     <div className={page === 'product' ? routestyle.active_route : routestyle.route} onClick={(e) => { setPage('product') }}>

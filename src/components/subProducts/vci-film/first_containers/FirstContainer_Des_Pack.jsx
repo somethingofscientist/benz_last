@@ -21,7 +21,7 @@ import vci_wooven3 from '../../../images/new_images_client/VCI Film/Woven Fabric
 
 import vci_non_wooven1 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9082.jpg'
 import vci_non_wooven2 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9084.jpg'
-
+import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 
 const Descicannt = () => {
 
@@ -105,16 +105,22 @@ const Descicannt = () => {
                 arr.map((item => (
                     <div className={styles.automobile_container} id={item.id}>
                         <div className={styles.auto_heading}>
-                                <div className={styles.auto_number}>
-                                    {item.number}
-                                </div>
-                                <div className={styles.auto_letter}>
-                                    {t(`${item.heading}`)}
-                                </div>
+                            <div className={styles.auto_number}>
+                                {item.number}
+                            </div>
+                            <div className={styles.auto_letter}>
+                                {t(`${item.heading}`)}
+                                {item.greenProduct ? (
+                                    <div className={styles.greenrange}>
+                                        <img src={greenProLogo} alt="" />
+                                    </div>
+                                ) : null}
 
-                            {item?.greenProduct ? <div className={styles.auto_letter2}>
+                            </div>
+
+                            {/* {item?.greenProduct ? <div className={styles.auto_letter2}>
                                 {t(`${item?.greenProduct ?? ""}`)}
-                            </div> : <></>}
+                            </div> : <></>} */}
                         </div>
 
                         <div className={styles.auto_img_container}>

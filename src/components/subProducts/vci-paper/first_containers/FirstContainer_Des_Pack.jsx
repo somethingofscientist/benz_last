@@ -29,7 +29,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "VCI Plain Paper",
-            image: [vci_plain1, vci_plain2],
+            image: [vci_plain1],
             image_text: "BENZ Packaging Solutions is pleased to present our Plain VCI Paper, a reliable anti-corrosion solution designed to safeguard your valuable metal assets. While our laminated VCI papers offer additional durability and moisture resistance, our Non-Laminated VCI Paper remains a cost-effective and efficient choice for protecting metals during storage and transportation.Impregnated with VCI on both sides, this paper creates a protective shield by subliming VCI molecules, effectively neutralizing the corrosive effects of environmental pollutants.",
             image_text2: "Crafted with the expertise of patented Propagroup's Technology from Italy, our Plain VCI Paper ensures your metals remain corrosion-free and in pristine condition. Its versatility makes it a valuable addition to your metal protection strategy, offering peace of mind without compromising on quality. Available in 55 GSM and 65 GSM in Roll Form and Cut Sheets."
         },

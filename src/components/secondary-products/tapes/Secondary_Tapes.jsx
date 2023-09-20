@@ -10,9 +10,10 @@ import header_heading from '../../images/des_heading.svg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
+import greenProLogo from '../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 
 const Secondary_Tapes = () => {
-  
+
   const { t, i18n } = useTranslation();
   const arr = [
     {
@@ -30,7 +31,7 @@ const Secondary_Tapes = () => {
     {
       number: "3",
       heading: "Paper Tapes",
-      greenProduct:"Green Product",
+      greenProduct: "Green Product",
       image: [tape1],
       content: "Welcome to Benz Packaging, your trusted provider of environmentally friendly paper tapes. Our paper tapes are designed to offer eco-friendly and reliable packaging solutions for various industries and applications. With their biodegradable properties, strong adhesion, and versatility, our paper tapes are the perfect choice for businesses committed to sustainable packaging practices.",
     },
@@ -73,10 +74,17 @@ const Secondary_Tapes = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
-              {item?.greenProduct ? <div className={styles.auto_letter2}>
+              <div className={styles.auto_letter}>
+                {t(`${item.heading}`)}
+                {item.greenProduct ? (
+                  <div className={styles.greenrange}>
+                    <img src={greenProLogo} alt="" />
+                  </div>
+                ) : null}
+              </div>
+              {/* {item?.greenProduct ? <div className={styles.auto_letter2}>
                 {t(`${item?.greenProduct ?? ""}`)}
-              </div> : <></>}
+              </div> : <></>} */}
             </div>
 
             <div className={styles.auto_img_container}>

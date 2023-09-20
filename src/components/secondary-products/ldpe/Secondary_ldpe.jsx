@@ -19,9 +19,9 @@ import bag_roll4 from '../../images/bag_on_roll4.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
-
+import greenProLogo from '../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 const Secondary_ldpe = () => {
-  
+
   const { t, i18n } = useTranslation();
 
   const arr = [
@@ -94,14 +94,14 @@ const Secondary_ldpe = () => {
     {
       number: "12",
       heading: "Bio Degradable Bags",
-      greenProduct:"Green Product",
+      greenProduct: "Green Product",
       image: [eco_bio, eco_bio2, eco_bio3],
       content: "Welcome to Benz Packaging, your trusted provider of biodegradable bags for eco-friendly packaging solutions. Our biodegradable bags are designed to offer a sustainable alternative to traditional plastic bags, helping to reduce environmental impact and promote a greener future.At Benz Packaging, we understand the importance of responsible and sustainable packaging practices. Our biodegradable bags are made from materials that can naturally break down over time, minimizing their impact on the environment. By choosing our biodegradable bags, you can contribute to reducing plastic waste and protecting our planet.",
     },
     {
       number: "13",
       heading: "Compostable Bags",
-      greenProduct:"Green Product",
+      greenProduct: "Green Product",
       image: vci_film,
       content: "Welcome to Benz Packaging, your trusted provider of compostable bags for sustainable packaging solutions. Our compostable bags are designed to offer an eco-friendly alternative to traditional plastic bags, helping to reduce waste and support a more sustainable future.At Benz Packaging, we understand the importance of responsible packaging practices and the need to minimize our impact on the environment. Our compostable bags are made from plant-based materials that can naturally break down into nutrient-rich compost, contributing to a circular economy and reducing landfill waste.",
     },
@@ -118,6 +118,7 @@ const Secondary_ldpe = () => {
       content: "Welcome to Benz Packaging, your trusted provider of anti-static ESD bags for reliable electrostatic discharge (ESD) protection. Our ESD bags are specifically designed to safeguard sensitive electronic components and devices from potential damage caused by static electricity during handling, transportation, and storage.Electrostatic discharge can pose a significant risk to sensitive electronic equipment, leading to malfunctions, data loss, or even complete failure. At Benz Packaging, we understand the importance of protecting your valuable electronic items, and our anti-static ESD bags offer a reliable solution to mitigate the risks associated with electrostatic discharge.",
     },
   ]
+
   return (
     <>
       <div className={styles.header_bg}>
@@ -132,11 +133,19 @@ const Secondary_ldpe = () => {
           <div className={styles.automobile_container} id='section3'>
             <div className={styles.auto_heading}>
               <div className={styles.auto_number}>{item.number}</div>
-              <div className={styles.auto_letter}>{t(`${item.heading}`)}</div>
-              {item?.greenProduct ? <div className={styles.auto_letter2}>
+              <div className={styles.auto_letter}>
+                {t(`${item.heading}`)}
+                {item.greenProduct ? (
+                  <div className={styles.greenrange}>
+                    <img src={greenProLogo} alt="" />
+                  </div>
+                ) : null}
+              </div>
+              {/* {item?.greenProduct ? <div className={styles.auto_letter2}>
                 {t(`${item?.greenProduct ?? ""}`)}
-              </div> : <></>}
+              </div> : <></>} */}
             </div>
+
 
             <div className={styles.auto_img_container}>
               <div className={styles.auto_img}>

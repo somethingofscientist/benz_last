@@ -39,6 +39,26 @@
     letter-spacing: 0.04em;
     color: #0081C9;
 }
+.auto_letter {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 60px;
+    position: absolute;
+    padding-left: 20px;
+    letter-spacing: 0.04em;
+    color: #0081C9;
+    display: flex;
+    align-items: center;
+}
+.greenrange{
+    width: 10%;
+}
+.greenrange img{
+    width: 100%;
+}
 .auto_letter2 {
     font-family: 'DM Serif Display';
     font-style: normal;

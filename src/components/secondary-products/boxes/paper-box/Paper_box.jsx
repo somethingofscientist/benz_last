@@ -10,6 +10,8 @@ import honey_comb1 from '../../../images/honey_comb1.jpg';
 import honey_comb2 from '../../../images/honey_comb2.jpg';
 import honey_comb3 from '../../../images/honey_comb3.JPG';
 
+import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
@@ -64,10 +66,15 @@ const Paper_box = () => {
               <div className={styles.auto_number}>{item.number}</div>
               <div className={styles.auto_letter}>
                 {t(`${item.heading}`)}
+                {item.greenProduct ? (
+                  <div className={styles.greenrange}>
+                    <img src={greenProLogo} alt="" />
+                  </div>
+                ) : null}
               </div>
-              {item?.greenProduct ? <div className={styles.auto_letter2}>
+              {/* {item?.greenProduct ? <div className={styles.auto_letter2}>
                 {t(`${item?.greenProduct ?? ""}`)}
-              </div> : <></>}
+              </div> : <></>} */}
             </div>
 
             <div className={styles.auto_img_container}>
