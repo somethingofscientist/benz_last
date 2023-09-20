@@ -12,6 +12,7 @@ const Heading = () => {
             <div className={styles.header_bg}>
                 <video
                     autoPlay
+                    
                     loop
                     muted
                     src={video}></video>

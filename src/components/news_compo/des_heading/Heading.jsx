@@ -14,6 +14,7 @@ const Heading_header_industry = () => {
                     loop
                     muted
                     playsinline
+                    controls={false}
                     autoPlay
                     controlsList="nodownload"
                 ></video>

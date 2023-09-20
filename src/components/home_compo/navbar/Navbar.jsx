@@ -507,7 +507,7 @@ const Navbar = () => {
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 {" "}
-                {t("Career Page")}{" "}
+                {t("Career")}{" "}
               </Link>
             </li>
             <li className={styles.otherMenu}>

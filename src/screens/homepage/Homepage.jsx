@@ -33,12 +33,12 @@ const Homepage = () => {
         <div className={styles.imageContainer}>
           <video
             // className={styles.heroVideo}
+            src={homepageVideo}
             loop
             muted
             autoPlay
             playsInline
             controls={false}
-            src={homepageVideo}
           ></video> 
         </div>
         <Global />

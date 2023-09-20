@@ -34,13 +34,22 @@ const CareerPage = () => {
                 <div className={styles.left}>
                     <div className={styles.jobDesc}>
                         <div className={styles.jobTitleMain}>
-                            <h1>Business Development Manager</h1>
+                            <h1>Vacancy</h1>
                         </div>
+
                         <div className={styles.jobTitle}>
+
+                            <h2>Business Development Manager</h2>
+                            <h3
+                                style={{
+                                    padding: "10px 0"
+                                }}
+                            >Job Description</h3>
                             We are seeking an accomplished and visionary leader to join us as a global business development manager. In this strategic and senior role, you will be responsible for leading key geographies and business segments, driving demand generation and qualification of new opportunities, and exceeding team quotas. You will work closely with Sales and Marketing management to develop and execute well-targeted strategies and lead nurturing plans, as well as drive pipeline generation to achieve the company's growth goals.
                             The position will report to the VP of the company
                         </div>
                         <div className={styles.jobResponsibility}>
+                            <h3>Job Responsibility</h3>
                             <ul>
                                 <li>
                                     Develop and implement innovative strategies and lead nurturing plans to drive business growth throughout the year.
@@ -63,6 +72,7 @@ const CareerPage = () => {
                             </ul>
                         </div>
                         <div className={styles.jobSkills}>
+                            <h3>Job Skills</h3>
                             <ul>
                                 <li>
                                     Minimum of 10+ years of experience as a business development manager in a relevant industry.
@@ -143,7 +153,7 @@ const CareerPage = () => {
                         <div className={styles.form_group}>
                             <label htmlFor="resume">Upload Resume
                                 <span style={{ fontWeight: "normal" }}>
-                                     ( .pdf, .doc, .docx)
+                                    ( .pdf, .doc, .docx)
                                 </span>
                             </label>
                             <input

@@ -51,6 +51,9 @@
     /* border: 1px solid pink; */
 }
 
+.jobSkills{
+    text-align: left;
+}
 .jobResponsibility li,
 .jobSkills li {
     text-align: left;
