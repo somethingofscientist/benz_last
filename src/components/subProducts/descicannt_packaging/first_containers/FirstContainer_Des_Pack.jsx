@@ -11,7 +11,6 @@ import BEDry4 from '../../../images/BEDry4.jpg'
 
 import Cdry2 from '../../../images/Cdry2.jpg'
 import propadry from '../../../images/propadry.jpg'
-
 import propadry2 from '../../../images/propadry2.jpg'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";

@@ -47,7 +47,7 @@ const Navbar = () => {
     });
     setTimeout(() => {
       window.location.reload();
-    }, 6);
+    }, 0);
   };
   const searchHandler = (event) => {
     const inputValue = event.target.value.trim().toLowerCase();
