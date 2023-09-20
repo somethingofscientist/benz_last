@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
-import engine from '../../images/engine.svg'
+import engine from '../../images/new_images_client/services/Export packaging.jpeg'
 import { useTranslation } from 'react-i18next';
 
 // import img1 from '../../images/new_images_client/services/On site packaging..jpeg'

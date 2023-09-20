@@ -64,7 +64,7 @@ const News = () => {
                     </div>
                     <Link to="/contact_page">
                         <div className={styles.view_all}>
-                            {t("view all")} <BsArrowRight />
+                            {t("For More Info")} <BsArrowRight />
                         </div>
                     </Link>
                 </div>

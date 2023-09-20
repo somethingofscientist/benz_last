@@ -429,7 +429,7 @@ const Navbar = () => {
                   {t("become distributor")}
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink
                   smooth
                   to="/resources#rest1"
@@ -437,7 +437,7 @@ const Navbar = () => {
                 >
                   {t("FAQ")}
                 </HashLink>
-              </li>
+              </li> */}
             </DropDown>
 
             <li className={styles.otherMenu}>

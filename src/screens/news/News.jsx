@@ -14,7 +14,7 @@ const News = () => {
       <Heading />
       <Sticky_header_industry />
       <Events />
-      <Award />
+      {/* <Award /> */}
       <NewsLetter />
     </>
   );

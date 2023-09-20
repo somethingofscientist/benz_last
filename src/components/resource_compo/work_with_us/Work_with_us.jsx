@@ -81,8 +81,14 @@ const Work_with_us = () => {
                         </div>
 
 
+                        <Link to="/career">
+                            <div className={styles.join}>
+                                {/* Work With Us */}
+                                Join Our Team
+                            </div>
+                        </Link>
 
-                        <div
+                        {/* <div
                             className={styles.join}
                         // onClick={handleOpen}
                         >
@@ -178,7 +184,7 @@ const Work_with_us = () => {
                                     </Typography>
                                 </Box>
                             </Modal>
-                        </div>
+                        </div> */}
 
 
                     </div>

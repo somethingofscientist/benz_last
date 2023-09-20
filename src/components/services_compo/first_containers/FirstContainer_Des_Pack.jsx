@@ -8,6 +8,9 @@ import img1 from '../../images/new_images_client/services/Contract Packaging.jpe
 import t1 from '../../images/new_images_client/services/t1.png'
 import t2 from '../../images/new_images_client/services/t2.png'
 import t3 from '../../images/new_images_client/services/t3.png'
+import { Carousel } from 'react-responsive-carousel';
+
+
 const Descicannt = () => {
     const { t, i18n } = useTranslation();
 
@@ -31,10 +34,31 @@ const Descicannt = () => {
                     </div>
 
                     <div className={styles.auto_img}>
-                        <img src={t1} alt="engine" />
-                        <img src={t2} alt="engine" />
-                        <img src={t3} alt="engine" />
 
+                        <Carousel
+                            autoPlay={true}
+                            interval={1000}
+                            infiniteLoop
+                            pauseOnHover={true}
+                            showStatus={false}
+                            showThumbs={false}
+                            showArrows={false}
+                        >
+                            <img src={t1} alt="engine" />
+                            <img src={t2} alt="engine" />
+                            <img src={t3} alt="engine" />
+                            {/* {Array.isArray(item.image) ? (
+                                item.image.map((imageUrl, idx) => (
+                                    <div className={styles.images} key={idx}>
+                                        <img src={imageUrl} alt={imageUrl} />
+                                    </div>
+                                ))
+                            ) : (
+                                <div className={styles.images}>
+                                    <img src={item.image} alt={item.image} />
+                                </div>
+                            )} */}
+                        </Carousel>
                     </div>
                     {/* <div className={styles.auto_img_text}>
                         {t("Benz Packaging understands that every product is unique, and packaging plays a crucial role in its presentation, protection, and market appeal. That's why we offer comprehensive contract packaging services tailored to meet your specific requirements. With our expertise and state-of-the-art facilities, we can handle your packaging needs efficiently and effectively.")}

@@ -19,24 +19,24 @@ const Events = () => {
       heading: "Chinaplas",
       subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
     },
-    {
-      image: pack2,
-      date: "24 May 2023",
-      heading: "PackPalooza",
-      subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
-    },
-    {
-      image: pack3,
-      date: "24 May 2023",
-      heading: "Pack Quest",
-      subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
-    },
-    {
-      image: pack4,
-      date: "24 May 2023",
-      heading: "Packcon",
-      subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
-    },
+    // {
+    //   image: pack2,
+    //   date: "24 May 2023",
+    //   heading: "PackPalooza",
+    //   subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
+    // },
+    // {
+    //   image: pack3,
+    //   date: "24 May 2023",
+    //   heading: "Pack Quest",
+    //   subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
+    // },
+    // {
+    //   image: pack4,
+    //   date: "24 May 2023",
+    //   heading: "Packcon",
+    //   subHeading: "A networking event that brings together packaging industry leaders, innovators and experts to discuss key topics and trends.",
+    // },
   ];
   return (
     <>

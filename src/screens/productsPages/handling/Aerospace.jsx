@@ -8,6 +8,15 @@ import { useTranslation } from 'react-i18next';
 import Heading_header_industry from '../../../components/product_compo/heading_header_industry/Heading';
 import ProductHeading from '../heading/Heading';
 import routestyle from './Routing.module.css'
+import paperSystem from '../../../components/images/new_images_client/product new pages/Paper system/Paper Mailer Bag.jpeg'
+import paper_cushion from '../../../components/images/paper_cushion.jpeg'
+import paper_wrapping from '../../../components/images/paper_wrapping.jpeg'
+import paper_void from '../../../components/images/paper_void.jpg'
+
+import wrap_air from '../../../components/images/wrap_air.jpg'
+import air_void_fill from '../../../components/images/air_void_fill.jpg'
+import air_cushion_bubble from '../../../components/images/air_cushion_bubble.jpg'
+
 const Handling = () => {
 
     const { t, i18n } = useTranslation();
@@ -18,24 +27,24 @@ const Handling = () => {
             number: "1",
             page_link: "/paper-system",
             heading: "Paper Systems",
-            image: engine,
+            image: paperSystem,
             isSlider: true,
             content: "BENZ Packaging offers a comprehensive range of paper systems designed for superior cushioning, effective void fills, and secure wrapping within your packaging. Our products are eco-friendly paper-based solutions, meticulously crafted for cushioning, void fills, and secure wrapping within your packaging, crafted to protect your valuable goods during transit and storage. Whether you need to cushion delicate items, fill empty spaces to prevent movement, or wrap products securely, our paper systems have you covered. Choose from our versatile options to enhance the safety and security of your shipments, all of which are FSC certified. With BENZ Packaging's paper systems, you can trust that your products will reach their destination in excellent condition, safeguarded from damage and shifting during transportation.",
             subProducts: [
                 {
-                    image: tape,
+                    image: paper_cushion,
                     items: "Paper Cushioning",
                     item_text: "Benz Packaging - Paper Cushioning: Ensuring Safe Transit for Your Delicate Items",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: paper_void,
                     items: "Paper Void Fill",
                     item_text: "Benz Packaging - Paper Void Fill: Efficient and Sustainable Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: paper_wrapping,
                     items: "Paper Wrapping",
                     item_text: "Benz Packaging - Paper Wrapping: Secure and Eco-Friendly Protection for Your Products",
                     date: "8 June 2023"
@@ -51,19 +60,19 @@ const Handling = () => {
             content: "Benz Packaging understands the importance of efficient and reliable packaging solutions, which is why we offer Inflatable Air Systems. Our Inflatable Air Systems provide an innovative and effective way to protect your products during transit and storage.",
             subProducts: [
                 {
-                    image: tape,
+                    image: air_cushion_bubble,
                     items: "Air Cushion Bubble",
                     item_text: "Benz Packaging - Air Cushion Bubble: Versatile Protection for Your Valuable Items",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: air_void_fill,
                     items: "Air Cushion Void Fill",
                     item_text: "Benz Packaging - Air Cushion Void Fill: Efficient and Reliable Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: wrap_air,
                     items: "Air Cushion Wrap",
                     item_text: "Benz Packaging - Air Cushion Wrap: Versatile Protection for Your Products",
                     date: "8 June 2023"

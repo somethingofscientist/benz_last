@@ -274,13 +274,27 @@ const Distributor = () => {
                                                     required
                                                 /> */}
 
-                                                <label htmlFor="position" className={styles.form_label}>
+                                                {/* <label htmlFor="position" className={styles.form_label}>
                                                     Upload Signature <span style={{ color: "red" }}>*</span>
                                                 </label>
                                                 <div className={styles.sign}>
                                                     <ReactSignatureCanvas
                                                         penColor="blue"
                                                         canvasProps={{ width: 500, height: 200 }}
+                                                    />
+                                                </div> */}
+
+                                                <div className={styles.form_group}>
+                                                    <label htmlFor="resume">Upload Signature
+                                                        <span style={{ fontWeight: "normal" }}>
+                                                            ( .pdf, .doc, .docx)
+                                                        </span>
+                                                    </label>
+                                                    <input
+                                                        type="file"
+                                                        id="resume"
+                                                        accept=".pdf, .doc, .docx" // Specify the allowed file types
+                                                        required
                                                     />
                                                 </div>
 
