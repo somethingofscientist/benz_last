@@ -13,9 +13,10 @@ const Heading_header_industry = () => {
                     src={video}
                     loop
                     muted
-                    playsinline
+                    playsInline
+                    autoPlay={true}
                     controls={false}
-                    autoPlay
+                    preload='auto'
                     controlsList="nodownload"
                 ></video>
                 {/* <img src={header_heading} alt="" /> */}
