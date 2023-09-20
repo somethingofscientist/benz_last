@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import engine from '../../images/engine.svg'
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/services/sea worthy packaging.jpeg'
 
 const Descicannt = () => {
     const { t, i18n } = useTranslation();
@@ -22,7 +23,7 @@ const Descicannt = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={img1} alt="engine" />
 
                         
                     </div>

@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import engine from '../../images/engine.svg'
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/services/Long term packaging.jpeg'
+
 const Descicannt = () => {
     const { t, i18n } = useTranslation();
     return (
@@ -21,7 +23,7 @@ const Descicannt = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={img1} alt="engine" />
                     </div>
                     <div className={styles.auto_img_text}>
                     {t("At Benz Packaging, we understand that some products require long-term packaging solutions to ensure their protection and integrity over extended periods. That's why we offer specialized long-term packaging services designed to meet the unique requirements of products that will be stored or transported for extended durations. With our expertise, quality materials, and attention to detail, we provide reliable and durable packaging solutions for your long-term needs.")}

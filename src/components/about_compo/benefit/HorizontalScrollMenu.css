@@ -1,6 +1,6 @@
 .react-horizontal-scrolling-menu--inner-wrapper ::-webkit-scrollbar {
   display: none;
-  overflow-y: hidden;  
+  overflow-y: hidden;
 }
 
 .image-container {
@@ -8,6 +8,10 @@
   margin: 10px;
   text-align: center;
   transition: filter 0.3s ease;
+}
+
+.image-container img {
+  object-fit: cover;
 }
 
 /* .image-container.hovered {

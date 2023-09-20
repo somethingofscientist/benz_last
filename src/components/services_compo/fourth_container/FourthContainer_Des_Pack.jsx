@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import engine from '../../images/engine.svg'
 import { useTranslation } from 'react-i18next';
 
+import img1 from '../../images/new_images_client/services/Machine Packaging..jpeg'
+
 const Descicannt = () => {
     const { t, i18n } = useTranslation();
     return (
@@ -21,7 +23,7 @@ const Descicannt = () => {
 
                 <div className={styles.auto_img_container}>
                     <div className={styles.auto_img}>
-                        <img src={engine} alt="engine" />
+                        <img src={img1} alt="engine" />
                     </div>
                     <div className={styles.auto_img_text}>
                     {t("In today's fast-paced industrial environment, optimizing packaging processes is essential to meet high production demands and ensure product quality. Benz Packaging specializes in machine packaging solutions that streamline and automate the packaging process, offering efficiency, speed, and consistency. With our expertise in packaging machinery and innovative technologies, we provide reliable and tailored solutions to meet your specific packaging requirements.")}
