@@ -13,6 +13,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
+import bag from '../../../images/new_images_client/OneDrive-2023-09-20/Bags on roll.jpeg'
+import bag2 from '../../../images/new_images_client/OneDrive-2023-09-20/Bags on roll 3.jpeg'
+import bag3 from '../../../images/new_images_client/OneDrive-2023-09-20/Bags on roll 2.jpeg'
+
 const Descicannt = () => {
     
     const { t, i18n } = useTranslation();
@@ -22,7 +26,7 @@ const Descicannt = () => {
             id: "section1",
             number: "1",
             heading: "Bags, Rolls & Sheets",
-            image: bags_roll_sheets,
+            image: [bag, bag2 , bag3],
             image_text: "Benz Packaging is pleased to offer a wide range of LDPE bags, rolls, and sheets to meet your diverse packaging needs. Our LDPE (Low-Density Polyethylene) solutions provide flexibility, durability, and reliability for various applications.",
             image_text2: "LDPE Bags: Our LDPE bags are available in different sizes, styles, and thicknesses to accommodate a wide range of products. Whether you need resealable zip-lock bags, gusseted bags for bulky items, or flat bags for general packaging, our LDPE options provide excellent protection and convenience. With their flexibility and tear resistance, our LDPE bags are perfect for packaging items of different shapes and sizes."
         },

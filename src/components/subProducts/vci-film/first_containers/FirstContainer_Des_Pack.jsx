@@ -23,6 +23,8 @@ import vci_non_wooven1 from '../../../images/new_images_client/VCI Non Woven Fab
 import vci_non_wooven2 from '../../../images/new_images_client/VCI Non Woven Fabric/IMG_9084.jpg'
 import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 
+import vci_film from '../../../images/events_clients/newProducts/5.JPG'
+
 const Descicannt = () => {
 
     const { t, i18n } = useTranslation();
@@ -42,7 +44,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "VCI Film",
-            image: engine,
+            image: vci_film,
             image_text: "At BENZ Packaging Solutions, we offer cutting-edge technology for your packaging needs, including our advanced VCI Films & VCI Bags, designed to provide ultimate protection against corrosion. These innovative films are engineered using high-technology resins and a custom co-extrusion process, resulting in higher mechanical strength and low water vapor permeability. The BENZ VCI FILM range introduces a VCI additive during co-extrusion, which sublimes from the plastic to safeguard packed metallic items from corrosion.",
             image_text2: "Trusted by leading automobile manufacturers, steelmakers, and metallurgical companies worldwide, our VCI FILM products offer an easy, practical, and cost-effective solution to prevent corrosion damage. Their transparency allows for efficient goods placement and streamlined customs procedures, eliminating the need to open and compromise the packaging"
         },

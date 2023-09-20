@@ -20,6 +20,8 @@ import header_heading from '../../../components/images/des_heading.svg';
 import ProductHeading from '../heading/Heading';
 
 import routestyle from './Routing.module.css'
+import vci_film1 from '../../../components/images/events_clients/newProducts/5.JPG'
+import vci_stretch_film from '../../../components/images/events_clients/newProducts/stretch.JPG'
 
 const AntiCorrosion = () => {
 
