@@ -63,7 +63,7 @@
   /* background-color: black; */
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.208);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0px);
 }
 
 .otherMenu {
