@@ -79,7 +79,7 @@ const Distributor = () => {
         e.preventDefault();
         try {
             let data = formData
-            const res = await axios.post(`/distributor`, data);
+            const res = await axios.post("/distributor", data);
             if (res.status === 200) {
                 toast.dismiss();
                 toast.success('Form Submitted!', {
@@ -180,7 +180,7 @@ const Distributor = () => {
                                                     type="text"
                                                     id="name"
                                                     name="name"
-                                                    pattern="^[a-zA-Z]+$"
+                                                    // pattern="^[a-zA-Z]+$"
                                                     value={formData.firstName}
                                                     onChange={handleInputChange}
                                                     required
@@ -193,7 +193,7 @@ const Distributor = () => {
                                                     type="text"
                                                     id="companyName"
                                                     name="companyName"
-                                                    pattern="^[a-zA-Z]+$"
+                                                    // pattern="^[a-zA-Z]+$"
                                                     value={formData.companyName}
                                                     onChange={handleInputChange}
                                                     required
@@ -206,7 +206,7 @@ const Distributor = () => {
                                                     type="text"
                                                     id="address"
                                                     name="address"
-                                                    pattern="^[a-zA-Z]+$"
+                                                    // pattern="^[a-zA-Z]+$"
                                                     value={formData.address}
                                                     onChange={handleInputChange}
                                                     required
@@ -218,11 +218,10 @@ const Distributor = () => {
                                                     How long have you been operating<span style={{ color: "red" }}>*</span>
                                                 </label>
                                                 <input
-                                                    type="text"
+                                                    type="number"
                                                     id="operatingYears"
                                                     name="operatingYears"
                                                     required
-
                                                     value={formData.operatingYears}
                                                     onChange={handleInputChange}
                                                 />
@@ -323,7 +322,7 @@ const Distributor = () => {
                                                     id="officerName"
                                                     name="officerName"
                                                     required
-                                                    pattern="^[a-zA-Z]+$"
+                                                    // pattern="^[a-zA-Z]+$"
                                                     value={formData.officerName}
                                                     onChange={handleInputChange}
                                                 />
@@ -336,7 +335,7 @@ const Distributor = () => {
                                                     id="position"
                                                     name="position"
                                                     required
-                                                    pattern="^[a-zA-Z]+$"
+                                                    // pattern="^[a-zA-Z]+$"
                                                     value={formData.position}
                                                     onChange={handleInputChange}
                                                 />

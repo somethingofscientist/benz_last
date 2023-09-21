@@ -35,7 +35,9 @@ const CareerPage = () => {
 
         try {
             // Send a POST request to your backend API
-            const response = await axios.post(`/resume`, requestData);
+            // const response = await axios.post("http://localhost:9000/resume", requestData);
+            const response = await axios.post("/resume", requestData);
+            // const response = await axios.post("https://backend-benz.vercel.app/resume", requestData);
 
             if (response.status === 200) {
                 toast.dismiss();
