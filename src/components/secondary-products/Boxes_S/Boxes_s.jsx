@@ -22,24 +22,24 @@ const Boxex_s = () => {
       heading: "Boxes",
       image: vci_film,
       isSlider: true,
-      content: "At Benz Packaging, we offer customization options to meet your specific needs. Our boxes can be tailored in terms of size, shape, and design. Whether you require plain boxes for shipping or custom-printed boxes to promote your brand, we have the capabilities to fulfill your requirements.",
+      content: "At BENZ Packaging, we offer customization options to meet your specific needs. Our boxes can be tailored in terms of size, shape, and design. Whether you require plain boxes for shipping or custom-printed boxes to promote your brand, we have the capabilities to fulfill your requirements.",
       subProducts: [
         {
           image: tape,
           items: "Wooden",
-          item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
+          item_text: "BENZ Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Paper",
-          item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
+          item_text: "BENZ Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Plastic",
-          item_text: "Benz Packaging - Plastic: Durable and Flexible Packaging Solutions",
+          item_text: "BENZ Packaging - Plastic: Durable and Flexible Packaging Solutions",
           date: "8 June 2023"
         },
       ]
@@ -50,7 +50,7 @@ const Boxex_s = () => {
       heading: "Tapes",
       image: main_tapes,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality tapes for all your packaging needs. We offer a wide range of tapes designed to ensure secure and reliable packaging for various industries and applications. With our durable and versatile tapes, you can trust that your packages will be effectively sealed and protected.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality tapes for all your packaging needs. We offer a wide range of tapes designed to ensure secure and reliable packaging for various industries and applications. With our durable and versatile tapes, you can trust that your packages will be effectively sealed and protected.",
       subProducts: [
         {
           image: tape,
@@ -102,7 +102,7 @@ const Boxex_s = () => {
       heading: "Labels",
       image: engine,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality labels. Our labels are designed to offer clear identification, information, and branding solutions for a wide range of industries and products. With their superior print quality, durability, and customization options, our labels provide reliable and professional labeling solutions for your packaging needs.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality labels. Our labels are designed to offer clear identification, information, and branding solutions for a wide range of industries and products. With their superior print quality, durability, and customization options, our labels provide reliable and professional labeling solutions for your packaging needs.",
       subProducts: [
         {
           image: tape,
@@ -124,7 +124,7 @@ const Boxex_s = () => {
       heading: "Pouches & Rolls",
       image: rp_oils,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of versatile and reliable pouches and rolls for all your packaging needs. We offer a wide range of packaging solutions in the form of pouches and rolls, designed to protect and preserve your products while providing convenience and flexibility in packaging.",
+      content: "Welcome to BENZ Packaging, your trusted provider of versatile and reliable pouches and rolls for all your packaging needs. We offer a wide range of packaging solutions in the form of pouches and rolls, designed to protect and preserve your products while providing convenience and flexibility in packaging.",
       subProducts: [
         {
           image: tape,
@@ -146,7 +146,7 @@ const Boxex_s = () => {
       heading: "LDPE Bags",
       image: engine,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of LDPE bags for reliable and versatile packaging solutions. Our LDPE (Low-Density Polyethylene) bags offer a wide range of benefits, including durability, flexibility, and excellent moisture resistance, making them an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of LDPE bags for reliable and versatile packaging solutions. Our LDPE (Low-Density Polyethylene) bags offer a wide range of benefits, including durability, flexibility, and excellent moisture resistance, making them an ideal choice for various industries and applications.",
       subProducts: [
         {
           image: tape,
@@ -262,7 +262,7 @@ const Boxex_s = () => {
       heading: "Blister Tray",
       image: engine,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your reliable source for high-quality blister trays. Our blister trays are designed to provide secure product display and protection, ensuring that your items are presented attractively and remain safe during transit and storage.",
+      content: "Welcome to BENZ Packaging, your reliable source for high-quality blister trays. Our blister trays are designed to provide secure product display and protection, ensuring that your items are presented attractively and remain safe during transit and storage.",
       subProducts: [
         {
           image: tape,
@@ -292,7 +292,7 @@ const Boxex_s = () => {
     },
     {
       number: "8",
-      page_link: "/secondary-benze",
+      page_link: "/secondary-BENZe",
       heading: "BENZpolene",
       image: engine,
       isSlider: true,
@@ -334,12 +334,12 @@ const Boxex_s = () => {
       heading: "Contract Packaging",
       image: engine,
       isSlider: true,
-      content: "Benz Packaging understands that every product is unique, and packaging plays a crucial role in its presentation, protection, and market appeal. That's why we offer comprehensive contract packaging services tailored to meet your specific requirements. With our expertise and state-of-the-art facilities, we can handle your packaging needs efficiently and effectively.",
+      content: "BENZ Packaging understands that every product is unique, and packaging plays a crucial role in its presentation, protection, and market appeal. That's why we offer comprehensive contract packaging services tailored to meet your specific requirements. With our expertise and state-of-the-art facilities, we can handle your packaging needs efficiently and effectively.",
       subProducts: [
         {
           image: tape,
           items: "Sea Worthy Packaging",
-          item_text: "Benz Packaging - Sea Worthy Packaging: Protecting Your Products for Overseas Shipping",
+          item_text: "BENZ Packaging - Sea Worthy Packaging: Protecting Your Products for Overseas Shipping",
           date: "8 June 2023"
         },
       ]

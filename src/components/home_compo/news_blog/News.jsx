@@ -26,7 +26,7 @@ const News = () => {
                         {/* <div className={styles.blue_text}>
                             <div className={styles.news_box}>{t("NEWS")} </div>
                             <div className={styles.news_box_heading}>
-                                {t("Benz residue-free VCI Film protection allows for constant inspection.")}
+                                {t("BENZ residue-free VCI Film protection allows for constant inspection.")}
                             </div>
                             <div className={styles.news_box_subheading}>
                                 {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
@@ -43,7 +43,7 @@ const News = () => {
                         <div className={styles.blue_text}>
                             <div className={styles.news_box}>{t("NEWS")}</div>
                             <div className={styles.news_box_heading}>
-                                {t("Benz residue-free VCI Film protection allows for constant inspection.")}
+                                {t("BENZ residue-free VCI Film protection allows for constant inspection.")}
                             </div>
                             <div className={styles.news_box_subheading}>
                                 {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}
@@ -60,7 +60,7 @@ const News = () => {
                         <div className={styles.blue_text}>
                             <div className={styles.news_box}>{t("NEWS")}</div>
                             <div className={styles.news_box_heading}>
-                                {t("Benz residue-free VCI Film protection allows for constant inspection.")}
+                                {t("BENZ residue-free VCI Film protection allows for constant inspection.")}
                             </div>
                             <div className={styles.news_box_subheading}>
                                 {t("BENZ Packaging is the leading manufacturer and supplier of Industrial Supplies & Packaging products including Tapes, Strapping Solutions, and Sealing & Wrapping Machines.")}

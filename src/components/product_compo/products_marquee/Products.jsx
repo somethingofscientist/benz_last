@@ -173,7 +173,7 @@ const Products = () => {
           margin: "100px auto 0 auto"
         }}
       >
-        With over 38 years of experience , Benz Packaging have grown the business by listening to our customers and adapting to their needs, Being locally owned, operated & present in multiple locations - allows us to be more flexible with our service and adapt to our customers needs when required. Since the time of conception, we have been providing complete packaging solutions to varied industries. These solutions not only involve protective packaging but traditional packaging also without which the packaging cannot be complete.
+        With over 38 years of experience , BENZ Packaging have grown the business by listening to our customers and adapting to their needs, Being locally owned, operated & present in multiple locations - allows us to be more flexible with our service and adapt to our customers needs when required. Since the time of conception, we have been providing complete packaging solutions to varied industries. These solutions not only involve protective packaging but traditional packaging also without which the packaging cannot be complete.
       </div>
       <br />
       <br />
@@ -185,7 +185,7 @@ const Products = () => {
           margin: "auto"
         }}
       >
-        Right from wooden pallets onwards to container stuffing, Benz packaging has all the products required to make the despatches. We have continued to evolve and remain relevant to our customers by expanding our products & service, making procurement easier to improve the customer to experience.
+        Right from wooden pallets onwards to container stuffing, BENZ packaging has all the products required to make the despatches. We have continued to evolve and remain relevant to our customers by expanding our products & service, making procurement easier to improve the customer to experience.
       </div>
 
 

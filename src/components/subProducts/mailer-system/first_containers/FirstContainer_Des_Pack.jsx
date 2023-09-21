@@ -15,7 +15,7 @@ const Descicannt = () => {
             number: "1",
             heading: "Plastic Mailers",
             image: engine,
-            image_text: "Benz Packaging is proud to offer our Plastic Mailers, a trusted packaging solution designed to ensure the secure and efficient shipping of your products.",
+            image_text: "BENZ Packaging is proud to offer our Plastic Mailers, a trusted packaging solution designed to ensure the secure and efficient shipping of your products.",
             image_text2: "Our Plastic Mailers are specifically designed for shipping smaller items, documents, and other goods that require lightweight yet durable packaging. Made from high-quality plastic materials, our mailers provide excellent protection against tears, punctures, and moisture during transit."
         },
 
@@ -26,7 +26,7 @@ const Descicannt = () => {
             greenProduct: "Green Product",
             heading: "Paper Mailer",
             image: engine,
-            image_text: "Benz Packaging is delighted to introduce our Paper Mailer, an eco-friendly packaging solution designed to provide secure and sustainable shipping for your products.",
+            image_text: "BENZ Packaging is delighted to introduce our Paper Mailer, an eco-friendly packaging solution designed to provide secure and sustainable shipping for your products.",
             image_text2: "Our Paper Mailer is crafted from high-quality, durable paper materials that offer reliable protection for your items during transit. The sturdy construction of the mailer ensures resistance against tears and punctures, safeguarding your products from potential damages."
         },
 
@@ -35,7 +35,7 @@ const Descicannt = () => {
             number: "3",
             heading: "Custom Printed Mailers",
             image: engine,
-            image_text: "Benz Packaging is pleased to offer Custom Printed Mailers, a tailored packaging solution that combines brand promotion with secure shipping for your products.",
+            image_text: "BENZ Packaging is pleased to offer Custom Printed Mailers, a tailored packaging solution that combines brand promotion with secure shipping for your products.",
             image_text2: "Our Custom Printed Mailers allow you to showcase your brand identity and create a lasting impression on your customers. We understand the importance of branding, which is why we offer customizable options to display your logo, company name, graphics, or any other design elements that represent your business."
         },
         {
@@ -44,7 +44,7 @@ const Descicannt = () => {
             heading: "Paper Bags",
             greenProduct: "Green Product",
             image: engine,
-            image_text: "Benz Packaging is proud to present our line of Paper Bags, a sustainable and versatile packaging solution for your various needs.",
+            image_text: "BENZ Packaging is proud to present our line of Paper Bags, a sustainable and versatile packaging solution for your various needs.",
             image_text2: "Our Paper Bags are crafted from high-quality, eco-friendly materials, making them an excellent choice for businesses committed to reducing their environmental impact. The use of paper promotes a more sustainable packaging option compared to traditional plastic bags."
         },
         {

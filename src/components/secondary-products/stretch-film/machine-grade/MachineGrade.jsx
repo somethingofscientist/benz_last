@@ -14,13 +14,13 @@ const MachineGrade = () => {
             number: "1",
             heading: "PreStretch Film",
             image: vci_film,
-            content: "Welcome to Benz Packaging, your reliable source for high-quality PreStretch film. Our PreStretch film is an advanced packaging solution designed to provide optimal load stability and secure packaging for various industries and applications. With Benz Packaging, you can trust that our PreStretch film will enhance your packaging operations and protect your products during storage and transportation.",
+            content: "Welcome to BENZ Packaging, your reliable source for high-quality PreStretch film. Our PreStretch film is an advanced packaging solution designed to provide optimal load stability and secure packaging for various industries and applications. With BENZ Packaging, you can trust that our PreStretch film will enhance your packaging operations and protect your products during storage and transportation.",
         },
         {
             number: "2",
             heading: "Machine Grade Stretch Film",
             image: vci_film,
-            content: "Welcome to Benz Packaging, your reliable supplier of high-quality machine grade stretch film. Our machine grade stretch film is specifically designed for automated packaging applications, providing an optimal solution for industries that require efficient and consistent wrapping of pallets and loads. With Benz Packaging, you can trust our machine grade stretch film to deliver reliable performance and secure packaging for your products.",
+            content: "Welcome to BENZ Packaging, your reliable supplier of high-quality machine grade stretch film. Our machine grade stretch film is specifically designed for automated packaging applications, providing an optimal solution for industries that require efficient and consistent wrapping of pallets and loads. With BENZ Packaging, you can trust our machine grade stretch film to deliver reliable performance and secure packaging for your products.",
         },
     ]
     return (

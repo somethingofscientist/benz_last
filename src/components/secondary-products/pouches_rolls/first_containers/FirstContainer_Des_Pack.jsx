@@ -19,7 +19,7 @@ const Pouches_Rolls_Secondary = () => {
       heading: "Mono Layer Pouches",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of mono layer pouches for simplified packaging solutions. Our mono layer pouches are designed to offer straightforward and efficient packaging options while maintaining product integrity and freshness. With their simplicity and versatility, our mono layer pouches are an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of mono layer pouches for simplified packaging solutions. Our mono layer pouches are designed to offer straightforward and efficient packaging options while maintaining product integrity and freshness. With their simplicity and versatility, our mono layer pouches are an ideal choice for various industries and applications.",
       subProducts: [
         {
           image: tape,
@@ -47,7 +47,7 @@ const Pouches_Rolls_Secondary = () => {
       heading: "Multi Layer Laminate Pouches",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of multi-layer laminate pouches for advanced packaging solutions. Our multi-layer laminate pouches are designed to offer superior performance, exceptional product protection, and extended shelf life for a wide range of products. With their advanced construction and versatile features, our multi-layer laminate pouches are an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of multi-layer laminate pouches for advanced packaging solutions. Our multi-layer laminate pouches are designed to offer superior performance, exceptional product protection, and extended shelf life for a wide range of products. With their advanced construction and versatile features, our multi-layer laminate pouches are an ideal choice for various industries and applications.",
       subProducts: [
         {
           image: tape,

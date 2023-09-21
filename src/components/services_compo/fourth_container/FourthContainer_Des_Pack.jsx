@@ -26,7 +26,7 @@ const Descicannt = () => {
                         <img src={img1} alt="engine" />
                     </div>
                     <div className={styles.auto_img_text}>
-                    {t("In today's fast-paced industrial environment, optimizing packaging processes is essential to meet high production demands and ensure product quality. Benz Packaging specializes in machine packaging solutions that streamline and automate the packaging process, offering efficiency, speed, and consistency. With our expertise in packaging machinery and innovative technologies, we provide reliable and tailored solutions to meet your specific packaging requirements.")}
+                    {t("In today's fast-paced industrial environment, optimizing packaging processes is essential to meet high production demands and ensure product quality. BENZ Packaging specializes in machine packaging solutions that streamline and automate the packaging process, offering efficiency, speed, and consistency. With our expertise in packaging machinery and innovative technologies, we provide reliable and tailored solutions to meet your specific packaging requirements.")}
                     <br /><br />  
                     {t("Customized Machine Packaging Solutions: We understand that every product and packaging operation is unique. Our team works closely with you to analyze your packaging needs and develop customized machine packaging solutions. We consider factors such as product dimensions, packaging materials, throughput requirements, and automation level to design a system that integrates seamlessly into your production line.")}
                     </div>

@@ -19,7 +19,7 @@ const Labels_Secondary = () => {
       heading: "Plastic",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality plastic packaging solutions. We specialize in offering a wide range of plastic packaging products designed to meet your specific needs and requirements. With our commitment to excellence and customer satisfaction, we provide reliable and innovative plastic packaging solutions for various industries.At Benz Packaging, we understand the importance of plastic packaging in preserving and protecting products. That's why we offer a comprehensive selection of plastic packaging options that are known for their durability, versatility, and functionality. Whether you need plastic containers, bottles, pouches, or other packaging solutions, we have the right products to suit your needs.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality plastic packaging solutions. We specialize in offering a wide range of plastic packaging products designed to meet your specific needs and requirements. With our commitment to excellence and customer satisfaction, we provide reliable and innovative plastic packaging solutions for various industries.At BENZ Packaging, we understand the importance of plastic packaging in preserving and protecting products. That's why we offer a comprehensive selection of plastic packaging options that are known for their durability, versatility, and functionality. Whether you need plastic containers, bottles, pouches, or other packaging solutions, we have the right products to suit your needs.",
       subProducts: [
         {
           image: tape,
@@ -53,7 +53,7 @@ const Labels_Secondary = () => {
       heading: "Paper",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of sustainable and versatile paper packaging solutions. We offer a wide range of paper-based packaging products designed to meet your specific needs and promote eco-friendly practices. With our high-quality paper materials and customizable options, we provide packaging solutions that are both functional and environmentally conscious.At Benz Packaging, we understand the importance of sustainable packaging in today's world. That's why we offer a comprehensive selection of paper-based packaging options to help reduce the environmental impact of your business. Our paper products are sourced from responsibly managed forests and are produced using eco-friendly manufacturing processes.",
+      content: "Welcome to BENZ Packaging, your trusted provider of sustainable and versatile paper packaging solutions. We offer a wide range of paper-based packaging products designed to meet your specific needs and promote eco-friendly practices. With our high-quality paper materials and customizable options, we provide packaging solutions that are both functional and environmentally conscious.At BENZ Packaging, we understand the importance of sustainable packaging in today's world. That's why we offer a comprehensive selection of paper-based packaging options to help reduce the environmental impact of your business. Our paper products are sourced from responsibly managed forests and are produced using eco-friendly manufacturing processes.",
       subProducts: [
         {
           image: tape,

@@ -19,24 +19,24 @@ const Aerospace = () => {
             heading: "Boxes",
             image: engine,
             isSlider: true,
-            content: "Benz Packaging is delighted to offer a wide range of boxes to meet your packaging needs. Our boxes are designed to provide secure and reliable packaging solutions for various industries and applications.",
+            content: "BENZ Packaging is delighted to offer a wide range of boxes to meet your packaging needs. Our boxes are designed to provide secure and reliable packaging solutions for various industries and applications.",
             subProducts: [
                 {
                     image: tape,
                     items: "Wooden",
-                    item_text: "Benz Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
+                    item_text: "BENZ Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Paper",
-                    item_text: "Benz Packaging - Paper Packaging: Reliable and Sustainable Solutions",
+                    item_text: "BENZ Packaging - Paper Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Plastic",
-                    item_text: "Benz Packaging - Plastic: Durable and Flexible Packaging Solutions",
+                    item_text: "BENZ Packaging - Plastic: Durable and Flexible Packaging Solutions",
                     date: "8 June 2023"
                 },
             ]
@@ -47,30 +47,30 @@ const Aerospace = () => {
             heading: "Rolls & Pouches",
             image: rolls_pouches,
             isSlider: true,
-            content: "Benz Packaging is delighted to offer a wide range of rolls and pouches, designed to provide convenient and efficient packaging solutions for your diverse needs.",
+            content: "BENZ Packaging is delighted to offer a wide range of rolls and pouches, designed to provide convenient and efficient packaging solutions for your diverse needs.",
             subProducts: [
                 {
                     image: tape,
                     items: "Multilayer Laminated Pouches",
-                    item_text: "Benz Packaging - Multilayer Laminated Pouches: Superior Protection and Versatile Packaging Solutions",
+                    item_text: "BENZ Packaging - Multilayer Laminated Pouches: Superior Protection and Versatile Packaging Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Co-Extruded Laminate Pouches",
-                    item_text: "Benz Packaging - Co-Extruded Laminate Pouches: Enhanced Protection and Customizable Packaging Solutions",
+                    item_text: "BENZ Packaging - Co-Extruded Laminate Pouches: Enhanced Protection and Customizable Packaging Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Custom Engineered Laminates",
-                    item_text: "Benz Packaging - Custom Engineered Laminates: Tailored Solutions for Advanced Packaging",
+                    item_text: "BENZ Packaging - Custom Engineered Laminates: Tailored Solutions for Advanced Packaging",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Adhesive Laminate Pouches",
-                    item_text: "Benz Packaging - Adhesive Laminate Pouches: Secure and Convenient Packaging Solutions",
+                    item_text: "BENZ Packaging - Adhesive Laminate Pouches: Secure and Convenient Packaging Solutions",
                     date: "8 June 2023"
                 },
             ]
@@ -81,54 +81,54 @@ const Aerospace = () => {
             heading: "LDPE",
             image: engine,
             isSlider: true,
-            content: "Benz Packaging offers LDPE (Low-Density Polyethylene) packaging solutions that provide flexibility and versatility for a wide range of packaging needs.",
+            content: "BENZ Packaging offers LDPE (Low-Density Polyethylene) packaging solutions that provide flexibility and versatility for a wide range of packaging needs.",
             subProducts: [
                 {
                     image: tape,
                     items: "Bags, Rolls & Sheets",
-                    item_text: "Benz Packaging - LDPE Bags, Rolls & Sheets: Flexible and Reliable Packaging Solutions",
+                    item_text: "BENZ Packaging - LDPE Bags, Rolls & Sheets: Flexible and Reliable Packaging Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Perforated Rolls",
-                    item_text: "Benz Packaging - LDPE Perforated Rolls: Convenient and Versatile Packaging Solution",
+                    item_text: "BENZ Packaging - LDPE Perforated Rolls: Convenient and Versatile Packaging Solution",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Pre Open Bags on Rolls",
-                    item_text: "Benz Packaging - LDPE Pre-Open Bags on Rolls: Effortless Packaging Convenience",
+                    item_text: "BENZ Packaging - LDPE Pre-Open Bags on Rolls: Effortless Packaging Convenience",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Zip Lock Bags",
-                    item_text: "Benz Packaging - LDPE Zip Lock Bags: Secure and Convenient Storage Solutions",
+                    item_text: "BENZ Packaging - LDPE Zip Lock Bags: Secure and Convenient Storage Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Stretch Films",
-                    item_text: "Benz Packaging - LDPE Stretch Films: Reliable Protection and Secure Bundling",
+                    item_text: "BENZ Packaging - LDPE Stretch Films: Reliable Protection and Secure Bundling",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Eco Friendly Bags",
-                    item_text: "Benz Packaging - LDPE Eco-Friendly Bags: Sustainable Solutions for a Greener Future",
+                    item_text: "BENZ Packaging - LDPE Eco-Friendly Bags: Sustainable Solutions for a Greener Future",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Anti Static ESD Bags",
-                    item_text: "Benz Packaging - LDPE Anti-Static ESD Bags: Protecting Your Electronics with Confidence",
+                    item_text: "BENZ Packaging - LDPE Anti-Static ESD Bags: Protecting Your Electronics with Confidence",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Garbage Bags",
-                    item_text: "Benz Packaging - LDPE Garbage Bags: Reliable and Convenient Waste Disposal Solutions",
+                    item_text: "BENZ Packaging - LDPE Garbage Bags: Reliable and Convenient Waste Disposal Solutions",
                     date: "8 June 2023"
                 },
             ]
@@ -144,31 +144,31 @@ const Aerospace = () => {
                 {
                     image: tape,
                     items: "BENZpolene",
-                    item_text: "Benz Packaging - BENZpolene: Unleashing the Power of Innovative Polyethylene Solutions",
+                    item_text: "BENZ Packaging - BENZpolene: Unleashing the Power of Innovative Polyethylene Solutions",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Ice Pack Gels",
-                    item_text: "Benz Packaging - Ice Pack Gels: Keeping Your Perishables Cool and Fresh",
+                    item_text: "BENZ Packaging - Ice Pack Gels: Keeping Your Perishables Cool and Fresh",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Blister Trays",
-                    item_text: "Benz Packaging - Blister Trays: Securing and Showcasing Your Products with Precision",
+                    item_text: "BENZ Packaging - Blister Trays: Securing and Showcasing Your Products with Precision",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Labels",
-                    item_text: "Benz Packaging - Labels: Enhancing Product Identification and Branding",
+                    item_text: "BENZ Packaging - Labels: Enhancing Product Identification and Branding",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Tapes",
-                    item_text: "Benz Packaging - Tapes: Secure and Reliable Packaging Solutions",
+                    item_text: "BENZ Packaging - Tapes: Secure and Reliable Packaging Solutions",
                     date: "8 June 2023"
                 },
             ]

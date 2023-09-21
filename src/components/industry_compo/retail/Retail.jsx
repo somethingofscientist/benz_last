@@ -31,7 +31,7 @@ const Retail = () => {
                         </Link>
                     </div>
                     <div className={styles.auto_img_text}>
-                        {t("Benz Packaging specializes in providing reliable and efficient packaging solutions for the electronics industry. With expertise in primary and secondary packaging, as well as a commitment to quality control and customization, they ensure the safe transportation, storage, and presentation of electronic devices and components. Benz Packaging is a trusted partner for electronics companies seeking professional packaging services.")}
+                        {t("BENZ Packaging specializes in providing reliable and efficient packaging solutions for the electronics industry. With expertise in primary and secondary packaging, as well as a commitment to quality control and customization, they ensure the safe transportation, storage, and presentation of electronic devices and components. BENZ Packaging is a trusted partner for electronics companies seeking professional packaging services.")}
 
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>

@@ -19,36 +19,36 @@ const Boxes_Secondary = () => {
       heading: "Wooden",
       image: vci_film,
       isSlider: true,
-      content: "Packaging plays a vital role in creating a lasting impression and enhancing the perceived value of a product. Benz Packaging, a leading provider of packaging solutions, offers a range of exquisite wooden packaging options that combine elegance, functionality, and sustainability. In this blog post, we will explore the world of Benz Packaging's wooden packaging, highlighting its features, benefits, and how it can elevate your packaging strategy.",
+      content: "Packaging plays a vital role in creating a lasting impression and enhancing the perceived value of a product. BENZ Packaging, a leading provider of packaging solutions, offers a range of exquisite wooden packaging options that combine elegance, functionality, and sustainability. In this blog post, we will explore the world of BENZ Packaging's wooden packaging, highlighting its features, benefits, and how it can elevate your packaging strategy.",
       subProducts: [
         {
           image: tape,
           items: "Ply wood Boxes",
-          item_text: "Benz Packaging - Plywood Boxes Durable and Versatile Packaging Solutions",
+          item_text: "BENZ Packaging - Plywood Boxes Durable and Versatile Packaging Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Nailess Boxes",
-          item_text: "Benz Packaging - Nailess Boxes Effortless Assembly for Convenient Packaging",
+          item_text: "BENZ Packaging - Nailess Boxes Effortless Assembly for Convenient Packaging",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "wooden pallets",
-          item_text: "Benz Packaging - Wooden Pallets Enhancing Efficiency and Safety in Material Handling",
+          item_text: "BENZ Packaging - Wooden Pallets Enhancing Efficiency and Safety in Material Handling",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Pine Wood boxes",
-          item_text: "Benz Packaging - Pine Wood Boxes Timeless Elegance and Reliable Packaging Solutions",
+          item_text: "BENZ Packaging - Pine Wood Boxes Timeless Elegance and Reliable Packaging Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Jungle Wood boxes",
-          item_text: "Benz Packaging - Jungle Wood Boxes Exotic and Sustainable Packaging Solutions",
+          item_text: "BENZ Packaging - Jungle Wood Boxes Exotic and Sustainable Packaging Solutions",
           date: "8 June 2023"
         },
       ]
@@ -59,18 +59,18 @@ const Boxes_Secondary = () => {
       heading: "Paper",
       image: vci_film,
       isSlider: true,
-      content: "In the realm of packaging, sustainability and versatility are becoming increasingly important considerations. Benz Packaging offers a wide range of paper packaging solutions that combine eco-friendliness with adaptability. In this blog post, we will explore the features and benefits of Benz Packaging's paper packaging options, highlighting their sustainable nature, versatility, and ability to cater to diverse packaging needs.",
+      content: "In the realm of packaging, sustainability and versatility are becoming increasingly important considerations. BENZ Packaging offers a wide range of paper packaging solutions that combine eco-friendliness with adaptability. In this blog post, we will explore the features and benefits of BENZ Packaging's paper packaging options, highlighting their sustainable nature, versatility, and ability to cater to diverse packaging needs.",
       subProducts: [
         {
           image: tape,
           items: "5 Ply Corrugated Boxes",
-          item_text: "5 Ply Corrugated Boxes - Benz Packaging Reliable and Versatile Packaging Solutions",
+          item_text: "5 Ply Corrugated Boxes - BENZ Packaging Reliable and Versatile Packaging Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Duplex Mono-Carton",
-          item_text: "Benz Packaging - Duplex Mono-Carton Superior Strength and Visual Appeal",
+          item_text: "BENZ Packaging - Duplex Mono-Carton Superior Strength and Visual Appeal",
           date: "8 June 2023"
         },
         {
@@ -93,24 +93,24 @@ const Boxes_Secondary = () => {
       heading: "Plastic ",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted provider of plastic packaging solutions. We offer a wide range of plastic packaging options designed to meet the diverse needs of various industries. With our high-quality plastic packaging solutions, you can ensure the safe storage, transportation, and presentation of your products.",
+      content: "Welcome to BENZ Packaging, your trusted provider of plastic packaging solutions. We offer a wide range of plastic packaging options designed to meet the diverse needs of various industries. With our high-quality plastic packaging solutions, you can ensure the safe storage, transportation, and presentation of your products.",
       subProducts: [
         {
           image: tape,
           items: "PP Bins",
-          item_text: "Benz Packaging - PP Bins for Efficient Storage and Organization",
+          item_text: "BENZ Packaging - PP Bins for Efficient Storage and Organization",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Plastic Crates",
-          item_text: "Welcome to Benz Packaging, your trusted provider of high-quality plastic crates. Our plastic crates are designed to offer secure and efficient storage solutions for wide range of industries and applications. With their durability, versatility, and practicality, our plastic crates are the ideal choice for optimizing your storage and transportation processes.",
+          item_text: "Welcome to BENZ Packaging, your trusted provider of high-quality plastic crates. Our plastic crates are designed to offer secure and efficient storage solutions for wide range of industries and applications. With their durability, versatility, and practicality, our plastic crates are the ideal choice for optimizing your storage and transportation processes.",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Foldable Bins",
-          item_text: "Benz Packaging - Foldable Bins for Convenient Storage and Transportation",
+          item_text: "BENZ Packaging - Foldable Bins for Convenient Storage and Transportation",
           date: "8 June 2023"
         },
       ]

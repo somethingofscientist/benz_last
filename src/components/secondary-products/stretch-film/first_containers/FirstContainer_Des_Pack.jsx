@@ -19,7 +19,7 @@ const Stretch_Films_Secondary = () => {
       heading: "Hand Grade Stretch Film",
       image: vci_film,
       isSlider: true,
-      content: "Welcome to Benz Packaging, your trusted supplier of high-quality hand grade stretch film. Our hand grade stretch film is designed specifically for manual applications, providing an easy-to-use packaging solution for various industries and needs. With Benz Packaging, you can rely on our hand grade stretch film to securely wrap and protect your products with convenience and efficiency.",
+      content: "Welcome to BENZ Packaging, your trusted supplier of high-quality hand grade stretch film. Our hand grade stretch film is designed specifically for manual applications, providing an easy-to-use packaging solution for various industries and needs. With BENZ Packaging, you can rely on our hand grade stretch film to securely wrap and protect your products with convenience and efficiency.",
       subProducts: [
         {
           image: tape,

@@ -54,7 +54,7 @@ const Descicannt = () => {
             number: "5",
             heading: "VCI HD Paper",
             image: engine,
-            image_text: "Benz Packaging is pleased to introduce our VCI HD Paper, a heavy-duty solution designed to provide exceptional corrosion protection for demanding applications. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
+            image_text: "BENZ Packaging is pleased to introduce our VCI HD Paper, a heavy-duty solution designed to provide exceptional corrosion protection for demanding applications. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2: "Our VCI HD Paper is specifically engineered to withstand rugged environments and handle heavy loads. It is infused with Volatile Corrosion Inhibitor (VCI) technology, creating a protective shield that prevents corrosion and preserves your assets, even in challenging conditions."
         },
 

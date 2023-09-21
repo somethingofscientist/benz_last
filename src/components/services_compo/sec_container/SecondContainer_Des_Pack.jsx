@@ -28,7 +28,7 @@ const Descicannt = () => {
                         
                     </div>
                     <div className={styles.auto_img_text}>
-                    {t("When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. Benz Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.")}
+                    {t("When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. BENZ Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.")}
                     <br /><br />
                     {t("Durable Packaging Materials: We utilize high-quality materials that are known for their strength and durability to create sea-worthy packaging solutions. Our packaging materials are designed to withstand the challenges of sea transportation, including moisture, humidity, temperature fluctuations, and physical impacts. This ensures that your products remain protected throughout the entire shipping journey.")}  
 

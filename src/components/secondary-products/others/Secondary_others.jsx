@@ -15,7 +15,7 @@ const Secondary_others = () => {
       number: "1",
       heading: "Ice Pack Gels",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of ice pack gels for reliable temperature control solutions. Our ice pack gels are designed to help maintain the desired temperature during the transportation and storage of temperature-sensitive products, ensuring their freshness and integrity.Temperature control is critical for various industries, including food and beverage, pharmaceuticals, and healthcare. At Benz Packaging, we understand the importance of preserving the quality and efficacy of your temperature-sensitive products, and our ice pack gels offer an effective solution to keep them within the required temperature range.",
+      content: "Welcome to BENZ Packaging, your trusted provider of ice pack gels for reliable temperature control solutions. Our ice pack gels are designed to help maintain the desired temperature during the transportation and storage of temperature-sensitive products, ensuring their freshness and integrity.Temperature control is critical for various industries, including food and beverage, pharmaceuticals, and healthcare. At BENZ Packaging, we understand the importance of preserving the quality and efficacy of your temperature-sensitive products, and our ice pack gels offer an effective solution to keep them within the required temperature range.",
     },
   ]
   return (

@@ -19,30 +19,30 @@ const Contract_packaging_sec = () => {
       heading: "Sea Worthy Packaging",
       image: vci_film,
       isSlider: true,
-      content: "When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. Benz Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.",
+      content: "When it comes to shipping goods overseas, ensuring the safety and integrity of your products is paramount. BENZ Packaging specializes in sea-worthy packaging solutions that are specifically designed to withstand the rigors of long-distance transportation by sea. With our expertise in packaging and knowledge of international shipping requirements, we can provide you with reliable and robust packaging solutions for your export needs.",
       subProducts: [
         {
           image: tape,
           items: "Export Packaging",
-          item_text: "Benz Packaging - Export Packaging Secure Your Products for International Shipment",
+          item_text: "BENZ Packaging - Export Packaging Secure Your Products for International Shipment",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Machine Packaging",
-          item_text: "Benz Packaging - Machine Packaging Efficient and Automated Packaging Solutions",
+          item_text: "BENZ Packaging - Machine Packaging Efficient and Automated Packaging Solutions",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "On Site Packaging",
-          item_text: "Benz Packaging - On-Site Packaging Convenient and Efficient Packaging Services at Your Location",
+          item_text: "BENZ Packaging - On-Site Packaging Convenient and Efficient Packaging Services at Your Location",
           date: "8 June 2023"
         },
         {
           image: tape,
           items: "Long Term Packaging",
-          item_text: "Benz Packaging - Long-Term Packaging Reliable Solutions for Extended Storage and Transportation",
+          item_text: "BENZ Packaging - Long-Term Packaging Reliable Solutions for Extended Storage and Transportation",
           date: "8 June 2023"
         },
       ]

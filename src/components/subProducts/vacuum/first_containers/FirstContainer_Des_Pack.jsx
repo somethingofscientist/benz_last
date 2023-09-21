@@ -15,7 +15,7 @@ const Descicannt = () => {
             number: "1",
             heading: "Propamatic",
             image: propmatic,
-            image_text: "Benz Packaging is proud to present Propamatic, our cutting-edge propellant technology designed specifically for aerosol packaging. With Propamatic, we offer a reliable and efficient solution for delivering aerosol products with precision and effectiveness.",
+            image_text: "BENZ Packaging is proud to present Propamatic, our cutting-edge propellant technology designed specifically for aerosol packaging. With Propamatic, we offer a reliable and efficient solution for delivering aerosol products with precision and effectiveness.",
             image_text2: "Propamatic utilizes advanced propellant formulations that ensure consistent and controlled product dispensing. Our propellant technology is carefully engineered to provide optimal pressure and flow characteristics, ensuring smooth and accurate aerosol spray patterns. With Propamatic, you can achieve precise product distribution, enhancing user experience and product performance."
          },
 
@@ -24,7 +24,7 @@ const Descicannt = () => {
             number: "2",
             heading: "Benzmatic",
             image: benzmatic,
-            image_text:"Benz Packaging is thrilled to present Benzmatic, our state-of-the-art automation technology designed to optimize packaging processes and enhance overall efficiency. With Benzmatic, we offer a reliable and innovative solution to streamline your packaging operations and maximize productivity.",
+            image_text:"BENZ Packaging is thrilled to present Benzmatic, our state-of-the-art automation technology designed to optimize packaging processes and enhance overall efficiency. With Benzmatic, we offer a reliable and innovative solution to streamline your packaging operations and maximize productivity.",
             image_text2: "Benzmatic combines advanced robotics and intelligent automation systems to revolutionize the way you package your products. Our technology is meticulously engineered to handle various packaging tasks, such as filling, sealing, labeling, and sorting, with precision and speed. By automating these processes, you can significantly reduce manual labor, minimize errors, and increase production throughput."
         },
     ]

@@ -61,7 +61,7 @@ const Descicannt = () => {
                         </Carousel>
                     </div>
                     {/* <div className={styles.auto_img_text}>
-                        {t("Benz Packaging understands that every product is unique, and packaging plays a crucial role in its presentation, protection, and market appeal. That's why we offer comprehensive contract packaging services tailored to meet your specific requirements. With our expertise and state-of-the-art facilities, we can handle your packaging needs efficiently and effectively.")}
+                        {t("BENZ Packaging understands that every product is unique, and packaging plays a crucial role in its presentation, protection, and market appeal. That's why we offer comprehensive contract packaging services tailored to meet your specific requirements. With our expertise and state-of-the-art facilities, we can handle your packaging needs efficiently and effectively.")}
                         <br /><br />
                         {t("End-to-End Solutions: Our contract packaging services cover the entire packaging process, from concept development to final product delivery. We work closely with you to understand your product, target market, and packaging goals. Our experienced team will guide you through every step, ensuring that your packaging meets your specifications and exceeds your expectations.")}
                     </div> */}

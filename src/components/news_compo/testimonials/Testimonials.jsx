@@ -51,7 +51,7 @@ const Testimonials = () => {
       logo: bosch,
       heading: "Flip Front 2",
       heading2: "Flip Back 2",
-      para: "We couldn't resist sharing our experience for Benz VCI bags, It’s nothing short of amazing! From the moment we started testing them, I noticed a significant improvement in quality, productivity, efficiency in packing our highly valuable parts with Benz VCI bags. What truly sets Benz VCI Bags apart is its user-friendly packaging, reliability, versatility. It's evident that your team has put immense thought and effort into crafting a product that exceeds expectations."
+      para: "We couldn't resist sharing our experience for BENZ VCI bags, It’s nothing short of amazing! From the moment we started testing them, I noticed a significant improvement in quality, productivity, efficiency in packing our highly valuable parts with BENZ VCI bags. What truly sets BENZ VCI Bags apart is its user-friendly packaging, reliability, versatility. It's evident that your team has put immense thought and effort into crafting a product that exceeds expectations."
     },
     {
       logo: siemens,

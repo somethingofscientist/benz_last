@@ -31,7 +31,7 @@ const Descicannt = () => {
             number: "2",
             heading: "Propatech VCI emitter",
             image: engine,
-            image_text: "Benz Packaging is proud to introduce our Propatech VCI Emitter, an advanced solution designed to provide superior corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
+            image_text: "BENZ Packaging is proud to introduce our Propatech VCI Emitter, an advanced solution designed to provide superior corrosion protection for a wide range of products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your valuable goods from the damaging effects of corrosion.",
             image_text2: "Our Propatech VCI Emitter utilizes Volatile Corrosion Inhibitor (VCI) technology to create a protective atmosphere that inhibits the formation of corrosion on your products. These emitters release VCI molecules in a controlled and continuous manner, ensuring efficient and long-lasting corrosion protection."
         },
 

@@ -29,7 +29,7 @@ const Descicannt = () => {
 
             greenProduct: "Green Product",
             image: paper_void,
-            image_text: "Benz Packaging is committed to providing efficient and sustainable packaging solutions, and our Paper Void Fill is a prime example. Designed to fill empty spaces within your packages, our Paper Void Fill ensures optimal protection for your products during shipping and handling.",
+            image_text: "BENZ Packaging is committed to providing efficient and sustainable packaging solutions, and our Paper Void Fill is a prime example. Designed to fill empty spaces within your packages, our Paper Void Fill ensures optimal protection for your products during shipping and handling.",
             image_text2: "Our Paper Void Fill is made from high-quality paper materials that are both lightweight and flexible. They are specifically designed to fill voids and gaps in your packages, preventing movement and minimizing the risk of damage caused by impact or shifting during transit."
         },
 
@@ -39,7 +39,7 @@ const Descicannt = () => {
             heading: "Paper Wrapping",
             greenProduct: "Green Product",
             image: paper_wrapping,
-            image_text: "Benz Packaging understands the importance of secure and environmentally friendly packaging solutions, and our Paper Wrapping is designed to meet those needs. Our Paper Wrapping provides a versatile and sustainable way to protect your products during shipping, storage, and handling.",
+            image_text: "BENZ Packaging understands the importance of secure and environmentally friendly packaging solutions, and our Paper Wrapping is designed to meet those needs. Our Paper Wrapping provides a versatile and sustainable way to protect your products during shipping, storage, and handling.",
             image_text2: "Our Paper Wrapping is made from high-quality paper materials that offer strength and durability. It provides a reliable protective layer around your products, safeguarding them from scratches, dust, and minor impacts. Whether you're packaging individual items or bundling multiple products together, our Paper Wrapping ensures secure and efficient protection."
         }
 

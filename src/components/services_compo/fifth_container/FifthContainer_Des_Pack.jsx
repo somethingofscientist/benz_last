@@ -28,7 +28,7 @@ const Descicannt = () => {
 
                     </div>
                     <div className={styles.auto_img_text}>
-                        {t("At Benz Packaging, we understand that certain situations require packaging solutions to be brought directly to your location. That's why we offer on-site packaging services, bringing our expertise, equipment, and materials directly to your facility. Our on-site packaging services are designed to provide you with convenience, efficiency, and professional packaging solutions tailored to your specific needs.")}
+                        {t("At BENZ Packaging, we understand that certain situations require packaging solutions to be brought directly to your location. That's why we offer on-site packaging services, bringing our expertise, equipment, and materials directly to your facility. Our on-site packaging services are designed to provide you with convenience, efficiency, and professional packaging solutions tailored to your specific needs.")}
                         <br /><br />
                         {t("Convenience and Flexibility: With our on-site packaging services, you can eliminate the hassle and logistical challenges of transporting your products to a separate packaging facility. We bring our packaging expertise to you, saving you time, effort, and resources. Whether you have large or bulky items, delicate products, or a high volume of goods, our on-site packaging team is equipped to handle diverse packaging requirements.")}
                     </div>

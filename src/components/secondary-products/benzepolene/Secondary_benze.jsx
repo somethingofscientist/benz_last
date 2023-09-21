@@ -15,13 +15,13 @@ const Secondary_benzepolene = () => {
       number: "1",
       heading: "Woven Tarpaulins",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality woven tarpaulins. Our woven tarpaulins are designed to offer durable and versatile protection for a wide range of outdoor applications. With Benz Packaging, you can trust that your valuable assets and goods will be shielded from the elements and kept secure.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality woven tarpaulins. Our woven tarpaulins are designed to offer durable and versatile protection for a wide range of outdoor applications. With BENZ Packaging, you can trust that your valuable assets and goods will be shielded from the elements and kept secure.",
     },
     {
       number: "2",
       heading: "Cross Laminated Tarpaulin",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your reliable source for high-quality cross laminated tarpaulins. Our cross laminated tarpaulins are engineered to provide superior strength, durability, and protection for heavy-duty applications. Whether you need to cover construction sites, transport goods, or secure outdoor spaces, our tarpaulins offer reliable and long-lasting performance.",
+      content: "Welcome to BENZ Packaging, your reliable source for high-quality cross laminated tarpaulins. Our cross laminated tarpaulins are engineered to provide superior strength, durability, and protection for heavy-duty applications. Whether you need to cover construction sites, transport goods, or secure outdoor spaces, our tarpaulins offer reliable and long-lasting performance.",
     },
   ]
   return (

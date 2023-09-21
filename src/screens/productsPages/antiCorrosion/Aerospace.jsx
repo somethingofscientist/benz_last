@@ -49,54 +49,54 @@ const AntiCorrosion = () => {
             heading: "VCI Film",
             image: [vci_film, vci_film2],
             isSlider: true,
-            content: "Benz Packaging is delighted to introduce our VCI Film, an advanced solution designed to provide exceptional protection against corrosion for your valuable products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your goods from the damaging effects of corrosion.",
+            content: "BENZ Packaging is delighted to introduce our VCI Film, an advanced solution designed to provide exceptional protection against corrosion for your valuable products. With our expertise in packaging technology, we offer a reliable and innovative approach to safeguarding your goods from the damaging effects of corrosion.",
             subProducts: [
                 {
                     image: vci_bio_film,
                     items: "VCI Bio-Film",
-                    item_text: "Benz Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
+                    item_text: "BENZ Packaging - VCI Bio-Film: Environmentally Friendly Corrosion Protection",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_film1,
                     items: "VCI Film",
-                    item_text: "Benz Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
+                    item_text: "BENZ Packaging - VCI Film: Advanced Corrosion Protection for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_stretch_film,
                     items: "VCI Stretch Film",
-                    item_text: "Benz Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
+                    item_text: "BENZ Packaging - VCI Stretch Film: Advanced Corrosion Protection with Stretchability",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_bubble_film,
                     items: "VCI Bubble Film",
-                    item_text: "Benz Packaging - VCI Bubble Film: Comprehensive Corrosion Protection with Bubble Cushioning",
+                    item_text: "BENZ Packaging - VCI Bubble Film: Comprehensive Corrosion Protection with Bubble Cushioning",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_wooven_fabric_film,
                     items: "VCI Woven Fabric Film",
-                    item_text: "Benz Packaging - VCI Woven Fabric Film: Robust Corrosion Protection with Strength and Durability",
+                    item_text: "BENZ Packaging - VCI Woven Fabric Film: Robust Corrosion Protection with Strength and Durability",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_anti_static_film,
                     items: "VCI Anti static Film",
-                    item_text: "Benz Packaging - VCI Anti-static Film: Advanced Corrosion Protection with Electrostatic Discharge Control",
+                    item_text: "BENZ Packaging - VCI Anti-static Film: Advanced Corrosion Protection with Electrostatic Discharge Control",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_shrink,
                     items: "VCI Shrink Film",
-                    item_text: "Benz Packaging - VCI Shrink Film: Superior Corrosion Protection with Secure Wrapping",
+                    item_text: "BENZ Packaging - VCI Shrink Film: Superior Corrosion Protection with Secure Wrapping",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_non_wooven_film,
                     items: "VCI Non-Woven Film",
-                    item_text: "Benz Packaging - VCI Non-Woven Film: Versatile Corrosion Protection with Non-Woven Material",
+                    item_text: "BENZ Packaging - VCI Non-Woven Film: Versatile Corrosion Protection with Non-Woven Material",
                     date: "8 June 2023"
                 },
             ]
@@ -113,31 +113,31 @@ const AntiCorrosion = () => {
                 {
                     image: tape,
                     items: "Laminated Paper",
-                    item_text: "Benz Packaging - Laminated Paper: Enhanced Protection and Versatility for Your Packaging Needs",
+                    item_text: "BENZ Packaging - Laminated Paper: Enhanced Protection and Versatility for Your Packaging Needs",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_plain1,
                     items: "VCI Plain Paper",
-                    item_text: "Benz Packaging - VCI Plain Paper: Reliable Corrosion Protection in a Simple and Versatile Form",
+                    item_text: "BENZ Packaging - VCI Plain Paper: Reliable Corrosion Protection in a Simple and Versatile Form",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "VCI Crepe Paper",
-                    item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Enhanced Conformability",
+                    item_text: "BENZ Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Enhanced Conformability",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_chip,
                     items: "VCI Chips",
-                    item_text: "Benz Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Creped Texture",
+                    item_text: "BENZ Packaging - VCI Crepe Paper: Flexible Corrosion Protection with Creped Texture",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "VCI HD Paper ",
-                    item_text: "Benz Packaging - VCI HD Paper: Heavy-Duty Corrosion Protection for Demanding Applications",
+                    item_text: "BENZ Packaging - VCI HD Paper: Heavy-Duty Corrosion Protection for Demanding Applications",
                     date: "8 June 2023"
                 },
             ]
@@ -153,31 +153,31 @@ const AntiCorrosion = () => {
                 {
                     image: vci_25,
                     items: "VCI 25",
-                    item_text: "Benz Packaging - VCI 25: Long-Lasting Corrosion Protection for Metals",
+                    item_text: "BENZ Packaging - VCI 25: Long-Lasting Corrosion Protection for Metals",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Propatech VCI emitter",
-                    item_text: "Benz Packaging - Propatech VCI Emitter: Advanced Corrosion Protection with Controlled Emission",
+                    item_text: "BENZ Packaging - Propatech VCI Emitter: Advanced Corrosion Protection with Controlled Emission",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_tablet,
                     items: "VCI Tablets",
-                    item_text: "Benz Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
+                    item_text: "BENZ Packaging - VCI Tablets: Convenient Corrosion Protection for Metal Products",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_foam,
                     items: "VCI Foam",
-                    item_text: "Benz Packaging - VCI Foam: Versatile Corrosion Protection with Cushioning Properties",
+                    item_text: "BENZ Packaging - VCI Foam: Versatile Corrosion Protection with Cushioning Properties",
                     date: "8 June 2023"
                 },
                 {
                     image: vci_noxy,
                     items: "VCI Noxy",
-                    item_text: "Benz Packaging - VCI Noxy: Advanced Corrosion Protection for Ferrous and Non-Ferrous Metals",
+                    item_text: "BENZ Packaging - VCI Noxy: Advanced Corrosion Protection for Ferrous and Non-Ferrous Metals",
                     date: "8 June 2023"
                 },
             ]
@@ -188,24 +188,24 @@ const AntiCorrosion = () => {
             heading: "RP Oils",
             image: [oil, rp_oils],
             isSlider: true,
-            content: "Benz Packaging is pleased to introduce our range of RP Oils, high-quality lubricants designed to enhance the performance and lifespan of your machinery and equipment. With our expertise in packaging technology, we offer reliable and innovative solutions to meet your lubrication needs.",
+            content: "BENZ Packaging is pleased to introduce our range of RP Oils, high-quality lubricants designed to enhance the performance and lifespan of your machinery and equipment. With our expertise in packaging technology, we offer reliable and innovative solutions to meet your lubrication needs.",
             subProducts: [
                 {
                     image: tape,
                     items: "Short Term",
-                    item_text: "Benz Packaging - RP Oils Short Term- Temporary Lubrication for Various Applications",
+                    item_text: "BENZ Packaging - RP Oils Short Term- Temporary Lubrication for Various Applications",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Medium Term",
-                    item_text: "Benz Packaging - RP Oils Medium Term- Reliable Lubrication for Intermediate Durations",
+                    item_text: "BENZ Packaging - RP Oils Medium Term- Reliable Lubrication for Intermediate Durations",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Long Term",
-                    item_text: "Benz Packaging - RP Oils Long Term- Extended Protection for Long-Term Lubrication",
+                    item_text: "BENZ Packaging - RP Oils Long Term- Extended Protection for Long-Term Lubrication",
                     date: "8 June 2023"
                 }
             ]
@@ -221,13 +221,13 @@ const AntiCorrosion = () => {
                 {
                     image: tape,
                     items: "Acidic",
-                    item_text: "Benz Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
+                    item_text: "BENZ Packaging - Acidic Rust Removers: Powerful Solutions for Stubborn Rust Removal",
                     date: "8 June 2023"
                 },
                 {
                     image: neutralacid,
                     items: "Neutral",
-                    item_text: "Benz Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
+                    item_text: "BENZ Packaging - Neutral Rust Removers: Safe and Effective Solutions for Rust Removal",
                     date: "8 June 2023"
                 },
             ]

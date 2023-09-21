@@ -15,19 +15,19 @@ const Mono_Layer = () => {
       number: "1",
       heading: "LDPE Pouches",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of LDPE pouches for flexible and durable packaging solutions. Our LDPE (Low-Density Polyethylene) pouches offer a versatile packaging option that combines flexibility, durability, and excellent product protection. With their wide range of applications and reliability, our LDPE pouches are an ideal choice for various industries.",
+      content: "Welcome to BENZ Packaging, your trusted provider of LDPE pouches for flexible and durable packaging solutions. Our LDPE (Low-Density Polyethylene) pouches offer a versatile packaging option that combines flexibility, durability, and excellent product protection. With their wide range of applications and reliability, our LDPE pouches are an ideal choice for various industries.",
     },
     {
       number: "2",
       heading: "PP Pouches",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of PP pouches for reliable and secure packaging solutions. Our PP (Polypropylene) pouches offer a versatile and robust packaging option known for their durability, strength, and excellent product protection. With their wide range of applications and reliability, our PP pouches are an ideal choice for various industries.",
+      content: "Welcome to BENZ Packaging, your trusted provider of PP pouches for reliable and secure packaging solutions. Our PP (Polypropylene) pouches offer a versatile and robust packaging option known for their durability, strength, and excellent product protection. With their wide range of applications and reliability, our PP pouches are an ideal choice for various industries.",
     },
     {
       number: "3",
       heading: "HDPE Pouches",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of HDPE pouches for secure and sustainable packaging solutions. Our HDPE (High-Density Polyethylene) pouches offer a versatile and eco-friendly packaging option known for their strength, durability, and excellent product protection. With their wide range of applications and sustainability benefits, our HDPE pouches are an ideal choice for various industries.",
+      content: "Welcome to BENZ Packaging, your trusted provider of HDPE pouches for secure and sustainable packaging solutions. Our HDPE (High-Density Polyethylene) pouches offer a versatile and eco-friendly packaging option known for their strength, durability, and excellent product protection. With their wide range of applications and sustainability benefits, our HDPE pouches are an ideal choice for various industries.",
     },
   ]
   return (

@@ -15,25 +15,25 @@ const Label_Plastic = () => {
       number: "1",
       heading: "PP Clear Labels",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality PP clear labels. Our PP clear labels are specifically designed to offer transparent and professional branding solutions for your products and packaging. With their exceptional clarity, durability, and customization options, our PP clear labels provide a superior labeling solution to showcase your brand identity.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality PP clear labels. Our PP clear labels are specifically designed to offer transparent and professional branding solutions for your products and packaging. With their exceptional clarity, durability, and customization options, our PP clear labels provide a superior labeling solution to showcase your brand identity.",
     },
     {
       number: "2",
       heading: "Pearls PET Labels",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality pearlescent PET labels. Our pearlescent PET labels are specifically designed to offer elegant and eye-catching branding solutions for your products and packaging. With their unique pearlescent finish, durability, and customization options, our PET labels provide a superior labeling solution that adds a touch of sophistication to your brand.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality pearlescent PET labels. Our pearlescent PET labels are specifically designed to offer elegant and eye-catching branding solutions for your products and packaging. With their unique pearlescent finish, durability, and customization options, our PET labels provide a superior labeling solution that adds a touch of sophistication to your brand.",
     },
     {
       number: "3",
       heading: "PVC Labels",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of high-quality PVC labels. Our PVC labels are specifically designed to offer durable and vibrant branding solutions for your products and packaging. With their exceptional durability, flexibility, and customization options, our PVC labels provide a superior labeling solution that enhances the visual impact of your brand.",
+      content: "Welcome to BENZ Packaging, your trusted provider of high-quality PVC labels. Our PVC labels are specifically designed to offer durable and vibrant branding solutions for your products and packaging. With their exceptional durability, flexibility, and customization options, our PVC labels provide a superior labeling solution that enhances the visual impact of your brand.",
     },
     {
         number: "4",
         heading: "Foil Labels",
         image: vci_film,
-        content: "Welcome to Benz Packaging, your trusted provider of premium foil labels. Our foil labels are specifically designed to offer luxurious and eye-catching branding solutions for your products and packaging. With their exquisite metallic finish, durability, and customization options, our foil labels provide a superior labeling solution that adds a touch of elegance to your brand.",
+        content: "Welcome to BENZ Packaging, your trusted provider of premium foil labels. Our foil labels are specifically designed to offer luxurious and eye-catching branding solutions for your products and packaging. With their exquisite metallic finish, durability, and customization options, our foil labels provide a superior labeling solution that adds a touch of elegance to your brand.",
       },
 
   ]

@@ -35,36 +35,36 @@ const AntiHumidity = () => {
             heading: "Desiccants",
             image: [dessicants, silica_gel1],
             isSlider: true,
-            content: "Welcome to Benz Packaging, your trusted source for high-quality desiccants for packaging. We understand the critical role that moisture control plays in preserving the integrity and extending the shelf life of your products. With our comprehensive range of desiccant solutions, we provide effective moisture absorption to safeguard your goods from humidity-related damage. Trust Benz Packaging for reliable desiccant products that ensure optimal product quality and customer satisfaction.",
+            content: "Welcome to BENZ Packaging, your trusted source for high-quality desiccants for packaging. We understand the critical role that moisture control plays in preserving the integrity and extending the shelf life of your products. With our comprehensive range of desiccant solutions, we provide effective moisture absorption to safeguard your goods from humidity-related damage. Trust BENZ Packaging for reliable desiccant products that ensure optimal product quality and customer satisfaction.",
             subProducts: [
                 {
                     image: BEDry,
                     items: "BE-DRY",
-                    item_text: "Introducing BE-Dry by Benz Packaging: Superior Moisture Control for Your Products",
+                    item_text: "Introducing BE-Dry by BENZ Packaging: Superior Moisture Control for Your Products",
                     date: "8 June 2023"
                 },
                 {
                     image: CDry,
                     items: "C-DRY",
-                    item_text: "Introducing Benz Packaging's C-Dry: Advanced Moisture Control for Sensitive Products",
+                    item_text: "Introducing BENZ Packaging's C-Dry: Advanced Moisture Control for Sensitive Products",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Propasec",
-                    item_text: "Introducing Benz Packaging's Propasec: Effective Protection for Your Valuable Products",
+                    item_text: "Introducing BENZ Packaging's Propasec: Effective Protection for Your Valuable Products",
                     date: "8 June 2023"
                 },
                 {
                     image: propadry,
                     items: "Propadry",
-                    item_text: "Introducing Benz Packaging's Propadry: Advanced Moisture Absorption for Optimal Product Preservation",
+                    item_text: "Introducing BENZ Packaging's Propadry: Advanced Moisture Absorption for Optimal Product Preservation",
                     date: "8 June 2023"
                 },
                 {
                     image: silica,
                     items: "Silica Gel",
-                    item_text: "Introducing Benz Packaging's Silica Gel: Reliable Moisture Absorption for Product Protection",
+                    item_text: "Introducing BENZ Packaging's Silica Gel: Reliable Moisture Absorption for Product Protection",
                     date: "8 June 2023"
                 },
 
@@ -76,24 +76,24 @@ const AntiHumidity = () => {
             heading: "Indicators",
             image: [img, tape, dessicants],
             isSlider: true,
-            content: "Benz Packaging is proud to offer a comprehensive range of indicators designed to monitor and safeguard the quality and integrity of your products. Our indicators provide visual cues and reliable data to help you assess environmental conditions, ensuring that your goods are stored and transported under optimal conditions.",
+            content: "BENZ Packaging is proud to offer a comprehensive range of indicators designed to monitor and safeguard the quality and integrity of your products. Our indicators provide visual cues and reliable data to help you assess environmental conditions, ensuring that your goods are stored and transported under optimal conditions.",
             subProducts: [
                 {
                     image: temp_humi2,
                     items: "Temperature & Humidity",
-                    item_text: "Benz Packaging - Temperature & Humidity Monitoring for Product Preservation",
+                    item_text: "BENZ Packaging - Temperature & Humidity Monitoring for Product Preservation",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Shockwatch",
-                    item_text: "Introducing Benz Packaging's Shockwatch: Protecting Your Goods from Impact and Mishandling",
+                    item_text: "Introducing BENZ Packaging's Shockwatch: Protecting Your Goods from Impact and Mishandling",
                     date: "8 June 2023"
                 },
                 {
                     image: tape,
                     items: "Tiltwatch",
-                    item_text: "Introducing Benz Packaging's Tiltwatch: Ensuring Proper Handling of Your Valuable Goods",
+                    item_text: "Introducing BENZ Packaging's Tiltwatch: Ensuring Proper Handling of Your Valuable Goods",
                     date: "8 June 2023"
                 },
             ]
@@ -104,18 +104,18 @@ const AntiHumidity = () => {
             heading: "Vacuum Barrier",
             image: [img, tape],
             isSlider: true,
-            content: "Benz Packaging is delighted to present our state-of-the-art Vacuum Barrier technology, designed to create a protective barrier against oxygen and moisture, ensuring the preservation of freshness and extending the shelf life of your products.",
+            content: "BENZ Packaging is delighted to present our state-of-the-art Vacuum Barrier technology, designed to create a protective barrier against oxygen and moisture, ensuring the preservation of freshness and extending the shelf life of your products.",
             subProducts: [
                 {
                     image: propamatic,
                     items: "Propamatic",
-                    item_text: "Introducing Benz Packaging's Propamatic: Advanced Propellant Technology for Aerosol Packaging",
+                    item_text: "Introducing BENZ Packaging's Propamatic: Advanced Propellant Technology for Aerosol Packaging",
                     date: "8 June 2023"
                 },
                 {
                     image: benzmatic,
                     items: "Benzmatic",
-                    item_text: "Introducing Benz Packaging's Benzmatic: Cutting-Edge Automation for Packaging Efficiency",
+                    item_text: "Introducing BENZ Packaging's Benzmatic: Cutting-Edge Automation for Packaging Efficiency",
                     date: "8 June 2023"
                 }
             ]

@@ -16,8 +16,8 @@ const Descicannt = () => {
             number: "1",
             heading: "Wooden",
             image: woodenBox,
-            image_text: "Benz Packaging proudly presents our range of wooden packaging solutions, designed to offer reliability and sustainability for a variety of packaging needs.",
-            image_text2: "Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At Benz Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries."
+            image_text: "BENZ Packaging proudly presents our range of wooden packaging solutions, designed to offer reliability and sustainability for a variety of packaging needs.",
+            image_text2: "Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At BENZ Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries."
         },
 
         {
@@ -25,8 +25,8 @@ const Descicannt = () => {
             number: "2",
             heading: "Paper",
             image: paper_main,
-            image_text: "Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At Benz Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries.",
-            image_text2: "Our wooden packaging is crafted using high-quality, sustainable wood materials that are sourced responsibly. We prioritize environmentally-friendly practices and ensure that our wood is compliant with global forestry standards. By choosing wooden packaging from Benz Packaging, you can contribute to sustainable packaging solutions."
+            image_text: "Wooden packaging has been a trusted choice for centuries due to its strength, durability, and natural appeal. At BENZ Packaging, we offer a wide selection of wooden packaging options, including wooden crates, pallets, boxes, and more, to cater to the diverse requirements of different industries.",
+            image_text2: "Our wooden packaging is crafted using high-quality, sustainable wood materials that are sourced responsibly. We prioritize environmentally-friendly practices and ensure that our wood is compliant with global forestry standards. By choosing wooden packaging from BENZ Packaging, you can contribute to sustainable packaging solutions."
         },
 
         {

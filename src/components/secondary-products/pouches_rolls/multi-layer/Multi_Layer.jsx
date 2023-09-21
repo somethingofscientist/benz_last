@@ -15,31 +15,31 @@ const Multi_Layer = () => {
       number: "1",
       heading: "Mono Layer Pouches",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of mono layer pouches for simple and efficient packaging solutions. Our mono layer pouches offer a straightforward and practical packaging option known for its simplicity, cost-effectiveness, and convenience. With their versatility and ease of use, our mono layer pouches are an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of mono layer pouches for simple and efficient packaging solutions. Our mono layer pouches offer a straightforward and practical packaging option known for its simplicity, cost-effectiveness, and convenience. With their versatility and ease of use, our mono layer pouches are an ideal choice for various industries and applications.",
     },
     {
       number: "2",
       heading: "Co-Extruded Laminate Pouches",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of co-extruded laminate pouches for enhanced packaging solutions. Our co-extruded laminate pouches offer advanced features and superior performance, ensuring optimal product protection, freshness, and convenience. With their innovative construction and versatile properties, our co-extruded laminate pouches are an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of co-extruded laminate pouches for enhanced packaging solutions. Our co-extruded laminate pouches offer advanced features and superior performance, ensuring optimal product protection, freshness, and convenience. With their innovative construction and versatile properties, our co-extruded laminate pouches are an ideal choice for various industries and applications.",
     },
     {
       number: "3",
       heading: "Foil Laminates",
       image: vci_film,
-      content: "Welcome to Benz Packaging, your trusted provider of foil laminates for premium packaging solutions. Our foil laminates offer a high-quality and visually appealing packaging option known for its excellent barrier properties, durability, and luxurious finish. With their versatility and versatility, our foil laminates are an ideal choice for various industries and applications.",
+      content: "Welcome to BENZ Packaging, your trusted provider of foil laminates for premium packaging solutions. Our foil laminates offer a high-quality and visually appealing packaging option known for its excellent barrier properties, durability, and luxurious finish. With their versatility and versatility, our foil laminates are an ideal choice for various industries and applications.",
     },
     {
         number: "4",
         heading: "Custom Engineered Laminates",
         image: vci_film,
-        content: "Welcome to Benz Packaging, your trusted provider of custom engineered laminates for tailored packaging solutions. Our custom laminates offer a specialized packaging option designed to meet your specific requirements, ensuring optimal product protection, functionality, and visual appeal. With our expertise in laminate engineering, we can create unique solutions that address your unique packaging challenges.",
+        content: "Welcome to BENZ Packaging, your trusted provider of custom engineered laminates for tailored packaging solutions. Our custom laminates offer a specialized packaging option designed to meet your specific requirements, ensuring optimal product protection, functionality, and visual appeal. With our expertise in laminate engineering, we can create unique solutions that address your unique packaging challenges.",
       },
       {
         number: "5",
         heading: "Adhesive Laminate Pouches",
         image: vci_film,
-        content: "Welcome to Benz Packaging, your trusted provider of adhesive laminate pouches for secure and convenient packaging solutions. Our adhesive laminate pouches combine the benefits of laminate materials with the convenience of adhesive closures, offering a reliable and user-friendly packaging option for various industries and applications.",
+        content: "Welcome to BENZ Packaging, your trusted provider of adhesive laminate pouches for secure and convenient packaging solutions. Our adhesive laminate pouches combine the benefits of laminate materials with the convenience of adhesive closures, offering a reliable and user-friendly packaging option for various industries and applications.",
       },
   ]
   return (

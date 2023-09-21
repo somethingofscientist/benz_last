@@ -32,7 +32,7 @@ const Mili = () => {
                         </Link>
                     </div>
                     <div className={styles.auto_img_text}>
-                        {t("Benz Packaging plays a vital role in protecting and securing sensitive military equipment, weaponry, and supplies. These solutions are engineered to withstand extreme conditions, ensure confidentiality, and provide tailored protection. By combining durability, security, logistical efficiency, and sustainability, Benz Packaging contributes to the effective and safe deployment of military assets.")}
+                        {t("BENZ Packaging plays a vital role in protecting and securing sensitive military equipment, weaponry, and supplies. These solutions are engineered to withstand extreme conditions, ensure confidentiality, and provide tailored protection. By combining durability, security, logistical efficiency, and sustainability, BENZ Packaging contributes to the effective and safe deployment of military assets.")}
                         <Link to="/contact_page"
                             style={{ textDecoration: "none", color: "white" }}>
                             <div className={styles.auto_pack2}>
