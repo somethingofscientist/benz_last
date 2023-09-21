@@ -138,7 +138,7 @@ const CareerPage = () => {
                             <input
                                 type="text"
                                 id="firstName"
-                                pattern="^[A-Za-z]+$"
+                                // pattern="^[A-Za-z]+$"
                                 title="Please enter a valid first name"
                                 placeholder="Applicant's First Name"
                                 value={formData.firstName}
@@ -152,7 +152,7 @@ const CareerPage = () => {
                                 type="text"
                                 id="lastName"
                                 placeholder="Applicant's Last Name"
-                                pattern="^[A-Za-z]+$"
+                                // pattern="^[A-Za-z]+$"
                                 title="Please enter a valid last name"
                                 value={formData.lastName}
                                 onChange={handleInputChange}
