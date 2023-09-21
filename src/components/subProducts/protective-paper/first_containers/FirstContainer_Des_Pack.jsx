@@ -5,6 +5,11 @@ import engine from '../../../images/engine.svg'
 import { useTranslation } from 'react-i18next';
 import greenProLogo from '../../../images/new_images_client/AboutPage/green/Green Product Mark.jpeg'
 
+
+import void_fill_paper from '../../../../Benz Pictures/Paper Cushioning/1..jpg'
+import propaflex from '../../../../Benz Pictures/Propaflex/3 (9).jpg'
+
+
 const Descicannt = () => {
 
     const { t, i18n } = useTranslation();
@@ -15,7 +20,7 @@ const Descicannt = () => {
             number: "1",
             greenProduct: "Green Product",
             heading: "Void Fill Paper Packaging",
-            image: engine,
+            image: void_fill_paper,
             image_text: "BENZ Packaging is proud to introduce our Void Fill Paper Packaging, an efficient and sustainable solution for filling empty spaces and protecting your products during shipping and storage.",
             image_text2: "Our Void Fill Paper Packaging is specifically designed to fill voids and provide cushioning inside boxes and packages, ensuring that your items remain secure and protected throughout the transit process. The paper packaging effectively absorbs shocks and vibrations, reducing the risk of damage or breakage."
         },
@@ -79,7 +84,7 @@ const Descicannt = () => {
             id: "section8",
             number: "8",
             heading: "Propaflex",
-            image: engine,
+            image: propaflex,
             image_text: "BENZ Packaging is pleased to introduce Propaflex, our innovative and versatile packaging solution designed to provide flexibility and optimal protection for your valuable goods.",
             image_text2: "Propaflex is a high-quality packaging material made from a combination of durable polymers, offering exceptional strength and flexibility. Its unique composition allows it to conform to the shape of your products, providing a snug and secure fit during transportation and storage."
         },

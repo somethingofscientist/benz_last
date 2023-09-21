@@ -84,7 +84,7 @@ const Descicannt = () => {
             id: "section8",
             number: "8",
             heading: "Garbage Bags",
-            image: garbage_bags,
+            image: engine,
             image_text: "BENZ Packaging offers a wide selection of LDPE (Low-Density Polyethylene) garbage bags designed to simplify your waste disposal needs. Our LDPE garbage bags are crafted with quality materials and practical features to ensure durability, reliability, and convenience.",
             image_text2: "Exceptional Strength and Durability: Our LDPE garbage bags are constructed with high-quality LDPE materials, which provide excellent strength and durability. This ensures that the bags can withstand heavy loads, resist tearing and punctures, and effectively contain waste without leakage or spills."
         },

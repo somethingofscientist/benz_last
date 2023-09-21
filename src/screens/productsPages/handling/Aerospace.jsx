@@ -18,6 +18,15 @@ import air_void_fill from '../../../components/images/air_void_fill.jpg'
 import air_cushion_bubble from '../../../components/images/air_cushion_bubble.jpg'
 
 import protectivePaperroll from '../../../components/images/bags_roll_sheets.jpeg'
+import EPE_foam from '../../../Benz Pictures/Foam/hard-epe-foam-corner-1514540749-3542017 (1).jpeg'
+import EVA_foam from '../../../Benz Pictures/Foam/4.jpg'
+import Foam from '../../../Benz Pictures/Foam/Foams.jpg'
+import plastic_mailer from '../../../Benz Pictures/Paper system/Mailers Palstic.jpeg'
+import paper_bag from '../../../Benz Pictures/Paper system/Paper Bag.jpeg'
+import custom_printed from '../../../Benz Pictures/Paper system/Paper Bag 2.jpeg'
+import void_fill_paper from '../../../Benz Pictures/Paper Cushioning/1..jpg'
+import propaflex from '../../../Benz Pictures/Propaflex/3 (9).jpg'
+// import surface_protection_paper from
 
 
 const Handling = () => {
@@ -86,7 +95,7 @@ const Handling = () => {
             number: "3",
             page_link: "/foam-systems",
             heading: "Foam Systems",
-            image: engine,
+            image: Foam,
             isSlider: true,
             content: "BENZ Packaging is pleased to introduce our Foam Systems, a state-of-the-art packaging solution designed to provide advanced protection for your valuable and delicate products. Our Foam Systems combine innovative foam materials with customizable packaging designs to ensure that your items are safeguarded during shipping, storage, and handling.",
             subProducts: [
@@ -97,13 +106,13 @@ const Handling = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: EPE_foam,
                     items: "EPE Foam",
                     item_text: "BENZ Packaging - EPE Foam: Versatile Protection for Your Products",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: EVA_foam,
                     items: "EVA Foam",
                     item_text: "BENZ Packaging - EVA Foam: Superior Protection for Your Products",
                     date: "8 June 2023"
@@ -120,30 +129,30 @@ const Handling = () => {
             number: "4",
             page_link: "/mailer-systems",
             heading: "Mailer Systems",
-            image: engine,
+            image: plastic_mailer,
             isSlider: true,
             content: "BENZ Packaging is pleased to introduce our Mailer Systems, a range of packaging solutions designed to provide secure and convenient shipping for your products.",
             subProducts: [
                 {
-                    image: tape,
+                    image: plastic_mailer,
                     items: "Plastic Mailers",
                     item_text: "BENZ Packaging - Plastic Mailers: Reliable Shipping Solutions for Your Products",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: paperSystem,
                     items: "Paper Mailer",
                     item_text: "BENZ Packaging - Paper Mailer: Sustainable Shipping Solutions for Your Products",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: custom_printed,
                     items: "Custom Printed Mailers",
                     item_text: "BENZ Packaging - Custom Printed Mailers: Enhance Your Branding and Secure Shipping Solutions",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: paper_bag,
                     items: "Paper Bags",
                     item_text: "BENZ Packaging - Paper Bags: Sustainable and Versatile Packaging Solution",
                     date: "8 June 2023"
@@ -165,7 +174,7 @@ const Handling = () => {
             content: "BENZ Packaging is pleased to offer Protective Paper Rolls & Sheets, a trusted solution for providing reliable cushioning and protection to your valuable products during storage and transportation.",
             subProducts: [
                 {
-                    image: tape,
+                    image: void_fill_paper,
                     items: "Void Fill Paper Packaging",
                     item_text: "BENZ Packaging - Void Fill Paper Packaging: Efficient and Sustainable Solution for Fillers",
                     date: "8 June 2023"
@@ -207,7 +216,7 @@ const Handling = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: propaflex,
                     items: "Propaflex",
                     item_text: "BENZ Packaging - Propaflex: Flexible and Protective Packaging Solution",
                     date: "8 June 2023"

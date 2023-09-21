@@ -3,6 +3,9 @@ import styles from './Descicannt.module.css'
 import { Routes, Route } from "react-router-dom";
 import engine from '../../../images/engine.svg'
 import { useTranslation } from 'react-i18next';
+import EPE_foam from '../../../../Benz Pictures/Foam/hard-epe-foam-corner-1514540749-3542017 (1).jpeg'
+import EVA_foam from '../../../../Benz Pictures/Foam/4.jpg'
+
 
 const Descicannt = () => {
     
@@ -22,7 +25,7 @@ const Descicannt = () => {
             id: "section2",
             number: "2",
             heading: "EPE Foam",
-            image: engine,
+            image: EPE_foam,
             image_text:"BENZ Packaging is pleased to offer our EPE Foam, a versatile packaging solution designed to provide excellent protection for your products during transit, storage, and handling.",
             image_text2: "EPE Foam, also known as Expanded Polyethylene Foam, is a lightweight and flexible material that offers exceptional cushioning and shock absorption properties. It is made up of numerous closed-cell structures that provide resilience and energy absorption, ensuring that your products are well-protected from impacts and vibrations."
         },
@@ -31,7 +34,7 @@ const Descicannt = () => {
             id: "section3",
             number: "3",
             heading: "EVA Foam",
-            image: engine,
+            image: EVA_foam,
             image_text: "BENZ Packaging is delighted to introduce our EVA Foam, a high-quality packaging solution designed to provide superior protection for your valuable products during shipping, handling, and storage.",
             image_text2:"EVA Foam, short for Ethylene-Vinyl Acetate Foam, is a lightweight and durable material known for its excellent cushioning and shock-absorbing properties. It is widely recognized for its versatility and versatility in various industries, including packaging."
         },

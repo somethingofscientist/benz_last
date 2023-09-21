@@ -12,6 +12,16 @@ import ProductHeading from '../heading/Heading';
 import routestyle from './Routing.module.css'
 
 
+import box from '../../../Benz Pictures/Boxes/bigstock-Wooden-Boxes-In-The-Warehouse--382119800.jpg'
+import paper_main from '../../../components/images/paper_main.jpeg'
+import ldpe from '../../../Benz Pictures/LDPE Bags.jpg'
+import bag from '../../../components/images/new_images_client/OneDrive-2023-09-20/Bags on roll.jpeg'
+import zip_lock1 from '../../../components/images/zip_lock1.jpg'
+import stretchfilms from '../../../components/images/stretchfilms.jpeg'
+import anti_static from '../../../components/images/esd_bags.jpg'
+import tapes from '../../../components/images/main_tapes3.jpg' 
+import labels from '../../../Benz Pictures/labels/Label 5.png' 
+
 const TraditionalPackaging = () => {
 
     const { t, i18n } = useTranslation();
@@ -22,18 +32,18 @@ const TraditionalPackaging = () => {
             number: "1",
             page_link: "/boxes",
             heading: "Boxes",
-            image: engine,
+            image: box,
             isSlider: true,
             content: "BENZ Packaging is delighted to offer a wide range of boxes to meet your packaging needs. Our boxes are designed to provide secure and reliable packaging solutions for various industries and applications.",
             subProducts: [
                 {
-                    image: tape,
+                    image: woodenBox,
                     items: "Wooden",
                     item_text: "BENZ Packaging - Wooden Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: paper_main,
                     items: "Paper",
                     item_text: "BENZ Packaging - Paper Packaging: Reliable and Sustainable Solutions",
                     date: "8 June 2023"
@@ -84,12 +94,12 @@ const TraditionalPackaging = () => {
             number: "3",
             page_link: "/ldpe",
             heading: "LDPE",
-            image: engine,
+            image: ldpe,
             isSlider: true,
             content: "BENZ Packaging offers LDPE (Low-Density Polyethylene) packaging solutions that provide flexibility and versatility for a wide range of packaging needs.",
             subProducts: [
                 {
-                    image: tape,
+                    image: bag,
                     items: "Bags, Rolls & Sheets",
                     item_text: "BENZ Packaging - LDPE Bags, Rolls & Sheets: Flexible and Reliable Packaging Solutions",
                     date: "8 June 2023"
@@ -107,13 +117,13 @@ const TraditionalPackaging = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: zip_lock1,
                     items: "Zip Lock Bags",
                     item_text: "BENZ Packaging - LDPE Zip Lock Bags: Secure and Convenient Storage Solutions",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: stretchfilms,
                     items: "Stretch Films",
                     item_text: "BENZ Packaging - LDPE Stretch Films: Reliable Protection and Secure Bundling",
                     date: "8 June 2023"
@@ -125,7 +135,7 @@ const TraditionalPackaging = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: anti_static,
                     items: "Anti Static ESD Bags",
                     item_text: "BENZ Packaging - LDPE Anti-Static ESD Bags: Protecting Your Electronics with Confidence",
                     date: "8 June 2023"
@@ -165,13 +175,13 @@ const TraditionalPackaging = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: labels,
                     items: "Labels",
                     item_text: "BENZ Packaging - Labels: Enhancing Product Identification and Branding",
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: tapes,
                     items: "Tapes",
                     item_text: "BENZ Packaging - Tapes: Secure and Reliable Packaging Solutions",
                     date: "8 June 2023"

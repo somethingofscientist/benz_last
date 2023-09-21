@@ -11,6 +11,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
+import labels from '../../../../Benz Pictures/labels/Label 5.png'
+
 const Descicannt = () => {
     
     const { t, i18n } = useTranslation();
@@ -46,7 +48,7 @@ const Descicannt = () => {
             id: "section4",
             number: "4",
             heading: "Labels",
-            image: engine,
+            image: labels,
             image_text: "Introducing BENZ Packaging's high-quality labels, the perfect solution to effectively communicate important information, enhance product identification, and reinforce your brand image. Our labels are designed with precision and attention to detail, ensuring clear and reliable messaging on a wide range of products.",
             image_text2: "Clear Communication: Our labels are designed to provide clear and concise communication to consumers. Whether it's product information, usage instructions, warnings, or branding elements, our labels are crafted to effectively convey the intended message. We offer a variety of label sizes, shapes, and materials to accommodate different packaging requirements."
         },
