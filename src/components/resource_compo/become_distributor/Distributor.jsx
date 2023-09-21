@@ -15,10 +15,12 @@ import Modal from '@mui/material/Modal';
 import Select from 'react-select';
 import { TextField } from '@mui/material';
 import ReactSignatureCanvas from 'react-signature-canvas';
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 const options = [
-    { value: 'Yes', label: 'Yes' },
-    { value: 'No', label: 'No' },
+    { value: true, label: 'Yes' },
+    { value: false, label: 'No' },
 ];
 
 const style = {
@@ -43,10 +45,71 @@ const Distributor = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
-    const handleSubmit = () => {
-        // console.log('hi submit alert')
-        // window.alert("Form Submitted")
-    }
+    const [formData, setFormData] = useState({
+        name: '',
+        companyName: '',
+        address: '',
+        operatingYears: '',
+        investment: '',
+        hasVehicle: '',
+        phone: '',
+        bankName: '',
+        operatingYearsBank: '',
+        area: '',
+        officerName: '',
+        position: '',
+        // signature: '123',
+    });
+    console.log("form", formData);
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSelectChange = (selectedOption) => {
+        setFormData({ ...formData, hasVehicle: selectedOption });
+    };
+
+    const handleFileChange = (e) => {
+        setFormData({ ...formData, signature: e.target.files[0] });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            let data = formData
+            const res = await axios.post(`/distributor`, data);
+            if (res.status === 200) {
+                toast.dismiss();
+                toast.success('Form Submitted!', {
+                    position: 'top-center',
+                    autoClose: 1500,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: 'light',
+                });
+                // setEmail('');
+            } else {
+                toast.dismiss();
+                toast.error('Error occurred in the form', {
+                    position: 'top-center',
+                    theme: 'dark',
+                    autoClose: 3000,
+                });
+            }
+        } catch (error) {
+            toast.dismiss();
+            toast.error('Error Occurred', {
+                position: 'top-center',
+                autoClose: 3000,
+                theme: 'dark',
+            });
+        }
+    };
 
     const CloseIcon = () => (
         <span
@@ -118,6 +181,8 @@ const Distributor = () => {
                                                     id="name"
                                                     name="name"
                                                     pattern="^[a-zA-Z]+$"
+                                                    value={formData.firstName}
+                                                    onChange={handleInputChange}
                                                     required
                                                 />
 
@@ -129,6 +194,8 @@ const Distributor = () => {
                                                     id="companyName"
                                                     name="companyName"
                                                     pattern="^[a-zA-Z]+$"
+                                                    value={formData.companyName}
+                                                    onChange={handleInputChange}
                                                     required
                                                 />
 
@@ -140,6 +207,8 @@ const Distributor = () => {
                                                     id="address"
                                                     name="address"
                                                     pattern="^[a-zA-Z]+$"
+                                                    value={formData.address}
+                                                    onChange={handleInputChange}
                                                     required
                                                 />
 
@@ -153,18 +222,21 @@ const Distributor = () => {
                                                     id="operatingYears"
                                                     name="operatingYears"
                                                     required
-                                                    pattern="^[a-zA-Z]+$"
+
+                                                    value={formData.operatingYears}
+                                                    onChange={handleInputChange}
                                                 />
 
                                                 <label htmlFor="investment" className={styles.form_label}>
                                                     How much you want to Invest<span style={{ color: "red" }}>*</span>
                                                 </label>
                                                 <input
-                                                    type="text"
+                                                    type="number"
                                                     id="investment"
                                                     name="investment"
                                                     required
-                                                    pattern="^[a-zA-Z]+$"
+                                                    value={formData.investment}
+                                                    onChange={handleInputChange}
                                                 />
 
                                                 <label htmlFor="hasVehicle" className={styles.form_label}>
@@ -172,7 +244,10 @@ const Distributor = () => {
                                                 </label>
                                                 <Select
                                                     id="hasVehicle"
+                                                    name='hasVehicle'
                                                     options={options}
+                                                    value={formData.hasVehicle}
+                                                    onChange={handleSelectChange}
                                                     styles={{
                                                         control: (baseStyles, state) => ({
                                                             ...baseStyles,
@@ -194,6 +269,8 @@ const Distributor = () => {
                                                     minLength="10"
                                                     maxLength="10"
                                                     pattern="[789][0-9]{9}"
+                                                    value={formData.phone}
+                                                    onChange={handleInputChange}
                                                     required
                                                 />
 
@@ -205,6 +282,8 @@ const Distributor = () => {
                                                     id="bankName"
                                                     name="bankName"
                                                     required
+                                                    value={formData.bankName}
+                                                    onChange={handleInputChange}
                                                     pattern="^[a-zA-Z]+$"
                                                 />
 
@@ -212,10 +291,12 @@ const Distributor = () => {
                                                     How long has the account been operating <span style={{ color: "red" }}>*</span>
                                                 </label>
                                                 <input
-                                                    type="tel"
+                                                    type="number"
                                                     id="operatingYearsBank"
                                                     name="operatingYearsBank"
                                                     pattern="[0-9]"
+                                                    value={formData.operatingYearsBank}
+                                                    onChange={handleInputChange}
                                                     required
                                                 />
 
@@ -229,9 +310,9 @@ const Distributor = () => {
                                                     id="area"
                                                     name="area"
                                                     required
+                                                    value={formData.area}
+                                                    onChange={handleInputChange}
                                                     pattern="^[a-zA-Z]+$"
-                                                // value={data.phone}
-                                                // onChange={handleInputs}
                                                 />
 
                                                 <label htmlFor="officerName" className={styles.form_label}>
@@ -243,8 +324,8 @@ const Distributor = () => {
                                                     name="officerName"
                                                     required
                                                     pattern="^[a-zA-Z]+$"
-                                                // value={data.phone}
-                                                // onChange={handleInputs}
+                                                    value={formData.officerName}
+                                                    onChange={handleInputChange}
                                                 />
 
                                                 <label htmlFor="position" className={styles.form_label}>
@@ -256,47 +337,22 @@ const Distributor = () => {
                                                     name="position"
                                                     required
                                                     pattern="^[a-zA-Z]+$"
-                                                // value={data.phone}
-                                                // onChange={handleInputs}
+                                                    value={formData.position}
+                                                    onChange={handleInputChange}
                                                 />
-
-
-                                                {/* <label htmlFor="position" className={styles.form_label}>
-                                                    Upload File <span style={{ color: "red" }}>*</span>
+                                                {/* <label htmlFor="signature">Upload Signature
                                                     <span style={{ fontWeight: "normal" }}>
                                                         ( .pdf, .doc, .docx)
                                                     </span>
                                                 </label>
                                                 <input
                                                     type="file"
-                                                    id="resume"
-                                                    accept=".pdf, .doc, .docx" // Specify the allowed file types
-                                                    required
+                                                    id="signature"
+                                                    accept=".pdf, .doc, .docx"
+                                                    // required
+                                                    value={formData.signature}
+                                                    onChange={handleFileChange}
                                                 /> */}
-
-                                                {/* <label htmlFor="position" className={styles.form_label}>
-                                                    Upload Signature <span style={{ color: "red" }}>*</span>
-                                                </label>
-                                                <div className={styles.sign}>
-                                                    <ReactSignatureCanvas
-                                                        penColor="blue"
-                                                        canvasProps={{ width: 500, height: 200 }}
-                                                    />
-                                                </div> */}
-
-                                                <div className={styles.form_group}>
-                                                    <label htmlFor="resume">Upload Signature
-                                                        <span style={{ fontWeight: "normal" }}>
-                                                            ( .pdf, .doc, .docx)
-                                                        </span>
-                                                    </label>
-                                                    <input
-                                                        type="file"
-                                                        id="resume"
-                                                        accept=".pdf, .doc, .docx" // Specify the allowed file types
-                                                        required
-                                                    />
-                                                </div>
 
 
                                                 <div

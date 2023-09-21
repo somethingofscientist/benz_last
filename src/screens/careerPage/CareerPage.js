@@ -3,27 +3,64 @@ import SignatureCanvas from 'react-signature-canvas';
 import styles from './CareerPage.module.css';
 import ProductHeading from '../productsPages/heading/Heading';
 import HeadingCareer from '../../components/contactPage/heading_header copy/Heading';
-
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 
 const CareerPage = () => {
-    const signatureCanvasRef = useRef(null);
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        phone: '',
+        address1: '',
+        address2: '',
+    });
 
-    const handleClear = () => {
-        // Clear the signature canvas
-        signatureCanvasRef.current.clear();
+    const handleInputChange = (e) => {
+        const { id, value } = e.target;
+        setFormData({ ...formData, [id]: value });
     };
 
-    const handleSave = () => {
-        // Get the signature data as an image URL
-        const signatureDataURL = signatureCanvasRef.current.toDataURL();
-        // You can now save or process the signatureDataURL as needed
-    };
-
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        alert('Form Submitted')
-    }
+
+        // Create an object to send as the request body
+        const requestData = {
+            firstName: formData.firstName,
+            lastName: formData.lastName,
+            phone: formData.phone,
+            address1: formData.address1,
+            address2: formData.address2,
+        };
+
+        try {
+            // Send a POST request to your backend API
+            const response = await axios.post(`/resume`, requestData);
+
+            if (response.status === 200) {
+                toast.dismiss();
+                toast.success('Form Submitted!', {
+                    position: 'top-center',
+                    autoClose: 1500,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: 'light',
+                });
+            }
+        } catch (error) {
+            toast.dismiss();
+            toast.error('Error occurred in form', {
+                position: 'top-center',
+                theme: 'dark',
+                autoClose: 3000,
+            });
+        }
+    };
+
+
 
 
     return (
@@ -104,6 +141,8 @@ const CareerPage = () => {
                                 pattern="^[A-Za-z]+$"
                                 title="Please enter a valid first name"
                                 placeholder="Applicant's First Name"
+                                value={formData.firstName}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
@@ -115,6 +154,8 @@ const CareerPage = () => {
                                 placeholder="Applicant's Last Name"
                                 pattern="^[A-Za-z]+$"
                                 title="Please enter a valid last name"
+                                value={formData.lastName}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
@@ -127,6 +168,8 @@ const CareerPage = () => {
                                 title="Please enter a valid phone number"
                                 minLength={10}
                                 maxLength={10}
+                                value={formData.phone}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
@@ -137,6 +180,8 @@ const CareerPage = () => {
                                 type="text"
                                 id="address1"
                                 placeholder="Address Line 1"
+                                value={formData.address1}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
@@ -146,6 +191,8 @@ const CareerPage = () => {
                                 type="text"
                                 id="address2"
                                 placeholder="Address Line 2"
+                                value={formData.address2}
+                                onChange={handleInputChange}
                             />
                         </div>
 
@@ -165,7 +212,9 @@ const CareerPage = () => {
                         </div>
 
 
-                        <button type="submit" className={styles.submit_button}>
+                        <button
+                            type="submit"
+                            className={styles.submit_button}>
                             Submit
                         </button>
                     </form>

@@ -17,6 +17,9 @@ import wrap_air from '../../../components/images/wrap_air.jpg'
 import air_void_fill from '../../../components/images/air_void_fill.jpg'
 import air_cushion_bubble from '../../../components/images/air_cushion_bubble.jpg'
 
+import protectivePaperroll from '../../../components/images/bags_roll_sheets.jpeg'
+
+
 const Handling = () => {
 
     const { t, i18n } = useTranslation();
@@ -55,9 +58,9 @@ const Handling = () => {
             number: "2",
             page_link: "/inflatable-air-systems",
             heading: "Inflatable Air Systems",
-            image: engine,
+            image: air_cushion_bubble,
             isSlider: true,
-            content: "Benz Packaging understands the importance of efficient and reliable packaging solutions, which is why we offer Inflatable Air Systems. Our Inflatable Air Systems provide an innovative and effective way to protect your products during transit and storage.",
+            content: "BENZ Packaging understands the importance of efficient and reliable packaging solutions, which is why we offer Inflatable Air Systems. Our Inflatable Air Systems provide an innovative and effective way to protect your products during transit and storage.",
             subProducts: [
                 {
                     image: air_cushion_bubble,
@@ -157,7 +160,7 @@ const Handling = () => {
             number: "5",
             page_link: "/protective-paper",
             heading: "Protective Paper Rolls & Sheets",
-            image: engine,
+            image: protectivePaperroll,
             isSlider: true,
             content: "Benz Packaging is pleased to offer Protective Paper Rolls & Sheets, a trusted solution for providing reliable cushioning and protection to your valuable products during storage and transportation.",
             subProducts: [
@@ -265,6 +268,9 @@ const Handling = () => {
                                             </div>
                                             <div className={styles.auto_img_text}>
                                                 {t(`${item.content}`)}
+                                                <br />
+                                                <br />
+                                                <br />
                                             </div>
                                         </div>
 
