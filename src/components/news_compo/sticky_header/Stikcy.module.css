@@ -87,7 +87,6 @@
 @media (max-width:420px) {
     .sticky_container {
         top: 70px !important;
-        
-        top: 110px !important;
+        top: 125px !important;
     }
 }

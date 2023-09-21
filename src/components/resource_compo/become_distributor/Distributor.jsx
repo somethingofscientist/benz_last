@@ -79,7 +79,7 @@ const Distributor = () => {
         e.preventDefault();
         try {
             let data = formData
-            const res = await axios.post("/distributor", data);
+            const res = await axios.post("http://localhost:9000/distributor", data);
             if (res.status === 200) {
                 toast.dismiss();
                 toast.success('Form Submitted!', {

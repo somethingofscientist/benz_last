@@ -120,8 +120,7 @@
 @media (max-width:420px) {
     .sticky_container {
         top: 160px !important;
-        
-        top: 110px !important;
+        top: 125px !important;
         width: 75%;
         /* border: 1px solid lime; */
     }
