@@ -263,7 +263,7 @@ const CareerPage = () => {
                 type="file"
                 id="resume"
                 name="resume"
-                accept=".pdf, .doc, .docx" // Specify the allowed file types
+                accept=".pdf, .doc, .docx" 
                 required
                 onChange={handleChange}
               />
