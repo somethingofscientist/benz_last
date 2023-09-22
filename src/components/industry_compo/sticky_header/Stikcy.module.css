@@ -8,7 +8,7 @@
     top: 0px;
     position: -webkit-sticky;
     position: sticky;
-    top: 100px !important;
+    /* top: 100px !important; */
     background-color: white;
     /* border: 2px solid pink; */
 }

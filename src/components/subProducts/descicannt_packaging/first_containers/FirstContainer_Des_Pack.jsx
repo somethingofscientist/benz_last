@@ -17,6 +17,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { useTranslation } from 'react-i18next';
 
+import propasec from '../../../../Benz Pictures/Propasec/Propaec-2.jpg'
 
 const Descicannt = () => {
     const { t, i18n } = useTranslation();
@@ -45,7 +46,7 @@ const Descicannt = () => {
             id: "section3",
             number: "3",
             heading: "Propasec",
-            image: engine,
+            image: propasec,
             image_text: "In the global marketplace, where goods travel long distances, temperature and moisture fluctuations pose threats to product quality. BENZ Packaging in collaboration with Propagroup offers innovative solutions to combat these challenges. The flagship PROPASEC desiccant bags effectively reduce humidity within packaging, preventing dew point issues with their superior moisture absorption. This ensures product quality preservation during transportation and extended storage. We prioritize sustainability and user safety, using natural materials and rigorous quality standards. Choose from various PROPASEC formats, all meeting FDA standards for excellence.",
             image_text2: "When it comes to industries such as electronics, pharmaceuticals, aerospace, and food, preserving product integrity is of utmost importance. Exposure to moisture and oxygen can lead to oxidation, degradation, and compromised quality. Recognizing these challenges, Benz Packaging has developed Propasec, a cutting-edge solution to ensure your products remain in optimal condition."
         },

@@ -22,6 +22,8 @@ import CDry from '../../../components/images/CDry.jpg'
 import propadry from '../../../components/images/propadry.jpg'
 import silica from '../../../components/images/silica.jpg'
 import temp_humi2 from '../../../components/images/temp_humi2.jpg'
+import propasec from '../../../Benz Pictures/Propasec/Propaec-2.jpg'
+import vacuumBarrier from '../../../Benz Pictures/Vaccum Barrier Film/1 (6).jpg'
 
 const AntiHumidity = () => {
     const { t, i18n } = useTranslation();
@@ -50,7 +52,7 @@ const AntiHumidity = () => {
                     date: "8 June 2023"
                 },
                 {
-                    image: tape,
+                    image: propasec,
                     items: "Propasec",
                     item_text: "Introducing BENZ Packaging's Propasec: Effective Protection for Your Valuable Products",
                     date: "8 June 2023"
@@ -102,7 +104,7 @@ const AntiHumidity = () => {
             number: "3",
             page_link: "/vacuum",
             heading: "Vacuum Barrier",
-            image: [img, tape],
+            image: [vacuumBarrier],
             isSlider: true,
             content: "BENZ Packaging is delighted to present our state-of-the-art Vacuum Barrier technology, designed to create a protective barrier against oxygen and moisture, ensuring the preservation of freshness and extending the shelf life of your products.",
             subProducts: [

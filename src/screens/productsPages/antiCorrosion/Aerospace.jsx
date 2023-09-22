@@ -4,11 +4,11 @@ import engine from '../../../components/images/engine.svg';
 import Slider from '../../../components/product_compo/horizontal_slider/Slider';
 import { Link } from 'react-router-dom';
 import tape from '../../../components/images/tape.svg'
-import rp_oils from '../../../components/images/rp_oils.jpeg'
 import vci_film from '../../../components/images/film_sheet1.jpeg'
 import vci_film2 from '../../../components/images/vci_film2.JPG'
 import vci_Paper from '../../../components/images/VCI_Paper.jpg'
-import oil from '../../../components/images/motor_oil.jpeg'
+import rp_oils from '../../../Benz Pictures/Rust Prevention Oil/BENZ Cleaning Solution 1 (1).jpg'
+import oil from '../../../Benz Pictures/Rust Prevention Oil/BENZ Cleaning Solution 2 (2).jpg'
 import vci_emitter1 from '../../../components/images/vci_emitter1.jpeg'
 import vci_emitter2 from '../../../components/images/vci_emitter2.jpeg'
 import vci_emitter3 from '../../../components/images/vci_emitter3.jpeg'
@@ -35,6 +35,12 @@ import neutralacid from '../../../components/images/neutralacid.jpg'
 import vci_shrink from '../../../components/images/new_images_client/VCI Film/VCI Shrink/shrink.jpg'
 import vci_bio_film from '../../../components/images/new_images_client/VCI Film/VCI Biopez/IMG_9098.jpg'
 import vci_25 from '../../../components/images/new_images_client/VCI Film/VCI Emitters/VCI 25.jpg'
+
+
+import rustRemovers1 from '../../../Benz Pictures/Rust remover oil/PHOTO-2022-07-18-11-13-57.jpg'
+import rustRemovers2 from '../../../Benz Pictures/Rust remover oil/PHOTO-2022-07-18-15-17-40.jpg'
+import rustRemovers3 from '../../../Benz Pictures/Rust remover oil/PHOTO-2022-07-18-15-22-02.jpg'
+import rustRemovers4 from '../../../Benz Pictures/Rust remover oil/PHOTO-2022-07-18-18-02-15.jpg'
 
 const AntiCorrosion = () => {
 
@@ -214,7 +220,7 @@ const AntiCorrosion = () => {
             number: "5",
             page_link: "/rust-removers",
             heading: "Rust Removers",
-            image: engine,
+            image: [rustRemovers1, rustRemovers2, rustRemovers3, rustRemovers4],
             isSlider: true,
             content: "BENZ Packaging offers a top-tier Rust Removers that effectively eliminates corrosion from metal surfaces. Our rust removers are a powerful and reliable solution for restoring metal parts and equipment. It works by dissolving rust, leaving surfaces clean and corrosion-free. Whether you're dealing with mild surface rust or severe corrosion, our rust remover is up to the task. It's easy to use, making it suitable for various applications. BENZ Packaging's Rust Remover ensures your valuable metal assets remain in optimal condition, free from the damaging effects of rust. Trust us for a comprehensive rust removal solution that delivers exceptional results.",
             subProducts: [

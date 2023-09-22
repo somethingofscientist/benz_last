@@ -55,7 +55,7 @@
 .navbar {
   display: flex;
   width: 100% !important;
-  position: fixed !important;
+  /* position: fixed !important; */
   top: 0;
   justify-content: space-between;
   height: 100px;
@@ -156,6 +156,7 @@ a {
     align-items: center;
     height: auto;
     flex-wrap: wrap;
+    position: fixed;
     /* width: 100% !important; */
     /* overflow: hidden; */
     /* background-color: red; */
