@@ -193,7 +193,7 @@ const Work_with_us = () => {
                         <div className={styles.top_mobile_img}>
                             <img src={top1} alt="" />
                         </div>
-                        <Link to="/contact_page">
+                        <Link to="/career">
                             <div className={styles.join}>
                                 {t("Join Our Team")}
                             </div>

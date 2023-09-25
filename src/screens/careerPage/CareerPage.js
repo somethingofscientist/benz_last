@@ -13,18 +13,15 @@ const CareerPage = () => {
     phone: "",
     address1: "",
     address2: "",
-    resume: "",
   });
-  const priority = [
-    { value: "Low", label: "Low" },
-    { value: "Medium", label: "Medium" },
-    { value: "High", label: "High" },
-  ];
-  const { firstName, lastName, phone, address1, address2, resume } = Values;
+  const [resumePDF, setResumePDF] = useState("")
+
+  const { firstName, lastName, phone, address1, address2, file } = Values;
 
   const handleChange = async (e) => {
     if (e.target.name === "resume") {
-      setValues({ ...Values, resume: e.target.files[0] });
+      // setValues({ ...Values, file: e.target.files[0] });
+      setResumePDF(e.target.files[0])
       return;
     } else {
       setValues({ ...Values, [e.target.name]: e.target.value });
@@ -32,19 +29,6 @@ const CareerPage = () => {
   };
 
   console.log("values", Values);
-
-  //   const [formData, setFormData] = useState({
-  //     firstName: "",
-  //     lastName: "",
-  //     phone: "",
-  //     address1: "",
-  //     address2: "",
-  //   });
-
-  //   const handleInputChange = (e) => {
-  //     const { id, value } = e.target;
-  //     setFormData({ ...formData, [id]: value });
-  //   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -55,23 +39,16 @@ const CareerPage = () => {
     formData.append("phone", phone);
     formData.append("address1", address1);
     formData.append("address2", address2);
-    formData.append("file", resume);
+    formData.append("file", resumePDF);
 
-    // Create an object to send as the request body
-    // const requestData = {
-    //   firstName: formData.firstName,
-    //   lastName: formData.lastName,
-    //   phone: formData.phone,
-    //   address1: formData.address1,
-    //   address2: formData.address2,
-    // };
+    let data = formData
 
     try {
-      // Send a POST request to your backend API
-      const response = await axios.post("http://localhost:9000/resume", {
-        data: formData,
-      });
-      // const response = await axios.post("/resume", requestData);
+      const response = await axios.post("http://localhost:9000/resume",
+        data,
+        {
+          headers: { "Content-Type": "multipart/form-data", },
+        });
       // const response = await axios.post("https://backend-benz.vercel.app/resume", requestData);
 
       if (response.status === 200) {
@@ -263,7 +240,7 @@ const CareerPage = () => {
                 type="file"
                 id="resume"
                 name="resume"
-                accept=".pdf, .doc, .docx" 
+                accept=".pdf, .doc, .docx" // Specify the allowed file types
                 required
                 onChange={handleChange}
               />

@@ -21,6 +21,7 @@
 
 .product_image_container {
     margin: auto;
+    width: 80%;
     width: 50%;
     height: 60vh;
     display: flex;
@@ -28,6 +29,7 @@
     align-items: center;
     color: grey;
     /* border: 6px solid lime; */
+    /* border: 2px solid lime; */
 }
 
 .award_img {
@@ -105,6 +107,7 @@
 @media (max-width:937px) {
     .product_image_container {
         width: 90%;
+        /* display: none; */
     }
 
     .award_img {

@@ -15,7 +15,7 @@ const Environment = () => {
                     <div className={styles.about_compo_heading}>
                         {t("Environmental Responsibilities")}
                     </div>
-                    <Slide direction='right'>
+                    <Slide direction='left'>
                         <div className={styles.para1}>
                             {t("Our packaging website is committed to promoting sustainable practices and reducing the environmental impact of packaging materials.")}
                         </div>
@@ -30,7 +30,7 @@ const Environment = () => {
                             {t("We strive to offer eco-friendly packaging solutions, minimize waste generation, and educate our customers on responsible packaging practices.")}
                         </div>
                     </Slide>
-                    <Slide direction='right'>
+                    <Slide direction='left'>
                         <div className={styles.para1}>
                             {t("We strive to offer eco-friendly packaging solutions, minimize waste generation, and educate our customers on responsible packaging practices.")}
                         </div>

@@ -181,6 +181,10 @@
 }
 
 @media (max-width:420px) {
+    .d_left_heading {
+        margin-top: 150px;
+        /* background-color: red; */
+    }
     .faq_heading {
         font-size: 35px;
     }
@@ -212,7 +216,15 @@
     .join button{
         text-align: center;
         margin: auto;
-        padding: 10px 20px;
+        padding: 10px 20px !important; 
         color: white !important;
+    }
+    .join {
+        color: white;
+        display: block;
+        text-align: center;
+        width: 100% !important;
+        padding: 20px 60px!important;
+        text-align: center;
     }
 }
