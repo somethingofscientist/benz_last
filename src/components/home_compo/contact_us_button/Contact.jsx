@@ -41,7 +41,7 @@ const Contact = () => {
 
   const handleIconClick = (iconType) => {
     if (iconType === 'whatsapp') {
-      const phoneNumber = '1234567890'; // Replace with your phone number
+      const phoneNumber = '9899144488'; // Replace with your phone number
       window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}`, '_blank');
       // setShowIcons(false);
     }

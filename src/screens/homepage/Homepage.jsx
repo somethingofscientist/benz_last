@@ -25,11 +25,11 @@ const Homepage = () => {
   return (
     <>
       <div className={styles.homepage}>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className={styles.imageContainer}>
           <video
             // className={styles.heroVideo}
@@ -39,7 +39,7 @@ const Homepage = () => {
             autoPlay
             playsInline
             controls={false}
-          ></video> 
+          ></video>
         </div>
         <Global />
         <Why />

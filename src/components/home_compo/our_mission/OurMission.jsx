@@ -144,7 +144,7 @@ const OurMission = () => {
           Our Mission
         </p>
         <div className="headers" id="headers">
-          <h2 id="slide-up-header">Our Missions</h2>
+          <h2 id="slide-up-header">Our Mission</h2>
           <span id="slide-up-span">Our mission is to redefine packaging excellence by delivering sustainable,
             innovative solutions that protect products, empower businesses, and enrich lives, globally.</span>
         </div>
