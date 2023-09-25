@@ -47,11 +47,11 @@ const Sticky_header = () => {
                         {t("Environmental Responsibilities")}
                     </div>
                 </a>
-                <a href="#section5">
+                {/* <a href="#section5">
                     <div className={styles.sticky_link}>
                         {t("Our Team")}
                     </div>
-                </a>
+                </a> */}
                 <a href="#section6">
                     <div className={styles.sticky_link}>
                         {t("Testimonial")}

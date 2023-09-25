@@ -225,7 +225,7 @@ const Navbar = () => {
                   {t("environmental")}
                 </HashLink>
               </li>
-              <li>
+              {/* <li>
                 <HashLink
                   smooth
                   to="/about#section5"
@@ -233,7 +233,7 @@ const Navbar = () => {
                 >
                   {t("our team")}
                 </HashLink>
-              </li>
+              </li> */}
               <li>
                 <HashLink
                   smooth
