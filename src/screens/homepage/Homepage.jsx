@@ -12,6 +12,7 @@ import Navbar from "../../components/home_compo/navbar/Navbar";
 import Contact from "../../components/home_compo/contact_us_button/Contact";
 import styles from "./Homepage.module.css";
 import homepageVideo from "../../components/videos/home2.mp4";
+import compressVideo from "../../components/videos/Untitled.mp4";
 import homepageImage from "../../components/images/home.gif";
 import Company_Marquee from "../../components/home_compo/company_marquee/Company_Marquee";
 
@@ -33,7 +34,7 @@ const Homepage = () => {
         <div className={styles.imageContainer}>
           <video
             // className={styles.heroVideo}
-            src={homepageVideo}
+            src={compressVideo}
             loop
             muted
             autoPlay
