@@ -21,7 +21,7 @@ const About = () => {
       <Working />
       <Award />
       <Environment />
-      <Team />
+      {/* <Team /> */}
       <Testimonials />
     </>
   );
