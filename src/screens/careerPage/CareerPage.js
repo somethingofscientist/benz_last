@@ -13,6 +13,7 @@ const CareerPage = () => {
     phone: "",
     address1: "",
     address2: "",
+    // file: null,
   });
   const [resumePDF, setResumePDF] = useState("")
 
@@ -28,7 +29,6 @@ const CareerPage = () => {
     }
   };
 
-  console.log("values", Values);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -44,12 +44,25 @@ const CareerPage = () => {
     let data = formData
 
     try {
-      const response = await axios.post("http://localhost:9000/resume",
+      const response = await axios.post("/resume",
         data,
         {
           headers: { "Content-Type": "multipart/form-data", },
         });
       // const response = await axios.post("https://backend-benz.vercel.app/resume", requestData);
+
+      if (!firstName || !lastName || !phone || !address1) {
+        toast.dismiss();
+        toast.error("All fields are required ", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        });
+        return;
+      }
 
       if (response.status === 200) {
         toast.dismiss();
@@ -67,6 +80,7 @@ const CareerPage = () => {
     } catch (error) {
       console.log("formdata", formData);
       toast.dismiss();
+      toast.error(error)
       toast.error("Error occurred in form", {
         position: "top-center",
         theme: "dark",
@@ -166,13 +180,13 @@ const CareerPage = () => {
               <input
                 type="text"
                 id="firstName"
-                // pattern="^[A-Za-z]+$"
-                title="Please enter a valid first name"
-                placeholder="Applicant's First Name"
-                value={firstName}
                 name="firstName"
+                value={firstName}
                 onChange={handleChange}
                 required
+                pattern="^\S*$"
+                title="Please enter a valid first name"
+                placeholder="Applicant's First Name"
               />
             </div>
             <div className={styles.form_group}>
@@ -180,13 +194,13 @@ const CareerPage = () => {
               <input
                 type="text"
                 id="lastName"
-                placeholder="Applicant's Last Name"
-                // pattern="^[A-Za-z]+$"
-                title="Please enter a valid last name"
-                value={lastName}
                 name="lastName"
+                value={lastName}
                 onChange={handleChange}
                 required
+                pattern="^\S*$"
+                title="Please enter a valid last name"
+                placeholder="Applicant's Last Name"
               />
             </div>
             <div className={styles.form_group}>

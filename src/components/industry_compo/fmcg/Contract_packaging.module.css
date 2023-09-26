@@ -118,6 +118,14 @@
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
+    .auto_heading {
+        position: relative;
+        display: flex;
+        padding-top: 100px;
+        /* border: 1px solid plum; */
+        /* justify-content: center; */
+        align-items: center;
+    }
     
     .auto_pack{
         display: none;

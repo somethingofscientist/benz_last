@@ -118,6 +118,10 @@
         flex-wrap: wrap;
         /* background-color: red !important; */
     }
+    .auto_heading {
+        padding-top: 20px;
+    }
+    
     
     .auto_pack{
         display: none;
