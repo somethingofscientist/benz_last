@@ -1,6 +1,6 @@
 .working_container {
     /* background-color: red; */
-    padding: 60px 0 0 0;
+    padding: 00px 0 0 0;
 }
 
 .about_compo_heading {
@@ -26,5 +26,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 35px;
+        padding-top: 150px;
     }
 }

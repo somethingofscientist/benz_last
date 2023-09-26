@@ -2,7 +2,7 @@
     /* background-color: palevioletred; */
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     /* position: relative; */
 }
 
@@ -131,5 +131,11 @@
     .auto_img,
     .auto_img_text {
         width: 100%;
+    }
+}
+
+@media (max-width:420px){
+    .auto_heading {
+        padding-top: 120px;
     }
 }

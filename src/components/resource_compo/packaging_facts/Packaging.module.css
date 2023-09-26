@@ -13,7 +13,6 @@
     line-height: 68px;
     /* identical to box height, or 135% */
     letter-spacing: 0.04em;
-    
     padding-top: 60px;
     color: #0081C9;
 }
@@ -35,5 +34,7 @@
 @media (max-width:768px) {
     .fact_heading {
         font-size: 40px;
+        padding-top: 70px;
     }
+    
 }

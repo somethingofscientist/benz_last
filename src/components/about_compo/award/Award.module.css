@@ -1,7 +1,7 @@
 .award_container {
     margin: auto;
     width: 80%;
-    padding: 150px 0 0 0;
+    padding: 60px 0 0 0;
     text-align: center;
 }
 
@@ -88,6 +88,7 @@
     bottom: 50%;
     color: rgba(0, 0, 0, 0.354);
 }
+
 .certificate>.right_arrow {
     position: absolute;
     right: 0 !important;
@@ -95,9 +96,10 @@
     bottom: 50%;
     color: rgba(0, 0, 0, 0.354) !important;
 }
+
 .certificate>.left_arrow :hover,
 .certificate>.right_arrow :hover {
-    color:whitesmoke !important;
+    color: whitesmoke !important;
     background-color: rgba(0, 129, 201, 0.85);
     border-radius: 100%;
 }
@@ -147,6 +149,12 @@
 }
 
 @media (max-width:455px) {
+    .award_container {
+        margin: auto;
+        width: 80%;
+        padding: 150px 0 0 0;
+        text-align: center;
+    }
 
     .route,
     .active_route {

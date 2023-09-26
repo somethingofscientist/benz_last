@@ -1,6 +1,6 @@
 .test_container {
     width: 80%;
-    padding: 160px 0 0 0;
+    padding: 60px 0 0 0;
     margin: auto;
     /* border: 1px solid lime; */
 }
@@ -85,5 +85,9 @@
         margin-bottom: 20px;
         justify-content: center;
         align-items: center;
+    }
+
+    .test_container {
+        padding-top: 160px;
     }
 }
