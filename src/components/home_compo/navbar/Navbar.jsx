@@ -74,6 +74,21 @@ const Navbar = () => {
     // Toggle the search field open or closed
     setIsSearchOpen((prevIsSearchOpen) => !prevIsSearchOpen);
   };
+
+  useEffect(() => {
+    // Disable body scrolling when the menu is open
+    if (burgerOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  
+    return () => {
+      // Re-enable body scrolling when the component unmounts
+      document.body.style.overflow = "auto";
+    };
+  }, [burgerOpen]);
+  
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
     document.addEventListener(

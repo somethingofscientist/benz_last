@@ -23,7 +23,7 @@
     z-index: 99;
     width: 80%;
     /* background-color: red; */
-    padding: 10px 0 10px 0;
+    padding: 10px 0px 10px 10px !important;
     margin: auto;
     display: flex;
     justify-content: flex-start;
