@@ -101,6 +101,9 @@
   }
 
   .headers span{
-    font-size: 12px;
+    /* border: 1px solid pink; */
+    width: 300px;
+    text-align: justify !important;
+    font-size: 20px !important;
   }
 }
