@@ -49,7 +49,7 @@
 
   .imageContainer video {
     /* position: absolute; */
-    /* margin-top: -5px !important; */
+    margin-top: -7px !important;
     object-fit: cover;
   }
 }
