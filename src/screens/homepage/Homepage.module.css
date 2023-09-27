@@ -18,6 +18,12 @@
   object-fit: contain;
 }
 
+.imageContainer video {
+  /* position: absolute; */
+  margin-top: -5px !important;
+  object-fit: cover;
+}
+
 .imageContainer img {
   width: 100%;
   height: 300px;
@@ -37,10 +43,13 @@
     background-size: cover;
     z-index: -99;
     object-fit: cover;
+    /* top: 0; */
     /* border: 2px solid rgb(255, 13, 0); */
   }
-  .imageContainer video{
-    margin-top: -8px !important;
+
+  .imageContainer video {
+    /* position: absolute; */
+    /* margin-top: -5px !important; */
     object-fit: cover;
   }
 }
