@@ -184,8 +184,8 @@ const CareerPage = () => {
                 value={firstName}
                 onChange={handleChange}
                 required
-                pattern="^\S*$"
-                title="Please enter a valid first name"
+                pattern="^[a-zA-Z]+$"
+                title="White Space Not Allowed"
                 placeholder="Applicant's First Name"
               />
             </div>
@@ -198,8 +198,8 @@ const CareerPage = () => {
                 value={lastName}
                 onChange={handleChange}
                 required
-                pattern="^\S*$"
-                title="Please enter a valid last name"
+                pattern="^[a-zA-Z]+$"
+                title="White Space Not Allowed"
                 placeholder="Applicant's Last Name"
               />
             </div>

@@ -135,6 +135,7 @@ const Contact_Page = () => {
                 required
                 // pattern="^[^-\s][a-zA-Z0-9_\s-]+$"
                 pattern="^[a-zA-Z]+$"
+                title="White Space Not Allowed"
                 value={data.name}
                 onChange={handleInputs}
               />
@@ -145,6 +146,7 @@ const Contact_Page = () => {
                 type="email"
                 id="email"
                 name="email"
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                 // pattern='^([\w]*[\w\.]*(?!\.)@gmail.com)'
                 // pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                 required

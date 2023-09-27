@@ -88,16 +88,17 @@ const Footer = () => {
                       className={styles.first_name}
                       type="text"
                       required
-                      placeholder="First name"
+                      placeholder="Full Name"
                       value={firstName}
                       onChange={(e) => setFirstName(e.target.value)}
-                      pattern="^[a-zA-Z]+$"
+                      title="White Space Not Allowed"
                     />
                     <input
                       className={styles.first_name}
                       type="email"
                       required
                       placeholder="Email Address"
+                      pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />

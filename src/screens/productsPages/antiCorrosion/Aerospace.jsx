@@ -301,7 +301,12 @@ const AntiCorrosion = () => {
                                                     )}
                                                 </Carousel>
 
-                                                <Link to={item.page_link}>
+                                                {/* <Link to={item.page_link}>
+                                                    <div className={styles.auto_pack}>
+                                                        {t("PACK WITH US")}
+                                                    </div>
+                                                </Link> */}
+                                                <Link to="/contact_page">
                                                     <div className={styles.auto_pack}>
                                                         {t("PACK WITH US")}
                                                     </div>

@@ -15,12 +15,12 @@ import { useTranslation } from "react-i18next";
 import auto from '../../images/new_images_client/Industries/Automobile2.jpeg'
 import auto1 from '../../images/new_images_client/Industries/Automobile2.jpeg'
 import war from '../../images/new_images_client/Industries/Military.jpeg'
-import war1 from '../../images/new_images_client/Industries/Military.jpeg' 
+import war1 from '../../images/new_images_client/Industries/Military.jpeg'
 
-import elect from '../../images/new_images_client/Industries/Electronics.jpeg' 
-import elect2 from '../../images/new_images_client/Industries/Electronics.jpeg' 
-import aero from '../../images/new_images_client/Industries/Machine Packaging.jpeg' 
-import aero2 from '../../images/new_images_client/Industries/Machine Packaging.jpeg' 
+import elect from '../../images/new_images_client/Industries/Electronics.jpeg'
+import elect2 from '../../images/new_images_client/Industries/Electronics.jpeg'
+import aero from '../../images/new_images_client/Industries/Machine Packaging.jpeg'
+import aero2 from '../../images/new_images_client/Industries/Machine Packaging.jpeg'
 
 const Industries = () => {
   const [arr, setArr] = useState([
@@ -31,6 +31,7 @@ const Industries = () => {
       text:
         "Partnering with leading automakers, we deliver specialized packaging solutions that safeguard automotive components, enhancing supply chain efficiency and product protection.",
       hovered: false,
+      link: "/industry#section1"
     },
     {
       choti_image: war,
@@ -39,6 +40,7 @@ const Industries = () => {
       hovered: false,
       text:
         "We proudly support the military sector with precision-engineered packaging solutions, ensuring the safe transport of critical equipment and supplies for national defence.",
+      link: "/industry#section2"
     },
     {
       choti_image: aero,
@@ -47,6 +49,7 @@ const Industries = () => {
       hovered: false,
       text:
         "Collaborating with the aerospace industry, we provide advanced packaging solutions for delicate components, contributing to the success of cutting-edge aviation and space technologies.",
+      link: "/industry#section3"
     },
     {
       choti_image: elect,
@@ -55,6 +58,7 @@ const Industries = () => {
       hovered: false,
       text:
         " In the electronics sector, we specialize in tailored packaging solutions, safeguarding sensitive electronics during transit, ensuring product integrity and customer satisfaction.",
+      link: "/industry#section5"
     },
   ]);
 
@@ -102,12 +106,13 @@ const Industries = () => {
                 <div className={styles.car_container_text}>
                   {t(`${value.text}`)}
                   <div className={styles.learn_more_button}>
-                    <Link
-                      to="/industry"
+                    <NavHashLink
+                      // to="/industry"
+                      to={value.link}
                       style={{ textDecoration: "none", color: "white" }}
                     >
                       {t("LEARN MORE")}
-                    </Link>
+                    </NavHashLink>
                   </div>
                 </div>
               </div>
