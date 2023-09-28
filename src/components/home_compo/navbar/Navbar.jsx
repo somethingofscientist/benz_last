@@ -50,7 +50,7 @@ const Navbar = () => {
     }, 0);
   };
   const searchHandler = (event) => {
-    const inputValue = event.target.value.trim().toLowerCase();
+    const inputValue = event.target.value.toLowerCase();
     if (inputValue === "") {
       setShowProducts([]);
     } else {
@@ -71,7 +71,6 @@ const Navbar = () => {
     setIsDropdown(false);
   };
   const toggleSearch = () => {
-    // Toggle the search field open or closed
     setIsSearchOpen((prevIsSearchOpen) => !prevIsSearchOpen);
   };
 

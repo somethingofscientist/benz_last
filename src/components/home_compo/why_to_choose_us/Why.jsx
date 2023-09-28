@@ -33,7 +33,7 @@ const Why = () => {
 
 
               <Link
-                to="/contact_page"
+                to="/career"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 {/* PACK WITH US */}

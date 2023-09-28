@@ -56,7 +56,7 @@ const Team = () => {
                     ))
                 }
             </div>
-            <Link to="/contact_page">
+            <Link to="/career">
                 <div className={styles.join_our_team}>
                     {t("Join Our Team")}
                 </div>
