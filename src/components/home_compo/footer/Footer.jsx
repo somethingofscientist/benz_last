@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import styles from "./Footer.module.css";
-import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
-import footer_logo from "../../images/footer_logo_new.svg";
 // import { FaTwitter } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
@@ -13,16 +10,23 @@ import axios from "axios";
 import { HashLink } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 
-
+import styles from "./Footer.module.css";
+import logo from "../../images/logo.svg";
+import footer_logo from "../../images/footer_logo_new.svg";
+import Loader from '../../images/loader/load.gif';
 
 const Footer = () => {
+
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
+  const [isLoading, setisLoading] = useState(false);
 
   // console.log("we are in footer ->")
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
+
+    setisLoading(true);
     try {
       const res = await axios.post(`/subscribe`, {
         name: firstName,
@@ -48,7 +52,8 @@ const Footer = () => {
         toast.dismiss();
         toast.error("Some Error Occured");
       }
-    } catch (error) {
+    }
+    catch (error) {
       toast.dismiss();
       toast.error("Email is not in the correct format", {
         position: "top-center",
@@ -56,6 +61,9 @@ const Footer = () => {
         theme: "dark",
       });
       console.log(error.message);
+    }
+    finally {
+      setisLoading(false);
     }
   };
 
@@ -102,12 +110,27 @@ const Footer = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
+
                     <button
                       className={styles.input_subscribe_button}
                       type="submit"
                     >
-                      {t("Subscribe Now")}
+                      {
+                        isLoading
+                          ?
+                          <>
+                            <img
+                              className={styles.loader}
+                              src={Loader}
+                              alt="Loading ..." />
+                          </>
+                          :
+                          <>
+                            {t("Subscribe Now")}
+                          </>
+                      }
                     </button>
+
                   </form>
                 </div>
               </div>
@@ -281,7 +304,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </a>
+      </a >
     </>
   );
 };

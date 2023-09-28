@@ -1,10 +1,11 @@
 import React, { useState, useRef } from "react";
-import SignatureCanvas from "react-signature-canvas";
-import styles from "./CareerPage.module.css";
-import ProductHeading from "../productsPages/heading/Heading";
-import HeadingCareer from "../../components/contactPage/heading_header copy/Heading";
 import axios from "axios";
 import { toast } from "react-toastify";
+
+import styles from "./CareerPage.module.css";
+import ProductHeading from "../productsPages/heading/Heading";
+import Loader from '../../components/images/loader/load.gif';
+import HeadingCareer from "../../components/contactPage/heading_header copy/Heading";
 
 const CareerPage = () => {
   const [Values, setValues] = useState({
@@ -16,6 +17,7 @@ const CareerPage = () => {
     // file: null,
   });
   const [resumePDF, setResumePDF] = useState("")
+  const [isLoading, setisLoading] = useState(false);
 
   const { firstName, lastName, phone, address1, address2, file } = Values;
 
@@ -42,7 +44,7 @@ const CareerPage = () => {
     formData.append("file", resumePDF);
 
     let data = formData
-
+    setisLoading(true);
     try {
       const response = await axios.post("/resume",
         data,
@@ -77,7 +79,8 @@ const CareerPage = () => {
           theme: "light",
         });
       }
-    } catch (error) {
+    }
+    catch (error) {
       console.log("formdata", formData);
       toast.dismiss();
       toast.error(error)
@@ -86,6 +89,9 @@ const CareerPage = () => {
         theme: "dark",
         autoClose: 3000,
       });
+    }
+    finally {
+      setisLoading(false);
     }
   };
 
@@ -181,12 +187,12 @@ const CareerPage = () => {
                 type="text"
                 id="firstName"
                 name="firstName"
+                placeholder="Applicant's First Name"
+                required
                 value={firstName}
                 onChange={handleChange}
-                required
                 pattern="^[a-zA-Z]+$"
                 title="White Space Not Allowed"
-                placeholder="Applicant's First Name"
               />
             </div>
             <div className={styles.form_group}>
@@ -209,6 +215,7 @@ const CareerPage = () => {
                 type="tel"
                 id="phone"
                 pattern="^[0-9]+$" // Use this regex pattern for numbers only
+                placeholder="Phone Number"
                 title="Please enter a valid phone number"
                 minLength={10}
                 maxLength={10}
@@ -261,7 +268,20 @@ const CareerPage = () => {
             </div>
 
             <button type="submit" className={styles.submit_button}>
-              Submit
+              {
+                isLoading
+                  ?
+                  <>
+                    <img
+                      className={styles.loader}
+                      src={Loader}
+                      alt="Loading ..." />
+                  </>
+                  :
+                  <>
+                    Submit
+                  </>
+              }
             </button>
           </form>
         </div>
