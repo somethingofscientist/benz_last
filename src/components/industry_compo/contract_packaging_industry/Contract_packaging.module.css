@@ -140,3 +140,10 @@
 
     }
 }
+
+@media (max-width:420px){
+    .auto_heading {
+        padding-top: 120px;
+        /* border: 1px solid lime; */
+    }
+}
